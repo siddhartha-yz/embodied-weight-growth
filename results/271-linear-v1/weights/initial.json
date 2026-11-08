@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "state": {
+    "q": [
+      1.03,
+      -1.75
+    ],
+    "dq": [
+      0.0,
+      0.0
+    ],
+    "tip": [
+      0.1547732685012922,
+      0.047489544569542436
+    ],
+    "tip_v": [
+      0.0,
+      0.0
+    ],
+    "prev_u": [
+      0.0,
+      0.0
+    ],
+    "prev2_u": [
+      0.0,
+      0.0
+    ]
+  },
+  "trace": [],
+  "strokes": [],
+  "samples": [],
+  "attempt": 1,
+  "meters": {
+    "moves_used": 0,
+    "moves_left": 18,
+    "ticks_used": 0,
+    "ticks_left": 1000,
+    "max_ticks_per_move": 100,
+    "draw_moves": 0
+  },
+  "board": {
+    "x": [
+      0.09,
+      0.245
+    ],
+    "y": [
+      -0.1,
+      0.105
+    ],
+    "units": "m"
+  },
+  "dt": 0.02,
+  "pen": false,
+  "policy_version": 0,
+  "finished": false
+}

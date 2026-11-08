@@ -1,0 +1,117 @@
+{
+  "min_width_mm": 30.0,
+  "min_height_mm": 18.0,
+  "best": {
+    "turn": 9,
+    "attempt": 1,
+    "passed": true,
+    "score": 100.0,
+    "ink_strokes": 1,
+    "width_mm": 109.32,
+    "height_mm": 90.96,
+    "horizontal_progress": 1.0,
+    "matched_legs": 4,
+    "raised_ends": true,
+    "direction": "left-to-right",
+    "leg_monotonicity": 1.0,
+    "failed_checks": [],
+    "vertices": [
+      [
+        0.11501351253649827,
+        0.06501126632727423
+      ],
+      [
+        0.13907585551358062,
+        -0.02404644005731645
+      ],
+      [
+        0.16897385471080445,
+        0.049369458340459624
+      ],
+      [
+        0.19869876730257893,
+        -0.024568511177579525
+      ],
+      [
+        0.22433036067982248,
+        0.06491134449092667
+      ]
+    ]
+  },
+  "last": {
+    "turn": 9,
+    "attempt": 1,
+    "passed": true,
+    "score": 100.0,
+    "ink_strokes": 1,
+    "width_mm": 109.32,
+    "height_mm": 90.96,
+    "horizontal_progress": 1.0,
+    "matched_legs": 4,
+    "raised_ends": true,
+    "direction": "left-to-right",
+    "leg_monotonicity": 1.0,
+    "failed_checks": [],
+    "vertices": [
+      [
+        0.11501351253649827,
+        0.06501126632727423
+      ],
+      [
+        0.13907585551358062,
+        -0.02404644005731645
+      ],
+      [
+        0.16897385471080445,
+        0.049369458340459624
+      ],
+      [
+        0.19869876730257893,
+        -0.024568511177579525
+      ],
+      [
+        0.22433036067982248,
+        0.06491134449092667
+      ]
+    ]
+  },
+  "attempts": [
+    {
+      "turn": 9,
+      "attempt": 1,
+      "passed": true,
+      "score": 100.0,
+      "ink_strokes": 1,
+      "width_mm": 109.32,
+      "height_mm": 90.96,
+      "horizontal_progress": 1.0,
+      "matched_legs": 4,
+      "raised_ends": true,
+      "direction": "left-to-right",
+      "leg_monotonicity": 1.0,
+      "failed_checks": [],
+      "vertices": [
+        [
+          0.11501351253649827,
+          0.06501126632727423
+        ],
+        [
+          0.13907585551358062,
+          -0.02404644005731645
+        ],
+        [
+          0.16897385471080445,
+          0.049369458340459624
+        ],
+        [
+          0.19869876730257893,
+          -0.024568511177579525
+        ],
+        [
+          0.22433036067982248,
+          0.06491134449092667
+        ]
+      ]
+    }
+  ]
+}

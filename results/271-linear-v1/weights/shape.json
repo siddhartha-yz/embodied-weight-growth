@@ -1,0 +1,117 @@
+{
+  "min_width_mm": 30.0,
+  "min_height_mm": 18.0,
+  "best": {
+    "turn": 9,
+    "attempt": 1,
+    "passed": true,
+    "score": 99.74,
+    "ink_strokes": 1,
+    "width_mm": 61.81,
+    "height_mm": 46.68,
+    "horizontal_progress": 0.982,
+    "matched_legs": 4,
+    "raised_ends": true,
+    "direction": "left-to-right",
+    "leg_monotonicity": 1.0,
+    "failed_checks": [],
+    "vertices": [
+      [
+        0.13004773777056033,
+        0.06049032906966208
+      ],
+      [
+        0.14424233207520476,
+        0.014702431494538096
+      ],
+      [
+        0.16018918309532118,
+        0.051235531301665846
+      ],
+      [
+        0.17429162996914857,
+        0.01391625422677811
+      ],
+      [
+        0.19185876600469953,
+        0.059806962577103995
+      ]
+    ]
+  },
+  "last": {
+    "turn": 9,
+    "attempt": 1,
+    "passed": true,
+    "score": 99.74,
+    "ink_strokes": 1,
+    "width_mm": 61.81,
+    "height_mm": 46.68,
+    "horizontal_progress": 0.982,
+    "matched_legs": 4,
+    "raised_ends": true,
+    "direction": "left-to-right",
+    "leg_monotonicity": 1.0,
+    "failed_checks": [],
+    "vertices": [
+      [
+        0.13004773777056033,
+        0.06049032906966208
+      ],
+      [
+        0.14424233207520476,
+        0.014702431494538096
+      ],
+      [
+        0.16018918309532118,
+        0.051235531301665846
+      ],
+      [
+        0.17429162996914857,
+        0.01391625422677811
+      ],
+      [
+        0.19185876600469953,
+        0.059806962577103995
+      ]
+    ]
+  },
+  "attempts": [
+    {
+      "turn": 9,
+      "attempt": 1,
+      "passed": true,
+      "score": 99.74,
+      "ink_strokes": 1,
+      "width_mm": 61.81,
+      "height_mm": 46.68,
+      "horizontal_progress": 0.982,
+      "matched_legs": 4,
+      "raised_ends": true,
+      "direction": "left-to-right",
+      "leg_monotonicity": 1.0,
+      "failed_checks": [],
+      "vertices": [
+        [
+          0.13004773777056033,
+          0.06049032906966208
+        ],
+        [
+          0.14424233207520476,
+          0.014702431494538096
+        ],
+        [
+          0.16018918309532118,
+          0.051235531301665846
+        ],
+        [
+          0.17429162996914857,
+          0.01391625422677811
+        ],
+        [
+          0.19185876600469953,
+          0.059806962577103995
+        ]
+      ]
+    }
+  ]
+}

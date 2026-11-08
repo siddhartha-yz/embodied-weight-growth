@@ -1,0 +1,4 @@
+# Versions of the simulator and transport used for the W pilot.
+numpy==1.26.0
+mujoco==3.8.1
+Pillow==13.0.0

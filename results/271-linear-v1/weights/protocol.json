@@ -1,0 +1,8 @@
+{
+  "arm": "weights",
+  "condition": "linear",
+  "seed": 271,
+  "out": "work/astra-w-writer/runs/271-linear-v1/weights",
+  "model": "gpt-6-astra",
+  "max_decisions": 24
+}
