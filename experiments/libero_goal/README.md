@@ -1,5 +1,7 @@
 # LIBERO-Goal：抓对和放好是两件事
 
+**最新检查点：[SmolVLA 权重修复实验与逐局结果](results/repair-series/README.md)** · [固定权重四组录像](#固定权重修复瓶和碗)
+
 ![同一句放碗指令：原布局放对，交换位置后把酒瓶送上柜顶](media/libero-goal-wrong-placement.png)
 
 [播放同一句指令的左右对照](media/libero-goal-wrong-placement.mp4) · [播放两种指令 × 两种布局](media/libero-goal-paired-layouts.mp4)
@@ -33,6 +35,7 @@ python src/screen.py --checkpoint src/models/smolvla_libero \
 ```
 
 干预入口为 [causal_probe.py](src/causal_probe.py)、[extended_donor.py](src/extended_donor.py)、[recipient_contrast.py](src/recipient_contrast.py) 及 [instruction-control](src/instruction-control/)。`runs/screen` 是它们对照的原始屏测目录；如直接运行嵌套的提示词脚本，需把 `src` 加到 `PYTHONPATH`。
+
 ## 固定权重修复瓶和碗
 
 ![新碗布局 14：两组 Astra 定位均放稳](media/activation-bowl-layout14.png)

@@ -111,4 +111,3 @@ def ask(sdk, prompt, images, audit):
             if any(kind not in PASSIVE_ITEMS for kind in kinds):
                 raise RuntimeError(f"unexpected Codex item types: {kinds}")
             return parse_answer(result.final_response)
-

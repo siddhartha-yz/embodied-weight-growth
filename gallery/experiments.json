@@ -5,7 +5,7 @@
     "copy": "前 90 步三组重放原版抓取；第 91 步起分别控制。BP 和直接写权重都把酒瓶留在柜顶。从开局用这两套权重时，它们却没能稳稳抬起酒瓶。",
     "poster": "experiments/libero_goal/media/bp-bottle-postgrasp.png",
     "video": "experiments/libero_goal/media/bp-bottle-postgrasp.mp4",
-    "links": [["同一局，从开局跑","experiments/libero_goal/media/bp-bottle-dev.mp4"],["实验与逐局结果","experiments/libero_goal/README.md"]]
+    "links": [["同一局，从开局跑","experiments/libero_goal/media/bp-bottle-dev.mp4"],["修复实验与逐局结果","experiments/libero_goal/results/repair-series/README.md"]]
   },
   "groups": [
     {
@@ -13,7 +13,7 @@
       "title": "01 · SmolVLA：改哪里，怎么改",
       "copy": "先做激活干预再选位置。正式评测从第一步加载固定权重，不按动作阶段切换。",
       "cards": [
-        {"label":"新碗布局 14 · 四组对照","title":"两组 Astra 定位都放稳","copy":"原版和自动定位＋BP 掉落。Astra 定位＋BP 第 129 步确认放稳，Astra 定位＋直接写第 135 步确认放稳。","shape":"portrait","poster":"experiments/libero_goal/media/activation-bowl-layout14.png","video":"experiments/libero_goal/media/activation-bowl-layout14.mp4","links":[["全部四组成绩","experiments/libero_goal/README.md"]]},
+        {"label":"新碗布局 14 · 四组对照","title":"两组 Astra 定位都放稳","copy":"原版和自动定位＋BP 掉落。Astra 定位＋BP 第 129 步确认放稳，Astra 定位＋直接写第 135 步确认放稳。","shape":"portrait","poster":"experiments/libero_goal/media/activation-bowl-layout14.png","video":"experiments/libero_goal/media/activation-bowl-layout14.mp4","links":[["全部四组成绩","experiments/libero_goal/results/repair-series/activation-repair/README.md"]]},
         {"label":"新酒瓶布局 25 · 四组对照","title":"这次只有自动定位＋BP 放稳","copy":"原版短暂达标后掉落。自动定位＋BP 在第 148 步放稳；两组 Astra 都没能持续抬起酒瓶。","shape":"portrait","poster":"experiments/libero_goal/media/activation-bottle-layout25.png","video":"experiments/libero_goal/media/activation-bottle-layout25.mp4","links":[["原酒瓶失败局","experiments/libero_goal/media/activation-bottle-dev.mp4"]]},
         {"label":"连续修订 · 同一个模型","title":"修碗成功，联合修订又丢了这局","copy":"从原版权重连续改三次：先酒瓶，再碗，最后看两项一起改。开发碗只在第二轮放稳。","shape":"portrait","poster":"experiments/libero_goal/media/sequential-bowl.png","video":"experiments/libero_goal/media/sequential-bowl.mp4","links":[["新布局 15","experiments/libero_goal/media/sequential-heldout-bowl.mp4"],["早期抓错物体的诊断","experiments/libero_goal/media/libero-goal-activation-vs-prompt.mp4"]]}
       ]
