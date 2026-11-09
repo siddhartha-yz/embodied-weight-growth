@@ -1,0 +1,2142 @@
+{
+  "timings": {
+    "teacher_and_dataset_s": 4.785793986171484,
+    "optimizer_s": 14.442682297900319,
+    "development_replay_s": 30.129688195884228,
+    "data_to_locked_checkpoint_s": 49.3768911305815
+  },
+  "counts": {
+    "dataset_rollouts": 25,
+    "development_rollouts": 152,
+    "training_steps": 7200,
+    "normal_original_states": 1500,
+    "normal_samples_with_augmentation": 6000,
+    "teacher_rollout_states": 1500,
+    "teacher_labeled_real_states_total": 3229,
+    "teacher_samples_with_augmentation": 12916,
+    "candidate_checkpoints": 18
+  },
+  "selected": {
+    "stage": 2,
+    "lambda": 8.0,
+    "step": 200,
+    "nominal": {
+      "distance_m": 3.080791120148514,
+      "elapsed_s": 4.999999999999671,
+      "alternating_steps": 11,
+      "fall_reason": null,
+      "pass": true
+    },
+    "target": {
+      "distance_m": 3.1321134982692485,
+      "elapsed_s": 4.999999999999671,
+      "alternating_steps": 11,
+      "fall_reason": null,
+      "pass": true
+    },
+    "healthy_losses": 0,
+    "dev_stable_pass": 4,
+    "dev_challenge_pass": 4,
+    "nominal_rms_torque_delta": 0.019475474453620318,
+    "nominal_max_torque_delta": 0.2063656711943822,
+    "case_outcomes": [
+      {
+        "seed": 271,
+        "pitch": 0.02,
+        "baseline_pass": true,
+        "distance_m": 3.080791120148514,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 272,
+        "pitch": 0.02,
+        "baseline_pass": true,
+        "distance_m": 2.9946528374581485,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 312,
+        "pitch": 0.02,
+        "baseline_pass": true,
+        "distance_m": 3.0862663066172344,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 313,
+        "pitch": 0.02,
+        "baseline_pass": true,
+        "distance_m": 3.1131952673754033,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 271,
+        "pitch": 0.08,
+        "baseline_pass": false,
+        "distance_m": 3.1321134982692485,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 302,
+        "pitch": 0.08,
+        "baseline_pass": false,
+        "distance_m": 3.099485736792802,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 314,
+        "pitch": 0.07,
+        "baseline_pass": false,
+        "distance_m": 2.4639439102976084,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      },
+      {
+        "seed": 315,
+        "pitch": 0.09,
+        "baseline_pass": false,
+        "distance_m": 3.1235042700440894,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "stage": 1,
+      "lambda": 0.7,
+      "step": 200,
+      "nominal": {
+        "distance_m": 2.9189955796997866,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 1.5388624917573916,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 7,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 2,
+      "nominal_rms_torque_delta": 0.04983302205409769,
+      "nominal_max_torque_delta": 0.5415513014787577,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9189955796997866,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.831147706221691,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8671735469869843,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.873371316564744,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 1.5388624917573916,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 7,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 1.7365907337624127,
+          "elapsed_s": 4.659999999999709,
+          "alternating_steps": 10,
+          "fall_reason": "torso tilted beyond 1.0 rad",
+          "pass": false
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.02334823363572,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": -0.1702858595883246,
+          "elapsed_s": 2.5599999999999397,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 0.7,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.56944988049037,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.799874316548895,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.04515308014556132,
+      "nominal_max_torque_delta": 0.44848379284033046,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.56944988049037,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.5956871103467534,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.624500337609345,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.4916198339341435,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.799874316548895,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.278073428254763,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.7422153074154823,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 2.9571573101476263,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 0.7,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 2.5761046294634182,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.217709146713499,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 3,
+      "nominal_rms_torque_delta": 0.03886223348807764,
+      "nominal_max_torque_delta": 0.43515174700394166,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.5761046294634182,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 3.049465964825065,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.2860220839701695,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7087771127769846,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.217709146713499,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.040323956119925,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 1.296849434810356,
+          "elapsed_s": 4.319999999999746,
+          "alternating_steps": 8,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 2.818367119720813,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 2.5,
+      "step": 200,
+      "nominal": {
+        "distance_m": 2.5863393500669005,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.7830252240025044,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 1,
+      "dev_stable_pass": 3,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.03254352985916654,
+      "nominal_max_torque_delta": 0.29899599156253226,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.5863393500669005,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 1.6341804084819507,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.714279222631815,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 1.0484072768075101,
+          "elapsed_s": 4.279999999999751,
+          "alternating_steps": 8,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.7830252240025044,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.7792891608875725,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.78929367361737,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 2.7660650936027316,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 2.5,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.762495772089319,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.7870392010885494,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.03194651680655413,
+      "nominal_max_torque_delta": 0.3837159608974367,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.762495772089319,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7223616218245796,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8769584263642267,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7291510478626892,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.7870392010885494,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.8380301071986604,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.0311293185088197,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.1434082104372645,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 2.5,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 1.9833649580276302,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.7762193827281774,
+        "elapsed_s": 4.0999999999997705,
+        "alternating_steps": 9,
+        "fall_reason": "torso height dropped below 0.8 m",
+        "pass": false
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 2,
+      "nominal_rms_torque_delta": 0.029905236365703917,
+      "nominal_max_torque_delta": 0.3845291098215744,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 1.9833649580276302,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.5105106861903,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.5119489341518646,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.818664501439136,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.7762193827281774,
+          "elapsed_s": 4.0999999999997705,
+          "alternating_steps": 9,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.637923995871729,
+          "elapsed_s": 4.019999999999779,
+          "alternating_steps": 10,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.9526890013787312,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.4759766123075675,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 8.0,
+      "step": 200,
+      "nominal": {
+        "distance_m": 2.765850487228807,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.6060132272406786,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 8,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 2,
+      "nominal_rms_torque_delta": 0.02122644622766944,
+      "nominal_max_torque_delta": 0.2350304780792956,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.765850487228807,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7534694780053544,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7797641717441754,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7549558909262,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.6060132272406786,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.06287701901457361,
+          "elapsed_s": 4.119999999999768,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.810474058094078,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 1.0043034285336265,
+          "elapsed_s": 3.419999999999845,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 8.0,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.7097208475859467,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.884969164309773,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.02299853541930028,
+      "nominal_max_torque_delta": 0.2956777887573096,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7097208475859467,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.775094336870179,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7665503511205363,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7915038909495284,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.884969164309773,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.212740085168432,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.1250902231846887,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.5022798657371053,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "lambda": 8.0,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 2.8266895808496404,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 0.8285167785824874,
+        "elapsed_s": 1.8800000000000014,
+        "alternating_steps": 2,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 2,
+      "nominal_rms_torque_delta": 0.02387933429448377,
+      "nominal_max_torque_delta": 0.3305812977333072,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8266895808496404,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8076252679080524,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9016021173468376,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.782813096297021,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.8285167785824874,
+          "elapsed_s": 1.8800000000000014,
+          "alternating_steps": 2,
+          "fall_reason": "torso tilted beyond 1.0 rad",
+          "pass": false
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.577392574972194,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.455394071196077,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 0.3982561438552965,
+          "elapsed_s": 2.139999999999986,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 0.7,
+      "step": 200,
+      "nominal": {
+        "distance_m": 2.6092627210761408,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.6637538399279603,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.04952286059543256,
+      "nominal_max_torque_delta": 0.43964541001415036,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.6092627210761408,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8106177016994667,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.673820922315534,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7481633885283214,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.6637538399279603,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.9674034532398696,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.156145092320022,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.0360434601789006,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 0.7,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.645782039006359,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.2091013714615197,
+        "elapsed_s": 4.899999999999682,
+        "alternating_steps": 9,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 3,
+      "nominal_rms_torque_delta": 0.04712197620521109,
+      "nominal_max_torque_delta": 0.3541478741291313,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.645782039006359,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8902723814689186,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8470467545735545,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8070496431873777,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.2091013714615197,
+          "elapsed_s": 4.899999999999682,
+          "alternating_steps": 9,
+          "fall_reason": "torso tilted beyond 1.0 rad",
+          "pass": false
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.7020259811913294,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.074269858167442,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 2.985405607480138,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 0.7,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 2.923395099166213,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.3887120187461464,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.04204032269741991,
+      "nominal_max_torque_delta": 0.3578613330415602,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.923395099166213,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.692772344561121,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7643878885459845,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.738756184259038,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.3887120187461464,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.266766486609954,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.137323615492442,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 4.4676799926238475,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 2.5,
+      "step": 200,
+      "nominal": {
+        "distance_m": 2.8692028556794282,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 2.2720644454082386,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.032559292845312164,
+      "nominal_max_torque_delta": 0.26964361900786926,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8692028556794282,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.933183961022977,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.988209503734635,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.860146060692301,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.2720644454082386,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 2.736228745168676,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 3.1039009467052945,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.172168631717531,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 2.5,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.9548892577512333,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.1429711236213165,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 10,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.03256436780960503,
+      "nominal_max_torque_delta": 0.3111627300487235,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9548892577512333,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.994167251253288,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9041824941753234,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.281382181488711,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.1429711236213165,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.158711086985867,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.77806068820697,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.639070396909281,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 2.5,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 3.0009573247943884,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.437616626151598,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.03089562180135536,
+      "nominal_max_torque_delta": 0.3315450828514641,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 3.0009573247943884,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.539585569051608,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.3163978215631276,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.844808110702501,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.437616626151598,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.176090654942682,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.7191862980100483,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.110860376079405,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 8.0,
+      "step": 200,
+      "nominal": {
+        "distance_m": 3.080791120148514,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 3.1321134982692485,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 4,
+      "nominal_rms_torque_delta": 0.019475474453620318,
+      "nominal_max_torque_delta": 0.2063656711943822,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 3.080791120148514,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9946528374581485,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 3.0862663066172344,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 3.1131952673754033,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.1321134982692485,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 3.099485736792802,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.4639439102976084,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 9,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 3.1235042700440894,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 8.0,
+      "step": 600,
+      "nominal": {
+        "distance_m": 2.8351612647463442,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 0.9040965728859992,
+        "elapsed_s": 1.8800000000000014,
+        "alternating_steps": 2,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 1,
+      "nominal_rms_torque_delta": 0.02138383082952264,
+      "nominal_max_torque_delta": 0.24339812001558403,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8351612647463442,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.9197836920585147,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.897010456370844,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.958840449919173,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.9040965728859992,
+          "elapsed_s": 1.8800000000000014,
+          "alternating_steps": 2,
+          "fall_reason": "torso tilted beyond 1.0 rad",
+          "pass": false
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.919741929770346,
+          "elapsed_s": 1.8800000000000014,
+          "alternating_steps": 2,
+          "fall_reason": "torso tilted beyond 1.0 rad",
+          "pass": false
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.9384038575001212,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 8,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 0.3056106987162836,
+          "elapsed_s": 2.339999999999964,
+          "alternating_steps": 3,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "lambda": 8.0,
+      "step": 1200,
+      "nominal": {
+        "distance_m": 2.872940850073231,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "target": {
+        "distance_m": 0.5569735468699246,
+        "elapsed_s": 2.319999999999966,
+        "alternating_steps": 3,
+        "fall_reason": "torso height dropped below 0.8 m",
+        "pass": false
+      },
+      "healthy_losses": 0,
+      "dev_stable_pass": 4,
+      "dev_challenge_pass": 1,
+      "nominal_rms_torque_delta": 0.023132234116200093,
+      "nominal_max_torque_delta": 0.2879652975640824,
+      "case_outcomes": [
+        {
+          "seed": 271,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.872940850073231,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 272,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7322113584260634,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 312,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.8697963265978914,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 313,
+          "pitch": 0.02,
+          "baseline_pass": true,
+          "distance_m": 2.7870539207585896,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 11,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 271,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.5569735468699246,
+          "elapsed_s": 2.319999999999966,
+          "alternating_steps": 3,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 302,
+          "pitch": 0.08,
+          "baseline_pass": false,
+          "distance_m": 0.4475075029297957,
+          "elapsed_s": 2.819999999999911,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        },
+        {
+          "seed": 314,
+          "pitch": 0.07,
+          "baseline_pass": false,
+          "distance_m": 2.4783974922125616,
+          "elapsed_s": 4.999999999999671,
+          "alternating_steps": 10,
+          "fall_reason": null,
+          "pass": true
+        },
+        {
+          "seed": 315,
+          "pitch": 0.09,
+          "baseline_pass": false,
+          "distance_m": 0.5421169383165465,
+          "elapsed_s": 2.0599999999999947,
+          "alternating_steps": 4,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "pass": false
+        }
+      ]
+    }
+  ],
+  "training": {
+    "stable": [
+      [
+        271,
+        0.02
+      ],
+      [
+        272,
+        0.02
+      ],
+      [
+        307,
+        0.02
+      ],
+      [
+        308,
+        0.02
+      ],
+      [
+        309,
+        0.02
+      ],
+      [
+        310,
+        0.015
+      ],
+      [
+        311,
+        0.025
+      ]
+    ],
+    "fail": [
+      [
+        271,
+        0.08
+      ],
+      [
+        302,
+        0.08
+      ],
+      [
+        304,
+        0.075
+      ],
+      [
+        305,
+        0.085
+      ],
+      [
+        306,
+        0.08
+      ],
+      [
+        307,
+        0.07
+      ],
+      [
+        308,
+        0.09
+      ]
+    ],
+    "stable_dev": [
+      [
+        271,
+        0.02
+      ],
+      [
+        272,
+        0.02
+      ],
+      [
+        312,
+        0.02
+      ],
+      [
+        313,
+        0.02
+      ]
+    ],
+    "fail_dev": [
+      [
+        271,
+        0.08
+      ],
+      [
+        302,
+        0.08
+      ],
+      [
+        314,
+        0.07
+      ],
+      [
+        315,
+        0.09
+      ]
+    ],
+    "gradient_objective": "teacher action MSE + lambda * original policy action MSE on healthy states + 0.025 delta-L2",
+    "teacher_target_demo": {
+      "distance_m": 2.8743311161519176,
+      "elapsed_s": 4.999999999999671,
+      "alternating_steps": 11,
+      "fall_reason": null,
+      "pass": true
+    },
+    "runtime": "one CPU torch thread; existing sparse edges only"
+  }
+}

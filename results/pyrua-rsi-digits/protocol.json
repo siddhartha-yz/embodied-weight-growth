@@ -1,0 +1,15 @@
+{
+  "task": "arrange_largest_number",
+  "eval_seed": 0,
+  "layout": 0,
+  "episodes": 1,
+  "gpu": 6,
+  "policy": "PyRUA_RSI",
+  "policy_revision": "a8ed9fab9084c971d684136faf6d21e1afabd5b0",
+  "program": "programs/arrange_largest_number.py",
+  "model": "offline-program (loopback replay; no LLM)",
+  "observation": "default RGB and proprioception",
+  "native_limit": 1050,
+  "simulator_revision": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "xpolicylab_revision": "bb9a0b5f5136a74503b679af830bfd0a3a837d5c"
+}

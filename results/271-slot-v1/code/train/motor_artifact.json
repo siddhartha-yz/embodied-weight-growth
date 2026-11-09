@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "turn": 3,
+  "spec": "def policy(obs, goal):\n    a = obs['q'][0]\n    b = a + obs['q'][1]\n    j00 = -0.14*sin(a)-0.11*sin(b)\n    j01 = -0.11*sin(b)\n    j10 = 0.14*cos(a)+0.11*cos(b)\n    j11 = 0.11*cos(b)\n    vx = 2.5*(goal[0]-obs['tip'][0])\n    vy = 2.5*(goal[1]-obs['tip'][1])\n    scale = max(1.0, sqrt(vx*vx+vy*vy)/0.035)\n    vx = vx/scale\n    vy = vy/scale\n    det = j00*j11-j01*j10\n    if abs(det) < 0.001:\n        det = -0.001\n    v0 = (j11*vx-j01*vy)/det\n    v1 = (-j10*vx+j00*vy)/det\n    u0 = 0.45*v0-0.12*obs['dq'][0]\n    u1 = 0.40*v1-0.12*obs['dq'][1]\n    return [u0,u1]"
+}

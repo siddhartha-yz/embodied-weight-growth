@@ -1,0 +1,1502 @@
+{
+  "layers": [
+    {
+      "rows": [
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -22.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -990.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -1958.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -2970.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -3938.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -4950.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -5918.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -6930.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -7898.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -8866.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -9878.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 2200.0
+            }
+          ],
+          "bias": -10846.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 0.002
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 22,
+              "coef": 4.975
+            }
+          ],
+          "bias": -1.0945
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": 11.206896551724139
+            }
+          ],
+          "bias": 4.552318668252082
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": -0.0014
+            },
+            {
+              "feature": 5,
+              "coef": -5e-05
+            }
+          ],
+          "bias": -0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": -2.304533049595824e-05
+            },
+            {
+              "feature": 6,
+              "coef": -0.0014
+            },
+            {
+              "feature": 12,
+              "coef": -3.6e-05
+            }
+          ],
+          "bias": -0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": -2.304533049595824e-05
+            },
+            {
+              "feature": 9,
+              "coef": -0.0014
+            },
+            {
+              "feature": 15,
+              "coef": -3.6e-05
+            }
+          ],
+          "bias": -0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 7,
+              "coef": -0.0016
+            },
+            {
+              "feature": 13,
+              "coef": -4.4e-05
+            }
+          ],
+          "bias": -0.000128
+        },
+        {
+          "terms": [
+            {
+              "feature": 10,
+              "coef": -0.0016
+            },
+            {
+              "feature": 16,
+              "coef": -4.4e-05
+            }
+          ],
+          "bias": -0.000128
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": -0.001535774104273673
+            },
+            {
+              "feature": 3,
+              "coef": -0.0006
+            },
+            {
+              "feature": 6,
+              "coef": 0.001535774104273673
+            },
+            {
+              "feature": 7,
+              "coef": 0.0007499955981990708
+            },
+            {
+              "feature": 14,
+              "coef": -2e-05
+            }
+          ],
+          "bias": 0.0001894059158547435
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": 0.0006
+            },
+            {
+              "feature": 6,
+              "coef": -0.0006
+            },
+            {
+              "feature": 7,
+              "coef": -0.0006
+            },
+            {
+              "feature": 8,
+              "coef": -0.0006
+            },
+            {
+              "feature": 14,
+              "coef": -2e-05
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": -0.0015385309257191422
+            },
+            {
+              "feature": 3,
+              "coef": -0.0006
+            },
+            {
+              "feature": 9,
+              "coef": 0.0015385309257191422
+            },
+            {
+              "feature": 10,
+              "coef": 0.0007514380181895112
+            },
+            {
+              "feature": 17,
+              "coef": -2e-05
+            }
+          ],
+          "bias": 0.0001902771648509999
+        },
+        {
+          "terms": [
+            {
+              "feature": 2,
+              "coef": 0.0006
+            },
+            {
+              "feature": 9,
+              "coef": -0.0006
+            },
+            {
+              "feature": 10,
+              "coef": -0.0006
+            },
+            {
+              "feature": 11,
+              "coef": -0.0006
+            },
+            {
+              "feature": 17,
+              "coef": -2e-05
+            }
+          ],
+          "bias": 0.0
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 7.0
+            },
+            {
+              "feature": 2,
+              "coef": -7.0
+            },
+            {
+              "feature": 3,
+              "coef": 7.0
+            },
+            {
+              "feature": 4,
+              "coef": -7.0
+            },
+            {
+              "feature": 5,
+              "coef": 7.0
+            },
+            {
+              "feature": 6,
+              "coef": -7.0
+            },
+            {
+              "feature": 7,
+              "coef": 7.0
+            },
+            {
+              "feature": 8,
+              "coef": -7.0
+            },
+            {
+              "feature": 9,
+              "coef": 7.0
+            },
+            {
+              "feature": 10,
+              "coef": -7.0
+            },
+            {
+              "feature": 11,
+              "coef": 7.0
+            }
+          ],
+          "bias": 14.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.0
+            },
+            {
+              "feature": 2,
+              "coef": 7.0
+            },
+            {
+              "feature": 3,
+              "coef": -7.0
+            },
+            {
+              "feature": 4,
+              "coef": 7.0
+            },
+            {
+              "feature": 5,
+              "coef": -7.0
+            },
+            {
+              "feature": 6,
+              "coef": 7.0
+            },
+            {
+              "feature": 7,
+              "coef": -7.0
+            },
+            {
+              "feature": 8,
+              "coef": 7.0
+            },
+            {
+              "feature": 9,
+              "coef": -7.0
+            },
+            {
+              "feature": 10,
+              "coef": 7.0
+            },
+            {
+              "feature": 11,
+              "coef": -7.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -1.3408337441327887e-05
+            },
+            {
+              "feature": 1,
+              "coef": -2.1513745151698756e-05
+            },
+            {
+              "feature": 2,
+              "coef": 3.828464985515579e-06
+            },
+            {
+              "feature": 13,
+              "coef": -0.0002378782356355845
+            },
+            {
+              "feature": 15,
+              "coef": 1.0
+            }
+          ],
+          "bias": -0.0002210428851110572
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -6.999986591662559
+            },
+            {
+              "feature": 1,
+              "coef": 7.000021513745152
+            },
+            {
+              "feature": 2,
+              "coef": -7.000003828464986
+            },
+            {
+              "feature": 3,
+              "coef": 7.0
+            },
+            {
+              "feature": 4,
+              "coef": -7.0
+            },
+            {
+              "feature": 5,
+              "coef": 7.0
+            },
+            {
+              "feature": 6,
+              "coef": -7.0
+            },
+            {
+              "feature": 7,
+              "coef": 7.0
+            },
+            {
+              "feature": 8,
+              "coef": -7.0
+            },
+            {
+              "feature": 9,
+              "coef": 7.0
+            },
+            {
+              "feature": 10,
+              "coef": -7.0
+            },
+            {
+              "feature": 11,
+              "coef": 7.0
+            },
+            {
+              "feature": 13,
+              "coef": 0.0002378782356355845
+            },
+            {
+              "feature": 14,
+              "coef": 0.00015720612739599627
+            },
+            {
+              "feature": 15,
+              "coef": -1.0
+            },
+            {
+              "feature": 16,
+              "coef": 1.0
+            }
+          ],
+          "bias": 14.000064551265352
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.000013408337441
+            },
+            {
+              "feature": 1,
+              "coef": -6.999978486254848
+            },
+            {
+              "feature": 2,
+              "coef": 6.999996171535014
+            },
+            {
+              "feature": 3,
+              "coef": -7.0
+            },
+            {
+              "feature": 4,
+              "coef": 7.0
+            },
+            {
+              "feature": 5,
+              "coef": -7.0
+            },
+            {
+              "feature": 6,
+              "coef": 7.0
+            },
+            {
+              "feature": 7,
+              "coef": -7.0
+            },
+            {
+              "feature": 8,
+              "coef": 7.0
+            },
+            {
+              "feature": 9,
+              "coef": -7.0
+            },
+            {
+              "feature": 10,
+              "coef": 7.0
+            },
+            {
+              "feature": 11,
+              "coef": -7.0
+            },
+            {
+              "feature": 13,
+              "coef": 0.0002378782356355845
+            },
+            {
+              "feature": 14,
+              "coef": 0.00015720612739599627
+            },
+            {
+              "feature": 15,
+              "coef": -1.0
+            },
+            {
+              "feature": 17,
+              "coef": 1.0
+            }
+          ],
+          "bias": 6.455126535078523e-05
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 7.0
+            },
+            {
+              "feature": 2,
+              "coef": -7.0
+            },
+            {
+              "feature": 3,
+              "coef": 7.0
+            },
+            {
+              "feature": 4,
+              "coef": -7.0
+            },
+            {
+              "feature": 5,
+              "coef": 7.0
+            },
+            {
+              "feature": 6,
+              "coef": -7.0
+            },
+            {
+              "feature": 7,
+              "coef": 7.0
+            },
+            {
+              "feature": 8,
+              "coef": -7.0
+            },
+            {
+              "feature": 9,
+              "coef": 7.0
+            },
+            {
+              "feature": 10,
+              "coef": -7.0
+            },
+            {
+              "feature": 11,
+              "coef": 7.0
+            },
+            {
+              "feature": 21,
+              "coef": 1.0
+            }
+          ],
+          "bias": 14.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.0
+            },
+            {
+              "feature": 2,
+              "coef": 7.0
+            },
+            {
+              "feature": 3,
+              "coef": -7.0
+            },
+            {
+              "feature": 4,
+              "coef": 7.0
+            },
+            {
+              "feature": 5,
+              "coef": -7.0
+            },
+            {
+              "feature": 6,
+              "coef": 7.0
+            },
+            {
+              "feature": 7,
+              "coef": -7.0
+            },
+            {
+              "feature": 8,
+              "coef": 7.0
+            },
+            {
+              "feature": 9,
+              "coef": -7.0
+            },
+            {
+              "feature": 10,
+              "coef": 7.0
+            },
+            {
+              "feature": 11,
+              "coef": -7.0
+            },
+            {
+              "feature": 20,
+              "coef": 1.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.0
+            },
+            {
+              "feature": 2,
+              "coef": 7.0
+            },
+            {
+              "feature": 3,
+              "coef": -7.0
+            },
+            {
+              "feature": 4,
+              "coef": 7.0
+            },
+            {
+              "feature": 5,
+              "coef": -7.0
+            },
+            {
+              "feature": 6,
+              "coef": 7.0
+            },
+            {
+              "feature": 7,
+              "coef": -7.0
+            },
+            {
+              "feature": 8,
+              "coef": 7.0
+            },
+            {
+              "feature": 9,
+              "coef": -7.0
+            },
+            {
+              "feature": 10,
+              "coef": 7.0
+            },
+            {
+              "feature": 11,
+              "coef": -7.0
+            },
+            {
+              "feature": 23,
+              "coef": 1.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 7.0
+            },
+            {
+              "feature": 2,
+              "coef": -7.0
+            },
+            {
+              "feature": 3,
+              "coef": 7.0
+            },
+            {
+              "feature": 4,
+              "coef": -7.0
+            },
+            {
+              "feature": 5,
+              "coef": 7.0
+            },
+            {
+              "feature": 6,
+              "coef": -7.0
+            },
+            {
+              "feature": 7,
+              "coef": 7.0
+            },
+            {
+              "feature": 8,
+              "coef": -7.0
+            },
+            {
+              "feature": 9,
+              "coef": 7.0
+            },
+            {
+              "feature": 10,
+              "coef": -7.0
+            },
+            {
+              "feature": 11,
+              "coef": 7.0
+            },
+            {
+              "feature": 22,
+              "coef": 1.0
+            }
+          ],
+          "bias": 14.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 6.25
+            },
+            {
+              "feature": 2,
+              "coef": -7.75
+            },
+            {
+              "feature": 3,
+              "coef": 6.25
+            },
+            {
+              "feature": 4,
+              "coef": -7.75
+            },
+            {
+              "feature": 5,
+              "coef": 6.25
+            },
+            {
+              "feature": 6,
+              "coef": -7.75
+            },
+            {
+              "feature": 7,
+              "coef": 6.25
+            },
+            {
+              "feature": 8,
+              "coef": -7.75
+            },
+            {
+              "feature": 9,
+              "coef": 6.25
+            },
+            {
+              "feature": 10,
+              "coef": -7.75
+            },
+            {
+              "feature": 11,
+              "coef": 6.25
+            },
+            {
+              "feature": 12,
+              "coef": 1671.1269024649011
+            }
+          ],
+          "bias": 5.702857142857143
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 6.25
+            },
+            {
+              "feature": 2,
+              "coef": -7.75
+            },
+            {
+              "feature": 3,
+              "coef": 6.25
+            },
+            {
+              "feature": 4,
+              "coef": -7.75
+            },
+            {
+              "feature": 5,
+              "coef": 6.25
+            },
+            {
+              "feature": 6,
+              "coef": -7.75
+            },
+            {
+              "feature": 7,
+              "coef": 6.25
+            },
+            {
+              "feature": 8,
+              "coef": -7.75
+            },
+            {
+              "feature": 9,
+              "coef": 6.25
+            },
+            {
+              "feature": 10,
+              "coef": -7.75
+            },
+            {
+              "feature": 11,
+              "coef": 6.25
+            },
+            {
+              "feature": 12,
+              "coef": 1671.1269024649011
+            }
+          ],
+          "bias": 4.297142857142857
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 2,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 3,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 4,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 5,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 6,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 7,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 8,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 9,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 10,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 11,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 12,
+              "coef": 2069.0142601946395
+            }
+          ],
+          "bias": 3.7273469387755096
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -7.0
+            },
+            {
+              "feature": 1,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 2,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 3,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 4,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 5,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 6,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 7,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 8,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 9,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 10,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 11,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 12,
+              "coef": 2069.0142601946395
+            }
+          ],
+          "bias": 1.986938775510204
+        },
+        {
+          "terms": [
+            {
+              "feature": 12,
+              "coef": 9000.0
+            }
+          ],
+          "bias": -6.3
+        },
+        {
+          "terms": [
+            {
+              "feature": 12,
+              "coef": 19000.0
+            }
+          ],
+          "bias": -1.14
+        },
+        {
+          "terms": [
+            {
+              "feature": 12,
+              "coef": 27500.0
+            }
+          ],
+          "bias": -13.749999999999998
+        },
+        {
+          "terms": [
+            {
+              "feature": 12,
+              "coef": 27500.0
+            }
+          ],
+          "bias": -6.049999999999999
+        },
+        {
+          "terms": [
+            {
+              "feature": 12,
+              "coef": 27500.0
+            }
+          ],
+          "bias": -3.8499999999999996
+        },
+        {
+          "terms": [
+            {
+              "feature": 18,
+              "coef": 1.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.75
+            },
+            {
+              "feature": 2,
+              "coef": 6.25
+            },
+            {
+              "feature": 3,
+              "coef": -7.75
+            },
+            {
+              "feature": 4,
+              "coef": 6.25
+            },
+            {
+              "feature": 5,
+              "coef": -7.75
+            },
+            {
+              "feature": 6,
+              "coef": 6.25
+            },
+            {
+              "feature": 7,
+              "coef": -7.75
+            },
+            {
+              "feature": 8,
+              "coef": 6.25
+            },
+            {
+              "feature": 9,
+              "coef": -7.75
+            },
+            {
+              "feature": 10,
+              "coef": 6.25
+            },
+            {
+              "feature": 11,
+              "coef": -7.75
+            },
+            {
+              "feature": 12,
+              "coef": 1671.1269024649011
+            }
+          ],
+          "bias": -8.297142857142857
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.75
+            },
+            {
+              "feature": 2,
+              "coef": 6.25
+            },
+            {
+              "feature": 3,
+              "coef": -7.75
+            },
+            {
+              "feature": 4,
+              "coef": 6.25
+            },
+            {
+              "feature": 5,
+              "coef": -7.75
+            },
+            {
+              "feature": 6,
+              "coef": 6.25
+            },
+            {
+              "feature": 7,
+              "coef": -7.75
+            },
+            {
+              "feature": 8,
+              "coef": 6.25
+            },
+            {
+              "feature": 9,
+              "coef": -7.75
+            },
+            {
+              "feature": 10,
+              "coef": 6.25
+            },
+            {
+              "feature": 11,
+              "coef": -7.75
+            },
+            {
+              "feature": 12,
+              "coef": 1671.1269024649011
+            }
+          ],
+          "bias": -9.702857142857143
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 2,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 3,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 4,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 5,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 6,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 7,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 8,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 9,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 10,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 11,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 12,
+              "coef": 2069.0142601946395
+            }
+          ],
+          "bias": -10.27265306122449
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 7.0
+            },
+            {
+              "feature": 1,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 2,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 3,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 4,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 5,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 6,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 7,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 8,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 9,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 10,
+              "coef": 6.071428571428571
+            },
+            {
+              "feature": 11,
+              "coef": -7.928571428571429
+            },
+            {
+              "feature": 12,
+              "coef": 2069.0142601946395
+            }
+          ],
+          "bias": -12.013061224489796
+        },
+        {
+          "terms": [
+            {
+              "feature": 19,
+              "coef": 1.0
+            }
+          ],
+          "bias": 0.0
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -500.0
+            },
+            {
+              "feature": 1,
+              "coef": 500.0
+            },
+            {
+              "feature": 2,
+              "coef": 500.0
+            },
+            {
+              "feature": 3,
+              "coef": 500.0
+            },
+            {
+              "feature": 4,
+              "coef": -500.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 9,
+              "coef": 5.539158444019747
+            },
+            {
+              "feature": 10,
+              "coef": -5.539158444019747
+            },
+            {
+              "feature": 11,
+              "coef": -5.299428654148673
+            },
+            {
+              "feature": 12,
+              "coef": 5.299428654148673
+            },
+            {
+              "feature": 13,
+              "coef": -0.14690129984192382
+            },
+            {
+              "feature": 14,
+              "coef": 0.14179416782971865
+            },
+            {
+              "feature": 15,
+              "coef": -0.06766814481329646
+            },
+            {
+              "feature": 16,
+              "coef": 0.04022017561615225
+            },
+            {
+              "feature": 17,
+              "coef": 0.03903387719295936
+            },
+            {
+              "feature": 18,
+              "coef": 500.0
+            }
+          ],
+          "bias": -0.006478775983609971
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -500.0
+            },
+            {
+              "feature": 1,
+              "coef": -500.0
+            },
+            {
+              "feature": 5,
+              "coef": 500.0
+            },
+            {
+              "feature": 6,
+              "coef": 500.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": 500.0
+            },
+            {
+              "feature": 1,
+              "coef": -500.0
+            },
+            {
+              "feature": 2,
+              "coef": 500.0
+            },
+            {
+              "feature": 3,
+              "coef": -500.0
+            },
+            {
+              "feature": 4,
+              "coef": 500.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 19,
+              "coef": 5.539158444019747
+            },
+            {
+              "feature": 20,
+              "coef": -5.539158444019747
+            },
+            {
+              "feature": 21,
+              "coef": -5.299428654148673
+            },
+            {
+              "feature": 22,
+              "coef": 5.299428654148673
+            },
+            {
+              "feature": 23,
+              "coef": 500.0
+            }
+          ],
+          "bias": 0.0
+        },
+        {
+          "terms": [
+            {
+              "feature": 0,
+              "coef": -500.0
+            },
+            {
+              "feature": 1,
+              "coef": -500.0
+            },
+            {
+              "feature": 7,
+              "coef": 500.0
+            },
+            {
+              "feature": 8,
+              "coef": 500.0
+            }
+          ],
+          "bias": 0.0
+        }
+      ]
+    }
+  ]
+}

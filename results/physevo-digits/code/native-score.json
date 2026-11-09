@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "evaluation_id": "2377cfbf-eebd-41e9-852b-14fe803bc576",
+  "task": "arrange_largest_number",
+  "seed": 0,
+  "layout_id": 0,
+  "episode_index": 0,
+  "task_success": false,
+  "native_reward": 0.0,
+  "native_process_score": 0.0,
+  "normalized_score": 0.0,
+  "valid_episode": true,
+  "layout_acceptance": {
+    "valid": true,
+    "stable": true,
+    "unstable_envs": [],
+    "authority": "official EvalEnv.reset/setup_scene stability check"
+  },
+  "native_validity": {
+    "env_index": 0,
+    "layout_valid": true,
+    "unstable": false,
+    "unstable_envs": [],
+    "valid": true,
+    "authority": "live EvalEnv.unstable_envs and LayoutManager.layout_valid"
+  },
+  "authority": "installed RoboDojo task.run_reward / RewardManager",
+  "audience": "observer_only",
+  "final_check": true,
+  "evaluator_actions": 174,
+  "success_authority": "native_final_check",
+  "episode_terminal": {
+    "ended": false,
+    "success": null,
+    "reason": null,
+    "native_action_count": 174,
+    "native_step_limit": 1050
+  },
+  "sim_step": 1740,
+  "step_domain": "adapter_control_step",
+  "versions": {
+    "adapter_source_sha256": "58ff908e809a23380e93d4b0991fb0855d62b5418a0d25efaee6ca082d94be94",
+    "robodojo_commit": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+    "robodojo_local_diff_sha256": "3a18ae8be560f9ebbe91957c2db4707435f67755751ebcd286ae5e5c8d37feac",
+    "isaaclab_local_diff_sha256": "346bdc3570de3e20e659ed252572fb7556bc4f0e82cc69da18297a1049b6e7bb",
+    "submodules": "bb9a0b5f5136a74503b679af830bfd0a3a837d5c XPolicyLab (bb9a0b5f)\n afca7b09d60d8beb9c1cb28b43066499940b969b third_party/IsaacLab (heads/main)\n d17b54ce32cba095c0b000c4c58777075d11de0e third_party/curobo (remotes/origin/isaacsim-warp18)",
+    "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+    "packages": {
+      "isaacsim": "5.1.0.0",
+      "isaaclab": "0.54.3",
+      "torch": "2.7.0+cu128"
+    },
+    "robot_config_sha256": "9de4f63b84c0f730623c09af7a2d530d84973981397280b6e4b626b50ba6f1c9",
+    "curobo_config_sha256": "2c3aa14c41655d84a3bec8e7e2c660c2958d90c6c5813b382e0edd24fe510e94"
+  }
+}

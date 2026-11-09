@@ -1,0 +1,186 @@
+{
+  "prompt": "Decision 17/45. Here is the result of your last action.\nSimulator observation: {\"ok\": true, \"state\": {\"q\": [1.11266, -2.13697], \"dq\": [0.01235, -0.00223], \"tip\": [0.11908, 0.03158], \"block\": [0.15183, 0.00401], \"block_angle\": [0.9998, 0.01998], \"block_v\": [-0.0, -0.0], \"contact\": [0.0, 0.0], \"tip_v\": [-0.00062, 0.00137], \"prev_u\": [0.00292, 3e-05], \"prev2_u\": [0.00315, -4e-05]}, \"scene\": {\"name\": \"train\", \"units\": \"m\", \"x\": [0.08, 0.247], \"y\": [-0.095, 0.095], \"block_size\": [0.038, 0.02], \"rails\": [[0.183, -0.025, 0.246, -0.0145], [0.183, 0.0145, 0.246, 0.025]], \"target\": [0.183, -0.0145, 0.24, 0.0145], \"pusher_radius\": 0.005, \"max_alignment_deg\": 9.0, \"max_settled_block_speed_m_s\": 0.014}, \"meters\": {\"moves_used\": 15, \"moves_left\": 21, \"ticks_used\": 865, \"ticks_left\": 1535, \"max_ticks_per_move\": 100}, \"attempt\": 1, \"policy_version\": 1, \"success\": false, \"finished\": false, \"policy_frozen\": false, \"contact_summary\": {\"tip_block_ticks\": 0, \"block_wall_ticks\": 0, \"tip_wall_ticks\": 0, \"block_displacement_m\": 0.0, \"block_rotation_deg\": 0.0, \"stall\": false}, \"dt\": 0.02, \"samples\": [{\"tick\": 0, \"tip\": [0.15888, 0.03497], \"block\": [0.15183, 0.00401], \"block_angle\": [0.9998, 0.01998], \"contact\": [0.0, 0.0]}, {\"tick\": 10, \"tip\": [0.13994, 0.02711], \"block\": [0.15183, 0.00401], \"block_angle\": [0.9998, 0.01998], \"contact\": [0.0, 0.0]}, {\"tick\": 40, \"tip\": [0.12042, 0.03017], \"block\": [0.15183, 0.00401], \"block_angle\": [0.9998, 0.01998], \"contact\": [0.0, 0.0]}, {\"tick\": 65, \"tip\": [0.11908, 0.03158], \"block\": [0.15183, 0.00401], \"block_angle\": [0.9998, 0.01998], \"contact\": [0.0, 0.0]}]}\nChoose one next action.",
+  "observation": {
+    "ok": true,
+    "state": {
+      "q": [
+        1.11266,
+        -2.13697
+      ],
+      "dq": [
+        0.01235,
+        -0.00223
+      ],
+      "tip": [
+        0.11908,
+        0.03158
+      ],
+      "block": [
+        0.15183,
+        0.00401
+      ],
+      "block_angle": [
+        0.9998,
+        0.01998
+      ],
+      "block_v": [
+        -0.0,
+        -0.0
+      ],
+      "contact": [
+        0.0,
+        0.0
+      ],
+      "tip_v": [
+        -0.00062,
+        0.00137
+      ],
+      "prev_u": [
+        0.00292,
+        3e-05
+      ],
+      "prev2_u": [
+        0.00315,
+        -4e-05
+      ]
+    },
+    "scene": {
+      "name": "train",
+      "units": "m",
+      "x": [
+        0.08,
+        0.247
+      ],
+      "y": [
+        -0.095,
+        0.095
+      ],
+      "block_size": [
+        0.038,
+        0.02
+      ],
+      "rails": [
+        [
+          0.183,
+          -0.025,
+          0.246,
+          -0.0145
+        ],
+        [
+          0.183,
+          0.0145,
+          0.246,
+          0.025
+        ]
+      ],
+      "target": [
+        0.183,
+        -0.0145,
+        0.24,
+        0.0145
+      ],
+      "pusher_radius": 0.005,
+      "max_alignment_deg": 9.0,
+      "max_settled_block_speed_m_s": 0.014
+    },
+    "meters": {
+      "moves_used": 15,
+      "moves_left": 21,
+      "ticks_used": 865,
+      "ticks_left": 1535,
+      "max_ticks_per_move": 100
+    },
+    "attempt": 1,
+    "policy_version": 1,
+    "success": false,
+    "finished": false,
+    "policy_frozen": false,
+    "contact_summary": {
+      "tip_block_ticks": 0,
+      "block_wall_ticks": 0,
+      "tip_wall_ticks": 0,
+      "block_displacement_m": 0.0,
+      "block_rotation_deg": 0.0,
+      "stall": false
+    },
+    "dt": 0.02,
+    "samples": [
+      {
+        "tick": 0,
+        "tip": [
+          0.15888,
+          0.03497
+        ],
+        "block": [
+          0.15183,
+          0.00401
+        ],
+        "block_angle": [
+          0.9998,
+          0.01998
+        ],
+        "contact": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "tick": 10,
+        "tip": [
+          0.13994,
+          0.02711
+        ],
+        "block": [
+          0.15183,
+          0.00401
+        ],
+        "block_angle": [
+          0.9998,
+          0.01998
+        ],
+        "contact": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "tick": 40,
+        "tip": [
+          0.12042,
+          0.03017
+        ],
+        "block": [
+          0.15183,
+          0.00401
+        ],
+        "block_angle": [
+          0.9998,
+          0.01998
+        ],
+        "contact": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "tick": 65,
+        "tip": [
+          0.11908,
+          0.03158
+        ],
+        "block": [
+          0.15183,
+          0.00401
+        ],
+        "block_angle": [
+          0.9998,
+          0.01998
+        ],
+        "contact": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

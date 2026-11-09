@@ -1,0 +1,75 @@
+{
+  "prompt": "Decision 16/36. Here is the result of your last action.\nSimulator observation: {\"ok\": true, \"state\": {\"x\": -0.22512, \"z\": 1.12319, \"pitch\": -0.44657, \"vx\": -0.2536, \"vz\": -0.13031, \"pitch_v\": 0.01095, \"q\": [-1.04457, -0.18345, -0.11341, 0.01763, -0.7837, 0.28122], \"dq\": [-1.14493, 2.21212, 0.65598, 0.01644, 0.34423, 0.60757], \"contact\": [1, 1], \"t\": 0.8, \"clock_sin\": -0.95106, \"clock_cos\": 0.30902}, \"scene\": {\"name\": \"train\", \"initial_pitch_rad\": 0.02, \"target_v_m_s\": 0.5, \"joint_order\": [\"right_hip\", \"right_knee\", \"right_ankle\", \"left_hip\", \"left_knee\", \"left_ankle\"], \"minimum_distance_m\": 1.0, \"minimum_time_s\": 2.0, \"minimum_alternating_steps\": 4}, \"meters\": {\"moves_used\": 6, \"moves_left\": 18, \"ticks_used\": 207, \"ticks_left\": 1393, \"max_ticks_per_move\": 250}, \"attempt\": 4, \"policy_version\": 6, \"success\": false, \"walk\": {\"distance_m\": -0.22512, \"elapsed_s\": 0.8, \"peak_x_m\": 0.0, \"fall_reason\": null, \"touchdowns\": [], \"alternating_steps\": 0, \"first_success_s\": null}, \"op_summary\": {}, \"policy_frozen\": false, \"dt\": 0.02}\nChoose one next action.",
+  "observation": {
+    "ok": true,
+    "state": {
+      "x": -0.22512,
+      "z": 1.12319,
+      "pitch": -0.44657,
+      "vx": -0.2536,
+      "vz": -0.13031,
+      "pitch_v": 0.01095,
+      "q": [
+        -1.04457,
+        -0.18345,
+        -0.11341,
+        0.01763,
+        -0.7837,
+        0.28122
+      ],
+      "dq": [
+        -1.14493,
+        2.21212,
+        0.65598,
+        0.01644,
+        0.34423,
+        0.60757
+      ],
+      "contact": [
+        1,
+        1
+      ],
+      "t": 0.8,
+      "clock_sin": -0.95106,
+      "clock_cos": 0.30902
+    },
+    "scene": {
+      "name": "train",
+      "initial_pitch_rad": 0.02,
+      "target_v_m_s": 0.5,
+      "joint_order": [
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_hip",
+        "left_knee",
+        "left_ankle"
+      ],
+      "minimum_distance_m": 1.0,
+      "minimum_time_s": 2.0,
+      "minimum_alternating_steps": 4
+    },
+    "meters": {
+      "moves_used": 6,
+      "moves_left": 18,
+      "ticks_used": 207,
+      "ticks_left": 1393,
+      "max_ticks_per_move": 250
+    },
+    "attempt": 4,
+    "policy_version": 6,
+    "success": false,
+    "walk": {
+      "distance_m": -0.22512,
+      "elapsed_s": 0.8,
+      "peak_x_m": 0.0,
+      "fall_reason": null,
+      "touchdowns": [],
+      "alternating_steps": 0,
+      "first_success_s": null
+    },
+    "op_summary": {},
+    "policy_frozen": false,
+    "dt": 0.02
+  }
+}

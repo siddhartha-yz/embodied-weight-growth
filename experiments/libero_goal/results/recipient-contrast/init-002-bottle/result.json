@@ -1,0 +1,19 @@
+{
+  "init_index": 2,
+  "seed": 1002,
+  "goal": "bottle",
+  "instruction": "put the wine bottle on top of the cabinet",
+  "layout": "swap_xy",
+  "steps": 300,
+  "native_done": false,
+  "first_grasp": "bowl",
+  "first_grasp_step": 65,
+  "first_lift": "bowl",
+  "first_lift_step": 67,
+  "wrong_object_lifted_first": true,
+  "first_intended_goal_step": null,
+  "first_other_goal_step": null,
+  "success": false,
+  "wrong_object_first": true,
+  "completed_other_goal": false
+}

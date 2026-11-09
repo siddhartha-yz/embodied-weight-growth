@@ -1,0 +1,75 @@
+{
+  "prompt": "Decision 4/36. Here is the result of your last action.\nSimulator observation: {\"ok\": true, \"state\": {\"x\": -0.15126, \"z\": 1.0602, \"pitch\": -1.19236, \"vx\": -0.21504, \"vz\": -3.28822, \"pitch_v\": -25.98552, \"q\": [-0.88978, -0.79477, 0.5642, -0.99053, -0.54461, 0.61122], \"dq\": [-30.29364, 6.82894, -26.34543, -32.77166, 12.39363, -27.92997], \"contact\": [0, 0], \"t\": 0.12, \"clock_sin\": 0.68455, \"clock_cos\": 0.72897}, \"scene\": {\"name\": \"train\", \"initial_pitch_rad\": 0.02, \"target_v_m_s\": 0.5, \"joint_order\": [\"right_hip\", \"right_knee\", \"right_ankle\", \"left_hip\", \"left_knee\", \"left_ankle\"], \"minimum_distance_m\": 1.0, \"minimum_time_s\": 2.0, \"minimum_alternating_steps\": 4}, \"meters\": {\"moves_used\": 1, \"moves_left\": 23, \"ticks_used\": 6, \"ticks_left\": 1594, \"max_ticks_per_move\": 250}, \"attempt\": 1, \"policy_version\": 2, \"success\": false, \"walk\": {\"distance_m\": -0.15126, \"elapsed_s\": 0.12, \"peak_x_m\": 0.0, \"fall_reason\": \"torso tilted beyond 1.0 rad\", \"touchdowns\": [], \"alternating_steps\": 0, \"first_success_s\": null}, \"op_summary\": {}, \"policy_frozen\": false, \"dt\": 0.02}\nChoose one next action.",
+  "observation": {
+    "ok": true,
+    "state": {
+      "x": -0.15126,
+      "z": 1.0602,
+      "pitch": -1.19236,
+      "vx": -0.21504,
+      "vz": -3.28822,
+      "pitch_v": -25.98552,
+      "q": [
+        -0.88978,
+        -0.79477,
+        0.5642,
+        -0.99053,
+        -0.54461,
+        0.61122
+      ],
+      "dq": [
+        -30.29364,
+        6.82894,
+        -26.34543,
+        -32.77166,
+        12.39363,
+        -27.92997
+      ],
+      "contact": [
+        0,
+        0
+      ],
+      "t": 0.12,
+      "clock_sin": 0.68455,
+      "clock_cos": 0.72897
+    },
+    "scene": {
+      "name": "train",
+      "initial_pitch_rad": 0.02,
+      "target_v_m_s": 0.5,
+      "joint_order": [
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_hip",
+        "left_knee",
+        "left_ankle"
+      ],
+      "minimum_distance_m": 1.0,
+      "minimum_time_s": 2.0,
+      "minimum_alternating_steps": 4
+    },
+    "meters": {
+      "moves_used": 1,
+      "moves_left": 23,
+      "ticks_used": 6,
+      "ticks_left": 1594,
+      "max_ticks_per_move": 250
+    },
+    "attempt": 1,
+    "policy_version": 2,
+    "success": false,
+    "walk": {
+      "distance_m": -0.15126,
+      "elapsed_s": 0.12,
+      "peak_x_m": 0.0,
+      "fall_reason": "torso tilted beyond 1.0 rad",
+      "touchdowns": [],
+      "alternating_steps": 0,
+      "first_success_s": null
+    },
+    "op_summary": {},
+    "policy_frozen": false,
+    "dt": 0.02
+  }
+}

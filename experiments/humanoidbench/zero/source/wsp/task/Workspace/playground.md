@@ -1,0 +1,5 @@
+# H1 walking: Weight-space Playground
+
+Get the official HumanoidBench H1 to walk forward (+X) without falling, preferably maintaining around 1 m/s and upright posture for the full 20-second episode. Begin with no installed policy. Design the numeric weights directly, observe actual responses, then revise the weights. Do not output code, use an optimizer, request a teacher, or access a pretrained controller. Every physics tick the installed network independently recomputes 19 joint position targets from feedback and time.
+
+Cumulative physical action budget: {{NATIVE_ACTION_LIMIT}}. Submission slots: {{EXECUTION_BUDGET}}. Resets restore the same initial scene without refilling either budget. No physics advances unless requested. The only actions of the brain are to install numeric weights, run an installed policy, reset the scene, or finish. An execution can optionally reset before applying the policy, without a separate turn. Weights stay installed across resets. Analyze trajectories for genuine forward walking rather than displacement from falling.

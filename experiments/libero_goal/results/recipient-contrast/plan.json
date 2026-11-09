@@ -1,0 +1,20 @@
+{
+  "layer": 13,
+  "gain": 0.35,
+  "cap": 0.2,
+  "early_replans": 16,
+  "cases": [
+    [
+      2,
+      "bottle"
+    ],
+    [
+      3,
+      "bowl"
+    ]
+  ],
+  "n_action_steps": 10,
+  "same_recipient_vision_and_state": true,
+  "same_noise_for_intended_alternate_and_intervention": true,
+  "alignment": "common content suffix after changed noun, exact token IDs; position offsets may differ"
+}

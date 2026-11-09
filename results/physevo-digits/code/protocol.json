@@ -1,0 +1,12 @@
+{
+  "task": "arrange_largest_number",
+  "seed": 0,
+  "layout": 0,
+  "policy": "code",
+  "native_limit": 1050,
+  "model": "gpt-6-astra",
+  "max_installs": 5,
+  "max_attempts_per_digit": 3,
+  "start_utc": "2026-11-08T11:56:04.167768+00:00",
+  "controller": "Astra task + meta agents; executable Python skill; native joint or Cartesian control"
+}

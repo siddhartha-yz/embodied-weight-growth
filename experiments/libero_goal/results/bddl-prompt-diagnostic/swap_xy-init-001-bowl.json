@@ -1,0 +1,19 @@
+{
+  "init_index": 1,
+  "seed": 1001,
+  "goal": "bowl",
+  "instruction": "put the bowl on the top of the drawer",
+  "layout": "swap_xy",
+  "steps": 300,
+  "native_done": false,
+  "first_grasp": null,
+  "first_grasp_step": null,
+  "first_lift": null,
+  "first_lift_step": null,
+  "wrong_object_lifted_first": false,
+  "first_intended_goal_step": null,
+  "first_other_goal_step": null,
+  "success": false,
+  "wrong_object_first": false,
+  "completed_other_goal": false
+}

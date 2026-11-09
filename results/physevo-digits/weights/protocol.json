@@ -1,0 +1,10 @@
+{
+  "task": "arrange_largest_number",
+  "seed": 0,
+  "layout": 0,
+  "model": "gpt-6-astra",
+  "native_limit": 1050,
+  "max_installs": 3,
+  "start_utc": "2026-11-08T10:55:09.930280+00:00",
+  "policy": "Astra-generated numeric stages only; fixed observation, Cartesian executor, and native judge"
+}

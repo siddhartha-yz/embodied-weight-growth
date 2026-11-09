@@ -1,0 +1,435 @@
+{
+  "note": "Revised numerical policy: use fixed world jaw yaw 0 instead of the uncertain source-axis estimate, and reduce transit clearance from 0.12 to 0.08 m above mean reference height to address the observed path-infeasible transit. Vertical lifts retain measured XY. Failed commands still stop for reobservation without releasing or assuming arrival. This revision is untested; done denotes sequence completion, not verified placement.",
+  "stages": [
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              8,
+              11,
+              -10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.08,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              7,
+              1
+            ],
+            [
+              5,
+              8,
+              1
+            ],
+            [
+              6,
+              3,
+              0.5
+            ],
+            [
+              6,
+              6,
+              0.5
+            ],
+            [
+              8,
+              11,
+              -9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.08,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              3,
+              0.5
+            ],
+            [
+              6,
+              6,
+              0.5
+            ],
+            [
+              8,
+              11,
+              -8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.002,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              1,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              3,
+              1
+            ],
+            [
+              8,
+              11,
+              -7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              8,
+              11,
+              -6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.08,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              7,
+              1
+            ],
+            [
+              5,
+              8,
+              1
+            ],
+            [
+              6,
+              3,
+              0.5
+            ],
+            [
+              6,
+              6,
+              0.5
+            ],
+            [
+              8,
+              11,
+              -5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.08,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              4,
+              1
+            ],
+            [
+              5,
+              5,
+              1
+            ],
+            [
+              6,
+              3,
+              0.5
+            ],
+            [
+              6,
+              6,
+              0.5
+            ],
+            [
+              8,
+              11,
+              -4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.003,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              4,
+              1
+            ],
+            [
+              5,
+              5,
+              1
+            ],
+            [
+              6,
+              6,
+              1
+            ],
+            [
+              8,
+              11,
+              -3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              8,
+              11,
+              -2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.08,
+            0,
+            11,
+            0
+          ],
+          "weights": [
+            [
+              4,
+              7,
+              1
+            ],
+            [
+              5,
+              8,
+              1
+            ],
+            [
+              6,
+              3,
+              0.5
+            ],
+            [
+              6,
+              6,
+              0.5
+            ],
+            [
+              8,
+              11,
+              -1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0
+          ],
+          "weights": []
+        }
+      ]
+    },
+    {
+      "layers": [
+        {
+          "activation": "identity",
+          "bias": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0
+          ],
+          "weights": []
+        }
+      ]
+    }
+  ]
+}

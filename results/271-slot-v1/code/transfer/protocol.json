@@ -1,0 +1,10 @@
+{
+  "phase": "transfer",
+  "arm": "code",
+  "seed": 271,
+  "model": "gpt-6-astra",
+  "max_decisions": 45,
+  "context": "retained",
+  "source_policy_version": 1,
+  "start_utc": "2026-11-08T09:39:26.017741+00:00"
+}

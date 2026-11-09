@@ -1,0 +1,10 @@
+{
+  "phase": "train",
+  "arm": "weights",
+  "seed": 271,
+  "model": "gpt-6-astra",
+  "max_decisions": 45,
+  "context": "new",
+  "source_policy_version": null,
+  "start_utc": "2026-11-08T09:37:34.569282+00:00"
+}

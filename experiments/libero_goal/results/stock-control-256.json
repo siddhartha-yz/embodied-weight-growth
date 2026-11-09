@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "libero_goal",
+    "task": 4,
+    "init": 0,
+    "instruction": "put the bowl on top of the cabinet",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": true,
+    "steps": 87
+  },
+  {
+    "suite": "libero_goal",
+    "task": 2,
+    "init": 0,
+    "instruction": "put the wine bottle on top of the cabinet",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": true,
+    "steps": 85
+  },
+  {
+    "suite": "libero_10",
+    "task": 0,
+    "init": 0,
+    "instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": false,
+    "steps": 520
+  },
+  {
+    "suite": "libero_10",
+    "task": 4,
+    "init": 0,
+    "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": true,
+    "steps": 233
+  },
+  {
+    "suite": "libero_10",
+    "task": 0,
+    "init": 1,
+    "instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": false,
+    "steps": 520
+  },
+  {
+    "suite": "libero_10",
+    "task": 4,
+    "init": 1,
+    "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "size": 256,
+    "n_action_steps": 10,
+    "success": false,
+    "steps": 520
+  }
+]

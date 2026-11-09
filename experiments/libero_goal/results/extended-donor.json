@@ -1,0 +1,457 @@
+{
+  "intervention": "same instruction, only expert V projection's valid language rows, through reach",
+  "cases": [
+    {
+      "canonical": {
+        "init_index": 2,
+        "seed": 1002,
+        "goal": "bottle",
+        "instruction": "put the wine bottle on top of the cabinet",
+        "layout": "canonical",
+        "steps": 90,
+        "native_done": true,
+        "first_grasp": "bottle",
+        "first_grasp_step": 43,
+        "first_lift": "bottle",
+        "first_lift_step": 50,
+        "wrong_object_lifted_first": false,
+        "first_intended_goal_step": 90,
+        "first_other_goal_step": null,
+        "success": true,
+        "wrong_object_first": false,
+        "completed_other_goal": false
+      },
+      "untreated": {
+        "init_index": 2,
+        "seed": 1002,
+        "goal": "bottle",
+        "instruction": "put the wine bottle on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bowl",
+        "first_grasp_step": 63,
+        "first_lift": "bowl",
+        "first_lift_step": 65,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": null,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": false
+      },
+      "donor_replans": 5,
+      "intervention_replans": 8,
+      "layers": [
+        {
+          "init_index": 2,
+          "seed": 1002,
+          "goal": "bottle",
+          "instruction": "put the wine bottle on top of the cabinet",
+          "layout": "swap_xy",
+          "steps": 300,
+          "native_done": false,
+          "first_grasp": "bowl",
+          "first_grasp_step": 67,
+          "first_lift": "bowl",
+          "first_lift_step": 69,
+          "wrong_object_lifted_first": true,
+          "first_intended_goal_step": null,
+          "first_other_goal_step": null,
+          "success": false,
+          "wrong_object_first": true,
+          "completed_other_goal": false,
+          "layer": 5,
+          "replans": [
+            {
+              "step": 0,
+              "donor_step": 0,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 10,
+              "donor_step": 10,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 20,
+              "donor_step": 20,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 30,
+              "donor_step": 30,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 40,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 50,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 60,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 70,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            }
+          ]
+        },
+        {
+          "init_index": 2,
+          "seed": 1002,
+          "goal": "bottle",
+          "instruction": "put the wine bottle on top of the cabinet",
+          "layout": "swap_xy",
+          "steps": 300,
+          "native_done": false,
+          "first_grasp": null,
+          "first_grasp_step": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "wrong_object_lifted_first": false,
+          "first_intended_goal_step": null,
+          "first_other_goal_step": null,
+          "success": false,
+          "wrong_object_first": false,
+          "completed_other_goal": false,
+          "layer": 13,
+          "replans": [
+            {
+              "step": 0,
+              "donor_step": 0,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 10,
+              "donor_step": 10,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 20,
+              "donor_step": 20,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 30,
+              "donor_step": 30,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 40,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 50,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 60,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            },
+            {
+              "step": 70,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "canonical": {
+        "init_index": 3,
+        "seed": 1003,
+        "goal": "bowl",
+        "instruction": "put the bowl on top of the cabinet",
+        "layout": "canonical",
+        "steps": 82,
+        "native_done": true,
+        "first_grasp": "bowl",
+        "first_grasp_step": 44,
+        "first_lift": "bowl",
+        "first_lift_step": 47,
+        "wrong_object_lifted_first": false,
+        "first_intended_goal_step": 82,
+        "first_other_goal_step": null,
+        "success": true,
+        "wrong_object_first": false,
+        "completed_other_goal": false
+      },
+      "untreated": {
+        "init_index": 3,
+        "seed": 1003,
+        "goal": "bowl",
+        "instruction": "put the bowl on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bottle",
+        "first_grasp_step": 129,
+        "first_lift": "bottle",
+        "first_lift_step": 134,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": 155,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": true
+      },
+      "donor_replans": 5,
+      "intervention_replans": 15,
+      "layers": [
+        {
+          "init_index": 3,
+          "seed": 1003,
+          "goal": "bowl",
+          "instruction": "put the bowl on top of the cabinet",
+          "layout": "swap_xy",
+          "steps": 300,
+          "native_done": false,
+          "first_grasp": "bottle",
+          "first_grasp_step": 124,
+          "first_lift": "bottle",
+          "first_lift_step": 126,
+          "wrong_object_lifted_first": true,
+          "first_intended_goal_step": null,
+          "first_other_goal_step": 149,
+          "success": false,
+          "wrong_object_first": true,
+          "completed_other_goal": true,
+          "layer": 5,
+          "replans": [
+            {
+              "step": 0,
+              "donor_step": 0,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 10,
+              "donor_step": 10,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 20,
+              "donor_step": 20,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 30,
+              "donor_step": 30,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 40,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 50,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 60,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 70,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 80,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 90,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 100,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 110,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 120,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 130,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 140,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            }
+          ]
+        },
+        {
+          "init_index": 3,
+          "seed": 1003,
+          "goal": "bowl",
+          "instruction": "put the bowl on top of the cabinet",
+          "layout": "swap_xy",
+          "steps": 300,
+          "native_done": false,
+          "first_grasp": "bottle",
+          "first_grasp_step": 122,
+          "first_lift": "bottle",
+          "first_lift_step": 125,
+          "wrong_object_lifted_first": true,
+          "first_intended_goal_step": null,
+          "first_other_goal_step": 148,
+          "success": false,
+          "wrong_object_first": true,
+          "completed_other_goal": true,
+          "layer": 13,
+          "replans": [
+            {
+              "step": 0,
+              "donor_step": 0,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 10,
+              "donor_step": 10,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 20,
+              "donor_step": 20,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 30,
+              "donor_step": 30,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 40,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 50,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 60,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 70,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 80,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 90,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 100,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 110,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 120,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 130,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            },
+            {
+              "step": 140,
+              "donor_step": 40,
+              "projection_calls": 10,
+              "language_rows": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

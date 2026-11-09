@@ -1,0 +1,41 @@
+{
+  "scenario": {
+    "seed": 307769256,
+    "push_step": 252,
+    "lateral_impulse_ns": 115.5
+  },
+  "roundtrip_s": 17.880130000412464,
+  "patch": {
+    "edits": [
+      [
+        "policy.l3.weight",
+        [
+          1,
+          235
+        ],
+        0.12
+      ],
+      [
+        "policy.l3.weight",
+        [
+          6,
+          235
+        ],
+        0.08
+      ]
+    ]
+  },
+  "physical_pause_s": 0.0,
+  "status": "episode_ended_before_install",
+  "live_patch_applies": [],
+  "immediate_patch_applies": [
+    {
+      "trigger_step": 276,
+      "controller_tick": 276,
+      "simulation_s": 5.52
+    }
+  ],
+  "live_recovered": false,
+  "immediate_recovered": false,
+  "exact_trigger_observation_replay": true
+}

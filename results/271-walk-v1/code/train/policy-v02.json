@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "turn": 5,
+  "spec": "def policy(obs, goal):\n    b = -0.3*obs['pitch']-0.025*obs['pitch_v']\n    return [0.5*(-0.04-obs['q0'])-0.025*obs['dq0']+b, 0.6*(-0.04-obs['q1'])-0.025*obs['dq1'], -0.3*obs['q2']-0.012*obs['dq2'], 0.5*(-0.04-obs['q3'])-0.025*obs['dq3']+b, 0.6*(-0.04-obs['q4'])-0.025*obs['dq4'], -0.3*obs['q5']-0.012*obs['dq5']]"
+}

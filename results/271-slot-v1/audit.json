@@ -1,0 +1,3234 @@
+{
+  "transfer_scope": "Reuse with retained context tests the frozen module plus Astra's planning, not the module alone.",
+  "design": {
+    "train": {
+      "same_start_state": true,
+      "same_geometry": true,
+      "same_budget": true,
+      "same_model_and_seed": true
+    },
+    "transfer": {
+      "same_start_state": true,
+      "same_geometry": true,
+      "same_budget": true,
+      "same_model_and_seed": true
+    },
+    "weights": {
+      "same_start_except_yaw": true,
+      "same_geometry": true,
+      "same_seed": true,
+      "context_recorded_as_retained": true,
+      "no_fresh_install_or_raw_drive": true,
+      "source_version_is_last_train_install": true
+    },
+    "code": {
+      "same_start_except_yaw": true,
+      "same_geometry": true,
+      "same_seed": true,
+      "context_recorded_as_retained": true,
+      "no_fresh_install_or_raw_drive": true,
+      "source_version_is_last_train_install": true
+    }
+  },
+  "arms": {
+    "weights": {
+      "train": {
+        "context": "new",
+        "source_policy_version": null,
+        "seed": 271,
+        "model": "gpt-6-astra",
+        "budget": {
+          "decisions": 45,
+          "moves": 36,
+          "ticks": 2400,
+          "ticks_per_move": 100
+        },
+        "start": {
+          "block_mm": [
+            148.0,
+            0.0
+          ],
+          "yaw_deg": 30.0,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            154.77,
+            47.49
+          ]
+        },
+        "end": {
+          "block_mm": [
+            204.43,
+            2.98
+          ],
+          "yaw_deg": -1.88,
+          "block_speed_mm_s": 0.65,
+          "tip_mm": [
+            180.46,
+            4.12
+          ]
+        },
+        "complete": true,
+        "stop": "agent_finished",
+        "decisions": 20,
+        "moves": 18,
+        "ticks": 1090,
+        "first_success_turn": 19,
+        "final_success": true,
+        "resets": 0,
+        "contact_turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          18,
+          19
+        ],
+        "rail_contact_turns": [
+          19
+        ],
+        "stall_turns": [],
+        "accepted_install_turns": [
+          3
+        ],
+        "revisions": [],
+        "steps": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "drive",
+            "ok": true,
+            "note": "The arm is stationary and clear of the block; a small first-motor pulse will reveal its motion direction before building a feedback skill.",
+            "policy_version": 0,
+            "success": false,
+            "request": {
+              "op": "drive",
+              "u": [
+                0.15,
+                0
+              ],
+              "ticks": 10
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                154.77,
+                47.49
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.55,
+                53.46
+              ]
+            },
+            "ticks_executed": 10,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 2,
+            "attempt": 1,
+            "op": "drive",
+            "ok": true,
+            "note": "Positive motor 0 moved the tip left and up; an isolated motor 1 pulse will identify the second direction and coupling.",
+            "policy_version": 0,
+            "success": false,
+            "request": {
+              "op": "drive",
+              "u": [
+                0,
+                0.15
+              ],
+              "ticks": 10
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.55,
+                53.46
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                153.31,
+                65.14
+              ]
+            },
+            "ticks_executed": 10,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 3,
+            "attempt": 1,
+            "op": "install",
+            "ok": true,
+            "note": "Both pulses increased their respective joint angles, with distinct tip directions; install goal-error feedback with joint damping for reusable tip positioning.",
+            "policy_version": 1,
+            "success": false
+          },
+          {
+            "turn": 4,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block remains at +30 degrees; approach above its right end to prepare a clockwise rotating push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                0.028
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                153.31,
+                65.14
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                160.04,
+                27.97
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 5,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip reached its goal accurately without contact; push down on the right end to reduce the block's positive yaw.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                0.008
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                160.04,
+                27.97
+              ]
+            },
+            "after": {
+              "block_mm": [
+                147.09,
+                -12.44
+              ],
+              "yaw_deg": 27.71,
+              "block_speed_mm_s": 0.82,
+              "tip_mm": [
+                160.68,
+                10.04
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 59,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 12.47,
+              "rotation_deg": -2.29,
+              "stall": false
+            }
+          },
+          {
+            "turn": 6,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The downward push mostly translated the block and reduced yaw only 2.3 degrees; withdraw left above it to change the contact leverage.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.116,
+                0.017
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                147.09,
+                -12.44
+              ],
+              "yaw_deg": 27.71,
+              "block_speed_mm_s": 0.82,
+              "tip_mm": [
+                160.68,
+                10.04
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.7,
+                -14.07
+              ],
+              "yaw_deg": 26.89,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.05,
+                16.88
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 2,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 1.68,
+              "rotation_deg": -0.81,
+              "stall": false
+            }
+          },
+          {
+            "turn": 7,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is clear to the left and the block is below the slot centerline; move below its left half for an upward, clockwise push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.128,
+                -0.044
+              ],
+              "ticks": 85
+            },
+            "before": {
+              "block_mm": [
+                146.7,
+                -14.07
+              ],
+              "yaw_deg": 26.89,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.05,
+                16.88
+              ]
+            },
+            "after": {
+              "block_mm": [
+                147.03,
+                -15.08
+              ],
+              "yaw_deg": 46.7,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                127.83,
+                -44.17
+              ]
+            },
+            "ticks_executed": 85,
+            "contact": {
+              "tip_block_ticks": 5,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 1.07,
+              "rotation_deg": 19.81,
+              "stall": false
+            }
+          },
+          {
+            "turn": 8,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The transit grazed the left corner and increased yaw to 46.7 degrees; the tip is now below it, so an upward push should reverse that rotation.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.132,
+                -0.014
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                147.03,
+                -15.08
+              ],
+              "yaw_deg": 46.7,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                127.83,
+                -44.17
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.83,
+                1.32
+              ],
+              "yaw_deg": 43.87,
+              "block_speed_mm_s": 0.68,
+              "tip_mm": [
+                131.93,
+                -15.73
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 56,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 16.5,
+              "rotation_deg": -2.83,
+              "stall": false
+            }
+          },
+          {
+            "turn": 9,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The upward push again acted near the end face and mostly translated; shift below the lower long edge to obtain a clockwise moment.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.146,
+                -0.023
+              ],
+              "ticks": 60
+            },
+            "before": {
+              "block_mm": [
+                148.83,
+                1.32
+              ],
+              "yaw_deg": 43.87,
+              "block_speed_mm_s": 0.68,
+              "tip_mm": [
+                131.93,
+                -15.73
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.47,
+                1.7
+              ],
+              "yaw_deg": 54.79,
+              "block_speed_mm_s": 0.27,
+              "tip_mm": [
+                145.59,
+                -23.53
+              ]
+            },
+            "ticks_executed": 60,
+            "contact": {
+              "tip_block_ticks": 56,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 2.66,
+              "rotation_deg": 10.92,
+              "stall": false
+            }
+          },
+          {
+            "turn": 10,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The lateral shift increased yaw to 54.8 degrees; push upward and left from this lower-right contact to reverse the torque.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.137,
+                -0.006
+              ],
+              "ticks": 55
+            },
+            "before": {
+              "block_mm": [
+                151.47,
+                1.7
+              ],
+              "yaw_deg": 54.79,
+              "block_speed_mm_s": 0.27,
+              "tip_mm": [
+                145.59,
+                -23.53
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.77,
+                11.13
+              ],
+              "yaw_deg": 51.75,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                136.98,
+                -7.77
+              ]
+            },
+            "ticks_executed": 55,
+            "contact": {
+              "tip_block_ticks": 55,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 9.44,
+              "rotation_deg": -3.04,
+              "stall": false
+            }
+          },
+          {
+            "turn": 11,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "End-face contact continues to translate with little rotation; retreat fully left before approaching the upper long side.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.113,
+                -0.008
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                151.77,
+                11.13
+              ],
+              "yaw_deg": 51.75,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                136.98,
+                -7.77
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.77,
+                11.14
+              ],
+              "yaw_deg": 51.74,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                113.04,
+                -7.79
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": -0.01,
+              "stall": false
+            }
+          },
+          {
+            "turn": 12,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The retreat cleared the block without disturbing it; move above-left to contact the long side near its upper end.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.132,
+                0.034
+              ],
+              "ticks": 70
+            },
+            "before": {
+              "block_mm": [
+                151.77,
+                11.14
+              ],
+              "yaw_deg": 51.74,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                113.04,
+                -7.79
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.77,
+                11.14
+              ],
+              "yaw_deg": 51.74,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                131.84,
+                33.87
+              ]
+            },
+            "ticks_executed": 70,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 13,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is above-left with clear space; drive diagonally right-down onto the upper long side for clockwise rotation.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                0.023
+              ],
+              "ticks": 60
+            },
+            "before": {
+              "block_mm": [
+                151.77,
+                11.14
+              ],
+              "yaw_deg": 51.74,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                131.84,
+                33.87
+              ]
+            },
+            "after": {
+              "block_mm": [
+                152.04,
+                8.18
+              ],
+              "yaw_deg": 11.3,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                160.18,
+                25.1
+              ]
+            },
+            "ticks_executed": 60,
+            "contact": {
+              "tip_block_ticks": 47,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 2.97,
+              "rotation_deg": -40.44,
+              "stall": false
+            }
+          },
+          {
+            "turn": 14,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Long-side contact rotated the block clockwise by 40.4 degrees; a small downward continuation should finish alignment and lower its center.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                0.017
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                152.04,
+                8.18
+              ],
+              "yaw_deg": 11.3,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                160.18,
+                25.1
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.83,
+                4.02
+              ],
+              "yaw_deg": 1.15,
+              "block_speed_mm_s": 0.82,
+              "tip_mm": [
+                160.62,
+                19.19
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 45,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 4.17,
+              "rotation_deg": -10.15,
+              "stall": false
+            }
+          },
+          {
+            "turn": 15,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Yaw is now 1.2 degrees and the block nearly fits the slot height; withdraw upward to preserve alignment before moving behind it.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.159,
+                0.035
+              ],
+              "ticks": 50
+            },
+            "before": {
+              "block_mm": [
+                151.83,
+                4.02
+              ],
+              "yaw_deg": 1.15,
+              "block_speed_mm_s": 0.82,
+              "tip_mm": [
+                160.62,
+                19.19
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.88,
+                34.97
+              ]
+            },
+            "ticks_executed": 50,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": -0.01,
+              "stall": false
+            }
+          },
+          {
+            "turn": 16,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Withdrawal preserved the 1.1-degree alignment; move left above the block, avoiding another corner graze.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.119,
+                0.032
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.88,
+                34.97
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                119.08,
+                31.58
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 17,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is safely left of the block; descend behind its left face at the block center height.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.121,
+                0.0035
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                119.08,
+                31.58
+              ]
+            },
+            "after": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                120.92,
+                3.97
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 18,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is centered behind the aligned block with no rail contact; begin a modest rightward insertion push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.153,
+                0.0035
+              ],
+              "ticks": 75
+            },
+            "before": {
+              "block_mm": [
+                151.83,
+                4.01
+              ],
+              "yaw_deg": 1.14,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                120.92,
+                3.97
+              ]
+            },
+            "after": {
+              "block_mm": [
+                176.31,
+                3.75
+              ],
+              "yaw_deg": 1.65,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                152.3,
+                3.81
+              ]
+            },
+            "ticks_executed": 75,
+            "contact": {
+              "tip_block_ticks": 71,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 24.48,
+              "rotation_deg": 0.5,
+              "stall": false
+            }
+          },
+          {
+            "turn": 19,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block advanced 2.45 cm into the mouth without rail contact and remains at 1.6 degrees; continue rightward while keeping the pusher centered.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.181,
+                0.0035
+              ],
+              "ticks": 85
+            },
+            "before": {
+              "block_mm": [
+                176.31,
+                3.75
+              ],
+              "yaw_deg": 1.65,
+              "block_speed_mm_s": 0.69,
+              "tip_mm": [
+                152.3,
+                3.81
+              ]
+            },
+            "after": {
+              "block_mm": [
+                204.43,
+                2.98
+              ],
+              "yaw_deg": -1.88,
+              "block_speed_mm_s": 0.65,
+              "tip_mm": [
+                180.46,
+                4.12
+              ]
+            },
+            "ticks_executed": 85,
+            "contact": {
+              "tip_block_ticks": 84,
+              "block_wall_ticks": 5,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 28.14,
+              "rotation_deg": -3.53,
+              "stall": false
+            }
+          },
+          {
+            "turn": 20,
+            "attempt": 1,
+            "op": "finish",
+            "ok": true,
+            "note": "Success is true: the block is fully inside, aligned at -1.9 degrees, and settled below the speed threshold.",
+            "policy_version": 1,
+            "success": true
+          }
+        ]
+      },
+      "transfer": {
+        "context": "retained",
+        "source_policy_version": 1,
+        "seed": 271,
+        "model": "gpt-6-astra",
+        "budget": {
+          "decisions": 45,
+          "moves": 36,
+          "ticks": 2400,
+          "ticks_per_move": 100
+        },
+        "start": {
+          "block_mm": [
+            148.0,
+            0.0
+          ],
+          "yaw_deg": -30.0,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            154.77,
+            47.49
+          ]
+        },
+        "end": {
+          "block_mm": [
+            205.44,
+            -3.12
+          ],
+          "yaw_deg": -3.31,
+          "block_speed_mm_s": 0.59,
+          "tip_mm": [
+            181.42,
+            -2.84
+          ]
+        },
+        "complete": true,
+        "stop": "agent_finished",
+        "decisions": 7,
+        "moves": 6,
+        "ticks": 425,
+        "first_success_turn": 6,
+        "final_success": true,
+        "resets": 0,
+        "contact_turns": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "rail_contact_turns": [
+          6
+        ],
+        "stall_turns": [],
+        "accepted_install_turns": [],
+        "revisions": [],
+        "steps": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The new yaw is -30 degrees, requiring counterclockwise rotation; approach above the left half rather than repeating the previous clockwise push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.145,
+                0.03
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                154.77,
+                47.49
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                145.1,
+                29.91
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 2,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip reached the upper-left approach without contact; push diagonally down-left onto the long side to turn the block counterclockwise.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.136,
+                0.01
+              ],
+              "ticks": 60
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                145.1,
+                29.91
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.09,
+                -3.13
+              ],
+              "yaw_deg": 2.73,
+              "block_speed_mm_s": 0.5,
+              "tip_mm": [
+                136.17,
+                11.32
+              ]
+            },
+            "ticks_executed": 60,
+            "contact": {
+              "tip_block_ticks": 51,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 3.13,
+              "rotation_deg": 32.73,
+              "stall": false
+            }
+          },
+          {
+            "turn": 3,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The push corrected yaw to +2.7 degrees with only 3 mm translation; withdraw upward-left to preserve this alignment.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.115,
+                0.027
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                148.09,
+                -3.13
+              ],
+              "yaw_deg": 2.73,
+              "block_speed_mm_s": 0.5,
+              "tip_mm": [
+                136.17,
+                11.32
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.09,
+                -3.14
+              ],
+              "yaw_deg": 2.91,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                115.01,
+                26.6
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.01,
+              "rotation_deg": 0.18,
+              "stall": false
+            }
+          },
+          {
+            "turn": 4,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block stayed aligned during withdrawal; descend safely behind its left face, matching the current center height.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.117,
+                -0.004
+              ],
+              "ticks": 70
+            },
+            "before": {
+              "block_mm": [
+                148.09,
+                -3.14
+              ],
+              "yaw_deg": 2.91,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                115.01,
+                26.6
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.09,
+                -3.14
+              ],
+              "yaw_deg": 2.91,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.85,
+                -3.55
+              ]
+            },
+            "ticks_executed": 70,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 5,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The pusher is behind the block and its projected height fits the gap; push right to test entry while monitoring yaw and rail contact.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.151,
+                -0.004
+              ],
+              "ticks": 75
+            },
+            "before": {
+              "block_mm": [
+                148.09,
+                -3.14
+              ],
+              "yaw_deg": 2.91,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.85,
+                -3.55
+              ]
+            },
+            "after": {
+              "block_mm": [
+                174.2,
+                -3.21
+              ],
+              "yaw_deg": 3.56,
+              "block_speed_mm_s": 0.7,
+              "tip_mm": [
+                150.22,
+                -4.23
+              ]
+            },
+            "ticks_executed": 75,
+            "contact": {
+              "tip_block_ticks": 71,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 26.11,
+              "rotation_deg": 0.65,
+              "stall": false
+            }
+          },
+          {
+            "turn": 6,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block advanced 2.61 cm without rail contact and remains aligned at 3.6 degrees; continue insertion with a slightly higher centered push.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.182,
+                -0.003
+              ],
+              "ticks": 90
+            },
+            "before": {
+              "block_mm": [
+                174.2,
+                -3.21
+              ],
+              "yaw_deg": 3.56,
+              "block_speed_mm_s": 0.7,
+              "tip_mm": [
+                150.22,
+                -4.23
+              ]
+            },
+            "after": {
+              "block_mm": [
+                205.44,
+                -3.12
+              ],
+              "yaw_deg": -3.31,
+              "block_speed_mm_s": 0.59,
+              "tip_mm": [
+                181.42,
+                -2.84
+              ]
+            },
+            "ticks_executed": 90,
+            "contact": {
+              "tip_block_ticks": 90,
+              "block_wall_ticks": 1,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 31.24,
+              "rotation_deg": -6.87,
+              "stall": false
+            }
+          },
+          {
+            "turn": 7,
+            "attempt": 1,
+            "op": "finish",
+            "ok": true,
+            "note": "Success is true: the block is fully inside, aligned at -3.3 degrees, and settled below the speed threshold.",
+            "policy_version": 1,
+            "success": true
+          }
+        ]
+      }
+    },
+    "code": {
+      "train": {
+        "context": "new",
+        "source_policy_version": null,
+        "seed": 271,
+        "model": "gpt-6-astra",
+        "budget": {
+          "decisions": 45,
+          "moves": 36,
+          "ticks": 2400,
+          "ticks_per_move": 100
+        },
+        "start": {
+          "block_mm": [
+            148.0,
+            0.0
+          ],
+          "yaw_deg": 30.0,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            154.77,
+            47.49
+          ]
+        },
+        "end": {
+          "block_mm": [
+            208.02,
+            0.16
+          ],
+          "yaw_deg": -7.77,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            178.29,
+            0.48
+          ]
+        },
+        "complete": true,
+        "stop": "agent_finished",
+        "decisions": 19,
+        "moves": 17,
+        "ticks": 1025,
+        "first_success_turn": 17,
+        "final_success": true,
+        "resets": 0,
+        "contact_turns": [
+          5,
+          6,
+          7,
+          10,
+          11,
+          15,
+          16,
+          17,
+          18
+        ],
+        "rail_contact_turns": [],
+        "stall_turns": [],
+        "accepted_install_turns": [
+          3
+        ],
+        "revisions": [],
+        "steps": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "drive",
+            "ok": true,
+            "note": "The block is at 30° and clear of the rails; a short motor-0 probe will identify its effect before controlled contact.",
+            "policy_version": 0,
+            "success": false,
+            "request": {
+              "op": "drive",
+              "u": [
+                0.15,
+                0
+              ],
+              "ticks": 10
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                154.77,
+                47.49
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.55,
+                53.46
+              ]
+            },
+            "ticks_executed": 10,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 2,
+            "attempt": 1,
+            "op": "drive",
+            "ok": true,
+            "note": "Motor 0 increased q0 with modest joint coupling and no block contact; probe motor 1 to establish the second control direction.",
+            "policy_version": 0,
+            "success": false,
+            "request": {
+              "op": "drive",
+              "u": [
+                0,
+                0.15
+              ],
+              "ticks": 10
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.55,
+                53.46
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                153.31,
+                65.14
+              ]
+            },
+            "ticks_executed": 10,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 3,
+            "attempt": 1,
+            "op": "install",
+            "ok": true,
+            "note": "Both positive inputs increase their corresponding joint angles; install a damped, speed-limited Cartesian goal controller using the observed arm geometry.",
+            "policy_version": 1,
+            "success": false
+          },
+          {
+            "turn": 4,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block remains at 30° without contact; approach above its right end to prepare a clockwise alignment push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.161,
+                0.027
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                153.31,
+                65.14
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                161.14,
+                28.81
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 5,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip reached above the right end without disturbing the block; push downward briefly to rotate it clockwise, then inspect displacement.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.161,
+                0.012
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": 30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                161.14,
+                28.81
+              ]
+            },
+            "after": {
+              "block_mm": [
+                147.72,
+                -4.91
+              ],
+              "yaw_deg": 27.15,
+              "block_speed_mm_s": 1.83,
+              "tip_mm": [
+                162.29,
+                17.12
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 33,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 4.92,
+              "rotation_deg": -2.85,
+              "stall": false
+            }
+          },
+          {
+            "turn": 6,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Contact translated the block down 4.9 mm but rotated it only 2.8°; shift the push toward its extreme right corner for greater clockwise leverage.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.167,
+                -0.005
+              ],
+              "ticks": 70
+            },
+            "before": {
+              "block_mm": [
+                147.72,
+                -4.91
+              ],
+              "yaw_deg": 27.15,
+              "block_speed_mm_s": 1.83,
+              "tip_mm": [
+                162.29,
+                17.12
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.77,
+                -11.31
+              ],
+              "yaw_deg": -13.21,
+              "block_speed_mm_s": 0.46,
+              "tip_mm": [
+                168.54,
+                -1.02
+              ]
+            },
+            "ticks_executed": 70,
+            "contact": {
+              "tip_block_ticks": 70,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 6.47,
+              "rotation_deg": -40.36,
+              "stall": false
+            }
+          },
+          {
+            "turn": 7,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The corner push overshot alignment to −13.2°; withdraw rightward before approaching underneath to lift and counter-rotate the block.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.176,
+                -0.004
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                146.77,
+                -11.31
+              ],
+              "yaw_deg": -13.21,
+              "block_speed_mm_s": 0.46,
+              "tip_mm": [
+                168.54,
+                -1.02
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                175.23,
+                -3.33
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": -0.21,
+              "stall": false
+            }
+          },
+          {
+            "turn": 8,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is clear and the block has settled at −13.4°; move below its right edge without crossing the block.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.174,
+                -0.038
+              ],
+              "ticks": 75
+            },
+            "before": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                175.23,
+                -3.33
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                174.24,
+                -36.67
+              ]
+            },
+            "ticks_executed": 75,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 9,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip passed below the block without contact; position slightly right of its center for an upward correcting push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.151,
+                -0.032
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                174.24,
+                -36.67
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.94,
+                -32.97
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 10,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is below and slightly right of center; an upward push should raise the block toward the slot center while correcting negative yaw.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.151,
+                -0.012
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                146.77,
+                -11.32
+              ],
+              "yaw_deg": -13.42,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                151.94,
+                -32.97
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.66,
+                -0.03
+              ],
+              "yaw_deg": -11.58,
+              "block_speed_mm_s": 1.75,
+              "tip_mm": [
+                149.69,
+                -15.96
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 53,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 11.29,
+              "rotation_deg": 1.85,
+              "stall": false
+            }
+          },
+          {
+            "turn": 11,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block is centered vertically but still at −11.6°; move along its underside toward the right corner to increase rotational leverage.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.164,
+                -0.018
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                146.66,
+                -0.03
+              ],
+              "yaw_deg": -11.58,
+              "block_speed_mm_s": 1.75,
+              "tip_mm": [
+                149.69,
+                -15.96
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                162.42,
+                -17.13
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 12,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.44,
+              "rotation_deg": 3.93,
+              "stall": false
+            }
+          },
+          {
+            "turn": 12,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Yaw improved to −7.6°, within tolerance, and the block is centered; withdraw below it to reposition behind the left face.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.158,
+                -0.032
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                162.42,
+                -17.13
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.66,
+                -30.92
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 13,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block remains settled and aligned within tolerance; traverse below it to reach the left-side approach corridor.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.116,
+                -0.03
+              ],
+              "ticks": 90
+            },
+            "before": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.66,
+                -30.92
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                117.32,
+                -30.89
+              ]
+            },
+            "ticks_executed": 90,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 14,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is safely left of the block; raise it to the block centerline for a rightward insertion push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.117,
+                0.0005
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                117.32,
+                -30.89
+              ]
+            },
+            "after": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.56,
+                -0.11
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 15,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is on the centerline behind the block; push right toward the entrance and inspect any yaw or lateral drift before rail engagement.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.15,
+                0.0005
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                146.72,
+                0.41
+              ],
+              "yaw_deg": -7.64,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                116.56,
+                -0.11
+              ]
+            },
+            "after": {
+              "block_mm": [
+                171.34,
+                0.4
+              ],
+              "yaw_deg": -8.38,
+              "block_speed_mm_s": 3.84,
+              "tip_mm": [
+                147.24,
+                1.44
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 69,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 24.63,
+              "rotation_deg": -0.73,
+              "stall": false
+            }
+          },
+          {
+            "turn": 16,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block advanced 24.6 mm with no rail contact and yaw −8.4°; continue along the slot centerline while monitoring clearance.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.177,
+                0.0003
+              ],
+              "ticks": 90
+            },
+            "before": {
+              "block_mm": [
+                171.34,
+                0.4
+              ],
+              "yaw_deg": -8.38,
+              "block_speed_mm_s": 3.84,
+              "tip_mm": [
+                147.24,
+                1.44
+              ]
+            },
+            "after": {
+              "block_mm": [
+                199.55,
+                0.32
+              ],
+              "yaw_deg": -8.78,
+              "block_speed_mm_s": 1.77,
+              "tip_mm": [
+                175.44,
+                1.45
+              ]
+            },
+            "ticks_executed": 90,
+            "contact": {
+              "tip_block_ticks": 90,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 28.2,
+              "rotation_deg": -0.4,
+              "stall": false
+            }
+          },
+          {
+            "turn": 17,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block is nearly inside, with its rear edge still short of x=0.183; push another few millimeters while slightly lowering the contact line to improve yaw.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.185,
+                0
+              ],
+              "ticks": 70
+            },
+            "before": {
+              "block_mm": [
+                199.55,
+                0.32
+              ],
+              "yaw_deg": -8.78,
+              "block_speed_mm_s": 1.77,
+              "tip_mm": [
+                175.44,
+                1.45
+              ]
+            },
+            "after": {
+              "block_mm": [
+                208.01,
+                0.17
+              ],
+              "yaw_deg": -7.77,
+              "block_speed_mm_s": 0.84,
+              "tip_mm": [
+                183.88,
+                0.77
+              ]
+            },
+            "ticks_executed": 70,
+            "contact": {
+              "tip_block_ticks": 70,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 8.46,
+              "rotation_deg": 1.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 18,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Success is true with the block fully inside at −7.8°; retract the pusher slightly to remove contact and let residual motion stop.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.178,
+                0.0007
+              ],
+              "ticks": 60
+            },
+            "before": {
+              "block_mm": [
+                208.01,
+                0.17
+              ],
+              "yaw_deg": -7.77,
+              "block_speed_mm_s": 0.84,
+              "tip_mm": [
+                183.88,
+                0.77
+              ]
+            },
+            "after": {
+              "block_mm": [
+                208.02,
+                0.16
+              ],
+              "yaw_deg": -7.77,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                178.29,
+                0.48
+              ]
+            },
+            "ticks_executed": 60,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.01,
+              "stall": false
+            }
+          },
+          {
+            "turn": 19,
+            "attempt": 1,
+            "op": "finish",
+            "ok": true,
+            "note": "Success remains true after withdrawal: the block is fully inside, yaw is −7.8°, velocity is zero, and pusher contact is clear.",
+            "policy_version": 1,
+            "success": true
+          }
+        ]
+      },
+      "transfer": {
+        "context": "retained",
+        "source_policy_version": 1,
+        "seed": 271,
+        "model": "gpt-6-astra",
+        "budget": {
+          "decisions": 45,
+          "moves": 36,
+          "ticks": 2400,
+          "ticks_per_move": 100
+        },
+        "start": {
+          "block_mm": [
+            148.0,
+            0.0
+          ],
+          "yaw_deg": -30.0,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            154.77,
+            47.49
+          ]
+        },
+        "end": {
+          "block_mm": [
+            207.61,
+            -1.09
+          ],
+          "yaw_deg": -8.11,
+          "block_speed_mm_s": 0.0,
+          "tip_mm": [
+            177.24,
+            -0.2
+          ]
+        },
+        "complete": true,
+        "stop": "agent_finished",
+        "decisions": 17,
+        "moves": 16,
+        "ticks": 1003,
+        "first_success_turn": 15,
+        "final_success": true,
+        "resets": 0,
+        "contact_turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          11,
+          14,
+          15,
+          16
+        ],
+        "rail_contact_turns": [],
+        "stall_turns": [],
+        "accepted_install_turns": [],
+        "revisions": [],
+        "steps": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The new yaw is −30°, requiring counterclockwise rotation; approach above the left end for a downward corrective push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.132,
+                0.026
+              ],
+              "ticks": 70
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                154.77,
+                47.49
+              ]
+            },
+            "after": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                133.59,
+                26.21
+              ]
+            },
+            "ticks_executed": 70,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 2,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is above the left corner and clear of contact; press downward in a short step to measure counterclockwise rotation.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.129,
+                0.009
+              ],
+              "ticks": 40
+            },
+            "before": {
+              "block_mm": [
+                148.0,
+                0.0
+              ],
+              "yaw_deg": -30.0,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                133.59,
+                26.21
+              ]
+            },
+            "after": {
+              "block_mm": [
+                149.41,
+                -2.04
+              ],
+              "yaw_deg": -30.19,
+              "block_speed_mm_s": 1.35,
+              "tip_mm": [
+                129.99,
+                12.32
+              ]
+            },
+            "ticks_executed": 40,
+            "contact": {
+              "tip_block_ticks": 29,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 2.48,
+              "rotation_deg": -0.19,
+              "stall": false
+            }
+          },
+          {
+            "turn": 3,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The push barely changed yaw because the tip slipped onto the left face; shift right and downward onto the upper-left corner to generate counterclockwise torque.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.139,
+                0.002
+              ],
+              "ticks": 35
+            },
+            "before": {
+              "block_mm": [
+                149.41,
+                -2.04
+              ],
+              "yaw_deg": -30.19,
+              "block_speed_mm_s": 1.35,
+              "tip_mm": [
+                129.99,
+                12.32
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.64,
+                -7.6
+              ],
+              "yaw_deg": -29.39,
+              "block_speed_mm_s": 5.74,
+              "tip_mm": [
+                137.02,
+                6.46
+              ]
+            },
+            "ticks_executed": 35,
+            "contact": {
+              "tip_block_ticks": 35,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 9.12,
+              "rotation_deg": 0.8,
+              "stall": false
+            }
+          },
+          {
+            "turn": 4,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The contact is translating rather than rotating the block; withdraw above it to obtain a true top-face approach.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.143,
+                0.025
+              ],
+              "ticks": 55
+            },
+            "before": {
+              "block_mm": [
+                156.64,
+                -7.6
+              ],
+              "yaw_deg": -29.39,
+              "block_speed_mm_s": 5.74,
+              "tip_mm": [
+                137.02,
+                6.46
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.7,
+                -7.63
+              ],
+              "yaw_deg": -29.52,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                142.11,
+                24.29
+              ]
+            },
+            "ticks_executed": 55,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.07,
+              "rotation_deg": -0.13,
+              "stall": false
+            }
+          },
+          {
+            "turn": 5,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The upper-left corner is now near x=0.145; approach just to its right so downward contact acts on the top face rather than the end face.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.147,
+                0.003
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                156.7,
+                -7.63
+              ],
+              "yaw_deg": -29.52,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                142.11,
+                24.29
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.76,
+                -10.03
+              ],
+              "yaw_deg": -12.5,
+              "block_speed_mm_s": 0.64,
+              "tip_mm": [
+                147.22,
+                7.43
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 27,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 2.4,
+              "rotation_deg": 17.02,
+              "stall": false
+            }
+          },
+          {
+            "turn": 6,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Top-face contact corrected yaw by 17° with little translation; continue briefly to bring −12.5° nearer horizontal without overshooting.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.147,
+                0.002
+              ],
+              "ticks": 18
+            },
+            "before": {
+              "block_mm": [
+                156.76,
+                -10.03
+              ],
+              "yaw_deg": -12.5,
+              "block_speed_mm_s": 0.64,
+              "tip_mm": [
+                147.22,
+                7.43
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.8,
+                -10.66
+              ],
+              "yaw_deg": -7.06,
+              "block_speed_mm_s": 0.64,
+              "tip_mm": [
+                147.53,
+                5.59
+              ]
+            },
+            "ticks_executed": 18,
+            "contact": {
+              "tip_block_ticks": 18,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.64,
+              "rotation_deg": 5.44,
+              "stall": false
+            }
+          },
+          {
+            "turn": 7,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Yaw is now −7.1° but the block is 10.7 mm below center; withdraw up-left to prepare a separate upward centering push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.125,
+                0.018
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                156.8,
+                -10.66
+              ],
+              "yaw_deg": -7.06,
+              "block_speed_mm_s": 0.64,
+              "tip_mm": [
+                147.53,
+                5.59
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                126.01,
+                16.94
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 3,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.03,
+              "rotation_deg": 0.94,
+              "stall": false
+            }
+          },
+          {
+            "turn": 8,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is clear to the left and yaw settled at −6.1°; move down the clear left corridor to reach the underside.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.125,
+                -0.035
+              ],
+              "ticks": 100
+            },
+            "before": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                126.01,
+                16.94
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                125.55,
+                -33.56
+              ]
+            },
+            "ticks_executed": 100,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 9,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is below the block with clear separation; move beneath its center, slightly rightward to preserve or improve alignment during lifting.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                -0.033
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                125.55,
+                -33.56
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.83,
+                -32.09
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 10,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is beneath the block near its center; push upward to remove the 10.7 mm vertical offset before insertion.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.16,
+                -0.012
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                156.79,
+                -10.69
+              ],
+              "yaw_deg": -6.12,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.83,
+                -32.09
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.69,
+                -1.05
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 1.36,
+              "tip_mm": [
+                158.48,
+                -16.29
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 51,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 9.65,
+              "rotation_deg": 0.41,
+              "stall": false
+            }
+          },
+          {
+            "turn": 11,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block is now only 1 mm below center and yaw is −5.7°; withdraw downward to preserve this insertion-ready pose.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.158,
+                -0.032
+              ],
+              "ticks": 45
+            },
+            "before": {
+              "block_mm": [
+                156.69,
+                -1.05
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 1.36,
+              "tip_mm": [
+                158.48,
+                -16.29
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.27,
+                -30.56
+              ]
+            },
+            "ticks_executed": 45,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.01,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 12,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block remains stationary and aligned after release; move below its left edge to set up the insertion approach.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.126,
+                -0.03
+              ],
+              "ticks": 75
+            },
+            "before": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                158.27,
+                -30.56
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                127.23,
+                -30.84
+              ]
+            },
+            "ticks_executed": 75,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 13,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The left-side corridor is clear; raise the tip to the block's center height for a balanced rightward push.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.126,
+                -0.001
+              ],
+              "ticks": 75
+            },
+            "before": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                127.23,
+                -30.84
+              ]
+            },
+            "after": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                125.61,
+                -1.78
+              ]
+            },
+            "ticks_executed": 75,
+            "contact": {
+              "tip_block_ticks": 0,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.0,
+              "rotation_deg": 0.0,
+              "stall": false
+            }
+          },
+          {
+            "turn": 14,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The tip is behind the left face at the correct height; advance toward the slot and check whether alignment survives first insertion.",
+            "policy_version": 1,
+            "success": false,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.158,
+                -0.001
+              ],
+              "ticks": 80
+            },
+            "before": {
+              "block_mm": [
+                156.69,
+                -1.04
+              ],
+              "yaw_deg": -5.71,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                125.61,
+                -1.78
+              ]
+            },
+            "after": {
+              "block_mm": [
+                179.53,
+                -1.04
+              ],
+              "yaw_deg": -6.71,
+              "block_speed_mm_s": 3.43,
+              "tip_mm": [
+                155.49,
+                -0.1
+              ]
+            },
+            "ticks_executed": 80,
+            "contact": {
+              "tip_block_ticks": 67,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 22.85,
+              "rotation_deg": -1.01,
+              "stall": false
+            }
+          },
+          {
+            "turn": 15,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "The block advanced 22.9 mm without rail contact and remains at −6.7°; continue insertion at the same height until its rear edge clears the entrance.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.185,
+                -0.001
+              ],
+              "ticks": 90
+            },
+            "before": {
+              "block_mm": [
+                179.53,
+                -1.04
+              ],
+              "yaw_deg": -6.71,
+              "block_speed_mm_s": 3.43,
+              "tip_mm": [
+                155.49,
+                -0.1
+              ]
+            },
+            "after": {
+              "block_mm": [
+                207.6,
+                -1.09
+              ],
+              "yaw_deg": -8.12,
+              "block_speed_mm_s": 1.75,
+              "tip_mm": [
+                183.55,
+                0.16
+              ]
+            },
+            "ticks_executed": 90,
+            "contact": {
+              "tip_block_ticks": 90,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 28.07,
+              "rotation_deg": -1.4,
+              "stall": false
+            }
+          },
+          {
+            "turn": 16,
+            "attempt": 1,
+            "op": "use",
+            "ok": true,
+            "note": "Success is true with the block fully inside at −8.1°; retract leftward to release contact and verify a motionless final state.",
+            "policy_version": 1,
+            "success": true,
+            "request": {
+              "op": "use",
+              "goal": [
+                0.177,
+                0
+              ],
+              "ticks": 65
+            },
+            "before": {
+              "block_mm": [
+                207.6,
+                -1.09
+              ],
+              "yaw_deg": -8.12,
+              "block_speed_mm_s": 1.75,
+              "tip_mm": [
+                183.55,
+                0.16
+              ]
+            },
+            "after": {
+              "block_mm": [
+                207.61,
+                -1.09
+              ],
+              "yaw_deg": -8.11,
+              "block_speed_mm_s": 0.0,
+              "tip_mm": [
+                177.24,
+                -0.2
+              ]
+            },
+            "ticks_executed": 65,
+            "contact": {
+              "tip_block_ticks": 1,
+              "block_wall_ticks": 0,
+              "tip_wall_ticks": 0,
+              "displacement_mm": 0.01,
+              "rotation_deg": 0.01,
+              "stall": false
+            }
+          },
+          {
+            "turn": 17,
+            "attempt": 1,
+            "op": "finish",
+            "ok": true,
+            "note": "Success remains true after release: the block is fully inside, yaw is −8.1°, velocity is zero, and pusher contact is clear.",
+            "policy_version": 1,
+            "success": true
+          }
+        ]
+      }
+    }
+  },
+  "physical_replay": {
+    "weights": {
+      "train": {
+        "status": "matched",
+        "snapshots": 21,
+        "ticks": 1090,
+        "artifact": 1
+      },
+      "transfer": {
+        "status": "matched",
+        "snapshots": 8,
+        "ticks": 425,
+        "artifact": 1
+      }
+    },
+    "code": {
+      "train": {
+        "status": "matched",
+        "snapshots": 20,
+        "ticks": 1025,
+        "artifact": 1
+      },
+      "transfer": {
+        "status": "matched",
+        "snapshots": 18,
+        "ticks": 1003,
+        "artifact": 1
+      }
+    }
+  },
+  "fixed_action_transfer_ablation": {
+    "weights": {
+      "status": "skipped",
+      "reason": "no accepted revision to compare"
+    },
+    "code": {
+      "status": "skipped",
+      "reason": "no accepted revision to compare"
+    }
+  }
+}

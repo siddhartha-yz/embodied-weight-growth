@@ -1,0 +1,1608 @@
+{
+  "config": {
+    "layer": 13,
+    "gain": 0.35,
+    "cap": 0.2,
+    "early_replans": 16,
+    "cases": [
+      [
+        2,
+        "bottle"
+      ],
+      [
+        3,
+        "bowl"
+      ]
+    ],
+    "n_action_steps": 10,
+    "same_recipient_vision_and_state": true,
+    "same_noise_for_intended_alternate_and_intervention": true,
+    "alignment": "common content suffix after changed noun, exact token IDs; position offsets may differ"
+  },
+  "cases": [
+    {
+      "baseline": {
+        "init_index": 2,
+        "seed": 1002,
+        "goal": "bottle",
+        "instruction": "put the wine bottle on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bowl",
+        "first_grasp_step": 63,
+        "first_lift": "bowl",
+        "first_lift_step": 65,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": null,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": false
+      },
+      "candidate": {
+        "init_index": 2,
+        "seed": 1002,
+        "goal": "bottle",
+        "instruction": "put the wine bottle on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bowl",
+        "first_grasp_step": 65,
+        "first_lift": "bowl",
+        "first_lift_step": 67,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": null,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": false
+      },
+      "baseline_initial_state_bitwise_equal": true,
+      "baseline_first_stock_action_max_abs_error": 0.0,
+      "alternate_instruction": "put the bowl on top of the cabinet",
+      "replans": [
+        {
+          "replan": 0,
+          "step": 0,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13526435442161097,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.20360824465751648,
+          "patched_action_rms": 0.000790896825492382,
+          "first_replan_sham_bitwise_equal": true,
+          "first_replan_base_actions": [
+            [
+              0.017872050404548645,
+              0.054722875356674194,
+              0.05380254238843918,
+              -0.005850157234817743,
+              0.010719379410147667,
+              -0.012873196974396706,
+              -1.0120121240615845
+            ],
+            [
+              0.03053831309080124,
+              0.007466599345207214,
+              0.010919809341430664,
+              -0.00032264087349176407,
+              0.04621703177690506,
+              -0.014256072230637074,
+              -1.013956069946289
+            ],
+            [
+              0.1258571594953537,
+              0.060475632548332214,
+              0.003729395568370819,
+              -0.0009150559199042618,
+              0.10021298378705978,
+              -0.012025824747979641,
+              -1.007116675376892
+            ],
+            [
+              0.14113163948059082,
+              0.02502094954252243,
+              -0.020966537296772003,
+              -0.0008216209826059639,
+              0.1177268996834755,
+              -0.015963677316904068,
+              -1.0087584257125854
+            ],
+            [
+              0.24799251556396484,
+              -0.014474481344223022,
+              -0.037812490016222,
+              -0.0018248436972498894,
+              0.16455164551734924,
+              -0.012838230468332767,
+              -0.9982972145080566
+            ],
+            [
+              0.2629269063472748,
+              -0.06985725462436676,
+              -0.04174410179257393,
+              -0.0014721325132995844,
+              0.18668265640735626,
+              -0.010146358981728554,
+              -1.013601303100586
+            ],
+            [
+              0.34101077914237976,
+              -0.15565426647663116,
+              -0.04751143604516983,
+              0.0005882976111024618,
+              0.20674970746040344,
+              -0.003848718013614416,
+              -0.9912522435188293
+            ],
+            [
+              0.38815808296203613,
+              -0.19847699999809265,
+              -0.08254856616258621,
+              0.002678755670785904,
+              0.21949942409992218,
+              -0.0037486464716494083,
+              -1.0052645206451416
+            ],
+            [
+              0.3751334846019745,
+              -0.2640889585018158,
+              -0.14784598350524902,
+              0.005141946952790022,
+              0.19556254148483276,
+              -0.0017915938515216112,
+              -1.0190166234970093
+            ],
+            [
+              0.3291143774986267,
+              -0.28364041447639465,
+              -0.20122861862182617,
+              0.0024988320656120777,
+              0.17543596029281616,
+              0.001204825472086668,
+              -1.0195306539535522
+            ]
+          ]
+        },
+        {
+          "replan": 1,
+          "step": 10,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.12420598439408004,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.22730986773967743,
+          "patched_action_rms": 0.0011468271259218454,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 2,
+          "step": 20,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.11346218157309416,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.12083307653665543,
+          "patched_action_rms": 0.0011137777473777533,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 3,
+          "step": 30,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.10205624664337068,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1116914376616478,
+          "patched_action_rms": 0.0013738704146817327,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 4,
+          "step": 40,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.1002967286575095,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.3534795939922333,
+          "patched_action_rms": 0.0008036592626012862,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 5,
+          "step": 50,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.0900202845419631,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.07864672690629959,
+          "patched_action_rms": 0.0007655350491404533,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 6,
+          "step": 60,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.09426123739190907,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.09802228212356567,
+          "patched_action_rms": 0.0008842410170473158,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 7,
+          "step": 70,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.09345669706744723,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.12193923443555832,
+          "patched_action_rms": 0.0009330266038887203,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 8,
+          "step": 80,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.09113708446657655,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1759043037891388,
+          "patched_action_rms": 0.0014160032151266932,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 9,
+          "step": 90,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.08759411920786542,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1619621366262436,
+          "patched_action_rms": 0.0017248267540708184,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 10,
+          "step": 100,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.09165161533206123,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.10640163719654083,
+          "patched_action_rms": 0.002380077727138996,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 11,
+          "step": 110,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.0898684356818944,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.042692143470048904,
+          "patched_action_rms": 0.0006408379413187504,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 12,
+          "step": 120,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.09019016417025652,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.02342335134744644,
+          "patched_action_rms": 0.0007011765264905989,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 13,
+          "step": 130,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.08703709794078995,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1787588894367218,
+          "patched_action_rms": 0.0007448391988873482,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 14,
+          "step": 140,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.08784578104892457,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1382708102464676,
+          "patched_action_rms": 0.0011482188710942864,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 15,
+          "step": 150,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "alternate_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.08698475859877976,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.11062659323215485,
+          "patched_action_rms": 0.0011506342561915517,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        }
+      ]
+    },
+    {
+      "baseline": {
+        "init_index": 3,
+        "seed": 1003,
+        "goal": "bowl",
+        "instruction": "put the bowl on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bottle",
+        "first_grasp_step": 129,
+        "first_lift": "bottle",
+        "first_lift_step": 134,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": 155,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": true
+      },
+      "candidate": {
+        "init_index": 3,
+        "seed": 1003,
+        "goal": "bowl",
+        "instruction": "put the bowl on top of the cabinet",
+        "layout": "swap_xy",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bottle",
+        "first_grasp_step": 129,
+        "first_lift": "bottle",
+        "first_lift_step": 134,
+        "wrong_object_lifted_first": true,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": 159,
+        "success": false,
+        "wrong_object_first": true,
+        "completed_other_goal": true
+      },
+      "baseline_initial_state_bitwise_equal": true,
+      "baseline_first_stock_action_max_abs_error": 0.0,
+      "alternate_instruction": "put the wine bottle on top of the cabinet",
+      "replans": [
+        {
+          "replan": 0,
+          "step": 0,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.1347610947062423,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.19993484020233154,
+          "patched_action_rms": 0.0009009583154693246,
+          "first_replan_sham_bitwise_equal": true,
+          "first_replan_base_actions": [
+            [
+              0.09196169674396515,
+              -0.00572541356086731,
+              -0.09833549708127975,
+              -0.0004912831936962903,
+              -0.02387753129005432,
+              -0.009003679268062115,
+              -0.993341326713562
+            ],
+            [
+              0.2086150348186493,
+              0.08774165064096451,
+              -0.10151109099388123,
+              -0.0037102778442204,
+              -0.016202334314584732,
+              -0.005160695873200893,
+              -0.9759014248847961
+            ],
+            [
+              0.3208451569080353,
+              0.12392336130142212,
+              -0.10825633257627487,
+              -0.0008708402165211737,
+              -0.015230945311486721,
+              -0.010132614523172379,
+              -0.9831457734107971
+            ],
+            [
+              0.4830314815044403,
+              0.11007197946310043,
+              -0.11480171978473663,
+              -0.005621330346912146,
+              -0.010308717377483845,
+              -0.015872754156589508,
+              -0.9866012930870056
+            ],
+            [
+              0.6578230261802673,
+              0.15891911089420319,
+              -0.17956367135047913,
+              -0.037418968975543976,
+              -0.009156794287264347,
+              -0.007867798209190369,
+              -0.9829763174057007
+            ],
+            [
+              0.7551603317260742,
+              0.179952934384346,
+              -0.21338573098182678,
+              -0.037324436008930206,
+              -0.01361087430268526,
+              -0.009564822539687157,
+              -0.9763022065162659
+            ],
+            [
+              0.841655433177948,
+              0.16033881902694702,
+              -0.2336566150188446,
+              -0.03641496226191521,
+              -0.006677785888314247,
+              -0.010515998117625713,
+              -0.9878240823745728
+            ],
+            [
+              0.8773565888404846,
+              0.14614729583263397,
+              -0.27216020226478577,
+              -0.04335302487015724,
+              -0.006892534904181957,
+              -0.013925479725003242,
+              -0.985069990158081
+            ],
+            [
+              0.9205455780029297,
+              0.11367332190275192,
+              -0.33263492584228516,
+              -0.04354941099882126,
+              -0.004157910123467445,
+              -0.016136249527335167,
+              -0.9935494065284729
+            ],
+            [
+              0.9156050682067871,
+              0.07343404740095139,
+              -0.3923700749874115,
+              -0.03189236670732498,
+              -0.001667703501880169,
+              -0.018904555588960648,
+              -0.9991673827171326
+            ]
+          ]
+        },
+        {
+          "replan": 1,
+          "step": 10,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.1196014145104856,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1726626753807068,
+          "patched_action_rms": 0.0016463318606838584,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 2,
+          "step": 20,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.11967103026963341,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.10358437150716782,
+          "patched_action_rms": 0.00098960823379457,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 3,
+          "step": 30,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13023804038921127,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.2553102672100067,
+          "patched_action_rms": 0.0015276919584721327,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 4,
+          "step": 40,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13656728582237807,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.08809249848127365,
+          "patched_action_rms": 0.000876078091096133,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 5,
+          "step": 50,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13954907440441666,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.09237366169691086,
+          "patched_action_rms": 0.0011389190331101418,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 6,
+          "step": 60,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13773907549527936,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.08658307790756226,
+          "patched_action_rms": 0.001205147011205554,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 7,
+          "step": 70,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.14299113770552146,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.08435332775115967,
+          "patched_action_rms": 0.0013441912597045302,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 8,
+          "step": 80,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.15098380151671434,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.08209577947854996,
+          "patched_action_rms": 0.0009622763027437031,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 9,
+          "step": 90,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.15489732389232963,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.25614768266677856,
+          "patched_action_rms": 0.0012999210739508271,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 10,
+          "step": 100,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.15977130696846387,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.07082408666610718,
+          "patched_action_rms": 0.0016430680407211185,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 11,
+          "step": 110,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.1652777921905789,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.3748295307159424,
+          "patched_action_rms": 0.0017045061103999615,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 12,
+          "step": 120,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.16886581677553703,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.27132466435432434,
+          "patched_action_rms": 0.0019433220149949193,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 13,
+          "step": 130,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.15514502949268347,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.09380986541509628,
+          "patched_action_rms": 0.0012329659657552838,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 14,
+          "step": 140,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.13873934764588083,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.1316257268190384,
+          "patched_action_rms": 0.0009432330261915922,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        },
+        {
+          "replan": 15,
+          "step": 150,
+          "layer": 13,
+          "matched_token_ids": [
+            335,
+            1466,
+            282,
+            260,
+            19565
+          ],
+          "matched_tokens": [
+            "Ġon",
+            "Ġtop",
+            "Ġof",
+            "Ġthe",
+            "Ġcabinet"
+          ],
+          "intended_token_indices": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "alternate_token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nominal_gain": 0.35,
+          "effective_gain": 0.35,
+          "relative_value_delta_l2": 0.10043180735473757,
+          "projection_calls": 10,
+          "alternate_action_rms": 0.213241845369339,
+          "patched_action_rms": 0.0021873796358704567,
+          "first_replan_sham_bitwise_equal": null,
+          "first_replan_base_actions": null
+        }
+      ]
+    }
+  ]
+}

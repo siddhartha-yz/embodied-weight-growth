@@ -1,0 +1,18 @@
+{
+  "backend": "robodojo_xpl_rgb",
+  "env_steps": 469,
+  "environment_success": true,
+  "max_episode_steps": 700,
+  "tool_turns": 1,
+  "status": "completed",
+  "seed": 0,
+  "task": "arrange_largest_number",
+  "offline_replay": {
+    "model": "offline-program",
+    "requests": 1,
+    "tool_calls": {
+      "python": 1
+    },
+    "total_tokens": 0
+  }
+}

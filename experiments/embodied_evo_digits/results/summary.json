@@ -1,0 +1,61 @@
+{
+  "framework_commit": "689a09b4",
+  "model": "gpt-6-astra",
+  "interface": "Codex SDK",
+  "task": "arrange_largest_number",
+  "scenes": {
+    "playground": {
+      "score": 15.0,
+      "success": false,
+      "native_steps_final_attempt": 1003,
+      "native_steps_total": 1971,
+      "execution_slots_used": 39,
+      "placement_count": 2,
+      "score_gradient": [
+        5,
+        15,
+        30,
+        100
+      ],
+      "gated_score": 15.0
+    },
+    "frozen_skill": {
+      "score": 30.0,
+      "success": false,
+      "native_steps_final_attempt": 1050,
+      "native_steps_total": 1050,
+      "execution_slots_used": 21,
+      "placement_count": 4,
+      "score_gradient": [
+        5,
+        15,
+        30,
+        100
+      ],
+      "gated_score": 30.0
+    },
+    "no_skill": {
+      "score": 30.0,
+      "success": false,
+      "native_steps_final_attempt": 1050,
+      "native_steps_total": 1050,
+      "execution_slots_used": 21,
+      "placement_count": 3,
+      "score_gradient": [
+        5,
+        15,
+        30,
+        100
+      ],
+      "gated_score": 30.0
+    }
+  },
+  "heldout_protocol": {
+    "scene_index": 0,
+    "env_task": "arrange_largest_number",
+    "variant": "standard",
+    "seed": 1,
+    "bank": 0,
+    "layout_ordinal": 1
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "turn": 3,
+  "spec": {
+    "layers": [
+      {
+        "rows": [
+          {
+            "terms": [
+              {
+                "feature": 6,
+                "coef": -0.12
+              },
+              {
+                "feature": 12,
+                "coef": -0.008
+              },
+              {
+                "feature": 20,
+                "coef": -0.018
+              },
+              {
+                "feature": 2,
+                "coef": -0.18
+              },
+              {
+                "feature": 5,
+                "coef": -0.025
+              }
+            ],
+            "bias": -0.012
+          },
+          {
+            "terms": [
+              {
+                "feature": 7,
+                "coef": -0.15
+              },
+              {
+                "feature": 13,
+                "coef": -0.008
+              },
+              {
+                "feature": 20,
+                "coef": -0.025
+              }
+            ],
+            "bias": -0.03
+          },
+          {
+            "terms": [
+              {
+                "feature": 8,
+                "coef": -0.1
+              },
+              {
+                "feature": 14,
+                "coef": -0.006
+              },
+              {
+                "feature": 2,
+                "coef": 0.08
+              },
+              {
+                "feature": 5,
+                "coef": 0.01
+              }
+            ],
+            "bias": 0
+          },
+          {
+            "terms": [
+              {
+                "feature": 9,
+                "coef": -0.12
+              },
+              {
+                "feature": 15,
+                "coef": -0.008
+              },
+              {
+                "feature": 20,
+                "coef": 0.018
+              },
+              {
+                "feature": 2,
+                "coef": -0.18
+              },
+              {
+                "feature": 5,
+                "coef": -0.025
+              }
+            ],
+            "bias": -0.012
+          },
+          {
+            "terms": [
+              {
+                "feature": 10,
+                "coef": -0.15
+              },
+              {
+                "feature": 16,
+                "coef": -0.008
+              },
+              {
+                "feature": 20,
+                "coef": 0.025
+              }
+            ],
+            "bias": -0.03
+          },
+          {
+            "terms": [
+              {
+                "feature": 11,
+                "coef": -0.1
+              },
+              {
+                "feature": 17,
+                "coef": -0.006
+              },
+              {
+                "feature": 2,
+                "coef": 0.08
+              },
+              {
+                "feature": 5,
+                "coef": 0.01
+              }
+            ],
+            "bias": 0
+          }
+        ]
+      }
+    ]
+  }
+}

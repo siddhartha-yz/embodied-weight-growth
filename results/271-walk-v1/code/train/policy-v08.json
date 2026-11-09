@@ -1,0 +1,5 @@
+{
+  "version": 8,
+  "turn": 23,
+  "spec": "def policy(obs, goal):\n    p=obs['pitch']\n    s=sin(7*obs['t'])\n    a=min(1,obs['t']/0.5)\n    b=-0.7*(p+0.35*a)-0.025*obs['pitch_v']\n    r=max(0,s)*a\n    l=max(0,-s)*a\n    h0=0.7*(min(0,p+0.3)-obs['q0'])-0.018*obs['dq0']\n    h1=0.7*(min(0,p+0.3)-obs['q3'])-0.018*obs['dq3']\n    f0=0.5*sin(obs['q0']-p)+0.5*sin(obs['q0']-p+obs['q1'])\n    f1=0.5*sin(obs['q3']-p)+0.5*sin(obs['q3']-p+obs['q4'])\n    an0=0.8*f0-0.3*obs['vx']+0.1\n    an1=0.8*f1-0.3*obs['vx']+0.1\n    if s>0:\n        h1=2*b-h0\n        an0=0.3*(p-obs['q0']-obs['q1']-obs['q2'])\n    else:\n        h0=2*b-h1\n        an1=0.3*(p-obs['q3']-obs['q4']-obs['q5'])\n    return [h0,0.8*(-0.08-0.9*r-obs['q1'])-0.022*obs['dq1'],an0-0.01*obs['dq2'],h1,0.8*(-0.08-0.9*l-obs['q4'])-0.022*obs['dq4'],an1-0.01*obs['dq5']]"
+}

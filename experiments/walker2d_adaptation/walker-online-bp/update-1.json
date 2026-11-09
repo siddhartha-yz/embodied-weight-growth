@@ -1,0 +1,12 @@
+{
+  "action": "update",
+  "block": "head",
+  "reason": "Codex SDK decision, see local audit",
+  "optimizer_steps": 12,
+  "proposal_scale": 1.0,
+  "batch_action_delta_rms": 0.002660845301737747,
+  "batch_action_delta_peak": 0.011255899868664918,
+  "old_floor_rms_change_this_update": 0.002865301881771317,
+  "changed_parameters": 150,
+  "lab_seconds": 0.9836386572569609
+}

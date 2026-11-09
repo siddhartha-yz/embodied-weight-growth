@@ -1,0 +1,29 @@
+{
+  "note": "Largest number: 8720, with pads p0–p3 ordered left to right.",
+  "transfers": [
+    {
+      "source": "d1",
+      "pad": "p0",
+      "digit": 8,
+      "arm": "left"
+    },
+    {
+      "source": "d2",
+      "pad": "p1",
+      "digit": 7,
+      "arm": "left"
+    },
+    {
+      "source": "d3",
+      "pad": "p2",
+      "digit": 2,
+      "arm": "right"
+    },
+    {
+      "source": "d0",
+      "pad": "p3",
+      "digit": 0,
+      "arm": "left"
+    }
+  ]
+}

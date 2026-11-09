@@ -1,0 +1,5 @@
+{
+  "version": 3,
+  "turn": 8,
+  "spec": "def policy(obs, goal):\n    s = sin(8*obs['t'])\n    r = max(0,s)\n    l = max(0,-s)\n    b = -0.3*(obs['pitch']-0.02)-0.018*obs['pitch_v']\n    hr = -0.16+0.16*s\n    hl = -0.16-0.16*s\n    kr = -0.04-0.55*r\n    kl = -0.04-0.55*l\n    return [0.5*(hr-obs['q0'])-0.018*obs['dq0']+b, 0.6*(kr-obs['q1'])-0.025*obs['dq1'], 0.3*(0.1-obs['q2'])-0.012*obs['dq2'], 0.5*(hl-obs['q3'])-0.018*obs['dq3']+b, 0.6*(kl-obs['q4'])-0.025*obs['dq4'], 0.3*(0.1-obs['q5'])-0.012*obs['dq5']]"
+}

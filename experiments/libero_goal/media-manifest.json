@@ -1,0 +1,50 @@
+[
+  {
+    "id": "libero-goal-wrong-placement",
+    "title": "只交换位置，同一句放碗指令却放错",
+    "description": "init 003：原布局 4.10 秒放碗达标；位置互换后 6.70 秒抬起酒瓶，7.75 秒满足酒瓶上柜谓词。",
+    "video": "media/libero-goal-wrong-placement.mp4",
+    "poster": "media/libero-goal-wrong-placement.png",
+    "featured": true
+  },
+  {
+    "id": "libero-goal-paired-layouts",
+    "title": "两条指令 × 两种布局",
+    "description": "init 002：原布局两种指令均达标；交换后两条都失败，放酒瓶指令先抬错碗。",
+    "video": "media/libero-goal-paired-layouts.mp4",
+    "poster": "media/libero-goal-paired-layouts.png",
+    "featured": false
+  },
+  {
+    "id": "libero-goal-activation-vs-prompt",
+    "title": "选物和搬运分开看",
+    "description": "同一交换开局：原版抬错碗，第 13 层语言激活替换没抬物体，改提示词抬对酒瓶；三组均没达到酒瓶上柜目标。",
+    "video": "media/libero-goal-activation-vs-prompt.mp4",
+    "poster": "media/libero-goal-activation-vs-prompt.png",
+    "featured": true
+  },
+  {
+    "id": "libero-goal-prompt-switch",
+    "title": "抓起酒瓶后切回原指令",
+    "description": "第 81 步切回原指令，第 106 步在柜边开爪，下一步失去酒瓶接触。最终仍未达标。",
+    "video": "media/libero-goal-prompt-switch.mp4",
+    "poster": "media/libero-goal-prompt-switch.png",
+    "featured": false
+  },
+  {
+    "id": "libero-goal-recipient-contrast-init-002-bottle",
+    "title": "同观测激活对比：放酒瓶",
+    "description": "init 002：第 13 层对比干预后，还是先抬错碗，未完成酒瓶目标。",
+    "video": "media/libero-goal-recipient-contrast-init-002-bottle.mp4",
+    "poster": "media/libero-goal-recipient-contrast.png",
+    "featured": false
+  },
+  {
+    "id": "libero-goal-recipient-contrast-init-003-bowl",
+    "title": "同观测激活对比：放碗",
+    "description": "init 003：第 13 层对比干预后，还是把酒瓶而非碗送上柜顶。",
+    "video": "media/libero-goal-recipient-contrast-init-003-bowl.mp4",
+    "poster": "media/libero-goal-recipient-contrast.png",
+    "featured": false
+  }
+]

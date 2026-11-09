@@ -1,0 +1,111 @@
+{
+  "state": {
+    "ok": true,
+    "state": {
+      "q": [
+        0.6683682644930884,
+        -1.5800287315815018
+      ],
+      "dq": [
+        0.005332451119760882,
+        -0.007495044877513803
+      ],
+      "tip": [
+        0.17724448244838142,
+        -0.00019852912376332188
+      ],
+      "block": [
+        0.20761455643744017,
+        -0.0010948730768346605
+      ],
+      "block_angle": [
+        0.9900005718737012,
+        -0.14106334637227588
+      ],
+      "block_v": [
+        1.5252699558470615e-17,
+        -1.6890429454290543e-18
+      ],
+      "contact": [
+        0.0,
+        0.0
+      ],
+      "tip_v": [
+        -0.0006627169248221709,
+        0.00044692008812005635
+      ],
+      "prev_u": [
+        0.001916246333110576,
+        -0.0020215455959718062
+      ],
+      "prev2_u": [
+        0.0020124096162103073,
+        -0.002131645394825761
+      ]
+    },
+    "trace": [],
+    "samples": [],
+    "contact_summary": {
+      "tip_block_ticks": 0,
+      "block_wall_ticks": 0,
+      "tip_wall_ticks": 0,
+      "block_displacement_m": 0.0,
+      "block_rotation_deg": 0.0,
+      "stall": false
+    },
+    "attempt": 1,
+    "policy_version": 1,
+    "policy_frozen": true,
+    "finished": true,
+    "success": true,
+    "dt": 0.02,
+    "scene": {
+      "name": "transfer",
+      "units": "m",
+      "x": [
+        0.08,
+        0.247
+      ],
+      "y": [
+        -0.095,
+        0.095
+      ],
+      "block_size": [
+        0.038,
+        0.02
+      ],
+      "rails": [
+        [
+          0.183,
+          -0.025,
+          0.246,
+          -0.0145
+        ],
+        [
+          0.183,
+          0.0145,
+          0.246,
+          0.025
+        ]
+      ],
+      "target": [
+        0.183,
+        -0.0145,
+        0.24,
+        0.0145
+      ],
+      "pusher_radius": 0.005,
+      "max_alignment_deg": 9.0,
+      "max_settled_block_speed_m_s": 0.014
+    },
+    "meters": {
+      "moves_used": 16,
+      "moves_left": 20,
+      "ticks_used": 1003,
+      "ticks_left": 1397,
+      "max_ticks_per_move": 100
+    }
+  },
+  "decisions": 17,
+  "stop": "agent_finished"
+}

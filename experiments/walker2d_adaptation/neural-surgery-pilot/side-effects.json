@@ -1,0 +1,69 @@
+{
+  "differences": [
+    [
+      [
+        2,
+        6,
+        2
+      ],
+      0.20279745757579803,
+      0.10279746
+    ],
+    [
+      [
+        2,
+        6,
+        3
+      ],
+      -0.26858773827552795,
+      -0.16858774
+    ]
+  ],
+  "measured_torque_units": "normalized [-1, 1], same logged unedited state on both policies",
+  "nominal": {
+    "before_problem_interval": {
+      "states": 45,
+      "rms": 0.0017967979143909325,
+      "peak_abs": 0.021754914296894745,
+      "peak_time_s": 0.8800000000000007,
+      "peak_joint": "left_hip"
+    },
+    "during_problem_interval": {
+      "states": 26,
+      "rms": 0.042676836264660636,
+      "peak_abs": 0.08964421236099956,
+      "peak_time_s": 0.9400000000000007,
+      "peak_joint": "left_hip"
+    },
+    "after_problem_interval": {
+      "states": 180,
+      "rms": 4.6244466083373243e-07,
+      "peak_abs": 7.90558502505867e-06,
+      "peak_time_s": 1.460000000000001,
+      "peak_joint": "left_hip"
+    }
+  },
+  "target": {
+    "before_problem_interval": {
+      "states": 45,
+      "rms": 0.007541449472500083,
+      "peak_abs": 0.08572566335654974,
+      "peak_time_s": 0.8800000000000007,
+      "peak_joint": "left_hip"
+    },
+    "during_problem_interval": {
+      "states": 26,
+      "rms": 0.04108754507408183,
+      "peak_abs": 0.08959653046841609,
+      "peak_time_s": 0.9000000000000007,
+      "peak_joint": "left_hip"
+    },
+    "after_problem_interval": {
+      "states": 33,
+      "rms": 0.0014723099586898376,
+      "peak_abs": 0.015162151872344098,
+      "peak_time_s": 1.420000000000001,
+      "peak_joint": "left_hip"
+    }
+  }
+}

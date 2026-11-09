@@ -1,0 +1,49 @@
+{
+  "note": "Largest number: 8720. Execute sequentially, parking the inactive arm clear. For the final d0 crossover, use a near-central left-to-right handoff; retract the left arm before right-arm placement.",
+  "transfers": [
+    {
+      "source": "d1",
+      "pad": "p0",
+      "digit": 8,
+      "arm": "left",
+      "grasp_uv": [
+        187,
+        285
+      ],
+      "turn_deg": 25
+    },
+    {
+      "source": "d2",
+      "pad": "p1",
+      "digit": 7,
+      "arm": "left",
+      "grasp_uv": [
+        223,
+        241
+      ],
+      "turn_deg": 30
+    },
+    {
+      "source": "d3",
+      "pad": "p2",
+      "digit": 2,
+      "arm": "right",
+      "grasp_uv": [
+        446,
+        276
+      ],
+      "turn_deg": 30
+    },
+    {
+      "source": "d0",
+      "pad": "p3",
+      "digit": 0,
+      "arm": "left",
+      "grasp_uv": [
+        139,
+        233
+      ],
+      "turn_deg": 45
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "calibration": [
+    {
+      "seed": 96093052,
+      "push_step": 696,
+      "lateral_impulse_ns": 110.0
+    },
+    {
+      "seed": 96987856,
+      "push_step": 684,
+      "lateral_impulse_ns": -110.0
+    },
+    {
+      "seed": 102155995,
+      "push_step": 298,
+      "lateral_impulse_ns": 110.0
+    },
+    {
+      "seed": 133463412,
+      "push_step": 220,
+      "lateral_impulse_ns": -110.0
+    },
+    {
+      "seed": 41887660,
+      "push_step": 470,
+      "lateral_impulse_ns": 110.0
+    },
+    {
+      "seed": 65011044,
+      "push_step": 418,
+      "lateral_impulse_ns": -110.0
+    }
+  ],
+  "train": [
+    {
+      "seed": 256600576,
+      "push_step": 752,
+      "lateral_impulse_ns": -99.0
+    },
+    {
+      "seed": 164833838,
+      "push_step": 722,
+      "lateral_impulse_ns": 99.0
+    },
+    {
+      "seed": 179192562,
+      "push_step": 172,
+      "lateral_impulse_ns": -110.0
+    },
+    {
+      "seed": 238388692,
+      "push_step": 172,
+      "lateral_impulse_ns": 110.0
+    }
+  ],
+  "holdout": [
+    {
+      "seed": 307769256,
+      "push_step": 252,
+      "lateral_impulse_ns": 115.5
+    },
+    {
+      "seed": 324055869,
+      "push_step": 294,
+      "lateral_impulse_ns": -115.5
+    },
+    {
+      "seed": 388463732,
+      "push_step": 606,
+      "lateral_impulse_ns": 104.5
+    },
+    {
+      "seed": 347028059,
+      "push_step": 610,
+      "lateral_impulse_ns": -104.5
+    },
+    {
+      "seed": 328900210,
+      "push_step": 664,
+      "lateral_impulse_ns": 115.5
+    },
+    {
+      "seed": 402641217,
+      "push_step": 606,
+      "lateral_impulse_ns": -115.5
+    },
+    {
+      "seed": 355826735,
+      "push_step": 424,
+      "lateral_impulse_ns": 104.5
+    },
+    {
+      "seed": 378454450,
+      "push_step": 418,
+      "lateral_impulse_ns": -104.5
+    },
+    {
+      "seed": 312544095,
+      "push_step": 816,
+      "lateral_impulse_ns": 104.5
+    },
+    {
+      "seed": 301941314,
+      "push_step": 788,
+      "lateral_impulse_ns": -104.5
+    },
+    {
+      "seed": 384049900,
+      "push_step": 260,
+      "lateral_impulse_ns": 104.5
+    },
+    {
+      "seed": 360828660,
+      "push_step": 284,
+      "lateral_impulse_ns": -104.5
+    }
+  ],
+  "nominal_train": [
+    {
+      "seed": 508241955,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 442357625,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    }
+  ],
+  "nominal_holdout": [
+    {
+      "seed": 668040485,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 541804519,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 540259377,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 644070457,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 666678702,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    },
+    {
+      "seed": 610557047,
+      "push_step": null,
+      "lateral_impulse_ns": 0.0
+    }
+  ]
+}

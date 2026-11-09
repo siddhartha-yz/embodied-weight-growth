@@ -1,0 +1,37 @@
+[task]
+protocol = "workspace-session-v1"
+name = "embodiedevo/humanoidbench-walk-wsp-pilot"
+description = "Learn to walk forward on HumanoidBench H1 from joint I/O."
+
+[workspace]
+source = "Workspace"
+
+[simulator]
+backend = "humanoidbench"
+interpreter = "python3"
+api_surface = "HumanoidBenchLowLevelApi"
+env_task = "h1-walk-v0"
+
+[agent]
+preset = "codex"
+model = "gpt-6-astra"
+reasoning_effort = "high"
+timeout_sec = 900
+isolation = "docker"
+image = "embodiedevo-agent:latest"
+network = "filtered"
+cpus = 4
+memory_mb = 8192
+
+[playground]
+seed = 0
+budget = 24
+submission_timeout_sec = 60
+feedback_fps = 50
+expose_success_feedback = true
+
+[test]
+scenes = 1
+budget = 24
+generation_timeout_sec = 900
+submission_timeout_sec = 60

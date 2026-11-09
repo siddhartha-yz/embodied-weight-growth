@@ -1,0 +1,62 @@
+{
+  "selected_case": 11,
+  "seed": 384049900,
+  "fixed_only": [
+    {
+      "case": 11,
+      "seed": 384049900,
+      "eligible": true,
+      "fixed_down": null,
+      "first": {
+        "target_s": 4.3,
+        "reference": [
+          2.121065501234441,
+          0.7453318910418051,
+          -34.96224936622385
+        ],
+        "observed": [
+          2.1636645006212314,
+          0.8022175818215538,
+          -14.737931039603266
+        ],
+        "recovered_and_stayed_up": false,
+        "vx_error_mps": 0.04259899938679057,
+        "vy_error_mps": 0.0568856907797487,
+        "yaw_error_deg": 20.22431832662059
+      },
+      "second": {
+        "target_s": 30.1,
+        "reference": [
+          1.206671857405236,
+          0.8972956485251059,
+          63.01083126008715
+        ],
+        "observed": [
+          2.054113053850925,
+          0.6332255232619424,
+          37.64445840105394
+        ],
+        "recovered_and_stayed_up": false,
+        "vx_error_mps": 0.8474411964456892,
+        "vy_error_mps": -0.26407012526316354,
+        "yaw_error_deg": -25.36637285903322
+      }
+    }
+  ],
+  "pulses": [
+    {
+      "push_step": 110,
+      "lateral_impulse_ns": 104.5,
+      "start_s": 2.2,
+      "end_s": 2.3000000000000003,
+      "target_s": 4.3
+    },
+    {
+      "push_step": 1400,
+      "lateral_impulse_ns": 104.5,
+      "start_s": 28.0,
+      "end_s": 28.1,
+      "target_s": 30.1
+    }
+  ]
+}

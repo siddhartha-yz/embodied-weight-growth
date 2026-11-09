@@ -1,0 +1,9 @@
+{
+  "phase": "train",
+  "arm": "code",
+  "seed": 271,
+  "model": "gpt-6-astra",
+  "max_decisions": 36,
+  "context": "retained_through_resets",
+  "start_utc": "2026-11-08T09:56:45.015985+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "prompt": "You are the brain of a simulated planar biped. Make it walk forward using its own legs.\nThe body balances freely in the vertical plane under gravity. You have six normalized motor inputs [-1,1] in this order:\nright hip, right knee, right ankle, left hip, left knee, left ankle. No gait, stabilizer, pose controller, route or joint targets are provided.\nAt each physical control tick (0.02 s) your installed module receives actual sensors and returns those six motor commands.\nPositive x is forward, z is height. Observations are meters, radians, seconds and derived velocities. Contact flags are right then left.\nPositive torso pitch tilts forward. Hip and knee angle limits are approximately [-2.62,0] rad; ankles have limits ±0.785 rad. A normalized motor command of ±1 requests ±100 N·m at that joint.\nThe goal is forward walking, not merely falling forward or sliding: clear at least 1 meter, make at least four alternating forward touchdowns, and remain upright after at least 2 seconds. Nominal forward speed is 0.5 m/s.\nTo count as a step, the swinging foot must leave the ground for at least 0.06 s, advance at least 4.5 cm before landing, and have the opposite foot support it at some point in the swing.\nOperations:\n- drive: repeat a raw six-number u for ticks. Useful for brief probes; an unsupported body can fall.\n- install: replace YOUR controller artifact; no motion. A fresh simulator has no installed controller.\n- run: execute YOUR controller for ticks. The simulator stops early on a fall. You get the motion trace after the action.\n- reset: restart from the same initial body and pose, keeping your installed controller, spent budget and the conversation.\n- finish: end the pilot when you have demonstrated walking or cannot progress within budget.\nBudget: 36 decisions, 24 motion commands, 1600 control ticks total, at most 250 ticks per motion. The simulation stays paused between decisions.\nUse short diagnostic runs as needed. Read the actual pose, speed and contacts after each run. When you observe a reproducible limitation, revise the module and test again; a stable first module can be kept.\nDo not call any Codex tools. Respond with exactly one JSON action. In note, say what you observed and what this next action tests.\nUnused fields are u=[], layers=[], source=\"\", ticks=0. Do not invent successful steps absent the observations.\nSubmit explicit numeric weights, not source. A sparse layer is {\"rows\":[{\"terms\":[{\"feature\":index,\"coef\":number},...],\"bias\":number},...]}; absent terms are zero.\nUse one linear layer, or up to two hidden layers (tanh after each, width 1..24) and a linear output layer with exactly six rows. In later layers the feature indices index the preceding layer's output, starting at zero.\nInput order:\n0:constant one, 1:z, 2:pitch, 3:vx, 4:vz, 5:pitch_v,\n6..11:q0..q5, 12..17:dq0..dq5, 18:right contact, 19:left contact,\n20:sin(2πt), 21:cos(2πt), 22:t, 23:target_v, 24:x.\nThe clock is a raw 1 Hz time feature, not a step planner. q and dq follow the six motor indices. Outputs are clipped to [-1,1]. Use source=\"\".\n\nSimulator observation: {\"ok\": true, \"state\": {\"x\": 0.0, \"z\": 1.225, \"pitch\": 0.02, \"vx\": 0.0, \"vz\": 0.0, \"pitch_v\": 0.0, \"q\": [-0.02887, -0.03861, 0.00041, -0.041, -0.03623, 4e-05], \"dq\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], \"contact\": [0, 1], \"t\": 0.0, \"clock_sin\": 0.0, \"clock_cos\": 1.0}, \"scene\": {\"name\": \"train\", \"initial_pitch_rad\": 0.02, \"target_v_m_s\": 0.5, \"joint_order\": [\"right_hip\", \"right_knee\", \"right_ankle\", \"left_hip\", \"left_knee\", \"left_ankle\"], \"minimum_distance_m\": 1.0, \"minimum_time_s\": 2.0, \"minimum_alternating_steps\": 4}, \"meters\": {\"moves_used\": 0, \"moves_left\": 24, \"ticks_used\": 0, \"ticks_left\": 1600, \"max_ticks_per_move\": 250}, \"attempt\": 1, \"policy_version\": 0, \"success\": false, \"walk\": {\"distance_m\": 0.0, \"elapsed_s\": 0.0, \"peak_x_m\": 0.0, \"fall_reason\": null, \"touchdowns\": [], \"alternating_steps\": 0, \"first_success_s\": null}, \"op_summary\": {}, \"policy_frozen\": false, \"dt\": 0.02}\nChoose one next action.",
+  "observation": {
+    "ok": true,
+    "state": {
+      "x": 0.0,
+      "z": 1.225,
+      "pitch": 0.02,
+      "vx": 0.0,
+      "vz": 0.0,
+      "pitch_v": 0.0,
+      "q": [
+        -0.02887,
+        -0.03861,
+        0.00041,
+        -0.041,
+        -0.03623,
+        4e-05
+      ],
+      "dq": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "contact": [
+        0,
+        1
+      ],
+      "t": 0.0,
+      "clock_sin": 0.0,
+      "clock_cos": 1.0
+    },
+    "scene": {
+      "name": "train",
+      "initial_pitch_rad": 0.02,
+      "target_v_m_s": 0.5,
+      "joint_order": [
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_hip",
+        "left_knee",
+        "left_ankle"
+      ],
+      "minimum_distance_m": 1.0,
+      "minimum_time_s": 2.0,
+      "minimum_alternating_steps": 4
+    },
+    "meters": {
+      "moves_used": 0,
+      "moves_left": 24,
+      "ticks_used": 0,
+      "ticks_left": 1600,
+      "max_ticks_per_move": 250
+    },
+    "attempt": 1,
+    "policy_version": 0,
+    "success": false,
+    "walk": {
+      "distance_m": 0.0,
+      "elapsed_s": 0.0,
+      "peak_x_m": 0.0,
+      "fall_reason": null,
+      "touchdowns": [],
+      "alternating_steps": 0,
+      "first_success_s": null
+    },
+    "op_summary": {},
+    "policy_frozen": false,
+    "dt": 0.02
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "revision": 11,
+  "init_seed": 0,
+  "attempt": 1,
+  "steps": 249,
+  "seconds": 4.98,
+  "x_m": 1.3146560522223112,
+  "root_z_m": 0.1763532785066095,
+  "native_steps": 249,
+  "return": 58.1170472038819,
+  "fell": true,
+  "horizon": false,
+  "success": false
+}

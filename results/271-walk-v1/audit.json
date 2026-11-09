@@ -1,0 +1,3952 @@
+{
+  "interpretation": "A single paired pilot is not a population comparison. Online controller stretches can begin in different states; frozen trials use the same initial state and duration, with no Astra calls.",
+  "arms": {
+    "weights": {
+      "train": {
+        "completed": true,
+        "stop": "agent_finished",
+        "model": "gpt-6-astra",
+        "seed": 271,
+        "budget": {
+          "max_decisions": 36,
+          "max_moves": 24,
+          "max_ticks": 1600,
+          "max_ticks_per_move": 250
+        },
+        "start": {
+          "x_m": 0.0,
+          "z_m": 1.225,
+          "pitch_rad": 0.02,
+          "vx_m_s": 0.0,
+          "contact": [
+            0,
+            1
+          ],
+          "elapsed_s": 0.0,
+          "distance_m": 0.0,
+          "peak_x_m": 0.0,
+          "first_success_s": null,
+          "alternating_steps": 0,
+          "fall_reason": null,
+          "success": false
+        },
+        "final": {
+          "x_m": 1.0128473189965244,
+          "z_m": 0.7685010273309049,
+          "pitch_rad": 0.2927168531448764,
+          "vx_m_s": 1.4652257034309855,
+          "contact": [
+            1,
+            1
+          ],
+          "elapsed_s": 2.0999999999999903,
+          "distance_m": 1.0128473189965244,
+          "peak_x_m": 1.0128473189965244,
+          "first_success_s": null,
+          "alternating_steps": 0,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "success": false,
+          "touchdowns": [],
+          "error": null,
+          "ticks_used": 597
+        },
+        "first_success_turn": null,
+        "decisions": 34,
+        "motion_segments": 13,
+        "falls": [
+          2,
+          6,
+          18,
+          21,
+          24,
+          27,
+          30,
+          33
+        ],
+        "installed_versions": [
+          {
+            "turn": 1,
+            "version": 1
+          },
+          {
+            "turn": 3,
+            "version": 2
+          },
+          {
+            "turn": 7,
+            "version": 3
+          },
+          {
+            "turn": 10,
+            "version": 4
+          },
+          {
+            "turn": 12,
+            "version": 5
+          },
+          {
+            "turn": 15,
+            "version": 6
+          },
+          {
+            "turn": 19,
+            "version": 7
+          },
+          {
+            "turn": 22,
+            "version": 8
+          },
+          {
+            "turn": 25,
+            "version": 9
+          },
+          {
+            "turn": 28,
+            "version": 10
+          },
+          {
+            "turn": 31,
+            "version": 11
+          }
+        ],
+        "revisions": [
+          {
+            "turn": 3,
+            "version": 2,
+            "previous_fall": "torso tilted beyond 1.0 rad",
+            "changed_coefficients": 28,
+            "max_abs_change": 2.35
+          },
+          {
+            "turn": 7,
+            "version": 3,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "changed_coefficients": 32,
+            "max_abs_change": 0.44999999999999996
+          },
+          {
+            "turn": 10,
+            "version": 4,
+            "previous_fall": null,
+            "changed_coefficients": 8,
+            "max_abs_change": 0.25
+          },
+          {
+            "turn": 12,
+            "version": 5,
+            "previous_fall": null,
+            "changed_coefficients": 26,
+            "max_abs_change": 0.43
+          },
+          {
+            "turn": 15,
+            "version": 6,
+            "previous_fall": null,
+            "changed_coefficients": 4,
+            "max_abs_change": 0.7
+          },
+          {
+            "turn": 19,
+            "version": 7,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "changed_coefficients": 22,
+            "max_abs_change": 0.39999999999999997
+          },
+          {
+            "turn": 22,
+            "version": 8,
+            "previous_fall": "torso tilted beyond 1.0 rad",
+            "changed_coefficients": 4,
+            "max_abs_change": 0.85
+          },
+          {
+            "turn": 25,
+            "version": 9,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "changed_coefficients": 14,
+            "max_abs_change": 0.55
+          },
+          {
+            "turn": 28,
+            "version": 10,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "changed_coefficients": 8,
+            "max_abs_change": 1.3499999999999999
+          },
+          {
+            "turn": 31,
+            "version": 11,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "changed_coefficients": 8,
+            "max_abs_change": 0.7
+          }
+        ],
+        "controller_stretches": [
+          {
+            "attempt": 1,
+            "version": 1,
+            "start_turn": 2,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 2,
+            "end": {
+              "x_m": -0.15125812473060188,
+              "z_m": 1.0601953881478317,
+              "pitch_rad": -1.1923619867770952,
+              "vx_m_s": -0.2150405341304959,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.12000000000000009,
+              "distance_m": -0.15125812473060188,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -0.15125812473060188,
+            "controlled_s": 0.12000000000000009
+          },
+          {
+            "attempt": 2,
+            "version": 2,
+            "start_turn": 5,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 6,
+            "end": {
+              "x_m": 0.8216027660710679,
+              "z_m": 0.7867204972503518,
+              "pitch_rad": 0.3246709915741121,
+              "vx_m_s": 1.8425740109246729,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.2200000000000009,
+              "distance_m": 0.8216027660710679,
+              "peak_x_m": 0.8216027660710679,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.8216027660710679,
+            "controlled_s": 1.2200000000000009
+          },
+          {
+            "attempt": 3,
+            "version": 3,
+            "start_turn": 9,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 9,
+            "end": {
+              "x_m": 0.07029553315171748,
+              "z_m": 1.199169101845527,
+              "pitch_rad": 0.04117619925677091,
+              "vx_m_s": 0.28362095517302643,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.07029553315171748,
+              "peak_x_m": 0.07029553315171748,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.07029553315171748,
+            "controlled_s": 1.0000000000000007
+          },
+          {
+            "attempt": 3,
+            "version": 4,
+            "start_turn": 11,
+            "from_reset": false,
+            "start": {
+              "x_m": 0.07029553315171748,
+              "z_m": 1.199169101845527,
+              "pitch_rad": 0.04117619925677091,
+              "vx_m_s": 0.28362095517302643,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.07029553315171748,
+              "peak_x_m": 0.07029553315171748,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 11,
+            "end": {
+              "x_m": 0.6552221276055387,
+              "z_m": 0.9756417256131201,
+              "pitch_rad": 0.2538977256927548,
+              "vx_m_s": 1.4374208666161994,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0000000000000013,
+              "distance_m": 0.6552221276055387,
+              "peak_x_m": 0.6552221276055387,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.5849265944538212,
+            "controlled_s": 1.0000000000000007
+          },
+          {
+            "attempt": 4,
+            "version": 5,
+            "start_turn": 14,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 14,
+            "end": {
+              "x_m": -0.22511680054806965,
+              "z_m": 1.123194761962747,
+              "pitch_rad": -0.4465694987030896,
+              "vx_m_s": -0.25360061506587817,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.8000000000000006,
+              "distance_m": -0.22511680054806965,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -0.22511680054806965,
+            "controlled_s": 0.8000000000000006
+          },
+          {
+            "attempt": 5,
+            "version": 6,
+            "start_turn": 17,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 18,
+            "end": {
+              "x_m": 0.6547148126873374,
+              "z_m": 0.7624139811402869,
+              "pitch_rad": 0.14081080717303338,
+              "vx_m_s": 1.9523443473781035,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.360000000000001,
+              "distance_m": 0.6547148126873374,
+              "peak_x_m": 0.6547148126873374,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.6547148126873374,
+            "controlled_s": 1.360000000000001
+          },
+          {
+            "attempt": 6,
+            "version": 7,
+            "start_turn": 21,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 21,
+            "end": {
+              "x_m": -0.6101124015046729,
+              "z_m": 1.0494701863175266,
+              "pitch_rad": -1.0008795621796813,
+              "vx_m_s": -1.0490437458945623,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6200000000000004,
+              "distance_m": -0.6101124015046729,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -0.6101124015046729,
+            "controlled_s": 0.6200000000000004
+          },
+          {
+            "attempt": 7,
+            "version": 8,
+            "start_turn": 24,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 24,
+            "end": {
+              "x_m": 1.4444538713749462,
+              "z_m": 0.7646624304769358,
+              "pitch_rad": 0.4543938672591598,
+              "vx_m_s": 2.3059473087143116,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 1.6400000000000012,
+              "distance_m": 1.4444538713749462,
+              "peak_x_m": 1.4444538713749462,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 1,
+            "gained_distance_m": 1.4444538713749462,
+            "controlled_s": 1.6400000000000012
+          },
+          {
+            "attempt": 8,
+            "version": 9,
+            "start_turn": 27,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 27,
+            "end": {
+              "x_m": 0.8735148309712113,
+              "z_m": 0.7751207970704326,
+              "pitch_rad": 0.09391734281820577,
+              "vx_m_s": 2.490499482930268,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.9000000000000007,
+              "distance_m": 0.8735148309712113,
+              "peak_x_m": 0.8735148309712113,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 1,
+            "gained_distance_m": 0.8735148309712113,
+            "controlled_s": 0.9000000000000007
+          },
+          {
+            "attempt": 9,
+            "version": 10,
+            "start_turn": 30,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 30,
+            "end": {
+              "x_m": -1.1445602088894584,
+              "z_m": 0.7648461255708418,
+              "pitch_rad": -0.9111819774996771,
+              "vx_m_s": -2.000608614002312,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.1800000000000008,
+              "distance_m": -1.1445602088894584,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -1.1445602088894584,
+            "controlled_s": 1.1800000000000008
+          },
+          {
+            "attempt": 10,
+            "version": 11,
+            "start_turn": 33,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 33,
+            "end": {
+              "x_m": 1.0128473189965244,
+              "z_m": 0.7685010273309049,
+              "pitch_rad": 0.2927168531448764,
+              "vx_m_s": 1.4652257034309855,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0999999999999903,
+              "distance_m": 1.0128473189965244,
+              "peak_x_m": 1.0128473189965244,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 1.0128473189965244,
+            "controlled_s": 2.0999999999999903
+          }
+        ],
+        "turns": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "install",
+            "note": "Initially upright with left support. Test a modest alternating joint-feedback oscillator with torso damping.",
+            "ok": true,
+            "policy_version": 1,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 2,
+            "attempt": 1,
+            "op": "run",
+            "note": "Run briefly to measure balance, joint response, and contact changes.",
+            "ok": true,
+            "policy_version": 1,
+            "after": {
+              "x_m": -0.15125812473060188,
+              "z_m": 1.0601953881478317,
+              "pitch_rad": -1.1923619867770952,
+              "vx_m_s": -0.2150405341304959,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.12000000000000009,
+              "distance_m": -0.15125812473060188,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 25,
+            "actual_ticks": 6,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 4,
+              "right_only": 1,
+              "left_only": 1,
+              "both": 0
+            },
+            "ticks_with_saturated_motor": 5
+          },
+          {
+            "turn": 3,
+            "attempt": 1,
+            "op": "install",
+            "note": "Large torques caused immediate backward rotation and saturation. Reduce gains sharply and reverse torso feedback to oppose measured rotation.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": -0.15125812473060188,
+              "z_m": 1.0601953881478317,
+              "pitch_rad": -1.1923619867770952,
+              "vx_m_s": -0.2150405341304959,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.12000000000000009,
+              "distance_m": -0.15125812473060188,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            }
+          },
+          {
+            "turn": 4,
+            "attempt": 2,
+            "op": "reset",
+            "note": "Restart upright to test reduced-gain feedback independently of the fall.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 5,
+            "attempt": 2,
+            "op": "run",
+            "note": "Measure low-gain balance and alternating clearance over half a cycle.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": 0.0014742665768923834,
+              "z_m": 1.1567221558172567,
+              "pitch_rad": -0.1880019730181516,
+              "vx_m_s": 0.2537078522947142,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.5000000000000003,
+              "distance_m": 0.0014742665768923834,
+              "peak_x_m": 0.0014742665768923834,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 25,
+            "actual_ticks": 25,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 0,
+              "both": 25
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 6,
+            "attempt": 2,
+            "op": "run",
+            "note": "Reduced gains avoid immediate instability, but both feet remain planted. Observe whether the next cycle produces separation or drift.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": 0.8216027660710679,
+              "z_m": 0.7867204972503518,
+              "pitch_rad": 0.3246709915741121,
+              "vx_m_s": 1.8425740109246729,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.2200000000000009,
+              "distance_m": 0.8216027660710679,
+              "peak_x_m": 0.8216027660710679,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0014742665768923834,
+              "z_m": 1.1567221558172567,
+              "pitch_rad": -0.1880019730181516,
+              "vx_m_s": 0.2537078522947142,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.5000000000000003,
+              "distance_m": 0.0014742665768923834,
+              "peak_x_m": 0.0014742665768923834,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 36,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 2,
+              "both": 34
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 7,
+            "attempt": 2,
+            "op": "install",
+            "note": "Both feet stayed planted while ankles yielded and the body fell forward. Increase leg support and alternating flexion, with forward torso bias and speed-dependent ankle braking.",
+            "ok": true,
+            "policy_version": 3,
+            "after": {
+              "x_m": 0.8216027660710679,
+              "z_m": 0.7867204972503518,
+              "pitch_rad": 0.3246709915741121,
+              "vx_m_s": 1.8425740109246729,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.2200000000000009,
+              "distance_m": 0.8216027660710679,
+              "peak_x_m": 0.8216027660710679,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 8,
+            "attempt": 3,
+            "op": "reset",
+            "note": "Reset for the stronger support controller.",
+            "ok": true,
+            "policy_version": 3,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 9,
+            "attempt": 3,
+            "op": "run",
+            "note": "Test stronger knee and ankle support for one full oscillator cycle.",
+            "ok": true,
+            "policy_version": 3,
+            "after": {
+              "x_m": 0.07029553315171748,
+              "z_m": 1.199169101845527,
+              "pitch_rad": 0.04117619925677091,
+              "vx_m_s": 0.28362095517302643,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.07029553315171748,
+              "peak_x_m": 0.07029553315171748,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 50,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 0,
+              "both": 50
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 10,
+            "attempt": 3,
+            "op": "install",
+            "note": "Upright at one second, but no foot clearance. Increase alternating knee flexion and hip excursion while retaining support gains.",
+            "ok": true,
+            "policy_version": 4,
+            "after": {
+              "x_m": 0.07029553315171748,
+              "z_m": 1.199169101845527,
+              "pitch_rad": 0.04117619925677091,
+              "vx_m_s": 0.28362095517302643,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.07029553315171748,
+              "peak_x_m": 0.07029553315171748,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 11,
+            "attempt": 3,
+            "op": "run",
+            "note": "Test larger alternating flexion from the current upright state.",
+            "ok": true,
+            "policy_version": 4,
+            "after": {
+              "x_m": 0.6552221276055387,
+              "z_m": 0.9756417256131201,
+              "pitch_rad": 0.2538977256927548,
+              "vx_m_s": 1.4374208666161994,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0000000000000013,
+              "distance_m": 0.6552221276055387,
+              "peak_x_m": 0.6552221276055387,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.07029553315171748,
+              "z_m": 1.199169101845527,
+              "pitch_rad": 0.04117619925677091,
+              "vx_m_s": 0.28362095517302643,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.07029553315171748,
+              "peak_x_m": 0.07029553315171748,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 50,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 0,
+              "both": 50
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 12,
+            "attempt": 3,
+            "op": "install",
+            "note": "Two seconds upright but zero touchdowns; feet remain anchored. Test substantially deeper alternating knee flexion to force clearance, with stronger ankle braking.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": 0.6552221276055387,
+              "z_m": 0.9756417256131201,
+              "pitch_rad": 0.2538977256927548,
+              "vx_m_s": 1.4374208666161994,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0000000000000013,
+              "distance_m": 0.6552221276055387,
+              "peak_x_m": 0.6552221276055387,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 13,
+            "attempt": 4,
+            "op": "reset",
+            "note": "Reset before testing deep flexion; current body is already tipping forward.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 14,
+            "attempt": 4,
+            "op": "run",
+            "note": "Check whether deep flexion produces an actual supported swing.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": -0.22511680054806965,
+              "z_m": 1.123194761962747,
+              "pitch_rad": -0.4465694987030896,
+              "vx_m_s": -0.25360061506587817,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.8000000000000006,
+              "distance_m": -0.22511680054806965,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 40,
+            "actual_ticks": 40,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 1,
+              "right_only": 0,
+              "left_only": 24,
+              "both": 15
+            },
+            "ticks_with_saturated_motor": 3
+          },
+          {
+            "turn": 15,
+            "attempt": 4,
+            "op": "install",
+            "note": "Deep flexion cleared the right foot but carried it backward. Reverse hip phase and shift torso equilibrium forward to test forward placement.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": -0.22511680054806965,
+              "z_m": 1.123194761962747,
+              "pitch_rad": -0.4465694987030896,
+              "vx_m_s": -0.25360061506587817,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.8000000000000006,
+              "distance_m": -0.22511680054806965,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 16,
+            "attempt": 5,
+            "op": "reset",
+            "note": "Test revised hip phasing from the standard initial pose.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 17,
+            "attempt": 5,
+            "op": "run",
+            "note": "Observe forward-biased alternating flexion over one cycle.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.114970894209642,
+              "z_m": 1.0987954487977567,
+              "pitch_rad": -0.01496758110730159,
+              "vx_m_s": 0.9919338748030275,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.114970894209642,
+              "peak_x_m": 0.114970894209642,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 50,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 2,
+              "right_only": 8,
+              "left_only": 22,
+              "both": 18
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 18,
+            "attempt": 5,
+            "op": "run",
+            "note": "Both feet now show swing intervals but no qualifying forward landing yet. Continue to measure whether forward momentum produces steps.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.6547148126873374,
+              "z_m": 0.7624139811402869,
+              "pitch_rad": 0.14081080717303338,
+              "vx_m_s": 1.9523443473781035,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.360000000000001,
+              "distance_m": 0.6547148126873374,
+              "peak_x_m": 0.6547148126873374,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.114970894209642,
+              "z_m": 1.0987954487977567,
+              "pitch_rad": -0.01496758110730159,
+              "vx_m_s": 0.9919338748030275,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.114970894209642,
+              "peak_x_m": 0.114970894209642,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 18,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 5,
+              "right_only": 0,
+              "left_only": 9,
+              "both": 4
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 19,
+            "attempt": 5,
+            "op": "install",
+            "note": "Swing occurs but feet do not land forward before collapse. Shift hip phase toward late-swing extension, moderate knee flexion, and increase speed braking.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.6547148126873374,
+              "z_m": 0.7624139811402869,
+              "pitch_rad": 0.14081080717303338,
+              "vx_m_s": 1.9523443473781035,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.360000000000001,
+              "distance_m": 0.6547148126873374,
+              "peak_x_m": 0.6547148126873374,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 20,
+            "attempt": 6,
+            "op": "reset",
+            "note": "Restart for the phase-shifted, speed-braked controller.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 21,
+            "attempt": 6,
+            "op": "run",
+            "note": "Test late-swing placement and stronger speed feedback for two seconds.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": -0.6101124015046729,
+              "z_m": 1.0494701863175266,
+              "pitch_rad": -1.0008795621796813,
+              "vx_m_s": -1.0490437458945623,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6200000000000004,
+              "distance_m": -0.6101124015046729,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 100,
+            "actual_ticks": 31,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 17,
+              "right_only": 0,
+              "left_only": 1,
+              "both": 13
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 22,
+            "attempt": 6,
+            "op": "install",
+            "note": "Positive ankle speed feedback amplified backward motion. Reverse that feedback while retaining the phase-shifted swing.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": -0.6101124015046729,
+              "z_m": 1.0494701863175266,
+              "pitch_rad": -1.0008795621796813,
+              "vx_m_s": -1.0490437458945623,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6200000000000004,
+              "distance_m": -0.6101124015046729,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            }
+          },
+          {
+            "turn": 23,
+            "attempt": 7,
+            "op": "reset",
+            "note": "Reset to test reversed ankle speed feedback.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 24,
+            "attempt": 7,
+            "op": "run",
+            "note": "Measure stability and touchdown direction with negative speed feedback.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": 1.4444538713749462,
+              "z_m": 0.7646624304769358,
+              "pitch_rad": 0.4543938672591598,
+              "vx_m_s": 2.3059473087143116,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 1.6400000000000012,
+              "distance_m": 1.4444538713749462,
+              "peak_x_m": 1.4444538713749462,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 100,
+            "actual_ticks": 82,
+            "new_touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 1.280000000000001,
+                "x_m": 0.10731309491115798,
+                "advance_m": 0.07179786282278969,
+                "swing_s": 0.16000000000000014
+              },
+              {
+                "foot": "R",
+                "time_s": 1.500000000000001,
+                "x_m": 0.23647096645168875,
+                "advance_m": 0.06953454490127925,
+                "swing_s": 0.08000000000000007
+              }
+            ],
+            "contact_ticks": {
+              "none": 15,
+              "right_only": 4,
+              "left_only": 14,
+              "both": 49
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 25,
+            "attempt": 7,
+            "op": "install",
+            "note": "One alternating count was recorded, but forward speed and height diverged. Test a backward torso equilibrium for foot reach and gentler ankle speed feedback.",
+            "ok": true,
+            "policy_version": 9,
+            "after": {
+              "x_m": 1.4444538713749462,
+              "z_m": 0.7646624304769358,
+              "pitch_rad": 0.4543938672591598,
+              "vx_m_s": 2.3059473087143116,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 1.6400000000000012,
+              "distance_m": 1.4444538713749462,
+              "peak_x_m": 1.4444538713749462,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 26,
+            "attempt": 8,
+            "op": "reset",
+            "note": "Restart to evaluate the revised torso and ankle balance.",
+            "ok": true,
+            "policy_version": 9,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 27,
+            "attempt": 8,
+            "op": "run",
+            "note": "Test revised balance for two seconds, checking qualifying landings rather than distance alone.",
+            "ok": true,
+            "policy_version": 9,
+            "after": {
+              "x_m": 0.8735148309712113,
+              "z_m": 0.7751207970704326,
+              "pitch_rad": 0.09391734281820577,
+              "vx_m_s": 2.490499482930268,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.9000000000000007,
+              "distance_m": 0.8735148309712113,
+              "peak_x_m": 0.8735148309712113,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 100,
+            "actual_ticks": 45,
+            "new_touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 0.5000000000000003,
+                "x_m": 0.08047042531863499,
+                "advance_m": 0.07909220707220596,
+                "swing_s": 0.3800000000000002
+              }
+            ],
+            "contact_ticks": {
+              "none": 1,
+              "right_only": 0,
+              "left_only": 24,
+              "both": 20
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 28,
+            "attempt": 8,
+            "op": "install",
+            "note": "A supported forward landing occurred at 0.5 s, followed by ankle yielding and collapse. Keep that swing pattern but restore strong ankle position support.",
+            "ok": true,
+            "policy_version": 10,
+            "after": {
+              "x_m": 0.8735148309712113,
+              "z_m": 0.7751207970704326,
+              "pitch_rad": 0.09391734281820577,
+              "vx_m_s": 2.490499482930268,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.9000000000000007,
+              "distance_m": 0.8735148309712113,
+              "peak_x_m": 0.8735148309712113,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 29,
+            "attempt": 9,
+            "op": "reset",
+            "note": "Restart for the ankle-support contrast.",
+            "ok": true,
+            "policy_version": 10,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 30,
+            "attempt": 9,
+            "op": "run",
+            "note": "Check whether stronger ankle support permits repeated alternating landings.",
+            "ok": true,
+            "policy_version": 10,
+            "after": {
+              "x_m": -1.1445602088894584,
+              "z_m": 0.7648461255708418,
+              "pitch_rad": -0.9111819774996771,
+              "vx_m_s": -2.000608614002312,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.1800000000000008,
+              "distance_m": -1.1445602088894584,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 150,
+            "actual_ticks": 59,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 3,
+              "right_only": 8,
+              "left_only": 18,
+              "both": 30
+            },
+            "ticks_with_saturated_motor": 1
+          },
+          {
+            "turn": 31,
+            "attempt": 9,
+            "op": "install",
+            "note": "Strong ankle support reversed the failure into backward collapse. Test intermediate ankle stiffness and torso bias, retaining the swing phase that produced a forward landing.",
+            "ok": true,
+            "policy_version": 11,
+            "after": {
+              "x_m": -1.1445602088894584,
+              "z_m": 0.7648461255708418,
+              "pitch_rad": -0.9111819774996771,
+              "vx_m_s": -2.000608614002312,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.1800000000000008,
+              "distance_m": -1.1445602088894584,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 32,
+            "attempt": 10,
+            "op": "reset",
+            "note": "Reset for the intermediate-gain test.",
+            "ok": true,
+            "policy_version": 11,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 33,
+            "attempt": 10,
+            "op": "run",
+            "note": "Evaluate intermediate balance gains over three seconds or until a fall.",
+            "ok": true,
+            "policy_version": 11,
+            "after": {
+              "x_m": 1.0128473189965244,
+              "z_m": 0.7685010273309049,
+              "pitch_rad": 0.2927168531448764,
+              "vx_m_s": 1.4652257034309855,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0999999999999903,
+              "distance_m": 1.0128473189965244,
+              "peak_x_m": 1.0128473189965244,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 150,
+            "actual_ticks": 105,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 1,
+              "left_only": 2,
+              "both": 102
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 34,
+            "attempt": 10,
+            "op": "finish",
+            "note": "Walking was not demonstrated. Latest attempt reached 1.013 m but fell at 2.10 s with zero qualifying steps. Earlier attempts recorded at most one alternating step; balance and repeated forward placement remain unresolved.",
+            "ok": true,
+            "policy_version": 11,
+            "after": {
+              "x_m": 1.0128473189965244,
+              "z_m": 0.7685010273309049,
+              "pitch_rad": 0.2927168531448764,
+              "vx_m_s": 1.4652257034309855,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 2.0999999999999903,
+              "distance_m": 1.0128473189965244,
+              "peak_x_m": 1.0128473189965244,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          }
+        ]
+      }
+    },
+    "code": {
+      "train": {
+        "completed": true,
+        "stop": "agent_finished",
+        "model": "gpt-6-astra",
+        "seed": 271,
+        "budget": {
+          "max_decisions": 36,
+          "max_moves": 24,
+          "max_ticks": 1600,
+          "max_ticks_per_move": 250
+        },
+        "start": {
+          "x_m": 0.0,
+          "z_m": 1.225,
+          "pitch_rad": 0.02,
+          "vx_m_s": 0.0,
+          "contact": [
+            0,
+            1
+          ],
+          "elapsed_s": 0.0,
+          "distance_m": 0.0,
+          "peak_x_m": 0.0,
+          "first_success_s": null,
+          "alternating_steps": 0,
+          "fall_reason": null,
+          "success": false
+        },
+        "final": {
+          "x_m": 1.234651773287423,
+          "z_m": 1.1512497497937664,
+          "pitch_rad": -0.38822946067153524,
+          "vx_m_s": 0.5262152852827069,
+          "contact": [
+            1,
+            0
+          ],
+          "elapsed_s": 5.199999999999649,
+          "distance_m": 1.234651773287423,
+          "peak_x_m": 1.234651773287423,
+          "first_success_s": 4.819999999999691,
+          "alternating_steps": 5,
+          "fall_reason": null,
+          "success": true,
+          "touchdowns": [
+            {
+              "foot": "R",
+              "time_s": 1.1200000000000008,
+              "x_m": 0.10106348319472769,
+              "advance_m": 0.06426791900472278,
+              "swing_s": 0.1200000000000001
+            },
+            {
+              "foot": "R",
+              "time_s": 2.0599999999999947,
+              "x_m": 0.15839880284046015,
+              "advance_m": 0.10567252225847555,
+              "swing_s": 0.15999999999999326
+            },
+            {
+              "foot": "R",
+              "time_s": 3.019999999999889,
+              "x_m": 0.34022897058230583,
+              "advance_m": 0.21324348571072443,
+              "swing_s": 0.23999999999997357
+            },
+            {
+              "foot": "L",
+              "time_s": 3.499999999999836,
+              "x_m": 0.36674010367673454,
+              "advance_m": 0.3452822078456407,
+              "swing_s": 0.27999999999996916
+            },
+            {
+              "foot": "R",
+              "time_s": 3.9599999999997855,
+              "x_m": 0.6301589872755602,
+              "advance_m": 0.4503345505217926,
+              "swing_s": 0.33999999999996255
+            },
+            {
+              "foot": "L",
+              "time_s": 4.3999999999997375,
+              "x_m": 0.8864698896863017,
+              "advance_m": 0.4974589895266193,
+              "swing_s": 0.31999999999996476
+            },
+            {
+              "foot": "R",
+              "time_s": 4.839999999999689,
+              "x_m": 1.124282720176629,
+              "advance_m": 0.4935287097602693,
+              "swing_s": 0.31999999999996476
+            }
+          ],
+          "error": null,
+          "ticks_used": 484
+        },
+        "first_success_turn": 24,
+        "decisions": 25,
+        "motion_segments": 10,
+        "falls": [
+          4,
+          12,
+          18
+        ],
+        "installed_versions": [
+          {
+            "turn": 3,
+            "version": 1
+          },
+          {
+            "turn": 5,
+            "version": 2
+          },
+          {
+            "turn": 8,
+            "version": 3
+          },
+          {
+            "turn": 10,
+            "version": 4
+          },
+          {
+            "turn": 13,
+            "version": 5
+          },
+          {
+            "turn": 16,
+            "version": 6
+          },
+          {
+            "turn": 19,
+            "version": 7
+          },
+          {
+            "turn": 23,
+            "version": 8
+          }
+        ],
+        "revisions": [
+          {
+            "turn": 5,
+            "version": 2,
+            "previous_fall": "torso tilted beyond 1.0 rad",
+            "source_text_changed": true
+          },
+          {
+            "turn": 8,
+            "version": 3,
+            "previous_fall": null,
+            "source_text_changed": true
+          },
+          {
+            "turn": 10,
+            "version": 4,
+            "previous_fall": null,
+            "source_text_changed": true
+          },
+          {
+            "turn": 13,
+            "version": 5,
+            "previous_fall": "torso tilted beyond 1.0 rad",
+            "source_text_changed": true
+          },
+          {
+            "turn": 16,
+            "version": 6,
+            "previous_fall": null,
+            "source_text_changed": true
+          },
+          {
+            "turn": 19,
+            "version": 7,
+            "previous_fall": "torso height dropped below 0.8 m",
+            "source_text_changed": true
+          },
+          {
+            "turn": 23,
+            "version": 8,
+            "previous_fall": null,
+            "source_text_changed": true
+          }
+        ],
+        "controller_stretches": [
+          {
+            "attempt": 2,
+            "version": 1,
+            "start_turn": 4,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 4,
+            "end": {
+              "x_m": -0.1510010553568964,
+              "z_m": 1.1130768489923752,
+              "pitch_rad": -1.119269077748185,
+              "vx_m_s": -1.386237855573183,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.16000000000000011,
+              "distance_m": -0.1510010553568964,
+              "peak_x_m": 0.0004480823500264624,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -0.1510010553568964,
+            "controlled_s": 0.16000000000000011
+          },
+          {
+            "attempt": 3,
+            "version": 2,
+            "start_turn": 7,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 7,
+            "end": {
+              "x_m": 0.061910758831733796,
+              "z_m": 1.2004610442532444,
+              "pitch_rad": 0.05179769898903739,
+              "vx_m_s": 0.261847827849264,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": 0.061910758831733796,
+              "peak_x_m": 0.061910758831733796,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.061910758831733796,
+            "controlled_s": 0.6000000000000004
+          },
+          {
+            "attempt": 3,
+            "version": 3,
+            "start_turn": 9,
+            "from_reset": false,
+            "start": {
+              "x_m": 0.061910758831733796,
+              "z_m": 1.2004610442532444,
+              "pitch_rad": 0.05179769898903739,
+              "vx_m_s": 0.261847827849264,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": 0.061910758831733796,
+              "peak_x_m": 0.061910758831733796,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 9,
+            "end": {
+              "x_m": 0.7044592147922014,
+              "z_m": 0.9148907453980246,
+              "pitch_rad": 0.31907638911952446,
+              "vx_m_s": 1.5207744454036578,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.400000000000001,
+              "distance_m": 0.7044592147922014,
+              "peak_x_m": 0.7044592147922014,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.6425484559604676,
+            "controlled_s": 0.8000000000000006
+          },
+          {
+            "attempt": 4,
+            "version": 4,
+            "start_turn": 12,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 12,
+            "end": {
+              "x_m": -0.6322289450710258,
+              "z_m": 1.0361502640511,
+              "pitch_rad": -1.0051337836943663,
+              "vx_m_s": -1.2553924550079936,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": -0.6322289450710258,
+              "peak_x_m": 5.980275040352135e-05,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": -0.6322289450710258,
+            "controlled_s": 0.6000000000000004
+          },
+          {
+            "attempt": 5,
+            "version": 5,
+            "start_turn": 15,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 15,
+            "end": {
+              "x_m": 0.7685666611177173,
+              "z_m": 0.8728671859350577,
+              "pitch_rad": 0.309496049354794,
+              "vx_m_s": 2.1213821044667456,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.7685666611177173,
+              "peak_x_m": 0.7685666611177173,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.7685666611177173,
+            "controlled_s": 1.0000000000000007
+          },
+          {
+            "attempt": 6,
+            "version": 6,
+            "start_turn": 18,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 18,
+            "end": {
+              "x_m": 0.9736912128762437,
+              "z_m": 0.7882375880152893,
+              "pitch_rad": 0.15079289481476932,
+              "vx_m_s": 2.0342609276045396,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 1.1600000000000008,
+              "distance_m": 0.9736912128762437,
+              "peak_x_m": 0.9736912128762437,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "gained_alternating_steps": 0,
+            "gained_distance_m": 0.9736912128762437,
+            "controlled_s": 1.1600000000000008
+          },
+          {
+            "attempt": 7,
+            "version": 7,
+            "start_turn": 21,
+            "from_reset": true,
+            "start": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 22,
+            "end": {
+              "x_m": 0.20025022708859766,
+              "z_m": 1.197447893179456,
+              "pitch_rad": -0.40230464070030175,
+              "vx_m_s": 0.7376591382164244,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 3.199999999999869,
+              "distance_m": 0.20025022708859766,
+              "peak_x_m": 0.20025022708859766,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "gained_alternating_steps": 1,
+            "gained_distance_m": 0.20025022708859766,
+            "controlled_s": 3.199999999999869
+          },
+          {
+            "attempt": 7,
+            "version": 8,
+            "start_turn": 24,
+            "from_reset": false,
+            "start": {
+              "x_m": 0.20025022708859766,
+              "z_m": 1.197447893179456,
+              "pitch_rad": -0.40230464070030175,
+              "vx_m_s": 0.7376591382164244,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 3.199999999999869,
+              "distance_m": 0.20025022708859766,
+              "peak_x_m": 0.20025022708859766,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "end_turn": 24,
+            "end": {
+              "x_m": 1.234651773287423,
+              "z_m": 1.1512497497937664,
+              "pitch_rad": -0.38822946067153524,
+              "vx_m_s": 0.5262152852827069,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 5.199999999999649,
+              "distance_m": 1.234651773287423,
+              "peak_x_m": 1.234651773287423,
+              "first_success_s": 4.819999999999691,
+              "alternating_steps": 5,
+              "fall_reason": null,
+              "success": true
+            },
+            "gained_alternating_steps": 4,
+            "gained_distance_m": 1.0344015461988252,
+            "controlled_s": 1.9999999999997802
+          }
+        ],
+        "turns": [
+          {
+            "turn": 1,
+            "attempt": 1,
+            "op": "drive",
+            "note": "Initially upright with left-foot support. A brief right-leg flexion probe tests joint direction and foot clearance while the left leg supports the body.",
+            "ok": true,
+            "policy_version": 0,
+            "after": {
+              "x_m": -0.08040083903933906,
+              "z_m": 1.1449550139173703,
+              "pitch_rad": -0.7371741010205322,
+              "vx_m_s": -0.7069869550016022,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.16000000000000011,
+              "distance_m": -0.08040083903933906,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 8,
+            "actual_ticks": 8,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 7,
+              "both": 1
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 2,
+            "attempt": 2,
+            "op": "reset",
+            "note": "The open-loop probe produced rapid backward torso rotation, so reset before testing closed-loop joint and torso feedback.",
+            "ok": true,
+            "policy_version": 0,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 3,
+            "attempt": 2,
+            "op": "install",
+            "note": "Test a damped near-standing controller first; joint feedback should prevent the uncontrolled rotation seen in the probe.",
+            "ok": true,
+            "policy_version": 1,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 4,
+            "attempt": 2,
+            "op": "run",
+            "note": "Run briefly to measure whether joint damping and pitch feedback stabilize the initial stance.",
+            "ok": true,
+            "policy_version": 1,
+            "after": {
+              "x_m": -0.1510010553568964,
+              "z_m": 1.1130768489923752,
+              "pitch_rad": -1.119269077748185,
+              "vx_m_s": -1.386237855573183,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.16000000000000011,
+              "distance_m": -0.1510010553568964,
+              "peak_x_m": 0.0004480823500264624,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 20,
+            "actual_ticks": 8,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 4,
+              "right_only": 0,
+              "left_only": 1,
+              "both": 3
+            },
+            "ticks_with_saturated_motor": 6
+          },
+          {
+            "turn": 5,
+            "attempt": 2,
+            "op": "install",
+            "note": "The feedback oscillated within two ticks and saturated. Reduce stiffness and damping substantially to test numerical stability.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": -0.1510010553568964,
+              "z_m": 1.1130768489923752,
+              "pitch_rad": -1.119269077748185,
+              "vx_m_s": -1.386237855573183,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.16000000000000011,
+              "distance_m": -0.1510010553568964,
+              "peak_x_m": 0.0004480823500264624,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            }
+          },
+          {
+            "turn": 6,
+            "attempt": 3,
+            "op": "reset",
+            "note": "Reset the fallen body to test the reduced-gain controller from the same initial pose.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 7,
+            "attempt": 3,
+            "op": "run",
+            "note": "Measure reduced-gain stance stability over 0.6 seconds.",
+            "ok": true,
+            "policy_version": 2,
+            "after": {
+              "x_m": 0.061910758831733796,
+              "z_m": 1.2004610442532444,
+              "pitch_rad": 0.05179769898903739,
+              "vx_m_s": 0.261847827849264,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": 0.061910758831733796,
+              "peak_x_m": 0.061910758831733796,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 30,
+            "actual_ticks": 30,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 0,
+              "left_only": 0,
+              "both": 30
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 8,
+            "attempt": 3,
+            "op": "install",
+            "note": "Reduced gains kept the torso upright for 0.6 seconds, but both feet stayed grounded. Add alternating hip motion and knee flexion to test foot clearance and forward touchdowns.",
+            "ok": true,
+            "policy_version": 3,
+            "after": {
+              "x_m": 0.061910758831733796,
+              "z_m": 1.2004610442532444,
+              "pitch_rad": 0.05179769898903739,
+              "vx_m_s": 0.261847827849264,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": 0.061910758831733796,
+              "peak_x_m": 0.061910758831733796,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 9,
+            "attempt": 3,
+            "op": "run",
+            "note": "Test whether alternating flexion lifts the feet while preserving torso balance.",
+            "ok": true,
+            "policy_version": 3,
+            "after": {
+              "x_m": 0.7044592147922014,
+              "z_m": 0.9148907453980246,
+              "pitch_rad": 0.31907638911952446,
+              "vx_m_s": 1.5207744454036578,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.400000000000001,
+              "distance_m": 0.7044592147922014,
+              "peak_x_m": 0.7044592147922014,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.061910758831733796,
+              "z_m": 1.2004610442532444,
+              "pitch_rad": 0.05179769898903739,
+              "vx_m_s": 0.261847827849264,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": 0.061910758831733796,
+              "peak_x_m": 0.061910758831733796,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 40,
+            "actual_ticks": 40,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 0,
+              "right_only": 2,
+              "left_only": 0,
+              "both": 38
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 10,
+            "attempt": 3,
+            "op": "install",
+            "note": "Motion advanced the body but produced no qualifying steps; both feet remained behind it. Test a crouched alternating gait with ankle targets compensating leg angles and stronger forward-speed braking.",
+            "ok": true,
+            "policy_version": 4,
+            "after": {
+              "x_m": 0.7044592147922014,
+              "z_m": 0.9148907453980246,
+              "pitch_rad": 0.31907638911952446,
+              "vx_m_s": 1.5207744454036578,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.400000000000001,
+              "distance_m": 0.7044592147922014,
+              "peak_x_m": 0.7044592147922014,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 11,
+            "attempt": 4,
+            "op": "reset",
+            "note": "Reset to evaluate the crouched gait without the previous forward fall momentum.",
+            "ok": true,
+            "policy_version": 4,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 12,
+            "attempt": 4,
+            "op": "run",
+            "note": "Test the revised gait for one second, checking actual lift-off and touchdown rather than body displacement alone.",
+            "ok": true,
+            "policy_version": 4,
+            "after": {
+              "x_m": -0.6322289450710258,
+              "z_m": 1.0361502640511,
+              "pitch_rad": -1.0051337836943663,
+              "vx_m_s": -1.2553924550079936,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": -0.6322289450710258,
+              "peak_x_m": 5.980275040352135e-05,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 30,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 10,
+              "right_only": 0,
+              "left_only": 1,
+              "both": 19
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 13,
+            "attempt": 4,
+            "op": "install",
+            "note": "The ankle compensation drove a backward fall; its knee sign was incorrect. Correct the foot-angle compensation and use a modest backward torso lean with alternating knee clearance.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": -0.6322289450710258,
+              "z_m": 1.0361502640511,
+              "pitch_rad": -1.0051337836943663,
+              "vx_m_s": -1.2553924550079936,
+              "contact": [
+                0,
+                0
+              ],
+              "elapsed_s": 0.6000000000000004,
+              "distance_m": -0.6322289450710258,
+              "peak_x_m": 5.980275040352135e-05,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso tilted beyond 1.0 rad",
+              "success": false
+            }
+          },
+          {
+            "turn": 14,
+            "attempt": 5,
+            "op": "reset",
+            "note": "Restart for the corrected ankle-compensation test.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 15,
+            "attempt": 5,
+            "op": "run",
+            "note": "Measure the corrected controller's balance and alternating contacts over one second.",
+            "ok": true,
+            "policy_version": 5,
+            "after": {
+              "x_m": 0.7685666611177173,
+              "z_m": 0.8728671859350577,
+              "pitch_rad": 0.309496049354794,
+              "vx_m_s": 2.1213821044667456,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.7685666611177173,
+              "peak_x_m": 0.7685666611177173,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 50,
+            "actual_ticks": 50,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 1,
+              "right_only": 10,
+              "left_only": 3,
+              "both": 36
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 16,
+            "attempt": 5,
+            "op": "install",
+            "note": "Forward speed grew to 2.12 m/s with no valid steps. Reverse the ankle speed correction to brake that growth, and deepen the backward lean needed to place bent legs beneath the torso.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.7685666611177173,
+              "z_m": 0.8728671859350577,
+              "pitch_rad": 0.309496049354794,
+              "vx_m_s": 2.1213821044667456,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 1.0000000000000007,
+              "distance_m": 0.7685666611177173,
+              "peak_x_m": 0.7685666611177173,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 17,
+            "attempt": 6,
+            "op": "reset",
+            "note": "Reset before testing speed braking and the revised torso lean.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 18,
+            "attempt": 6,
+            "op": "run",
+            "note": "Test whether reversed ankle feedback contains speed and enables repeated lift-offs.",
+            "ok": true,
+            "policy_version": 6,
+            "after": {
+              "x_m": 0.9736912128762437,
+              "z_m": 0.7882375880152893,
+              "pitch_rad": 0.15079289481476932,
+              "vx_m_s": 2.0342609276045396,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 1.1600000000000008,
+              "distance_m": 0.9736912128762437,
+              "peak_x_m": 0.9736912128762437,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 60,
+            "actual_ticks": 58,
+            "new_touchdowns": [],
+            "contact_ticks": {
+              "none": 2,
+              "right_only": 0,
+              "left_only": 4,
+              "both": 52
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 19,
+            "attempt": 6,
+            "op": "install",
+            "note": "Repeated runs leave both feet behind the body and lose height. Replace ankle angle tracking with support-foot position/velocity feedback and separate stance torso control from swing-leg positioning.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.9736912128762437,
+              "z_m": 0.7882375880152893,
+              "pitch_rad": 0.15079289481476932,
+              "vx_m_s": 2.0342609276045396,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 1.1600000000000008,
+              "distance_m": 0.9736912128762437,
+              "peak_x_m": 0.9736912128762437,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": "torso height dropped below 0.8 m",
+              "success": false
+            }
+          },
+          {
+            "turn": 20,
+            "attempt": 7,
+            "op": "reset",
+            "note": "Reset to test the separated stance and swing controller.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 21,
+            "attempt": 7,
+            "op": "run",
+            "note": "Check whether stance feedback holds the torso while the opposite leg swings forward.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.05371183921342799,
+              "z_m": 1.1679331180861081,
+              "pitch_rad": -0.37822923636406053,
+              "vx_m_s": 0.38131145773563013,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.2000000000000008,
+              "distance_m": 0.05371183921342799,
+              "peak_x_m": 0.08154253609386021,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.0,
+              "z_m": 1.225,
+              "pitch_rad": 0.02,
+              "vx_m_s": 0.0,
+              "contact": [
+                0,
+                1
+              ],
+              "elapsed_s": 0.0,
+              "distance_m": 0.0,
+              "peak_x_m": 0.0,
+              "first_success_s": null,
+              "alternating_steps": 0,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 60,
+            "actual_ticks": 60,
+            "new_touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 1.1200000000000008,
+                "x_m": 0.10106348319472769,
+                "advance_m": 0.06426791900472278,
+                "swing_s": 0.1200000000000001
+              }
+            ],
+            "contact_ticks": {
+              "none": 2,
+              "right_only": 5,
+              "left_only": 4,
+              "both": 49
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 22,
+            "attempt": 7,
+            "op": "run",
+            "note": "The new controller stayed upright and produced one verified right touchdown. Continue unchanged to assess repeated alternating steps and net travel.",
+            "ok": true,
+            "policy_version": 7,
+            "after": {
+              "x_m": 0.20025022708859766,
+              "z_m": 1.197447893179456,
+              "pitch_rad": -0.40230464070030175,
+              "vx_m_s": 0.7376591382164244,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 3.199999999999869,
+              "distance_m": 0.20025022708859766,
+              "peak_x_m": 0.20025022708859766,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "before": {
+              "x_m": 0.05371183921342799,
+              "z_m": 1.1679331180861081,
+              "pitch_rad": -0.37822923636406053,
+              "vx_m_s": 0.38131145773563013,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 1.2000000000000008,
+              "distance_m": 0.05371183921342799,
+              "peak_x_m": 0.08154253609386021,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 100,
+            "actual_ticks": 100,
+            "new_touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 2.0599999999999947,
+                "x_m": 0.15839880284046015,
+                "advance_m": 0.10567252225847555,
+                "swing_s": 0.15999999999999326
+              },
+              {
+                "foot": "R",
+                "time_s": 3.019999999999889,
+                "x_m": 0.34022897058230583,
+                "advance_m": 0.21324348571072443,
+                "swing_s": 0.23999999999997357
+              }
+            ],
+            "contact_ticks": {
+              "none": 5,
+              "right_only": 2,
+              "left_only": 26,
+              "both": 67
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 23,
+            "attempt": 7,
+            "op": "install",
+            "note": "Balance now lasts 3.2 seconds, but only right touchdowns qualify. Apply foot-leveling only to the swinging ankle and retain support feedback on the stance ankle, with slightly more forward drive.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": 0.20025022708859766,
+              "z_m": 1.197447893179456,
+              "pitch_rad": -0.40230464070030175,
+              "vx_m_s": 0.7376591382164244,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 3.199999999999869,
+              "distance_m": 0.20025022708859766,
+              "peak_x_m": 0.20025022708859766,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            }
+          },
+          {
+            "turn": 24,
+            "attempt": 7,
+            "op": "run",
+            "note": "Test swing-foot leveling and greater clearance for alternating left and right touchdowns.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": 1.234651773287423,
+              "z_m": 1.1512497497937664,
+              "pitch_rad": -0.38822946067153524,
+              "vx_m_s": 0.5262152852827069,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 5.199999999999649,
+              "distance_m": 1.234651773287423,
+              "peak_x_m": 1.234651773287423,
+              "first_success_s": 4.819999999999691,
+              "alternating_steps": 5,
+              "fall_reason": null,
+              "success": true
+            },
+            "before": {
+              "x_m": 0.20025022708859766,
+              "z_m": 1.197447893179456,
+              "pitch_rad": -0.40230464070030175,
+              "vx_m_s": 0.7376591382164244,
+              "contact": [
+                1,
+                1
+              ],
+              "elapsed_s": 3.199999999999869,
+              "distance_m": 0.20025022708859766,
+              "peak_x_m": 0.20025022708859766,
+              "first_success_s": null,
+              "alternating_steps": 1,
+              "fall_reason": null,
+              "success": false
+            },
+            "requested_ticks": 100,
+            "actual_ticks": 100,
+            "new_touchdowns": [
+              {
+                "foot": "L",
+                "time_s": 3.499999999999836,
+                "x_m": 0.36674010367673454,
+                "advance_m": 0.3452822078456407,
+                "swing_s": 0.27999999999996916
+              },
+              {
+                "foot": "R",
+                "time_s": 3.9599999999997855,
+                "x_m": 0.6301589872755602,
+                "advance_m": 0.4503345505217926,
+                "swing_s": 0.33999999999996255
+              },
+              {
+                "foot": "L",
+                "time_s": 4.3999999999997375,
+                "x_m": 0.8864698896863017,
+                "advance_m": 0.4974589895266193,
+                "swing_s": 0.31999999999996476
+              },
+              {
+                "foot": "R",
+                "time_s": 4.839999999999689,
+                "x_m": 1.124282720176629,
+                "advance_m": 0.4935287097602693,
+                "swing_s": 0.31999999999996476
+              }
+            ],
+            "contact_ticks": {
+              "none": 12,
+              "right_only": 30,
+              "left_only": 34,
+              "both": 24
+            },
+            "ticks_with_saturated_motor": 0
+          },
+          {
+            "turn": 25,
+            "attempt": 7,
+            "op": "finish",
+            "note": "Walking demonstrated: 1.235 m forward, five alternating qualifying touchdowns, upright at 5.2 s, and current speed 0.526 m/s. Simulator reports success.",
+            "ok": true,
+            "policy_version": 8,
+            "after": {
+              "x_m": 1.234651773287423,
+              "z_m": 1.1512497497937664,
+              "pitch_rad": -0.38822946067153524,
+              "vx_m_s": 0.5262152852827069,
+              "contact": [
+                1,
+                0
+              ],
+              "elapsed_s": 5.199999999999649,
+              "distance_m": 1.234651773287423,
+              "peak_x_m": 1.234651773287423,
+              "first_success_s": 4.819999999999691,
+              "alternating_steps": 5,
+              "fall_reason": null,
+              "success": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "paired_train_design": {
+    "same_initial_state": true,
+    "same_scene": true,
+    "same_budget": true,
+    "same_model_and_seed": true
+  },
+  "physical_replay": {
+    "weights": {
+      "status": "matched",
+      "snapshots": 35,
+      "ticks": 597
+    },
+    "code": {
+      "status": "matched",
+      "snapshots": 26,
+      "ticks": 484
+    }
+  },
+  "frozen": {
+    "weights": {
+      "status": "compared",
+      "selection": "first accepted controller versus strongest distinct revised controller observed in training",
+      "rank_order": [
+        "success",
+        "additional qualified alternating steps",
+        "not fallen",
+        "distance gained",
+        "duration under module"
+      ],
+      "selected_training_stretch": {
+        "attempt": 7,
+        "version": 8,
+        "start_turn": 24,
+        "from_reset": true,
+        "start": {
+          "x_m": 0.0,
+          "z_m": 1.225,
+          "pitch_rad": 0.02,
+          "vx_m_s": 0.0,
+          "contact": [
+            0,
+            1
+          ],
+          "elapsed_s": 0.0,
+          "distance_m": 0.0,
+          "peak_x_m": 0.0,
+          "first_success_s": null,
+          "alternating_steps": 0,
+          "fall_reason": null,
+          "success": false
+        },
+        "end_turn": 24,
+        "end": {
+          "x_m": 1.4444538713749462,
+          "z_m": 0.7646624304769358,
+          "pitch_rad": 0.4543938672591598,
+          "vx_m_s": 2.3059473087143116,
+          "contact": [
+            0,
+            0
+          ],
+          "elapsed_s": 1.6400000000000012,
+          "distance_m": 1.4444538713749462,
+          "peak_x_m": 1.4444538713749462,
+          "first_success_s": null,
+          "alternating_steps": 1,
+          "fall_reason": "torso height dropped below 0.8 m",
+          "success": false
+        },
+        "gained_alternating_steps": 1,
+        "gained_distance_m": 1.4444538713749462,
+        "controlled_s": 1.6400000000000012
+      },
+      "requested_ticks_per_trial": 250,
+      "trials": {
+        "train": [
+          {
+            "version": 1,
+            "install_turn": 1,
+            "record": "weights/frozen/train/v01.json",
+            "x_m": -0.15125812473060188,
+            "z_m": 1.0601953881478317,
+            "pitch_rad": -1.1923619867770952,
+            "vx_m_s": -0.2150405341304959,
+            "contact": [
+              0,
+              0
+            ],
+            "elapsed_s": 0.12000000000000009,
+            "distance_m": -0.15125812473060188,
+            "peak_x_m": 0.0,
+            "first_success_s": null,
+            "alternating_steps": 0,
+            "fall_reason": "torso tilted beyond 1.0 rad",
+            "success": false,
+            "touchdowns": [],
+            "error": null,
+            "ticks_used": 6,
+            "contact_ticks": {
+              "none": 4,
+              "right_only": 1,
+              "left_only": 1,
+              "both": 0
+            },
+            "ticks_with_saturated_motor": 5
+          },
+          {
+            "version": 8,
+            "install_turn": 22,
+            "record": "weights/frozen/train/v08.json",
+            "x_m": 1.4444538713749462,
+            "z_m": 0.7646624304769358,
+            "pitch_rad": 0.4543938672591598,
+            "vx_m_s": 2.3059473087143116,
+            "contact": [
+              0,
+              0
+            ],
+            "elapsed_s": 1.6400000000000012,
+            "distance_m": 1.4444538713749462,
+            "peak_x_m": 1.4444538713749462,
+            "first_success_s": null,
+            "alternating_steps": 1,
+            "fall_reason": "torso height dropped below 0.8 m",
+            "success": false,
+            "touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 1.280000000000001,
+                "x_m": 0.10731309491115798,
+                "advance_m": 0.07179786282278969,
+                "swing_s": 0.16000000000000014
+              },
+              {
+                "foot": "R",
+                "time_s": 1.500000000000001,
+                "x_m": 0.23647096645168875,
+                "advance_m": 0.06953454490127925,
+                "swing_s": 0.08000000000000007
+              }
+            ],
+            "error": null,
+            "ticks_used": 82,
+            "contact_ticks": {
+              "none": 15,
+              "right_only": 4,
+              "left_only": 14,
+              "both": 49
+            },
+            "ticks_with_saturated_motor": 0
+          }
+        ],
+        "transfer": [
+          {
+            "version": 1,
+            "install_turn": 1,
+            "record": "weights/frozen/transfer/v01.json",
+            "x_m": -0.16151610564959576,
+            "z_m": 0.9965168951595514,
+            "pitch_rad": -1.2326715802855985,
+            "vx_m_s": -0.24256526174545653,
+            "contact": [
+              1,
+              1
+            ],
+            "elapsed_s": 0.1400000000000001,
+            "distance_m": -0.16151610564959576,
+            "peak_x_m": 0.0,
+            "first_success_s": null,
+            "alternating_steps": 0,
+            "fall_reason": "torso tilted beyond 1.0 rad",
+            "success": false,
+            "touchdowns": [],
+            "error": null,
+            "ticks_used": 7,
+            "contact_ticks": {
+              "none": 5,
+              "right_only": 0,
+              "left_only": 0,
+              "both": 2
+            },
+            "ticks_with_saturated_motor": 5
+          },
+          {
+            "version": 8,
+            "install_turn": 22,
+            "record": "weights/frozen/transfer/v08.json",
+            "x_m": 1.2705464598438676,
+            "z_m": 0.7756093366830679,
+            "pitch_rad": 0.35029577140292223,
+            "vx_m_s": 2.6868158132561106,
+            "contact": [
+              1,
+              0
+            ],
+            "elapsed_s": 1.420000000000001,
+            "distance_m": 1.2705464598438676,
+            "peak_x_m": 1.2705464598438676,
+            "first_success_s": null,
+            "alternating_steps": 1,
+            "fall_reason": "torso height dropped below 0.8 m",
+            "success": false,
+            "touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 1.340000000000001,
+                "x_m": 0.3216564500385395,
+                "advance_m": 0.286018161929957,
+                "swing_s": 0.30000000000000027
+              }
+            ],
+            "error": null,
+            "ticks_used": 71,
+            "contact_ticks": {
+              "none": 9,
+              "right_only": 1,
+              "left_only": 13,
+              "both": 48
+            },
+            "ticks_with_saturated_motor": 0
+          }
+        ]
+      }
+    },
+    "code": {
+      "status": "compared",
+      "selection": "first accepted controller versus strongest distinct revised controller observed in training",
+      "rank_order": [
+        "success",
+        "additional qualified alternating steps",
+        "not fallen",
+        "distance gained",
+        "duration under module"
+      ],
+      "selected_training_stretch": {
+        "attempt": 7,
+        "version": 8,
+        "start_turn": 24,
+        "from_reset": false,
+        "start": {
+          "x_m": 0.20025022708859766,
+          "z_m": 1.197447893179456,
+          "pitch_rad": -0.40230464070030175,
+          "vx_m_s": 0.7376591382164244,
+          "contact": [
+            1,
+            1
+          ],
+          "elapsed_s": 3.199999999999869,
+          "distance_m": 0.20025022708859766,
+          "peak_x_m": 0.20025022708859766,
+          "first_success_s": null,
+          "alternating_steps": 1,
+          "fall_reason": null,
+          "success": false
+        },
+        "end_turn": 24,
+        "end": {
+          "x_m": 1.234651773287423,
+          "z_m": 1.1512497497937664,
+          "pitch_rad": -0.38822946067153524,
+          "vx_m_s": 0.5262152852827069,
+          "contact": [
+            1,
+            0
+          ],
+          "elapsed_s": 5.199999999999649,
+          "distance_m": 1.234651773287423,
+          "peak_x_m": 1.234651773287423,
+          "first_success_s": 4.819999999999691,
+          "alternating_steps": 5,
+          "fall_reason": null,
+          "success": true
+        },
+        "gained_alternating_steps": 4,
+        "gained_distance_m": 1.0344015461988252,
+        "controlled_s": 1.9999999999997802
+      },
+      "requested_ticks_per_trial": 250,
+      "trials": {
+        "train": [
+          {
+            "version": 1,
+            "install_turn": 3,
+            "record": "code/frozen/train/v01.json",
+            "x_m": -0.1510010553568964,
+            "z_m": 1.1130768489923752,
+            "pitch_rad": -1.119269077748185,
+            "vx_m_s": -1.386237855573183,
+            "contact": [
+              0,
+              0
+            ],
+            "elapsed_s": 0.16000000000000011,
+            "distance_m": -0.1510010553568964,
+            "peak_x_m": 0.0004480823500264624,
+            "first_success_s": null,
+            "alternating_steps": 0,
+            "fall_reason": "torso tilted beyond 1.0 rad",
+            "success": false,
+            "touchdowns": [],
+            "error": null,
+            "ticks_used": 8,
+            "contact_ticks": {
+              "none": 4,
+              "right_only": 0,
+              "left_only": 1,
+              "both": 3
+            },
+            "ticks_with_saturated_motor": 6
+          },
+          {
+            "version": 8,
+            "install_turn": 23,
+            "record": "code/frozen/train/v08.json",
+            "x_m": 2.709275376968445,
+            "z_m": 1.1841289494291962,
+            "pitch_rad": -0.36900247923681573,
+            "vx_m_s": 0.6631908816490506,
+            "contact": [
+              1,
+              0
+            ],
+            "elapsed_s": 4.999999999999671,
+            "distance_m": 2.709275376968445,
+            "peak_x_m": 2.709275376968445,
+            "first_success_s": 2.0599999999999947,
+            "alternating_steps": 11,
+            "fall_reason": null,
+            "success": true,
+            "touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 0.46000000000000035,
+                "x_m": 0.09437511892651049,
+                "advance_m": 0.061325549551472854,
+                "swing_s": 0.16000000000000014
+              },
+              {
+                "foot": "L",
+                "time_s": 0.8200000000000006,
+                "x_m": 0.3645434913178629,
+                "advance_m": 0.3477940419572847,
+                "swing_s": 0.3200000000000003
+              },
+              {
+                "foot": "R",
+                "time_s": 1.260000000000001,
+                "x_m": 0.635729801975851,
+                "advance_m": 0.5257130453223067,
+                "swing_s": 0.3400000000000002
+              },
+              {
+                "foot": "L",
+                "time_s": 1.7000000000000013,
+                "x_m": 0.8752242552176368,
+                "advance_m": 0.48248442006585585,
+                "swing_s": 0.30000000000000027
+              },
+              {
+                "foot": "R",
+                "time_s": 2.1599999999999837,
+                "x_m": 1.203873382280599,
+                "advance_m": 0.5622182381903419,
+                "swing_s": 0.3399999999999823
+              },
+              {
+                "foot": "L",
+                "time_s": 2.5999999999999353,
+                "x_m": 1.4153910203547233,
+                "advance_m": 0.5046264241586269,
+                "swing_s": 0.31999999999996476
+              },
+              {
+                "foot": "R",
+                "time_s": 3.039999999999887,
+                "x_m": 1.716213344347673,
+                "advance_m": 0.5387634083767261,
+                "swing_s": 0.31999999999996476
+              },
+              {
+                "foot": "L",
+                "time_s": 3.499999999999836,
+                "x_m": 1.9907009663977369,
+                "advance_m": 0.551588884352838,
+                "swing_s": 0.31999999999996476
+              },
+              {
+                "foot": "R",
+                "time_s": 3.9599999999997855,
+                "x_m": 2.250482009338179,
+                "advance_m": 0.5494573098493132,
+                "swing_s": 0.33999999999996255
+              },
+              {
+                "foot": "L",
+                "time_s": 4.419999999999735,
+                "x_m": 2.51853523263086,
+                "advance_m": 0.5062720779562468,
+                "swing_s": 0.33999999999996255
+              },
+              {
+                "foot": "R",
+                "time_s": 4.879999999999685,
+                "x_m": 2.762139059808756,
+                "advance_m": 0.5116345649219083,
+                "swing_s": 0.35999999999996035
+              }
+            ],
+            "error": null,
+            "ticks_used": 250,
+            "contact_ticks": {
+              "none": 5,
+              "right_only": 79,
+              "left_only": 96,
+              "both": 70
+            },
+            "ticks_with_saturated_motor": 0
+          }
+        ],
+        "transfer": [
+          {
+            "version": 1,
+            "install_turn": 3,
+            "record": "code/frozen/transfer/v01.json",
+            "x_m": -0.12812359525126363,
+            "z_m": 1.0695565007510828,
+            "pitch_rad": -1.0501190462441825,
+            "vx_m_s": -1.5640012478422542,
+            "contact": [
+              1,
+              0
+            ],
+            "elapsed_s": 0.16000000000000011,
+            "distance_m": -0.12812359525126363,
+            "peak_x_m": 0.0,
+            "first_success_s": null,
+            "alternating_steps": 0,
+            "fall_reason": "torso tilted beyond 1.0 rad",
+            "success": false,
+            "touchdowns": [],
+            "error": null,
+            "ticks_used": 8,
+            "contact_ticks": {
+              "none": 2,
+              "right_only": 3,
+              "left_only": 2,
+              "both": 1
+            },
+            "ticks_with_saturated_motor": 7
+          },
+          {
+            "version": 8,
+            "install_turn": 23,
+            "record": "code/frozen/transfer/v08.json",
+            "x_m": 2.8743311161519176,
+            "z_m": 1.18949857467923,
+            "pitch_rad": -0.3612705734068412,
+            "vx_m_s": 0.3945452234317222,
+            "contact": [
+              1,
+              0
+            ],
+            "elapsed_s": 4.999999999999671,
+            "distance_m": 2.8743311161519176,
+            "peak_x_m": 2.8743311161519176,
+            "first_success_s": 2.0000000000000013,
+            "alternating_steps": 11,
+            "fall_reason": null,
+            "success": true,
+            "touchdowns": [
+              {
+                "foot": "R",
+                "time_s": 0.44000000000000034,
+                "x_m": 0.033824412456415584,
+                "advance_m": 0.07623574815420907,
+                "swing_s": 0.18000000000000016
+              },
+              {
+                "foot": "L",
+                "time_s": 0.7800000000000006,
+                "x_m": 0.3278677497500823,
+                "advance_m": 0.38398394444724454,
+                "swing_s": 0.28000000000000025
+              },
+              {
+                "foot": "R",
+                "time_s": 1.400000000000001,
+                "x_m": 1.1762614183258744,
+                "advance_m": 1.107581511451835,
+                "swing_s": 0.4800000000000003
+              },
+              {
+                "foot": "L",
+                "time_s": 1.7400000000000013,
+                "x_m": 1.3431843111349129,
+                "advance_m": 0.8879777022506035,
+                "swing_s": 0.3600000000000003
+              },
+              {
+                "foot": "R",
+                "time_s": 2.1999999999999793,
+                "x_m": 1.6086931726331304,
+                "advance_m": 0.45778962936191814,
+                "swing_s": 0.3799999999999779
+              },
+              {
+                "foot": "L",
+                "time_s": 2.639999999999931,
+                "x_m": 1.8445224765395543,
+                "advance_m": 0.45745345310135144,
+                "swing_s": 0.33999999999996255
+              },
+              {
+                "foot": "R",
+                "time_s": 3.0799999999998824,
+                "x_m": 2.0821015179321702,
+                "advance_m": 0.4781743983385409,
+                "swing_s": 0.35999999999996035
+              },
+              {
+                "foot": "L",
+                "time_s": 3.5399999999998317,
+                "x_m": 2.312493222959564,
+                "advance_m": 0.4552195782730337,
+                "swing_s": 0.33999999999996255
+              },
+              {
+                "foot": "R",
+                "time_s": 3.999999999999781,
+                "x_m": 2.540609698024003,
+                "advance_m": 0.4506946940433818,
+                "swing_s": 0.37999999999995815
+              },
+              {
+                "foot": "L",
+                "time_s": 4.439999999999733,
+                "x_m": 2.7752261045909297,
+                "advance_m": 0.4501104545596908,
+                "swing_s": 0.35999999999996035
+              },
+              {
+                "foot": "R",
+                "time_s": 4.899999999999682,
+                "x_m": 2.9697870498951007,
+                "advance_m": 0.4270621432009709,
+                "swing_s": 0.37999999999995815
+              }
+            ],
+            "error": null,
+            "ticks_used": 250,
+            "contact_ticks": {
+              "none": 4,
+              "right_only": 83,
+              "left_only": 107,
+              "both": 56
+            },
+            "ticks_with_saturated_motor": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "weight_count": 1206,
+  "edited": 2,
+  "totals": {
+    "nominal": {
+      "n": 1,
+      "before": 1,
+      "after": 0,
+      "lost": 1,
+      "gained": 0
+    },
+    "target": {
+      "n": 1,
+      "before": 0,
+      "after": 0,
+      "lost": 0,
+      "gained": 0
+    },
+    "heldout": {
+      "n": 12,
+      "before": 0,
+      "after": 1,
+      "lost": 0,
+      "gained": 1
+    },
+    "retention": {
+      "n": 12,
+      "before": 10,
+      "after": 3,
+      "lost": 7,
+      "gained": 0
+    }
+  },
+  "cases": [
+    {
+      "group": "nominal",
+      "seed": 271,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.6681593961459145,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.6446058364900906,
+        "elapsed_s": 3.619999999999823,
+        "alternating_steps": 8,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "target",
+      "seed": 271,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.7638523852936466,
+        "elapsed_s": 2.0599999999999947,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.8203101046780631,
+        "elapsed_s": 1.8800000000000014,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 272,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.7809121576781152,
+        "elapsed_s": 2.019999999999999,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.7236351639116645,
+        "elapsed_s": 1.9600000000000015,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 273,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.749661086950223,
+        "elapsed_s": 2.039999999999997,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 2.4794183324158663,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 274,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.714987733329453,
+        "elapsed_s": 2.119999999999988,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.0584834825341374,
+        "elapsed_s": 2.719999999999922,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 275,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.7338574221895963,
+        "elapsed_s": 2.0999999999999903,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.8268743421544402,
+        "elapsed_s": 1.8600000000000014,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 276,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.7107385888602584,
+        "elapsed_s": 2.139999999999986,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.6958675972700703,
+        "elapsed_s": 1.9800000000000015,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 277,
+      "pitch": 0.08,
+      "before": {
+        "distance_m": 0.790775490543102,
+        "elapsed_s": 2.039999999999997,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.8786662432330979,
+        "elapsed_s": 1.8800000000000014,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 278,
+      "pitch": 0.07,
+      "before": {
+        "distance_m": 0.9124390980086765,
+        "elapsed_s": 2.73999999999992,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.7890677686648084,
+        "elapsed_s": 1.9800000000000015,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 279,
+      "pitch": 0.07,
+      "before": {
+        "distance_m": 0.6094857780733056,
+        "elapsed_s": 2.6999999999999242,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 2.0780422304409445,
+        "elapsed_s": 2.7799999999999154,
+        "alternating_steps": 4,
+        "fall_reason": "torso height dropped below 0.8 m",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 280,
+      "pitch": 0.07,
+      "before": {
+        "distance_m": 0.9362382085395562,
+        "elapsed_s": 2.73999999999992,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 0.8182039505568472,
+        "elapsed_s": 2.019999999999999,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 281,
+      "pitch": 0.09,
+      "before": {
+        "distance_m": 0.9385942826924429,
+        "elapsed_s": 1.9000000000000015,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.0189768895363962,
+        "elapsed_s": 1.9200000000000015,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 282,
+      "pitch": 0.09,
+      "before": {
+        "distance_m": 0.9203608664309132,
+        "elapsed_s": 1.9800000000000015,
+        "alternating_steps": 4,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.1114241252454176,
+        "elapsed_s": 1.9200000000000015,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "heldout",
+      "seed": 283,
+      "pitch": 0.09,
+      "before": {
+        "distance_m": 0.9524566670024487,
+        "elapsed_s": 1.8600000000000014,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.0084046308895462,
+        "elapsed_s": 1.8800000000000014,
+        "alternating_steps": 3,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 272,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.629848734847115,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 2.1805237542553324,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 273,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.6511099156385556,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.6440007231870655,
+        "elapsed_s": 3.6399999999998207,
+        "alternating_steps": 8,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 274,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.6080659424395973,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 2.5106279982038227,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 275,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.6000679385575673,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.9397774303678565,
+        "elapsed_s": 4.159999999999764,
+        "alternating_steps": 8,
+        "fall_reason": "torso height dropped below 0.8 m",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 276,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.4688787776925483,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.7996536453059144,
+        "elapsed_s": 3.6399999999998207,
+        "alternating_steps": 7,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 277,
+      "pitch": 0.02,
+      "before": {
+        "distance_m": 2.6405520631001287,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.66774908459258,
+        "elapsed_s": 3.6599999999998185,
+        "alternating_steps": 7,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 278,
+      "pitch": 0.015,
+      "before": {
+        "distance_m": 2.7439791333430694,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 2.878551493704925,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 279,
+      "pitch": 0.015,
+      "before": {
+        "distance_m": 2.2121953416805016,
+        "elapsed_s": 4.539999999999722,
+        "alternating_steps": 9,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.6259185497118502,
+        "elapsed_s": 3.619999999999823,
+        "alternating_steps": 7,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 280,
+      "pitch": 0.015,
+      "before": {
+        "distance_m": 1.0880788815386955,
+        "elapsed_s": 3.2399999999998648,
+        "alternating_steps": 6,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      },
+      "after": {
+        "distance_m": 1.3906708649811899,
+        "elapsed_s": 3.9399999999997877,
+        "alternating_steps": 8,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 281,
+      "pitch": 0.025,
+      "before": {
+        "distance_m": 2.573207126045344,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.7963103506190483,
+        "elapsed_s": 4.059999999999775,
+        "alternating_steps": 8,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 282,
+      "pitch": 0.025,
+      "before": {
+        "distance_m": 2.1123704935983456,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 9,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.918396767142139,
+        "elapsed_s": 4.3999999999997375,
+        "alternating_steps": 9,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    },
+    {
+      "group": "retention",
+      "seed": 283,
+      "pitch": 0.025,
+      "before": {
+        "distance_m": 2.47302330939088,
+        "elapsed_s": 4.999999999999671,
+        "alternating_steps": 11,
+        "fall_reason": null,
+        "pass": true
+      },
+      "after": {
+        "distance_m": 1.9387740519086385,
+        "elapsed_s": 4.339999999999744,
+        "alternating_steps": 9,
+        "fall_reason": "torso tilted beyond 1.0 rad",
+        "pass": false
+      }
+    }
+  ]
+}

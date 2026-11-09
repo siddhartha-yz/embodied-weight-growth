@@ -1,0 +1,30 @@
+{
+  "publisher": "dmux/DR.Q (official ICML 2026 checkpoint)",
+  "license": "MIT",
+  "model_page": "https://huggingface.co/dmux/DR.Q/tree/main/DRQ%2BHBench-h1-walk-v0%2B0",
+  "weights_revision": "d31f529b9eef3999f353498a9cb66c35eb8021b2",
+  "source_commit": "cb2b46f679301aca97d381e95cd85bd2950af175",
+  "source_model": "https://github.com/dmksjfl/DR.Q/blob/cb2b46f679301aca97d381e95cd85bd2950af175/DRQ/models.py",
+  "source_preprocessing": "https://github.com/dmksjfl/DR.Q/blob/cb2b46f679301aca97d381e95cd85bd2950af175/DRQ/env_preprocessing.py",
+  "files": {
+    "encoder.pt": 11256181,
+    "policy.pt": 2142231
+  },
+  "bundle_format": "12 float32 tensors; NPZ allow_pickle=False",
+  "bundle_bytes": 5661703,
+  "gymnasium_id": "h1-walk-v0",
+  "native_observation_shape": [
+    51
+  ],
+  "native_action_shape": [
+    19
+  ],
+  "native_action_bounds": [
+    -1,
+    1
+  ],
+  "native_action_semantics": "position targets normalized to [-1,1], mapped by native Gym environment",
+  "native_sim_steps_per_second": 50,
+  "actor_update_steps_per_second": 25,
+  "no_observation_scaler": true
+}

@@ -1,0 +1,226 @@
+{
+  "control": [
+    {
+      "record": "test/scene_0000/scoring/000000.json",
+      "native_steps": 0,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000001.json",
+      "native_steps": 0,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000002.json",
+      "native_steps": 40,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000003.json",
+      "native_steps": 75,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000004.json",
+      "native_steps": 110,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000005.json",
+      "native_steps": 175,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000006.json",
+      "native_steps": 195,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000007.json",
+      "native_steps": 238,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000008.json",
+      "native_steps": 268,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000009.json",
+      "native_steps": 323,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000010.json",
+      "native_steps": 366,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000011.json",
+      "native_steps": 401,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000012.json",
+      "native_steps": 488,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000013.json",
+      "native_steps": 538,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000014.json",
+      "native_steps": 573,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000015.json",
+      "native_steps": 655,
+      "placement_count": 2
+    },
+    {
+      "record": "test/scene_0000/scoring/000016.json",
+      "native_steps": 710,
+      "placement_count": 2
+    },
+    {
+      "record": "test/scene_0000/scoring/000017.json",
+      "native_steps": 795,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000018.json",
+      "native_steps": 830,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000019.json",
+      "native_steps": 865,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000020.json",
+      "native_steps": 920,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000021.json",
+      "native_steps": 1050,
+      "placement_count": 3
+    }
+  ],
+  "with_skills": [
+    {
+      "record": "test/scene_0000/scoring/000000.json",
+      "native_steps": 0,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000001.json",
+      "native_steps": 35,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000002.json",
+      "native_steps": 78,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000003.json",
+      "native_steps": 111,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000004.json",
+      "native_steps": 136,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000005.json",
+      "native_steps": 191,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000006.json",
+      "native_steps": 252,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000007.json",
+      "native_steps": 281,
+      "placement_count": 0
+    },
+    {
+      "record": "test/scene_0000/scoring/000008.json",
+      "native_steps": 352,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000009.json",
+      "native_steps": 388,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000010.json",
+      "native_steps": 465,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000011.json",
+      "native_steps": 485,
+      "placement_count": 1
+    },
+    {
+      "record": "test/scene_0000/scoring/000012.json",
+      "native_steps": 547,
+      "placement_count": 2
+    },
+    {
+      "record": "test/scene_0000/scoring/000013.json",
+      "native_steps": 591,
+      "placement_count": 2
+    },
+    {
+      "record": "test/scene_0000/scoring/000014.json",
+      "native_steps": 643,
+      "placement_count": 2
+    },
+    {
+      "record": "test/scene_0000/scoring/000015.json",
+      "native_steps": 752,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000016.json",
+      "native_steps": 768,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000017.json",
+      "native_steps": 809,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000018.json",
+      "native_steps": 856,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000019.json",
+      "native_steps": 877,
+      "placement_count": 3
+    },
+    {
+      "record": "test/scene_0000/scoring/000020.json",
+      "native_steps": 934,
+      "placement_count": 4
+    },
+    {
+      "record": "test/scene_0000/scoring/000021.json",
+      "native_steps": 1050,
+      "placement_count": 4
+    }
+  ]
+}

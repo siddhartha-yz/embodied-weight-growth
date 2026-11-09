@@ -1,0 +1,56 @@
+{
+  "teacher": {
+    "stance_vx": {
+      "median": -0.30000000000000027,
+      "n": 191
+    },
+    "swing_vx": {
+      "median": 0.0,
+      "n": 191
+    },
+    "stance_ankle_q": {
+      "median": 0.0,
+      "n": 191
+    },
+    "swing_ankle_q": {
+      "median": -0.30000000000000027,
+      "n": 191
+    }
+  },
+  "original_weights": {
+    "stance_vx": {
+      "median": -0.2500000000000002,
+      "n": 191
+    },
+    "swing_vx": {
+      "median": -0.2500000000000002,
+      "n": 191
+    },
+    "stance_ankle_q": {
+      "median": -0.40000000000000036,
+      "n": 191
+    },
+    "swing_ankle_q": {
+      "median": -0.40000000000000036,
+      "n": 191
+    }
+  },
+  "student": {
+    "stance_vx": {
+      "median": -0.28322888327644846,
+      "n": 191
+    },
+    "swing_vx": {
+      "median": -0.03393877943917538,
+      "n": 191
+    },
+    "stance_ankle_q": {
+      "median": -0.03551584048272771,
+      "n": 191
+    },
+    "swing_ankle_q": {
+      "median": -0.2055530182256536,
+      "n": 191
+    }
+  }
+}

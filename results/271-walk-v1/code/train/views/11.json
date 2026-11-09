@@ -1,0 +1,75 @@
+{
+  "prompt": "Decision 11/36. Here is the result of your last action.\nSimulator observation: {\"ok\": true, \"state\": {\"x\": 0.70446, \"z\": 0.91489, \"pitch\": 0.31908, \"vx\": 1.52077, \"vz\": -1.16441, \"pitch_v\": 0.4645, \"q\": [-0.51988, 0.00054, 0.68713, -0.21791, -0.62124, 0.75323], \"dq\": [-1.55357, -0.02024, 0.27667, -0.22432, -2.73587, 0.17664], \"contact\": [1, 1], \"t\": 1.4, \"clock_sin\": 0.58779, \"clock_cos\": -0.80902}, \"scene\": {\"name\": \"train\", \"initial_pitch_rad\": 0.02, \"target_v_m_s\": 0.5, \"joint_order\": [\"right_hip\", \"right_knee\", \"right_ankle\", \"left_hip\", \"left_knee\", \"left_ankle\"], \"minimum_distance_m\": 1.0, \"minimum_time_s\": 2.0, \"minimum_alternating_steps\": 4}, \"meters\": {\"moves_used\": 4, \"moves_left\": 20, \"ticks_used\": 86, \"ticks_left\": 1514, \"max_ticks_per_move\": 250}, \"attempt\": 3, \"policy_version\": 4, \"success\": false, \"walk\": {\"distance_m\": 0.70446, \"elapsed_s\": 1.4, \"peak_x_m\": 0.70446, \"fall_reason\": null, \"touchdowns\": [], \"alternating_steps\": 0, \"first_success_s\": null}, \"op_summary\": {}, \"policy_frozen\": false, \"dt\": 0.02}\nChoose one next action.",
+  "observation": {
+    "ok": true,
+    "state": {
+      "x": 0.70446,
+      "z": 0.91489,
+      "pitch": 0.31908,
+      "vx": 1.52077,
+      "vz": -1.16441,
+      "pitch_v": 0.4645,
+      "q": [
+        -0.51988,
+        0.00054,
+        0.68713,
+        -0.21791,
+        -0.62124,
+        0.75323
+      ],
+      "dq": [
+        -1.55357,
+        -0.02024,
+        0.27667,
+        -0.22432,
+        -2.73587,
+        0.17664
+      ],
+      "contact": [
+        1,
+        1
+      ],
+      "t": 1.4,
+      "clock_sin": 0.58779,
+      "clock_cos": -0.80902
+    },
+    "scene": {
+      "name": "train",
+      "initial_pitch_rad": 0.02,
+      "target_v_m_s": 0.5,
+      "joint_order": [
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_hip",
+        "left_knee",
+        "left_ankle"
+      ],
+      "minimum_distance_m": 1.0,
+      "minimum_time_s": 2.0,
+      "minimum_alternating_steps": 4
+    },
+    "meters": {
+      "moves_used": 4,
+      "moves_left": 20,
+      "ticks_used": 86,
+      "ticks_left": 1514,
+      "max_ticks_per_move": 250
+    },
+    "attempt": 3,
+    "policy_version": 4,
+    "success": false,
+    "walk": {
+      "distance_m": 0.70446,
+      "elapsed_s": 1.4,
+      "peak_x_m": 0.70446,
+      "fall_reason": null,
+      "touchdowns": [],
+      "alternating_steps": 0,
+      "first_success_s": null
+    },
+    "op_summary": {},
+    "policy_frozen": false,
+    "dt": 0.02
+  }
+}

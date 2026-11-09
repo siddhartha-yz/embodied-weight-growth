@@ -1,0 +1,8 @@
+# HumanoidBench H1 primitives
+
+* `get_instruction()` gives the task.
+* `get_observation()` gives `state.qpos` (26 numbers), `state.qvel` (25), `action.channels` (19 dictionaries), `additional_info` (attempt index, attempt steps, seconds, pelvis +X displacement in meters and pelvis height) and the latest external camera. These are dict keys, e.g. `get_observation()["state"]["qpos"]`. qpos begins [x, y, z, qw, qx, qy, qz], then joint angles in radians; qvel starts with root linear/angular rates, then joint rates. Each channel gives its joint name, qpos/qvel indices and the physical radians at action -1 and +1 respectively.
+* `step(action)` applies 19 joint **position** targets, each normalized to [-1, 1], in the documented order (0 maps to the actuator range midpoint, not necessarily the initial pose). Each call advances 0.02 simulated seconds and returns `observation, reward_placeholder, terminated, truncated, info`. Termination means fall; truncation means episode horizon (1000 steps) or total action budget. Only `info["success"]` gives success, not the placeholder reward. Observe after steps, and stop loops on termination/truncation. No action advances outside your submitted code.
+* `reset()` restores the same seed in Playground only, returning `observation, info`. This does not renew the cumulative action budget. Python variables persist.
+
+Programs run with the original restricted EmbodiedEvo Python namespace, including `np` (restricted NumPy); only math and numpy imports are allowed. Direct Python with measured joint feedback is allowed. You have no existing controller, route, or learned skill.

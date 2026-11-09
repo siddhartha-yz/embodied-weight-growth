@@ -1,0 +1,76 @@
+{
+  "policy": {
+    "repo": "https://huggingface.co/lerobot/smolvla_libero",
+    "revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+    "license": "apache-2.0",
+    "files_bytes": {
+      "config.json": 2241,
+      "model.safetensors": 906712520,
+      "policy_postprocessor.json": 660,
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": 5676,
+      "policy_preprocessor.json": 1866,
+      "policy_preprocessor_step_5_normalizer_processor.safetensors": 5676,
+      "train_config.json": 9421
+    }
+  },
+  "backbone_config_and_tokenizer_only": {
+    "repo": "https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+    "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+    "files_bytes": {
+      "added_tokens.json": 4739,
+      "chat_template.json": 430,
+      "config.json": 3767,
+      "generation_config.json": 136,
+      "merges.txt": 466391,
+      "preprocessor_config.json": 599,
+      "processor_config.json": 67,
+      "special_tokens_map.json": 868,
+      "tokenizer.json": 3548256,
+      "tokenizer_config.json": 28626,
+      "vocab.json": 800662
+    }
+  },
+  "checkpoint_loading": {
+    "strict": true,
+    "preserve_checkpoint_dtype": true,
+    "load_separate_backbone_weights": false,
+    "default_chunk_length": 50,
+    "denoising_steps": 10
+  },
+  "smoke": {
+    "script": "actor_smoke.py",
+    "scene": "paired LIBERO-Goal bowl reset",
+    "chunk_shape": [
+      1,
+      50,
+      7
+    ],
+    "queue_matches_fixed_noise_first_two_actions_exactly": true,
+    "queue_counts_after_each_action": [
+      49,
+      48
+    ],
+    "native_first_action": [
+      0.15397211909294128,
+      -0.15835793316364288,
+      -0.02081022411584854,
+      -0.0011816902551800013,
+      0.025480471551418304,
+      0.001959050539880991,
+      -1.0099642276763916
+    ]
+  },
+  "runtime": {
+    "lerobot": "0.4.3",
+    "transformers": "4.57.6",
+    "torch": "2.7.0+cu128",
+    "torchvision": "0.22.0+cu128",
+    "numpy": "1.26.4",
+    "safetensors": "0.8.0",
+    "gymnasium": "0.29.1",
+    "robosuite": "1.4.1",
+    "mujoco": "3.8.1",
+    "libero_pro_commit": "2b910b5b5f53016bef9907632f6f840f1ce2229c",
+    "libero_pro_repo": "https://github.com/Zxy-MLlab/LIBERO-PRO"
+  }
+}
