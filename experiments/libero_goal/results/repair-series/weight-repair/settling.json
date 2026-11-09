@@ -1,0 +1,463 @@
+{
+  "first_native_success": 116,
+  "prefix_reproduced_exactly": true,
+  "extra_controls": 40,
+  "goal_true_for_all_40_extra_steps": true,
+  "goal_true_extra_steps": 40,
+  "first_lost_goal_step": null,
+  "goal_at_end": true,
+  "still_held_at_end": false,
+  "post": [
+    {
+      "step": 116,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.018461259532846778,
+        -0.16488182593357714,
+        1.143143241006213
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9939455389976501
+    },
+    {
+      "step": 117,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.020203310996156895,
+        -0.1686558947086557,
+        1.146483930383504
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.979028582572937
+    },
+    {
+      "step": 118,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02413267947094827,
+        -0.17442827968083963,
+        1.149510194063854
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9936322569847107
+    },
+    {
+      "step": 119,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.027638766973488573,
+        -0.17981775970791167,
+        1.1601027394961505
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9878326058387756
+    },
+    {
+      "step": 120,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02724329609147626,
+        -0.17932329587970444,
+        1.1583320555240477
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9905330538749695
+    },
+    {
+      "step": 121,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02654672299896204,
+        -0.1782465305280017,
+        1.155679494005642
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9921572804450989
+    },
+    {
+      "step": 122,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025685812046667308,
+        -0.17691509531491903,
+        1.1519083810570796
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9968095421791077
+    },
+    {
+      "step": 123,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02532877350674626,
+        -0.1763650283821741,
+        1.1501218526377799
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9992812871932983
+    },
+    {
+      "step": 124,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102450248207,
+        -0.1763221595871481,
+        1.149978540534148
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0008975267410278
+    },
+    {
+      "step": 125,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518256567,
+        -0.1763221606375577,
+        1.1499785461735628
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0104143619537354
+    },
+    {
+      "step": 126,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301882,
+        -0.17632216063825773,
+        1.1499785461775351
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0046634674072266
+    },
+    {
+      "step": 127,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301918,
+        -0.17632216063825815,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0007002353668213
+    },
+    {
+      "step": 128,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301912,
+        -0.1763221606382582,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.991905152797699
+    },
+    {
+      "step": 129,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019167,
+        -0.17632216063825823,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9959915280342102
+    },
+    {
+      "step": 130,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019098,
+        -0.17632216063825834,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -0.9924818873405457
+    },
+    {
+      "step": 131,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301911,
+        -0.1763221606382584,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0032992362976074
+    },
+    {
+      "step": 132,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019125,
+        -0.17632216063825848,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0084872245788574
+    },
+    {
+      "step": 133,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019136,
+        -0.1763221606382585,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.011470913887024
+    },
+    {
+      "step": 134,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019195,
+        -0.17632216063825845,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.009198546409607
+    },
+    {
+      "step": 135,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301914,
+        -0.1763221606382586,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0026459693908691
+    },
+    {
+      "step": 136,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301917,
+        -0.17632216063825862,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.018012523651123
+    },
+    {
+      "step": 137,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019174,
+        -0.17632216063825873,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.016622543334961
+    },
+    {
+      "step": 138,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019143,
+        -0.17632216063825884,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0277146100997925
+    },
+    {
+      "step": 139,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.0253010251830191,
+        -0.17632216063825887,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0065405368804932
+    },
+    {
+      "step": 140,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019132,
+        -0.17632216063825887,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.010121464729309
+    },
+    {
+      "step": 141,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301915,
+        -0.17632216063825892,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0106080770492554
+    },
+    {
+      "step": 142,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019094,
+        -0.176322160638259,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.021583080291748
+    },
+    {
+      "step": 143,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019212,
+        -0.17632216063825898,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0096065998077393
+    },
+    {
+      "step": 144,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019202,
+        -0.176322160638259,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0135313272476196
+    },
+    {
+      "step": 145,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019243,
+        -0.17632216063825903,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.017345905303955
+    },
+    {
+      "step": 146,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301917,
+        -0.17632216063825906,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0098247528076172
+    },
+    {
+      "step": 147,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019122,
+        -0.17632216063825917,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0168511867523193
+    },
+    {
+      "step": 148,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019202,
+        -0.17632216063825912,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.007672905921936
+    },
+    {
+      "step": 149,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019202,
+        -0.17632216063825912,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0089370012283325
+    },
+    {
+      "step": 150,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019157,
+        -0.17632216063825917,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0072847604751587
+    },
+    {
+      "step": 151,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301927,
+        -0.17632216063825915,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0152124166488647
+    },
+    {
+      "step": 152,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019122,
+        -0.17632216063825928,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.006117343902588
+    },
+    {
+      "step": 153,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.02530102518301917,
+        -0.17632216063825928,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0107289552688599
+    },
+    {
+      "step": 154,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019216,
+        -0.1763221606382593,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0074576139450073
+    },
+    {
+      "step": 155,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019164,
+        -0.1763221606382594,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0083744525909424
+    },
+    {
+      "step": 156,
+      "goal": true,
+      "bottle_xyz_m": [
+        0.025301025183019285,
+        -0.17632216063825934,
+        1.1499785461775376
+      ],
+      "bottle_grasped": false,
+      "gripper_command": -1.0065429210662842
+    }
+  ]
+}

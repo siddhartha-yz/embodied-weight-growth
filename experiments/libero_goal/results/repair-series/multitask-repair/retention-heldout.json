@@ -1,0 +1,454 @@
+[
+  {
+    "case": "new-bowl-7",
+    "arm": "bottle",
+    "source": "heldout-eval/bottle/new-bowl-7",
+    "original_last_step": 127,
+    "first_stable_released_40": 134,
+    "verified_stable40": true,
+    "final_native": true,
+    "prefix_exact": true,
+    "tail": [
+      {
+        "step": 128,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851577335,
+          -0.17588990255815637,
+          1.12639996632128
+        ],
+        "released_streak": 34
+      },
+      {
+        "step": 129,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185156951,
+          -0.17588990255814527,
+          1.12639996632128
+        ],
+        "released_streak": 35
+      },
+      {
+        "step": 130,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185156166,
+          -0.17588990255813416,
+          1.12639996632128
+        ],
+        "released_streak": 36
+      },
+      {
+        "step": 131,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851553825,
+          -0.17588990255812306,
+          1.12639996632128
+        ],
+        "released_streak": 37
+      },
+      {
+        "step": 132,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851546006,
+          -0.17588990255811196,
+          1.12639996632128
+        ],
+        "released_streak": 38
+      },
+      {
+        "step": 133,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851538165,
+          -0.17588990255810086,
+          1.12639996632128
+        ],
+        "released_streak": 39
+      },
+      {
+        "step": 134,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851530316,
+          -0.17588990255808976,
+          1.12639996632128
+        ],
+        "released_streak": 40
+      },
+      {
+        "step": 135,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185152249,
+          -0.17588990255807865,
+          1.12639996632128
+        ],
+        "released_streak": 41
+      },
+      {
+        "step": 136,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851514642,
+          -0.17588990255806755,
+          1.12639996632128
+        ],
+        "released_streak": 42
+      },
+      {
+        "step": 137,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.00236454318515068,
+          -0.17588990255805645,
+          1.12639996632128
+        ],
+        "released_streak": 43
+      },
+      {
+        "step": 138,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851498987,
+          -0.17588990255804535,
+          1.12639996632128
+        ],
+        "released_streak": 44
+      },
+      {
+        "step": 139,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851491146,
+          -0.17588990255803424,
+          1.12639996632128
+        ],
+        "released_streak": 45
+      },
+      {
+        "step": 140,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851483313,
+          -0.17588990255802314,
+          1.12639996632128
+        ],
+        "released_streak": 46
+      },
+      {
+        "step": 141,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851475477,
+          -0.17588990255801204,
+          1.12639996632128
+        ],
+        "released_streak": 47
+      },
+      {
+        "step": 142,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851467636,
+          -0.17588990255800094,
+          1.12639996632128
+        ],
+        "released_streak": 48
+      },
+      {
+        "step": 143,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851459808,
+          -0.17588990255798984,
+          1.12639996632128
+        ],
+        "released_streak": 49
+      },
+      {
+        "step": 144,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851451962,
+          -0.17588990255797873,
+          1.12639996632128
+        ],
+        "released_streak": 50
+      },
+      {
+        "step": 145,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851444117,
+          -0.17588990255796763,
+          1.12639996632128
+        ],
+        "released_streak": 51
+      },
+      {
+        "step": 146,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185143628,
+          -0.17588990255795653,
+          1.12639996632128
+        ],
+        "released_streak": 52
+      },
+      {
+        "step": 147,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185142844,
+          -0.17588990255794543,
+          1.12639996632128
+        ],
+        "released_streak": 53
+      },
+      {
+        "step": 148,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851420607,
+          -0.17588990255793432,
+          1.12639996632128
+        ],
+        "released_streak": 54
+      },
+      {
+        "step": 149,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851412766,
+          -0.17588990255792322,
+          1.12639996632128
+        ],
+        "released_streak": 55
+      },
+      {
+        "step": 150,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185140493,
+          -0.17588990255791212,
+          1.12639996632128
+        ],
+        "released_streak": 56
+      },
+      {
+        "step": 151,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851397115,
+          -0.17588990255790102,
+          1.12639996632128
+        ],
+        "released_streak": 57
+      },
+      {
+        "step": 152,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851389287,
+          -0.17588990255788992,
+          1.12639996632128
+        ],
+        "released_streak": 58
+      },
+      {
+        "step": 153,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851381446,
+          -0.1758899025578788,
+          1.12639996632128
+        ],
+        "released_streak": 59
+      },
+      {
+        "step": 154,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851373622,
+          -0.1758899025578677,
+          1.12639996632128
+        ],
+        "released_streak": 60
+      },
+      {
+        "step": 155,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185136578,
+          -0.1758899025578566,
+          1.12639996632128
+        ],
+        "released_streak": 61
+      },
+      {
+        "step": 156,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185135793,
+          -0.1758899025578455,
+          1.12639996632128
+        ],
+        "released_streak": 62
+      },
+      {
+        "step": 157,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851350117,
+          -0.1758899025578344,
+          1.12639996632128
+        ],
+        "released_streak": 63
+      },
+      {
+        "step": 158,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185134228,
+          -0.1758899025578233,
+          1.12639996632128
+        ],
+        "released_streak": 64
+      },
+      {
+        "step": 159,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185133444,
+          -0.1758899025578122,
+          1.12639996632128
+        ],
+        "released_streak": 65
+      },
+      {
+        "step": 160,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851326616,
+          -0.1758899025578011,
+          1.12639996632128
+        ],
+        "released_streak": 66
+      },
+      {
+        "step": 161,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851318766,
+          -0.17588990255779,
+          1.12639996632128
+        ],
+        "released_streak": 67
+      },
+      {
+        "step": 162,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185131093,
+          -0.1758899025577789,
+          1.12639996632128
+        ],
+        "released_streak": 68
+      },
+      {
+        "step": 163,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185130311,
+          -0.1758899025577678,
+          1.12639996632128
+        ],
+        "released_streak": 69
+      },
+      {
+        "step": 164,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185129526,
+          -0.1758899025577567,
+          1.12639996632128
+        ],
+        "released_streak": 70
+      },
+      {
+        "step": 165,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185128743,
+          -0.1758899025577456,
+          1.12639996632128
+        ],
+        "released_streak": 71
+      },
+      {
+        "step": 166,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.002364543185127961,
+          -0.17588990255773448,
+          1.12639996632128
+        ],
+        "released_streak": 72
+      },
+      {
+        "step": 167,
+        "native": true,
+        "held": false,
+        "target": [
+          -0.0023645431851271772,
+          -0.17588990255772338,
+          1.12639996632128
+        ],
+        "released_streak": 73
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "columns": [
+    10,
+    328,
+    491,
+    575,
+    629,
+    638,
+    673,
+    701
+  ],
+  "diagnosis": "Authorize both existing Y/Z coefficients at each column: 16 scalars. Observed +0.20 Y probes at 10, 491 and 629 reduced bottle/bowl teacher MSE by 13.49%/3.06%, 10.95%/9.17% and 8.32%/7.83%, respectively. Z probes at 328, 575, 638, 673 and 701 reduced it by 3.76%/8.01%, 4.51%/5.74%, 3.08%/6.72%, 5.25%/8.92% and 9.35%/6.31%. This combines bottle leverage with bowl coverage and cross-task benefits. Selected probes have pregrasp RMS 0.002975–0.006249; 328, 575, 638 and 673 also offer relatively low normal-carry disturbance. Retain 491 for strong joint coverage despite its higher normal-carry leakage, rather than selecting solely by movement magnitude. Deprioritize 121/204 for greater acquisition disturbance and 101 for negligible bowl benefit. Opposite-row probes sometimes worsen repair; these are locations, not prescribed values. Individual-probe evidence does not establish preservation under a combined fixed-checkpoint edit."
+}

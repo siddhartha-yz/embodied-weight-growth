@@ -1,16 +1,26 @@
 {
   "feature": {
-    "label": "LIBERO-GOAL · 抓放对照",
-    "title": "抓对了，为什么还是放不上去？",
-    "copy": "交换碗和酒瓶位置后，原策略抬错，延长激活干预没有抬对，改一句指令有一局抬对但没上柜。看 3.6 秒，三种行为一眼就能分开。",
-    "poster": "experiments/libero_goal/media/libero-goal-activation-vs-prompt.png",
-    "video": "experiments/libero_goal/media/libero-goal-activation-vs-prompt.mp4",
-    "links": [["实验与逐局结果","experiments/libero_goal/README.md"],["抓稳后切回原指令","experiments/libero_goal/media/libero-goal-prompt-switch.mp4"]]
+    "label": "SMOLVLA · 同一抓稳状态",
+    "title": "搬运变好，抓取退步",
+    "copy": "前 90 步三组重放原版抓取；第 91 步起分别控制。BP 和直接写权重都把酒瓶留在柜顶。从开局用这两套权重时，它们却没能稳稳抬起酒瓶。",
+    "poster": "experiments/libero_goal/media/bp-bottle-postgrasp.png",
+    "video": "experiments/libero_goal/media/bp-bottle-postgrasp.mp4",
+    "links": [["同一局，从开局跑","experiments/libero_goal/media/bp-bottle-dev.mp4"],["实验与逐局结果","experiments/libero_goal/README.md"]]
   },
   "groups": [
     {
+      "id": "libero-repair",
+      "title": "01 · SmolVLA：改哪里，怎么改",
+      "copy": "先做激活干预再选位置。正式评测从第一步加载固定权重，不按动作阶段切换。",
+      "cards": [
+        {"label":"新碗布局 14 · 四组对照","title":"两组 Astra 定位都放稳","copy":"原版和自动定位＋BP 掉落。Astra 定位＋BP 第 129 步确认放稳，Astra 定位＋直接写第 135 步确认放稳。","shape":"portrait","poster":"experiments/libero_goal/media/activation-bowl-layout14.png","video":"experiments/libero_goal/media/activation-bowl-layout14.mp4","links":[["全部四组成绩","experiments/libero_goal/README.md"]]},
+        {"label":"新酒瓶布局 25 · 四组对照","title":"这次只有自动定位＋BP 放稳","copy":"原版短暂达标后掉落。自动定位＋BP 在第 148 步放稳；两组 Astra 都没能持续抬起酒瓶。","shape":"portrait","poster":"experiments/libero_goal/media/activation-bottle-layout25.png","video":"experiments/libero_goal/media/activation-bottle-layout25.mp4","links":[["原酒瓶失败局","experiments/libero_goal/media/activation-bottle-dev.mp4"]]},
+        {"label":"连续修订 · 同一个模型","title":"修碗成功，联合修订又丢了这局","copy":"从原版权重连续改三次：先酒瓶，再碗，最后看两项一起改。开发碗只在第二轮放稳。","shape":"portrait","poster":"experiments/libero_goal/media/sequential-bowl.png","video":"experiments/libero_goal/media/sequential-bowl.mp4","links":[["新布局 15","experiments/libero_goal/media/sequential-heldout-bowl.mp4"],["早期抓错物体的诊断","experiments/libero_goal/media/libero-goal-activation-vs-prompt.mp4"]]}
+      ]
+    },
+    {
       "id": "h1",
-      "title": "01 · H1 遭遇侧推",
+      "title": "02 · H1 遭遇侧推",
       "copy": "录像里的地面蓝线是参考朝向，不是指定路线。先区分「没有倒」和「速度与朝向都恢复」。",
       "cards": [
         {"label":"同一局两次侧推","title":"边走边装新权重","copy":"仿真不暂停。第一推后请求 Astra，补丁在第二推前 1.48 秒装入；第二推后在线组摔倒，固定组没倒，两组都没完全恢复。","poster":"experiments/humanoidbench/two-push/poster.png","video":"experiments/humanoidbench/two-push/h1-two-push.mp4","links":[["H1 全部结果","experiments/humanoidbench/README.md"]]},
@@ -22,7 +32,7 @@
     },
     {
       "id":"walker",
-      "title":"02 · 从双足步态到权重手术",
+      "title":"03 · 从双足步态到权重手术",
       "copy":"先看能不能走，再检查修补一个起姿时，原来会走的起姿有没有退步。",
       "cards":[
         {"label":"WALKER2D · 从零生成","title":"同一小模型能不能写出步态？","copy":"冻结代码 v8 和权重 v8 重放，再把支撑腿、摆动腿的代码逻辑编入数值网络，区分表达能力与生成质量。","poster":"results/271-walk-v1/overview.png","video":"media/classic/03-walker2d-v8-frozen.mp4","links":[["数值编译与蒸馏回放","media/classic/04-walker2d-compiled-v8.mp4"],["源码与结果","experiments/walk/README.md"]]},
@@ -32,7 +42,7 @@
     },
     {
       "id":"manipulation",
-      "title":"03 · 从试探电机到双臂排数字",
+      "title":"04 · 从试探电机到双臂排数字",
       "copy":"机械臂没有 W 路线；双臂对照保留原生评分，画面上的摆放不等于任务通过。",
       "cards":[
         {"label":"双臂 · 作者框架","title":"排 7310：两局都是 30 分","copy":"带冻结技能组放对四枚，无技能组放对三枚。双臂没归位，两局都没通过。","poster":"experiments/embodied_evo_digits/media/poster.jpg","video":"experiments/embodied_evo_digits/media/frozen-skill.mp4","links":[["无技能组录像","experiments/embodied_evo_digits/media/no-skill.mp4"],["两局原生评分","experiments/embodied_evo_digits/README.md"]]},

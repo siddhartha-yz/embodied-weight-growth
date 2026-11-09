@@ -1,0 +1,98 @@
+{
+  "stage": 2,
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.9017340540885925
+    },
+    {
+      "row": 1,
+      "column": 21,
+      "value": 0.48184850811958313
+    },
+    {
+      "row": 1,
+      "column": 308,
+      "value": -0.6481018662452698
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "value": 0.6442147493362427
+    },
+    {
+      "row": 1,
+      "column": 554,
+      "value": -0.5880014300346375
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.8580167889595032
+    },
+    {
+      "row": 2,
+      "column": 21,
+      "value": -0.2794986367225647
+    },
+    {
+      "row": 2,
+      "column": 308,
+      "value": 0.2830733358860016
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "value": -0.5769261717796326
+    },
+    {
+      "row": 2,
+      "column": 554,
+      "value": 0.6574612259864807
+    }
+  ],
+  "round_assignments": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.90173405
+    },
+    {
+      "row": 1,
+      "column": 308,
+      "value": -0.64810187
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "value": 0.64421475
+    },
+    {
+      "row": 1,
+      "column": 554,
+      "value": -0.58800143
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.85801679
+    },
+    {
+      "row": 2,
+      "column": 308,
+      "value": 0.28307334
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "value": -0.57692617
+    },
+    {
+      "row": 2,
+      "column": 554,
+      "value": 0.65746123
+    }
+  ],
+  "diagnosis": "The bowl is acquired and released, but remains too far toward the cabinet rim and falls. These edits target deeper negative-Y transport and greater clearance before release, emphasizing placement-selective column 554 and partially offsetting acquisition effects. Gripper weights remain unchanged. Stable release and preservation of clean performance remain unverified."
+}

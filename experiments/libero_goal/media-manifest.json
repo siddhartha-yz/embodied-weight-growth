@@ -46,5 +46,117 @@
     "video": "media/libero-goal-recipient-contrast-init-003-bowl.mp4",
     "poster": "media/libero-goal-recipient-contrast.png",
     "featured": false
+  },
+  {
+    "id": "repair-bottle",
+    "title": "先抓对，再改搬运",
+    "description": "保留原版抓取；第 81 步换入权重，酒瓶放稳。此局是抓取后的诊断，不是开局固定权重。",
+    "video": "media/repair-bottle.mp4",
+    "poster": "media/repair-bottle.png",
+    "featured": false
+  },
+  {
+    "id": "multitask-bowl",
+    "title": "酒瓶与碗：四种固定权重",
+    "description": "开发碗局只有两份改动的合并版放稳。",
+    "video": "media/multitask-bowl.mp4",
+    "poster": "media/multitask-bowl.png",
+    "featured": false
+  },
+  {
+    "id": "multitask-heldout-bowl",
+    "title": "酒瓶改动迁移到新碗布局",
+    "description": "新碗布局 8，原版短暂达标后掉落；只修酒瓶也能放稳。",
+    "video": "media/multitask-heldout-bowl.mp4",
+    "poster": "media/multitask-heldout-bowl.png",
+    "featured": false
+  },
+  {
+    "id": "multitask-bottle",
+    "title": "开局固定的酒瓶改动",
+    "description": "同一失败局，原版抬起酒瓶；从开局启用的三份改动均未持续抬起酒瓶。",
+    "video": "media/multitask-bottle.mp4",
+    "poster": "media/multitask-bottle.png",
+    "featured": false
+  },
+  {
+    "id": "sequential-bowl",
+    "title": "连续三次改同一个模型",
+    "description": "第二轮把碗放稳；第三轮联合修订没保住这局。",
+    "video": "media/sequential-bowl.mp4",
+    "poster": "media/sequential-bowl.png",
+    "featured": false
+  },
+  {
+    "id": "sequential-bottle",
+    "title": "连续修订中的酒瓶目标局",
+    "description": "原版抓对但没放稳；第一轮先抬了碗，第二、三轮未持续抬起酒瓶。",
+    "video": "media/sequential-bottle.mp4",
+    "poster": "media/sequential-bottle.png",
+    "featured": false
+  },
+  {
+    "id": "sequential-heldout-bowl",
+    "title": "新布局 15：连续修订留下了什么",
+    "description": "第二轮和第三轮都能放稳，原版和第一轮不能。",
+    "video": "media/sequential-heldout-bowl.mp4",
+    "poster": "media/sequential-heldout-bowl.png",
+    "featured": false
+  },
+  {
+    "id": "bp-bottle-postgrasp",
+    "title": "同一个抓稳状态，再比 BP 和 WSP",
+    "description": "前 90 步重放原版抓取。第 91 步起分别控制，两种改权重都把酒瓶放稳。",
+    "video": "media/bp-bottle-postgrasp.mp4",
+    "poster": "media/bp-bottle-postgrasp.png",
+    "featured": true
+  },
+  {
+    "id": "bp-bowl",
+    "title": "同一动作示范：开局固定的 BP 与 WSP",
+    "description": "原版撞柜沿，BP 和直接写权重都把碗放稳。",
+    "video": "media/bp-bowl.mp4",
+    "poster": "media/bp-bowl.png",
+    "featured": false
+  },
+  {
+    "id": "bp-bottle-dev",
+    "title": "同一动作示范：开局固定的酒瓶局",
+    "description": "原版抓到酒瓶却没放稳；BP 和 WSP 都未持续抬起目标。",
+    "video": "media/bp-bottle-dev.mp4",
+    "poster": "media/bp-bottle-dev.png",
+    "featured": false
+  },
+  {
+    "id": "activation-bowl-layout14",
+    "title": "新碗布局 14：两组 Astra 定位都放稳",
+    "description": "原版和自动定位＋BP 掉落；Astra 定位＋BP 和 Astra 定位＋直接写均放稳。",
+    "video": "media/activation-bowl-layout14.mp4",
+    "poster": "media/activation-bowl-layout14.png",
+    "featured": true
+  },
+  {
+    "id": "activation-bottle-layout25",
+    "title": "新酒瓶布局 25：自动定位＋BP 放稳",
+    "description": "原版曾达标后掉落；自动定位＋BP 放稳；两组 Astra 未持续抬起酒瓶。",
+    "video": "media/activation-bottle-layout25.mp4",
+    "poster": "media/activation-bottle-layout25.png",
+    "featured": true
+  },
+  {
+    "id": "activation-bottle-dev",
+    "title": "原酒瓶失败局：定位后仍卡在抓取",
+    "description": "三组编辑都从开局启用权重，均未持续抬起酒瓶；原版抬起却未放稳。",
+    "video": "media/activation-bottle-dev.mp4",
+    "poster": "media/activation-bottle-dev.png",
+    "featured": false
+  },
+  {
+    "id": "activation-bowl-dev",
+    "title": "卡柜沿的碗：定位后都放稳",
+    "description": "原版掉落；自动定位＋BP、Astra 定位＋BP、Astra 定位＋直接写均放稳。",
+    "video": "media/activation-bowl-dev.mp4",
+    "poster": "media/activation-bowl-dev.png",
+    "featured": false
   }
 ]

@@ -1,0 +1,1164 @@
+{
+  "cases_n": 18,
+  "rollouts_n": 72,
+  "totals": {
+    "history": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 1
+      },
+      "auto-bp": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 0
+      },
+      "astra-bp": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 0
+      },
+      "astra-wsp": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 0
+      }
+    },
+    "old": {
+      "stock": {
+        "n": 8,
+        "native": 8,
+        "stable": 7,
+        "target_first_lift": 7
+      },
+      "auto-bp": {
+        "n": 8,
+        "native": 7,
+        "stable": 7,
+        "target_first_lift": 6
+      },
+      "astra-bp": {
+        "n": 8,
+        "native": 6,
+        "stable": 6,
+        "target_first_lift": 6
+      },
+      "astra-wsp": {
+        "n": 8,
+        "native": 6,
+        "stable": 6,
+        "target_first_lift": 5
+      }
+    },
+    "dev_bowl": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 1
+      },
+      "auto-bp": {
+        "n": 1,
+        "native": 1,
+        "stable": 1,
+        "target_first_lift": 0
+      },
+      "astra-bp": {
+        "n": 1,
+        "native": 1,
+        "stable": 1,
+        "target_first_lift": 1
+      },
+      "astra-wsp": {
+        "n": 1,
+        "native": 1,
+        "stable": 1,
+        "target_first_lift": 1
+      }
+    },
+    "heldout_bowl": {
+      "stock": {
+        "n": 4,
+        "native": 0,
+        "stable": 0,
+        "target_first_lift": 4
+      },
+      "auto-bp": {
+        "n": 4,
+        "native": 3,
+        "stable": 3,
+        "target_first_lift": 3
+      },
+      "astra-bp": {
+        "n": 4,
+        "native": 4,
+        "stable": 4,
+        "target_first_lift": 4
+      },
+      "astra-wsp": {
+        "n": 4,
+        "native": 3,
+        "stable": 3,
+        "target_first_lift": 4
+      }
+    },
+    "heldout_bottle": {
+      "stock": {
+        "n": 4,
+        "native": 3,
+        "stable": 2,
+        "target_first_lift": 3
+      },
+      "auto-bp": {
+        "n": 4,
+        "native": 3,
+        "stable": 3,
+        "target_first_lift": 3
+      },
+      "astra-bp": {
+        "n": 4,
+        "native": 2,
+        "stable": 2,
+        "target_first_lift": 2
+      },
+      "astra-wsp": {
+        "n": 4,
+        "native": 2,
+        "stable": 2,
+        "target_first_lift": 2
+      }
+    }
+  },
+  "cases": {
+    "historical-bottle": {
+      "group": "history",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bottle",
+          "first_lift_step": 70,
+          "first_cabinet_contact_after_lift": 99,
+          "last_contact": 106,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "sequential-repair/run-01/v0/historical-bottle/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/auto-bp-dev/historical-bottle/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-bp-dev/historical-bottle/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-dev/historical-bottle/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-2": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_native_goal": 90,
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 93,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0/clean-bottle-2/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 131,
+          "first_native_goal": 89,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 91,
+          "steps": 169,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-dev/clean-bottle-2/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 131,
+          "first_native_goal": 89,
+          "first_lift": "bottle",
+          "first_lift_step": 61,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 91,
+          "steps": 169,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-dev/clean-bottle-2/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 136,
+          "first_native_goal": 90,
+          "first_lift": "bottle",
+          "first_lift_step": 59,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 89,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-dev/clean-bottle-2/rollout.mp4"
+        }
+      }
+    },
+    "bowl-rim-dev": {
+      "group": "dev_bowl",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 87,
+          "first_cabinet_contact_after_lift": 118,
+          "last_contact": 117,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "sequential-repair/run-01/v0/bowl-rim-dev/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 166,
+          "first_native_goal": 127,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 207,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-dev/bowl-rim-dev/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 93,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-dev/bowl-rim-dev/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_native_goal": 91,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 93,
+          "steps": 171,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-dev/bowl-rim-dev/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-2": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 121,
+          "first_native_goal": 82,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 80,
+          "steps": 162,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0/clean-bowl-2/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 128,
+          "first_native_goal": 89,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 88,
+          "steps": 169,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-dev/clean-bowl-2/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 128,
+          "first_native_goal": 87,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 85,
+          "steps": 167,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-bp-dev/clean-bowl-2/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 127,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 86,
+          "steps": 168,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-dev/clean-bowl-2/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bowl-12": {
+      "group": "heldout_bowl",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 46,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bowl-12/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 128,
+          "first_native_goal": 89,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 86,
+          "steps": 169,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bowl-12/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 127,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 86,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bowl-12/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 127,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 86,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bowl-12/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bowl-13": {
+      "group": "heldout_bowl",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 89,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bowl-13/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 130,
+          "first_native_goal": 91,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 171,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bowl-13/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 132,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 56,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 89,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bowl-13/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 135,
+          "first_native_goal": 90,
+          "first_lift": "bowl",
+          "first_lift_step": 55,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 95,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bowl-13/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bowl-14": {
+      "group": "heldout_bowl",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 69,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 82,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bowl-14/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 55,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 88,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bowl-14/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 129,
+          "first_native_goal": 90,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 86,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bowl-14/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 135,
+          "first_native_goal": 91,
+          "first_lift": "bowl",
+          "first_lift_step": 55,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 95,
+          "steps": 171,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bowl-14/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bowl-16": {
+      "group": "heldout_bowl",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 89,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bowl-16/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 136,
+          "first_native_goal": 97,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 95,
+          "steps": 177,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bowl-16/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 129,
+          "first_native_goal": 90,
+          "first_lift": "bowl",
+          "first_lift_step": 73,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 88,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bowl-16/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 92,
+          "last_contact": 89,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bowl-16/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bottle-crossed-25": {
+      "group": "heldout_bottle",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": 97,
+          "first_lift": "bottle",
+          "first_lift_step": 55,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 104,
+          "steps": 177,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bottle-crossed-25/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 148,
+          "first_native_goal": 97,
+          "first_lift": "bottle",
+          "first_lift_step": 78,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 101,
+          "steps": 177,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bottle-crossed-25/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bottle-crossed-25/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bottle-crossed-25/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bottle-crossed-26": {
+      "group": "heldout_bottle",
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bottle-crossed-26/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bottle-crossed-26/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bottle-crossed-26/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bottle-crossed-26/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bottle-native-33": {
+      "group": "heldout_bottle",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 140,
+          "first_native_goal": 101,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 101,
+          "last_contact": 100,
+          "steps": 181,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bottle-native-33/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 142,
+          "first_native_goal": 98,
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 98,
+          "last_contact": 99,
+          "steps": 178,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bottle-native-33/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_native_goal": 94,
+          "first_lift": "bottle",
+          "first_lift_step": 67,
+          "first_cabinet_contact_after_lift": 94,
+          "last_contact": 93,
+          "steps": 174,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bottle-native-33/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 146,
+          "first_native_goal": 98,
+          "first_lift": "bottle",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 98,
+          "last_contact": 97,
+          "steps": 178,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bottle-native-33/rollout.mp4"
+        }
+      }
+    },
+    "act-blind-bottle-native-34": {
+      "group": "heldout_bottle",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 135,
+          "first_native_goal": 85,
+          "first_lift": "bottle",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 85,
+          "last_contact": 93,
+          "steps": 165,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/stock-heldout/act-blind-bottle-native-34/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 123,
+          "first_native_goal": 84,
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 83,
+          "steps": 164,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-heldout/act-blind-bottle-native-34/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 131,
+          "first_native_goal": 88,
+          "first_lift": "bottle",
+          "first_lift_step": 55,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 91,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-heldout/act-blind-bottle-native-34/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 130,
+          "first_native_goal": 86,
+          "first_lift": "bottle",
+          "first_lift_step": 54,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 90,
+          "steps": 166,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-heldout/act-blind-bottle-native-34/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-0": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 132,
+          "first_native_goal": 93,
+          "first_lift": "bottle",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 93,
+          "last_contact": 92,
+          "steps": 173,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 138,
+          "first_native_goal": 99,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 179,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 300,
+          "final_native": false,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-bottle-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-3": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 128,
+          "first_native_goal": 84,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 88,
+          "steps": 164,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 126,
+          "first_native_goal": 84,
+          "first_lift": "bottle",
+          "first_lift_step": 45,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 86,
+          "steps": 164,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 123,
+          "first_native_goal": 84,
+          "first_lift": "bottle",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 83,
+          "steps": 164,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 134,
+          "first_native_goal": 84,
+          "first_lift": "bottle",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 86,
+          "steps": 164,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-bottle-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-0": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 126,
+          "first_native_goal": 87,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 85,
+          "steps": 167,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 139,
+          "first_native_goal": 100,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 100,
+          "last_contact": 98,
+          "steps": 180,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 206,
+          "first_native_goal": 167,
+          "first_lift": "bowl",
+          "first_lift_step": 128,
+          "first_cabinet_contact_after_lift": 167,
+          "last_contact": 165,
+          "steps": 247,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_native_goal": 87,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 167,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-bowl-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-1": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 122,
+          "first_native_goal": 83,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 82,
+          "steps": 163,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 129,
+          "first_native_goal": 90,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 87,
+          "steps": 170,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 130,
+          "first_native_goal": 88,
+          "first_lift": "bowl",
+          "first_lift_step": 45,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 86,
+          "steps": 168,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 125,
+          "first_native_goal": 85,
+          "first_lift": "bowl",
+          "first_lift_step": 45,
+          "first_cabinet_contact_after_lift": 85,
+          "last_contact": 85,
+          "steps": 165,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-bowl-1/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-3": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 122,
+          "first_native_goal": 82,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 82,
+          "steps": 162,
+          "final_native": true,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 127,
+          "first_native_goal": 86,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 84,
+          "steps": 166,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 125,
+          "first_native_goal": 86,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 84,
+          "steps": 166,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": true,
+          "stable_released_40": true,
+          "stable_released_at": 125,
+          "first_native_goal": 86,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 84,
+          "steps": 166,
+          "final_native": true,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-bowl-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-two-mugs-0": {
+      "group": "old",
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "stable_released_40": null,
+          "stable_released_at": null,
+          "first_native_goal": 233,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 233,
+          "final_native": null,
+          "rollout": "sequential-repair/run-01/v0-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "auto-bp": {
+          "native_success": false,
+          "stable_released_40": null,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 520,
+          "final_native": null,
+          "rollout": "activation-repair/run-01/auto-bp-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "astra-bp": {
+          "native_success": false,
+          "stable_released_40": null,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 520,
+          "final_native": null,
+          "rollout": "activation-repair/run-01/astra-bp-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "astra-wsp": {
+          "native_success": false,
+          "stable_released_40": null,
+          "stable_released_at": null,
+          "first_native_goal": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "steps": 520,
+          "final_native": null,
+          "rollout": "activation-repair/run-01/astra-wsp-preserve/clean-two-mugs-0/rollout.mp4"
+        }
+      }
+    }
+  }
+}

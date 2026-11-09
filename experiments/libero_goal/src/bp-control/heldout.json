@@ -1,0 +1,76 @@
+[
+  {
+    "id": "bp-blind-bowl-31",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 31,
+    "init_source": "bowl",
+    "seed": 1031,
+    "layout": "bowl_xy:-0.012,+0.061"
+  },
+  {
+    "id": "bp-blind-bowl-32",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 32,
+    "init_source": "bowl",
+    "seed": 1032,
+    "layout": "bowl_xy:+0.000,+0.067"
+  },
+  {
+    "id": "bp-blind-bowl-33",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 33,
+    "init_source": "bowl",
+    "seed": 1033,
+    "layout": "bowl_xy:+0.010,+0.058"
+  },
+  {
+    "id": "bp-blind-bowl-34",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 34,
+    "init_source": "bowl",
+    "seed": 1034,
+    "layout": "bowl_xy:+0.000,+0.055"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-41",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 41,
+    "init_source": "bowl",
+    "seed": 1041,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-42",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 42,
+    "init_source": "bowl",
+    "seed": 1042,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-native-45",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 45,
+    "init_source": "bowl",
+    "seed": 1045,
+    "layout": "bottle_xy:-0.018,+0.026"
+  },
+  {
+    "id": "bp-blind-bottle-native-46",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 46,
+    "init_source": "bowl",
+    "seed": 1046,
+    "layout": "bottle_xy:+0.012,-0.020"
+  }
+]

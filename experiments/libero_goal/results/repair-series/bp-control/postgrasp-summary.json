@@ -1,0 +1,50 @@
+[
+  {
+    "arm": "stock",
+    "goal": "bottle",
+    "takeover_after": 90,
+    "first_native_goal": null,
+    "stable_released_at": null,
+    "final_native": false
+  },
+  {
+    "arm": "stock",
+    "goal": "bowl",
+    "takeover_after": 110,
+    "first_native_goal": null,
+    "stable_released_at": null,
+    "final_native": false
+  },
+  {
+    "arm": "bp",
+    "goal": "bottle",
+    "takeover_after": 90,
+    "first_native_goal": 103,
+    "stable_released_at": 145,
+    "final_native": true
+  },
+  {
+    "arm": "bp",
+    "goal": "bowl",
+    "takeover_after": 110,
+    "first_native_goal": 124,
+    "stable_released_at": 163,
+    "final_native": true
+  },
+  {
+    "arm": "wsp",
+    "goal": "bottle",
+    "takeover_after": 90,
+    "first_native_goal": 103,
+    "stable_released_at": 145,
+    "final_native": true
+  },
+  {
+    "arm": "wsp",
+    "goal": "bowl",
+    "takeover_after": 110,
+    "first_native_goal": 122,
+    "stable_released_at": 161,
+    "final_native": true
+  }
+]

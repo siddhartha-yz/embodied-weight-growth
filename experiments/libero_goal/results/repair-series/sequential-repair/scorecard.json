@@ -1,0 +1,1050 @@
+{
+  "paired_case_count": 16,
+  "rollout_count": 64,
+  "totals": {
+    "history": {
+      "v0": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 1
+      },
+      "v1": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      },
+      "v2": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      },
+      "v3": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      }
+    },
+    "old": {
+      "v0": {
+        "n": 8,
+        "native": 8,
+        "stable": 7,
+        "target_lift": 7
+      },
+      "v1": {
+        "n": 8,
+        "native": 8,
+        "stable": 7,
+        "target_lift": 7
+      },
+      "v2": {
+        "n": 8,
+        "native": 4,
+        "stable": 4,
+        "target_lift": 4
+      },
+      "v3": {
+        "n": 8,
+        "native": 7,
+        "stable": 7,
+        "target_lift": 7
+      }
+    },
+    "dev_bowl": {
+      "v0": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 1
+      },
+      "v1": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 1
+      },
+      "v2": {
+        "n": 1,
+        "native": 1,
+        "stable": 1,
+        "target_lift": 0
+      },
+      "v3": {
+        "n": 1,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      }
+    },
+    "new_bowl": {
+      "v0": {
+        "n": 3,
+        "native": 1,
+        "stable": 1,
+        "target_lift": 3
+      },
+      "v1": {
+        "n": 3,
+        "native": 2,
+        "stable": 2,
+        "target_lift": 3
+      },
+      "v2": {
+        "n": 3,
+        "native": 3,
+        "stable": 3,
+        "target_lift": 1
+      },
+      "v3": {
+        "n": 3,
+        "native": 1,
+        "stable": 1,
+        "target_lift": 0
+      }
+    },
+    "new_bottle": {
+      "v0": {
+        "n": 3,
+        "native": 1,
+        "stable": 1,
+        "target_lift": 1
+      },
+      "v1": {
+        "n": 3,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      },
+      "v2": {
+        "n": 3,
+        "native": 0,
+        "stable": 0,
+        "target_lift": 0
+      },
+      "v3": {
+        "n": 3,
+        "native": 1,
+        "stable": 1,
+        "target_lift": 2
+      }
+    }
+  },
+  "cases": {
+    "historical-bottle": {
+      "group": "history",
+      "versions": {
+        "v0": {
+          "first_lift": "bottle",
+          "first_lift_step": 70,
+          "first_cabinet_contact_after_lift": 99,
+          "last_contact": 106,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0/historical-bottle/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 203,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1/historical-bottle/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2/historical-bottle/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3/historical-bottle/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-2": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 93,
+          "first_native_goal": 90,
+          "native_success": true,
+          "stable_released_at": 133,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 170,
+          "rollout": "v0/clean-bottle-2/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bottle",
+          "first_lift_step": 59,
+          "first_cabinet_contact_after_lift": 103,
+          "last_contact": 102,
+          "first_native_goal": 103,
+          "native_success": true,
+          "stable_released_at": 142,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 183,
+          "rollout": "v1/clean-bottle-2/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2/clean-bottle-2/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 101,
+          "last_contact": 97,
+          "first_native_goal": 101,
+          "native_success": true,
+          "stable_released_at": 140,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 181,
+          "rollout": "v3/clean-bottle-2/rollout.mp4"
+        }
+      }
+    },
+    "bowl-rim-dev": {
+      "group": "dev_bowl",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 87,
+          "first_cabinet_contact_after_lift": 118,
+          "last_contact": 117,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0/bowl-rim-dev/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 56,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 92,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1/bowl-rim-dev/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 110,
+          "native_success": true,
+          "stable_released_at": 149,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 190,
+          "rollout": "v2/bowl-rim-dev/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3/bowl-rim-dev/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-2": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 80,
+          "first_native_goal": 82,
+          "native_success": true,
+          "stable_released_at": 121,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 162,
+          "rollout": "v0/clean-bowl-2/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 56,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 87,
+          "first_native_goal": 88,
+          "native_success": true,
+          "stable_released_at": 127,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 168,
+          "rollout": "v1/clean-bowl-2/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": "bowl",
+          "first_lift_step": 56,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 90,
+          "first_native_goal": 90,
+          "native_success": true,
+          "stable_released_at": 131,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 170,
+          "rollout": "v2/clean-bowl-2/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 88,
+          "first_native_goal": 91,
+          "native_success": true,
+          "stable_released_at": 130,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 171,
+          "rollout": "v3/clean-bowl-2/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-0": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bottle",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 93,
+          "last_contact": 92,
+          "first_native_goal": 93,
+          "native_success": true,
+          "stable_released_at": 132,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 173,
+          "rollout": "v0-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bottle",
+          "first_lift_step": 70,
+          "first_cabinet_contact_after_lift": 116,
+          "last_contact": 115,
+          "first_native_goal": 116,
+          "native_success": true,
+          "stable_released_at": 155,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 196,
+          "rollout": "v1-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2-preserve/clean-bottle-0/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bottle",
+          "first_lift_step": 54,
+          "first_cabinet_contact_after_lift": 110,
+          "last_contact": 108,
+          "first_native_goal": 110,
+          "native_success": true,
+          "stable_released_at": 153,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 190,
+          "rollout": "v3-preserve/clean-bottle-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-3": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 88,
+          "first_native_goal": 84,
+          "native_success": true,
+          "stable_released_at": 128,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 164,
+          "rollout": "v0-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bottle",
+          "first_lift_step": 64,
+          "first_cabinet_contact_after_lift": 95,
+          "last_contact": 97,
+          "first_native_goal": 95,
+          "native_success": true,
+          "stable_released_at": 137,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 175,
+          "rollout": "v1-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2-preserve/clean-bottle-3/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bottle",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 94,
+          "last_contact": 100,
+          "first_native_goal": 94,
+          "native_success": true,
+          "stable_released_at": 140,
+          "stable_released_40": true,
+          "final_native": false,
+          "steps": 174,
+          "rollout": "v3-preserve/clean-bottle-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-0": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 85,
+          "first_native_goal": 87,
+          "native_success": true,
+          "stable_released_at": 126,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 167,
+          "rollout": "v0-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 94,
+          "first_cabinet_contact_after_lift": 139,
+          "last_contact": 136,
+          "first_native_goal": 139,
+          "native_success": true,
+          "stable_released_at": 178,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 219,
+          "rollout": "v1-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": "bowl",
+          "first_lift_step": 60,
+          "first_cabinet_contact_after_lift": 101,
+          "last_contact": 99,
+          "first_native_goal": 101,
+          "native_success": true,
+          "stable_released_at": 140,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 181,
+          "rollout": "v2-preserve/clean-bowl-0/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 95,
+          "first_native_goal": 97,
+          "native_success": true,
+          "stable_released_at": 136,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 177,
+          "rollout": "v3-preserve/clean-bowl-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-1": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 82,
+          "first_native_goal": 83,
+          "native_success": true,
+          "stable_released_at": 122,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 163,
+          "rollout": "v0-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 48,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 90,
+          "first_native_goal": 91,
+          "native_success": true,
+          "stable_released_at": 132,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 171,
+          "rollout": "v1-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": "bowl",
+          "first_lift_step": 60,
+          "first_cabinet_contact_after_lift": 98,
+          "last_contact": 97,
+          "first_native_goal": 98,
+          "native_success": true,
+          "stable_released_at": 139,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 178,
+          "rollout": "v2-preserve/clean-bowl-1/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 96,
+          "last_contact": 94,
+          "first_native_goal": 96,
+          "native_success": true,
+          "stable_released_at": 135,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 176,
+          "rollout": "v3-preserve/clean-bowl-1/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-3": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 82,
+          "first_native_goal": 82,
+          "native_success": true,
+          "stable_released_at": 122,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 162,
+          "rollout": "v0-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 88,
+          "first_native_goal": 88,
+          "native_success": true,
+          "stable_released_at": 129,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 168,
+          "rollout": "v1-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 96,
+          "last_contact": 95,
+          "first_native_goal": 96,
+          "native_success": true,
+          "stable_released_at": 135,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 176,
+          "rollout": "v2-preserve/clean-bowl-3/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bowl",
+          "first_lift_step": 48,
+          "first_cabinet_contact_after_lift": 92,
+          "last_contact": 92,
+          "first_native_goal": 92,
+          "native_success": true,
+          "stable_released_at": 132,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 172,
+          "rollout": "v3-preserve/clean-bowl-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-two-mugs-0": {
+      "group": "old",
+      "versions": {
+        "v0": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 233,
+          "native_success": true,
+          "stable_released_at": null,
+          "stable_released_40": null,
+          "final_native": null,
+          "steps": 233,
+          "rollout": "v0-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 255,
+          "native_success": true,
+          "stable_released_at": null,
+          "stable_released_40": null,
+          "final_native": null,
+          "steps": 255,
+          "rollout": "v1-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": null,
+          "final_native": null,
+          "steps": 520,
+          "rollout": "v2-preserve/clean-two-mugs-0/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": null,
+          "final_native": null,
+          "steps": 520,
+          "rollout": "v3-preserve/clean-two-mugs-0/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bowl-13": {
+      "group": "new_bowl",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 86,
+          "first_native_goal": 83,
+          "native_success": true,
+          "stable_released_at": 126,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 163,
+          "rollout": "v0-heldout/fresh-bowl-13/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 93,
+          "last_contact": 92,
+          "first_native_goal": 93,
+          "native_success": true,
+          "stable_released_at": 137,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 173,
+          "rollout": "v1-heldout/fresh-bowl-13/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 90,
+          "native_success": true,
+          "stable_released_at": 129,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 170,
+          "rollout": "v2-heldout/fresh-bowl-13/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3-heldout/fresh-bowl-13/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bowl-15": {
+      "group": "new_bowl",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 45,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 86,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0-heldout/fresh-bowl-15/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 86,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1-heldout/fresh-bowl-15/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": "bowl",
+          "first_lift_step": 48,
+          "first_cabinet_contact_after_lift": 95,
+          "last_contact": 94,
+          "first_native_goal": 95,
+          "native_success": true,
+          "stable_released_at": 134,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 175,
+          "rollout": "v2-heldout/fresh-bowl-15/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 140,
+          "native_success": true,
+          "stable_released_at": 179,
+          "stable_released_40": true,
+          "final_native": false,
+          "steps": 220,
+          "rollout": "v3-heldout/fresh-bowl-15/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bowl-17": {
+      "group": "new_bowl",
+      "versions": {
+        "v0": {
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 86,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0-heldout/fresh-bowl-17/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 92,
+          "first_native_goal": 91,
+          "native_success": true,
+          "stable_released_at": 135,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 171,
+          "rollout": "v1-heldout/fresh-bowl-17/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": 155,
+          "native_success": true,
+          "stable_released_at": 194,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 235,
+          "rollout": "v2-heldout/fresh-bowl-17/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3-heldout/fresh-bowl-17/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bottle-crossed-21": {
+      "group": "new_bottle",
+      "versions": {
+        "v0": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0-heldout/fresh-bottle-crossed-21/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1-heldout/fresh-bottle-crossed-21/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2-heldout/fresh-bottle-crossed-21/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bottle",
+          "first_lift_step": 69,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 92,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3-heldout/fresh-bottle-crossed-21/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bottle-crossed-22": {
+      "group": "new_bottle",
+      "versions": {
+        "v0": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v0-heldout/fresh-bottle-crossed-22/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1-heldout/fresh-bottle-crossed-22/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2-heldout/fresh-bottle-crossed-22/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v3-heldout/fresh-bottle-crossed-22/rollout.mp4"
+        }
+      }
+    },
+    "fresh-bottle-native-26": {
+      "group": "new_bottle",
+      "versions": {
+        "v0": {
+          "first_lift": "bottle",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 95,
+          "first_native_goal": 90,
+          "native_success": true,
+          "stable_released_at": 135,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 170,
+          "rollout": "v0-heldout/fresh-bottle-native-26/rollout.mp4"
+        },
+        "v1": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v1-heldout/fresh-bottle-native-26/rollout.mp4"
+        },
+        "v2": {
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "first_native_goal": null,
+          "native_success": false,
+          "stable_released_at": null,
+          "stable_released_40": false,
+          "final_native": false,
+          "steps": 300,
+          "rollout": "v2-heldout/fresh-bottle-native-26/rollout.mp4"
+        },
+        "v3": {
+          "first_lift": "bottle",
+          "first_lift_step": 48,
+          "first_cabinet_contact_after_lift": 101,
+          "last_contact": 103,
+          "first_native_goal": 101,
+          "native_success": true,
+          "stable_released_at": 144,
+          "stable_released_40": true,
+          "final_native": true,
+          "steps": 181,
+          "rollout": "v3-heldout/fresh-bottle-native-26/rollout.mp4"
+        }
+      }
+    }
+  }
+}

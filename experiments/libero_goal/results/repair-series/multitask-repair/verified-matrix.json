@@ -1,0 +1,1888 @@
+{
+  "totals": {
+    "history": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 1,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bottle": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 0,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bowl": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 0,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "merged": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 0,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      }
+    },
+    "preservation": {
+      "stock": {
+        "n": 8,
+        "native": 8,
+        "correct_first_lift": 7,
+        "stable40": 5,
+        "stable_evaluable_n": 7,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bottle": {
+        "n": 8,
+        "native": 6,
+        "correct_first_lift": 5,
+        "stable40": 2,
+        "stable_evaluable_n": 7,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 2
+      },
+      "bowl": {
+        "n": 8,
+        "native": 8,
+        "correct_first_lift": 7,
+        "stable40": 4,
+        "stable_evaluable_n": 7,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "merged": {
+        "n": 8,
+        "native": 5,
+        "correct_first_lift": 5,
+        "stable40": 0,
+        "stable_evaluable_n": 7,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 3
+      }
+    },
+    "dev_bowl": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 1,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bottle": {
+        "n": 1,
+        "native": 0,
+        "correct_first_lift": 1,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bowl": {
+        "n": 1,
+        "native": 1,
+        "correct_first_lift": 1,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 1,
+        "lost_native_vs_stock": 0
+      },
+      "merged": {
+        "n": 1,
+        "native": 1,
+        "correct_first_lift": 1,
+        "stable40": 0,
+        "stable_evaluable_n": 1,
+        "rescued_native_vs_stock": 1,
+        "lost_native_vs_stock": 0
+      }
+    },
+    "heldout_bowl": {
+      "stock": {
+        "n": 3,
+        "native": 1,
+        "correct_first_lift": 3,
+        "stable40": 0,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bottle": {
+        "n": 3,
+        "native": 2,
+        "correct_first_lift": 3,
+        "stable40": 1,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 1,
+        "lost_native_vs_stock": 0
+      },
+      "bowl": {
+        "n": 3,
+        "native": 2,
+        "correct_first_lift": 3,
+        "stable40": 1,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 1,
+        "lost_native_vs_stock": 0
+      },
+      "merged": {
+        "n": 3,
+        "native": 2,
+        "correct_first_lift": 2,
+        "stable40": 2,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 1,
+        "lost_native_vs_stock": 0
+      }
+    },
+    "heldout_bottle": {
+      "stock": {
+        "n": 3,
+        "native": 1,
+        "correct_first_lift": 1,
+        "stable40": 1,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "bottle": {
+        "n": 3,
+        "native": 0,
+        "correct_first_lift": 0,
+        "stable40": 0,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 1
+      },
+      "bowl": {
+        "n": 3,
+        "native": 1,
+        "correct_first_lift": 1,
+        "stable40": 1,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 0
+      },
+      "merged": {
+        "n": 3,
+        "native": 0,
+        "correct_first_lift": 0,
+        "stable40": 0,
+        "stable_evaluable_n": 3,
+        "rescued_native_vs_stock": 0,
+        "lost_native_vs_stock": 1
+      }
+    }
+  },
+  "cases": {
+    "historical-bottle": {
+      "paired_inputs_bit_identical": true,
+      "id": "historical-bottle",
+      "kind": "history",
+      "init_index": 2,
+      "seed": 1002,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "swap_xy",
+      "first_prompt": "pick up the wine bottle, then put it on top of the cabinet",
+      "prompt_mode": "historical_bottle",
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 70,
+          "first_cabinet_contact_after_lift": 99,
+          "last_contact": 106,
+          "last_contact_xyz": [
+            0.020880472324587927,
+            -0.15536586917769935,
+            1.1316271465351242
+          ],
+          "first_open_after_lift": 106,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.11280462254556016,
+            0.10072470352488473,
+            0.9214501441413178
+          ],
+          "steps": 300,
+          "rollout": "history-stock-bottle/stock/historical-bottle/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.042750722460721605,
+            -0.02430665055605627,
+            0.9037467364525713
+          ],
+          "steps": 300,
+          "rollout": "history-bottle-verified/bottle/historical-bottle/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.09764178247022422,
+            -0.025397711332236856,
+            0.9215518663831996
+          ],
+          "steps": 300,
+          "rollout": "history-bowl-merged/bowl/historical-bottle/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.07422268997313869,
+            -0.006078818028339212,
+            0.9157850126419254
+          ],
+          "steps": 300,
+          "rollout": "history-bowl-merged/merged/historical-bottle/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-0": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bottle-0",
+      "kind": "clean",
+      "init_index": 0,
+      "seed": 1000,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the wine bottle on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 93,
+          "stable_released_40": true,
+          "stable_released_at": 132,
+          "first_lift": "bottle",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 93,
+          "last_contact": 92,
+          "last_contact_xyz": [
+            -0.008529234245519237,
+            -0.2279892501832034,
+            1.1324833960999918
+          ],
+          "first_open_after_lift": 94,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.009211775300237585,
+            -0.2283420357385502,
+            1.1268799215199998
+          ],
+          "steps": 133,
+          "rollout": "history-stock-bottle/stock/clean-bottle-0/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.22760798647756392,
+            -0.04468357661538153,
+            0.9215911604162123
+          ],
+          "steps": 300,
+          "rollout": "history-bottle-verified/bottle/clean-bottle-0/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 102,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 102,
+          "last_contact": 103,
+          "last_contact_xyz": [
+            0.011237939959139616,
+            -0.21127530558989274,
+            1.1306645869751253
+          ],
+          "first_open_after_lift": 103,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.010672455947720613,
+            -0.21049984923567688,
+            1.1268799215199998
+          ],
+          "steps": 142,
+          "rollout": "history-bowl-merged/bowl/clean-bottle-0/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.20608517007273436,
+            -0.03623367210177344,
+            0.912490299476674
+          ],
+          "steps": 300,
+          "rollout": "history-bowl-merged/merged/clean-bottle-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-2": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bottle-2",
+      "kind": "clean",
+      "init_index": 2,
+      "seed": 1002,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the wine bottle on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 90,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 93,
+          "last_contact_xyz": [
+            -0.01640977379601607,
+            -0.22050314048483094,
+            1.1307226926157392
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.016368997018828085,
+            -0.219896235493001,
+            1.1268799215199998
+          ],
+          "steps": 130,
+          "rollout": "history-stock-bottle/stock/clean-bottle-2/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 93,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 63,
+          "first_cabinet_contact_after_lift": 93,
+          "last_contact": 94,
+          "last_contact_xyz": [
+            -0.004745578464880009,
+            -0.2321304573451577,
+            1.1309531201469543
+          ],
+          "first_open_after_lift": 94,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.0058216750098884,
+            -0.2307379990825746,
+            1.1268799215199998
+          ],
+          "steps": 133,
+          "rollout": "history-bottle-verified/bottle/clean-bottle-2/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 97,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 99,
+          "last_contact_xyz": [
+            -0.0004238492877918483,
+            -0.21203825208348173,
+            1.1315600937938914
+          ],
+          "first_open_after_lift": 99,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.000642893916051636,
+            -0.2115555858125738,
+            1.1268799215199998
+          ],
+          "steps": 137,
+          "rollout": "history-bowl-merged/bowl/clean-bottle-2/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 98,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 61,
+          "first_cabinet_contact_after_lift": 98,
+          "last_contact": 99,
+          "last_contact_xyz": [
+            0.003745809539314862,
+            -0.22887226571047958,
+            1.1311501329433313
+          ],
+          "first_open_after_lift": 99,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.0029018918317106177,
+            -0.22794600631072548,
+            1.1268799215199998
+          ],
+          "steps": 138,
+          "rollout": "history-bowl-merged/merged/clean-bottle-2/rollout.mp4"
+        }
+      }
+    },
+    "clean-bottle-3": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bottle-3",
+      "kind": "clean",
+      "init_index": 3,
+      "seed": 1003,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the wine bottle on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 84,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 88,
+          "last_contact_xyz": [
+            -0.005273726432463263,
+            -0.2000525883932602,
+            1.129728240534349
+          ],
+          "first_open_after_lift": 89,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.006401778375468162,
+            -0.19954450684053765,
+            1.1268799215199998
+          ],
+          "steps": 124,
+          "rollout": "history-stock-bottle/stock/clean-bottle-3/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 89,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 58,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 91,
+          "last_contact_xyz": [
+            0.01355355634159639,
+            -0.20077790893876235,
+            1.132029914185605
+          ],
+          "first_open_after_lift": 91,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.013240016556963361,
+            -0.20173052023311994,
+            1.1268799215199998
+          ],
+          "steps": 129,
+          "rollout": "history-bottle-verified/bottle/clean-bottle-3/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 91,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 93,
+          "last_contact_xyz": [
+            0.02235822013393916,
+            -0.18504566165611722,
+            1.1324164731122481
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.008551625095341766,
+            -0.18933426090407907,
+            1.1486636380359843
+          ],
+          "steps": 131,
+          "rollout": "history-bowl-merged/bowl/clean-bottle-3/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 96,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bottle",
+          "first_lift_step": 66,
+          "first_cabinet_contact_after_lift": 96,
+          "last_contact": 99,
+          "last_contact_xyz": [
+            0.028520651904216418,
+            -0.19284142600042284,
+            1.1330175827865365
+          ],
+          "first_open_after_lift": 99,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.009952590119883096,
+            -0.2008736810547425,
+            1.1495832210757895
+          ],
+          "steps": 136,
+          "rollout": "history-bowl-merged/merged/clean-bottle-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-0": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bowl-0",
+      "kind": "clean",
+      "init_index": 0,
+      "seed": 1000,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 87,
+          "stable_released_40": true,
+          "stable_released_at": 126,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 85,
+          "last_contact_xyz": [
+            0.003683903936458645,
+            -0.22357674994967905,
+            1.1304764391806825
+          ],
+          "first_open_after_lift": 90,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.004682694878634989,
+            -0.23431762925951075,
+            1.1263999841973162
+          ],
+          "steps": 127,
+          "rollout": "history-stock-bottle/stock/clean-bowl-0/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 140,
+          "stable_released_40": true,
+          "stable_released_at": 179,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.012005071882797754,
+            -0.17176271961291995,
+            1.126399983261983
+          ],
+          "steps": 180,
+          "rollout": "history-bottle-verified/bottle/clean-bowl-0/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 89,
+          "stable_released_40": true,
+          "stable_released_at": 128,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 88,
+          "last_contact_xyz": [
+            0.004912935784155442,
+            -0.2286962720795058,
+            1.1293142875555675
+          ],
+          "first_open_after_lift": 92,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.009415722512878439,
+            -0.23522297566770697,
+            1.1263999841973162
+          ],
+          "steps": 129,
+          "rollout": "history-bowl-merged/bowl/clean-bowl-0/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.10572485384234975,
+            0.036482780978229254,
+            0.8984070750980836
+          ],
+          "steps": 300,
+          "rollout": "history-bowl-merged/merged/clean-bowl-0/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-1": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bowl-1",
+      "kind": "clean",
+      "init_index": 1,
+      "seed": 1001,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 83,
+          "stable_released_40": true,
+          "stable_released_at": 122,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 82,
+          "last_contact_xyz": [
+            0.003976838804319825,
+            -0.21028438334797867,
+            1.1300501926372681
+          ],
+          "first_open_after_lift": 86,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.004728759751024859,
+            -0.2129900072857833,
+            1.1263999841973162
+          ],
+          "steps": 123,
+          "rollout": "history-stock-bottle/stock/clean-bowl-1/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 83,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 45,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 82,
+          "last_contact_xyz": [
+            -0.0006577464666605397,
+            -0.22408424466484395,
+            1.129919319034234
+          ],
+          "first_open_after_lift": 87,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.0020674395673598517,
+            -0.2320158381750614,
+            1.1263999841973162
+          ],
+          "steps": 123,
+          "rollout": "history-bottle-verified/bottle/clean-bowl-1/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 84,
+          "stable_released_40": true,
+          "stable_released_at": 123,
+          "first_lift": "bowl",
+          "first_lift_step": 46,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 83,
+          "last_contact_xyz": [
+            0.0043662290012806805,
+            -0.20637311225269483,
+            1.1336884548877375
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.005625530520131792,
+            -0.21007405494485,
+            1.1263999841973162
+          ],
+          "steps": 124,
+          "rollout": "history-bowl-merged/bowl/clean-bowl-1/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 91,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 92,
+          "last_contact_xyz": [
+            0.005561441259186006,
+            -0.23639743070653857,
+            1.1295422839255422
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.00544703538056619,
+            -0.24062581630727095,
+            1.1263999841973162
+          ],
+          "steps": 131,
+          "rollout": "history-bowl-merged/merged/clean-bowl-1/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-3": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bowl-3",
+      "kind": "clean",
+      "init_index": 3,
+      "seed": 1003,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 82,
+          "stable_released_40": true,
+          "stable_released_at": 122,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 82,
+          "last_contact_xyz": [
+            0.013565276712708671,
+            -0.2219890030329562,
+            1.1285363542185902
+          ],
+          "first_open_after_lift": 85,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.012228018726369505,
+            -0.223923278241882,
+            1.1263999841973165
+          ],
+          "steps": 122,
+          "rollout": "history-stock-bottle/stock/clean-bowl-3/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 86,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 85,
+          "last_contact_xyz": [
+            0.01314500641404352,
+            -0.22987172561356906,
+            1.1376260691220517
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.013059621339107166,
+            -0.23703317059878948,
+            1.1263999841973162
+          ],
+          "steps": 126,
+          "rollout": "history-bottle-verified/bottle/clean-bowl-3/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 88,
+          "stable_released_40": true,
+          "stable_released_at": 127,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 87,
+          "last_contact_xyz": [
+            0.015667684223714125,
+            -0.22134343999811293,
+            1.1337681830012354
+          ],
+          "first_open_after_lift": 91,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.015603749105876514,
+            -0.22657013153214875,
+            1.1263999841973162
+          ],
+          "steps": 128,
+          "rollout": "history-bowl-merged/bowl/clean-bowl-3/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 88,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 88,
+          "last_contact_xyz": [
+            0.021545001503122205,
+            -0.2381397897485426,
+            1.1286597892774848
+          ],
+          "first_open_after_lift": 91,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.021326849034676795,
+            -0.24423946767344545,
+            1.1263999841973162
+          ],
+          "steps": 128,
+          "rollout": "history-bowl-merged/merged/clean-bowl-3/rollout.mp4"
+        }
+      }
+    },
+    "clean-two-mugs-0": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-two-mugs-0",
+      "kind": "clean_other",
+      "init_index": 0,
+      "seed": 1000,
+      "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "layout": null,
+      "first_prompt": null,
+      "prompt_mode": null,
+      "suite": "libero_10",
+      "task": 4,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 233,
+          "steps": 233,
+          "rollout": "history-stock-bottle/stock/clean-two-mugs-0/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "steps": 520,
+          "rollout": "history-bottle-verified/bottle/clean-two-mugs-0/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 223,
+          "steps": 223,
+          "rollout": "history-bowl-merged/bowl/clean-two-mugs-0/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "steps": 520,
+          "rollout": "history-bowl-merged/merged/clean-two-mugs-0/rollout.mp4"
+        }
+      }
+    },
+    "bowl-rim-dev": {
+      "paired_inputs_bit_identical": true,
+      "id": "bowl-rim-dev",
+      "kind": "dev_bowl",
+      "init_index": 2,
+      "seed": 1002,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "bowl_xy:+0.000,+0.070",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 87,
+          "first_cabinet_contact_after_lift": 118,
+          "last_contact": 117,
+          "last_contact_xyz": [
+            -0.014334592546818088,
+            -0.1554001353552283,
+            1.1265248634937695
+          ],
+          "first_open_after_lift": 121,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.03870225615260055,
+            -0.1453502371602357,
+            0.9253108415691761
+          ],
+          "steps": 300,
+          "rollout": "bowl-dev-probe/stock/bowl-rim-dev/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": 73,
+          "last_contact_xyz": [
+            -0.03741820151531823,
+            -0.07484076594199307,
+            1.1982371129176461
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.06699377895609794,
+            0.06074459876920833,
+            0.8984070750980836
+          ],
+          "steps": 300,
+          "rollout": "bowl-dev-probe/bottle/bowl-rim-dev/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 108,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 53,
+          "first_cabinet_contact_after_lift": 88,
+          "last_contact": 87,
+          "last_contact_xyz": [
+            -0.015734973627821985,
+            -0.1620418476460022,
+            1.1299151660588338
+          ],
+          "first_open_after_lift": 92,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.04384375451350186,
+            -0.1104032627298887,
+            0.9020598892935411
+          ],
+          "steps": 148,
+          "rollout": "bowl-dev-b1/bowl/bowl-rim-dev/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 89,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 54,
+          "first_cabinet_contact_after_lift": 89,
+          "last_contact": 90,
+          "last_contact_xyz": [
+            -0.008169403871460503,
+            -0.1737181611602832,
+            1.1266216156510722
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.008471364628190784,
+            -0.1795945322019851,
+            1.12639998157792
+          ],
+          "steps": 129,
+          "rollout": "bowl-dev-merged/merged/bowl-rim-dev/rollout.mp4"
+        }
+      }
+    },
+    "clean-bowl-2": {
+      "paired_inputs_bit_identical": true,
+      "id": "clean-bowl-2",
+      "kind": "clean",
+      "init_index": 2,
+      "seed": 1002,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "canonical",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 82,
+          "stable_released_40": true,
+          "stable_released_at": 121,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 80,
+          "last_contact_xyz": [
+            -0.015486138700915338,
+            -0.22398373207087272,
+            1.131546387403683
+          ],
+          "first_open_after_lift": 84,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.014453579799115407,
+            -0.22857807052487178,
+            1.1263999841973162
+          ],
+          "steps": 122,
+          "rollout": "bowl-dev-probe/stock/clean-bowl-2/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 126,
+          "stable_released_40": true,
+          "stable_released_at": 166,
+          "first_lift": "bowl",
+          "first_lift_step": 94,
+          "first_cabinet_contact_after_lift": 126,
+          "last_contact": 126,
+          "last_contact_xyz": [
+            -0.027356107875442154,
+            -0.19270816329538018,
+            1.130909939337774
+          ],
+          "first_open_after_lift": 127,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.027663531258631108,
+            -0.1933364918067031,
+            1.1263999841973162
+          ],
+          "steps": 166,
+          "rollout": "bowl-dev-probe/bottle/clean-bowl-2/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 84,
+          "stable_released_40": true,
+          "stable_released_at": 123,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 84,
+          "last_contact": 81,
+          "last_contact_xyz": [
+            -0.01165786667368162,
+            -0.22209543917101324,
+            1.145042336288612
+          ],
+          "first_open_after_lift": 86,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.017725153897009325,
+            -0.23489702683071645,
+            1.1263999841973162
+          ],
+          "steps": 124,
+          "rollout": "bowl-dev-b1/bowl/clean-bowl-2/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 86,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 85,
+          "last_contact_xyz": [
+            -0.01561815014709195,
+            -0.24226055937768579,
+            1.1336590002066131
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.017560347016969027,
+            -0.2544132248796882,
+            1.1263999841973162
+          ],
+          "steps": 126,
+          "rollout": "bowl-dev-merged/merged/clean-bowl-2/rollout.mp4"
+        }
+      }
+    },
+    "new-bowl-5": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bowl-5",
+      "kind": "heldout",
+      "init_index": 5,
+      "seed": 1005,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "bowl_xy:+0.000,+0.060",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 82,
+          "last_contact": 81,
+          "last_contact_xyz": [
+            0.0025514081289685748,
+            -0.14821375943001208,
+            1.1274627653538183
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.0035072905986644367,
+            -0.1392160909264903,
+            1.1157765004720743
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/stock/new-bowl-5/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 54,
+          "first_cabinet_contact_after_lift": 83,
+          "last_contact": 89,
+          "last_contact_xyz": [
+            0.0002759396906365303,
+            -0.13999206675514533,
+            1.1297963366283903
+          ],
+          "first_open_after_lift": 90,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.002351411663847594,
+            -0.1451749110460425,
+            1.1139924058935642
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bottle/new-bowl-5/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 85,
+          "last_contact_xyz": [
+            0.00931985274154212,
+            -0.1471657408981609,
+            1.1236039845138908
+          ],
+          "first_open_after_lift": 90,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.029362249080810022,
+            -0.07386307936307789,
+            0.9136226611522463
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bowl/new-bowl-5/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.014364493988241323,
+            -0.14786618406038066,
+            1.1159116280002785
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/merged/new-bowl-5/rollout.mp4"
+        }
+      }
+    },
+    "new-bowl-7": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bowl-7",
+      "kind": "heldout",
+      "init_index": 7,
+      "seed": 1007,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "bowl_xy:+0.000,+0.070",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 86,
+          "last_contact": 84,
+          "last_contact_xyz": [
+            0.006900754129933488,
+            -0.15677882161404963,
+            1.129072956465952
+          ],
+          "first_open_after_lift": 88,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.0015366614870342037,
+            -0.16007577370485207,
+            1.1153478751532218
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/stock/new-bowl-7/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 87,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 87,
+          "last_contact": 93,
+          "last_contact_xyz": [
+            -0.0016802575077108492,
+            -0.17312473365166411,
+            1.1285096436040045
+          ],
+          "first_open_after_lift": 94,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            -0.0023645431851585185,
+            -0.17588990255816747,
+            1.12639996632128
+          ],
+          "steps": 127,
+          "rollout": "heldout-eval/bottle/new-bowl-7/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 97,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 95,
+          "last_contact_xyz": [
+            0.026189645457137253,
+            -0.16937596752994818,
+            1.1283807603863085
+          ],
+          "first_open_after_lift": 96,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.025990916917419643,
+            -0.16635864486826152,
+            1.1201113580247957
+          ],
+          "steps": 137,
+          "rollout": "heldout-eval/bowl/new-bowl-7/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 97,
+          "stable_released_40": true,
+          "stable_released_at": 136,
+          "first_lift": "bowl",
+          "first_lift_step": 52,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 96,
+          "last_contact_xyz": [
+            0.006603740845124704,
+            -0.18692290056154054,
+            1.1324549767240466
+          ],
+          "first_open_after_lift": 96,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.006184324722373103,
+            -0.18809964167051807,
+            1.1263999850936717
+          ],
+          "steps": 137,
+          "rollout": "heldout-eval/merged/new-bowl-7/rollout.mp4"
+        }
+      }
+    },
+    "new-bowl-8": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bowl-8",
+      "kind": "heldout",
+      "init_index": 8,
+      "seed": 1008,
+      "instruction": "put the bowl on top of the cabinet",
+      "layout": "bowl_xy:+0.000,+0.070",
+      "first_prompt": "put the bowl on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 111,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": "bowl",
+          "first_lift_step": 47,
+          "first_cabinet_contact_after_lift": 90,
+          "last_contact": 91,
+          "last_contact_xyz": [
+            0.011549644055131671,
+            -0.1631602973662258,
+            1.1262856272794628
+          ],
+          "first_open_after_lift": 94,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            0.010950750695073114,
+            -0.1615858705934958,
+            1.120122506975826
+          ],
+          "steps": 151,
+          "rollout": "heldout-eval/stock/new-bowl-8/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": true,
+          "first_native_goal": 94,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_lift": "bowl",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 94,
+          "last_contact": 93,
+          "last_contact_xyz": [
+            0.014921222293834075,
+            -0.18287175597249375,
+            1.1391277652714404
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.01516617528636989,
+            -0.18570543880854543,
+            1.1263999850154742
+          ],
+          "steps": 134,
+          "rollout": "heldout-eval/bottle/new-bowl-8/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 94,
+          "stable_released_40": true,
+          "stable_released_at": 133,
+          "first_lift": "bowl",
+          "first_lift_step": 50,
+          "first_cabinet_contact_after_lift": 94,
+          "last_contact": 93,
+          "last_contact_xyz": [
+            0.01915085930907822,
+            -0.17402623168116482,
+            1.1371366341262135
+          ],
+          "first_open_after_lift": 93,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.02001401090580475,
+            -0.17541870531012713,
+            1.1263999802888647
+          ],
+          "steps": 134,
+          "rollout": "heldout-eval/bowl/new-bowl-8/rollout.mp4"
+        },
+        "merged": {
+          "native_success": true,
+          "first_native_goal": 97,
+          "stable_released_40": true,
+          "stable_released_at": 136,
+          "first_lift": "bowl",
+          "first_lift_step": 51,
+          "first_cabinet_contact_after_lift": 97,
+          "last_contact": 94,
+          "last_contact_xyz": [
+            0.010539179748161754,
+            -0.1948644627823128,
+            1.1501795019703138
+          ],
+          "first_open_after_lift": 95,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.013398002267460268,
+            -0.20259838426484872,
+            1.1263999841973165
+          ],
+          "steps": 137,
+          "rollout": "heldout-eval/merged/new-bowl-8/rollout.mp4"
+        }
+      }
+    },
+    "new-bottle-4": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bottle-4",
+      "kind": "heldout",
+      "init_index": 4,
+      "seed": 1004,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "swap_xy",
+      "first_prompt": "pick up the wine bottle, then put it on top of the cabinet",
+      "prompt_mode": "historical_bottle",
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.09766914367167784,
+            -0.007192373077909419,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/stock/new-bottle-4/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.09766914367167784,
+            -0.007192373077909395,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bottle/new-bottle-4/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.09766914367167784,
+            -0.007192373077909434,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bowl/new-bottle-4/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.09766914367167784,
+            -0.007192373077909474,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/merged/new-bottle-4/rollout.mp4"
+        }
+      }
+    },
+    "new-bottle-5": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bottle-5",
+      "kind": "heldout",
+      "init_index": 5,
+      "seed": 1005,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "swap_xy",
+      "first_prompt": "pick up the wine bottle, then put it on top of the cabinet",
+      "prompt_mode": "historical_bottle",
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.08176329416351504,
+            -0.014804412036021484,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/stock/new-bottle-5/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.08176329416351504,
+            -0.014804412036021472,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bottle/new-bottle-5/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.08176329416351504,
+            -0.01480441203602153,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bowl/new-bottle-5/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.08176329416351504,
+            -0.014804412036021482,
+            0.8988754774203452
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/merged/new-bottle-5/rollout.mp4"
+        }
+      }
+    },
+    "new-bottle-native-6": {
+      "paired_inputs_bit_identical": true,
+      "id": "new-bottle-native-6",
+      "kind": "heldout",
+      "init_index": 6,
+      "seed": 1006,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "layout": "bottle_xy:-0.018,+0.026",
+      "first_prompt": "put the wine bottle on top of the cabinet",
+      "prompt_mode": null,
+      "suite": null,
+      "task": null,
+      "arms": {
+        "stock": {
+          "native_success": true,
+          "first_native_goal": 91,
+          "stable_released_40": true,
+          "stable_released_at": 130,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 91,
+          "last_contact": 90,
+          "last_contact_xyz": [
+            0.008634924153463182,
+            -0.21657236980750014,
+            1.1354536124505974
+          ],
+          "first_open_after_lift": 91,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.008623879488307368,
+            -0.2179655613206305,
+            1.1268799215199998
+          ],
+          "steps": 131,
+          "rollout": "heldout-eval/stock/new-bottle-native-6/rollout.mp4"
+        },
+        "bottle": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.2367663417097512,
+            -0.0343533154291769,
+            0.9215911604162121
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/bottle/new-bottle-native-6/rollout.mp4"
+        },
+        "bowl": {
+          "native_success": true,
+          "first_native_goal": 102,
+          "stable_released_40": true,
+          "stable_released_at": 141,
+          "first_lift": "bottle",
+          "first_lift_step": 49,
+          "first_cabinet_contact_after_lift": 102,
+          "last_contact": 101,
+          "last_contact_xyz": [
+            0.027307162366726263,
+            -0.20692973220826735,
+            1.1343682171797593
+          ],
+          "first_open_after_lift": 100,
+          "first_other_goal": null,
+          "final_native": true,
+          "final_xyz": [
+            0.010562282534757234,
+            -0.20835475553420746,
+            1.149155347261838
+          ],
+          "steps": 142,
+          "rollout": "heldout-eval/bowl/new-bottle-native-6/rollout.mp4"
+        },
+        "merged": {
+          "native_success": false,
+          "first_native_goal": null,
+          "stable_released_40": false,
+          "stable_released_at": null,
+          "first_lift": null,
+          "first_lift_step": null,
+          "first_cabinet_contact_after_lift": null,
+          "last_contact": null,
+          "last_contact_xyz": null,
+          "first_open_after_lift": null,
+          "first_other_goal": null,
+          "final_native": false,
+          "final_xyz": [
+            -0.23667319825319164,
+            -0.03434336696377495,
+            0.9215911604162123
+          ],
+          "steps": 300,
+          "rollout": "heldout-eval/merged/new-bottle-native-6/rollout.mp4"
+        }
+      }
+    }
+  }
+}

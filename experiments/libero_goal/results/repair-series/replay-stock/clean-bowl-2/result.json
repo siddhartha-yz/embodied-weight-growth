@@ -1,0 +1,33 @@
+{
+  "goal": "bowl",
+  "init_index": 2,
+  "seed": 1002,
+  "init_source": "bowl",
+  "id": "clean-bowl-2",
+  "kind": "clean",
+  "layout": "canonical",
+  "instruction": "put the bowl on top of the cabinet",
+  "first_prompt": "put the bowl on top of the cabinet",
+  "first_lift": "bowl",
+  "first_lift_step": 50,
+  "first_open_after_lift": 84,
+  "first_native_goal": 82,
+  "first_other_goal": null,
+  "stable_released_at": 121,
+  "native_success": true,
+  "stable_released_40": true,
+  "first_cabinet_contact_after_lift": 82,
+  "last_contact": 80,
+  "last_contact_xyz": [
+    -0.015486138700915338,
+    -0.22398373207087272,
+    1.131546387403683
+  ],
+  "final_xyz": [
+    -0.028943774016591973,
+    -0.2027737966729114,
+    1.1396757945179865
+  ],
+  "final_native": true,
+  "steps": 162
+}

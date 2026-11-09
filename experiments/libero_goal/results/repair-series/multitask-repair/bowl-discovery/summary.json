@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "case": {
+        "goal": "bowl",
+        "init_index": 2,
+        "seed": 1002,
+        "init_source": "bowl",
+        "layout": "bowl_xy:+0.060,+0.040"
+      },
+      "classification": "unsafe_reset",
+      "reason": "Unsafe crossed-layout contact: bowl against plate_1_g4 (-5.164e-05 m)"
+    },
+    {
+      "case": {
+        "goal": "bowl",
+        "init_index": 3,
+        "seed": 1003,
+        "init_source": "bowl",
+        "layout": "bowl_xy:+0.060,+0.040"
+      },
+      "classification": "unsafe_reset",
+      "reason": "Unsafe crossed-layout contact: bowl against plate_1_g2 (-0.005368 m)"
+    },
+    {
+      "case": {
+        "goal": "bowl",
+        "init_index": 2,
+        "seed": 1002,
+        "init_source": "bowl",
+        "layout": "bowl_xy:+0.000,+0.070"
+      },
+      "path": "offset-p0000-p0070/init-002-bowl",
+      "result": {
+        "init_index": 2,
+        "seed": 1002,
+        "goal": "bowl",
+        "instruction": "put the bowl on top of the cabinet",
+        "layout": "bowl_xy:+0.000,+0.070",
+        "steps": 300,
+        "native_done": false,
+        "first_grasp": "bowl",
+        "first_grasp_step": 83,
+        "first_lift": "bowl",
+        "first_lift_step": 87,
+        "wrong_object_lifted_first": false,
+        "first_intended_goal_step": null,
+        "first_other_goal_step": null,
+        "success": false,
+        "wrong_object_first": false,
+        "completed_other_goal": false
+      },
+      "last_bowl_two_pad_step": 117,
+      "closest_transport_state": {
+        "step": 117,
+        "time_s": 5.85,
+        "held": true,
+        "site_xyz_m": [
+          0.04601408719866465,
+          -0.10333782582965043,
+          4.863493769491356e-06
+        ],
+        "xy_margin_m": -0.00895782582965042,
+        "cabinet_contact": false,
+        "cabinet_contact_site_m": [],
+        "gripper_command": 1.0086445808410645
+      },
+      "classification": "cabinet_rim_failure",
+      "rim_state": {
+        "step": 118,
+        "time_s": 5.9,
+        "held": false,
+        "site_xyz_m": [
+          0.046536353196634545,
+          -0.10481707324650735,
+          0.001260726149439284
+        ],
+        "xy_margin_m": -0.010437073246507347,
+        "cabinet_contact": true,
+        "cabinet_contact_site_m": [
+          [
+            0.06633423221068267,
+            -0.09398944617246487,
+            0.0014093116810875994
+          ],
+          [
+            0.061598891254638986,
+            -0.08169109074766108,
+            0.0014654253153885133
+          ]
+        ],
+        "gripper_command": 1.0167688131332397
+      }
+    }
+  ]
+}

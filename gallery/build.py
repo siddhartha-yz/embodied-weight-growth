@@ -18,7 +18,8 @@ def media(d):
     assert (root/img).is_file(), img
     if 'video' in d:
         v=d['video']; assert (root/v).is_file(),v
-        return f'<video controls playsinline preload="none" poster="{e(img)}" aria-label="{e(d["title"])}录像"><source src="{e(v)}" type="video/mp4"><a href="{e(v)}">下载录像</a></video>'
+        shape=' class="portrait"' if d.get('shape')=='portrait' else ''
+        return f'<video{shape} controls playsinline preload="none" poster="{e(img)}" aria-label="{e(d["title"])}录像"><source src="{e(v)}" type="video/mp4"><a href="{e(v)}">下载录像</a></video>'
     return f'<img class="preview figure" loading="lazy" src="{e(img)}" alt="{e(d["title"])}实验图">'
 def caption(d,level):
     return f'<div class="caption"><p class="kicker">{e(d["label"])}</p><h{level}>{e(d["title"])}</h{level}><p>{e(d["copy"])}</p>{" ".join(a(l) for l in d["links"])}</div>'

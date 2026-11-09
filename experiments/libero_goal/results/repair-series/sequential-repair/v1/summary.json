@@ -1,0 +1,129 @@
+[
+  {
+    "id": "historical-bottle",
+    "init_index": 2,
+    "goal": "bottle",
+    "layout": "swap_xy",
+    "seed": 1002,
+    "kind": "history",
+    "prompt_mode": "historical_bottle",
+    "instruction": "put the wine bottle on top of the cabinet",
+    "first_prompt": "pick up the wine bottle, then put it on top of the cabinet",
+    "first_lift": "bowl",
+    "first_lift_step": 203,
+    "first_open_after_lift": null,
+    "first_native_goal": null,
+    "first_other_goal": 250,
+    "stable_released_at": null,
+    "native_success": false,
+    "stable_released_40": false,
+    "first_cabinet_contact_after_lift": null,
+    "last_contact": null,
+    "last_contact_xyz": null,
+    "final_xyz": [
+      -0.07965773312270888,
+      -0.013636623888585697,
+      0.8988754774203452
+    ],
+    "final_native": false,
+    "steps": 300
+  },
+  {
+    "id": "clean-bottle-2",
+    "init_index": 2,
+    "goal": "bottle",
+    "layout": "canonical",
+    "seed": 1002,
+    "kind": "clean",
+    "instruction": "put the wine bottle on top of the cabinet",
+    "first_prompt": "put the wine bottle on top of the cabinet",
+    "first_lift": "bottle",
+    "first_lift_step": 59,
+    "first_open_after_lift": 103,
+    "first_native_goal": 103,
+    "first_other_goal": null,
+    "stable_released_at": 142,
+    "native_success": true,
+    "stable_released_40": true,
+    "first_cabinet_contact_after_lift": 103,
+    "last_contact": 102,
+    "last_contact_xyz": [
+      -0.006047879133860055,
+      -0.23951560915394268,
+      1.132843697459023
+    ],
+    "final_xyz": [
+      -0.007327156867988332,
+      -0.2398506686137352,
+      1.1268799215199996
+    ],
+    "final_native": true,
+    "steps": 183
+  },
+  {
+    "goal": "bowl",
+    "init_index": 2,
+    "seed": 1002,
+    "init_source": "bowl",
+    "id": "bowl-rim-dev",
+    "kind": "dev_bowl",
+    "layout": "bowl_xy:+0.000,+0.070",
+    "instruction": "put the bowl on top of the cabinet",
+    "first_prompt": "put the bowl on top of the cabinet",
+    "first_lift": "bowl",
+    "first_lift_step": 56,
+    "first_open_after_lift": 94,
+    "first_native_goal": null,
+    "first_other_goal": null,
+    "stable_released_at": null,
+    "native_success": false,
+    "stable_released_40": false,
+    "first_cabinet_contact_after_lift": 89,
+    "last_contact": 92,
+    "last_contact_xyz": [
+      -0.011691014498696835,
+      -0.15973500168607202,
+      1.1301678368550114
+    ],
+    "final_xyz": [
+      -0.03655154500926821,
+      -0.15020245545942376,
+      0.9308967951773677
+    ],
+    "final_native": false,
+    "steps": 300
+  },
+  {
+    "goal": "bowl",
+    "init_index": 2,
+    "seed": 1002,
+    "init_source": "bowl",
+    "id": "clean-bowl-2",
+    "kind": "clean",
+    "layout": "canonical",
+    "instruction": "put the bowl on top of the cabinet",
+    "first_prompt": "put the bowl on top of the cabinet",
+    "first_lift": "bowl",
+    "first_lift_step": 56,
+    "first_open_after_lift": 91,
+    "first_native_goal": 88,
+    "first_other_goal": null,
+    "stable_released_at": 127,
+    "native_success": true,
+    "stable_released_40": true,
+    "first_cabinet_contact_after_lift": 88,
+    "last_contact": 87,
+    "last_contact_xyz": [
+      -0.0029219543489195326,
+      -0.22487364027063456,
+      1.1347983865324212
+    ],
+    "final_xyz": [
+      -0.004307201101183342,
+      -0.22904195857978835,
+      1.1362392866338615
+    ],
+    "final_native": true,
+    "steps": 168
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "official_bank_sizes": {
+    "bowl": 50,
+    "bottle": 50
+  },
+  "identical_raw_rows_between_banks": 0,
+  "tested": [
+    {
+      "id": "act-blind-bowl-12",
+      "group": "bowl",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bowl-13",
+      "group": "bowl",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bowl-14",
+      "group": "bowl",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bowl-15",
+      "group": "bowl",
+      "valid": false,
+      "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-1.035e-07 m)"
+    },
+    {
+      "id": "act-blind-bowl-16",
+      "group": "bowl",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bottle-crossed-25",
+      "group": "bottle-crossed",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bottle-crossed-26",
+      "group": "bottle-crossed",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bottle-native-33",
+      "group": "bottle-native",
+      "valid": true
+    },
+    {
+      "id": "act-blind-bottle-native-34",
+      "group": "bottle-native",
+      "valid": true
+    }
+  ],
+  "accepted_counts": {
+    "bowl": 4,
+    "bottle-crossed": 2,
+    "bottle-native": 2
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "new-bowl-5",
+    "goal": "bowl",
+    "init_index": 5,
+    "seed": 1005,
+    "layout": "bowl_xy:+0.000,+0.060",
+    "kind": "heldout"
+  },
+  {
+    "id": "new-bowl-7",
+    "kind": "heldout",
+    "goal": "bowl",
+    "layout": "bowl_xy:+0.000,+0.070",
+    "init_index": 7,
+    "seed": 1007
+  },
+  {
+    "id": "new-bowl-8",
+    "kind": "heldout",
+    "goal": "bowl",
+    "layout": "bowl_xy:+0.000,+0.070",
+    "init_index": 8,
+    "seed": 1008
+  },
+  {
+    "id": "new-bottle-4",
+    "goal": "bottle",
+    "init_index": 4,
+    "seed": 1004,
+    "layout": "swap_xy",
+    "kind": "heldout",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "new-bottle-5",
+    "goal": "bottle",
+    "init_index": 5,
+    "seed": 1005,
+    "layout": "swap_xy",
+    "kind": "heldout",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "new-bottle-native-6",
+    "goal": "bottle",
+    "init_index": 6,
+    "seed": 1006,
+    "layout": "bottle_xy:-0.018,+0.026",
+    "kind": "heldout"
+  }
+]

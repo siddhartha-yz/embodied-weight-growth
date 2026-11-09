@@ -1,0 +1,46 @@
+{
+  "id": "bowl",
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "delta": -0.5
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "delta": 0.65
+    },
+    {
+      "row": 1,
+      "column": 121,
+      "delta": -0.3
+    },
+    {
+      "row": 1,
+      "column": 89,
+      "delta": -0.2
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "delta": 0.6
+    },
+    {
+      "row": 2,
+      "column": 183,
+      "delta": 0.05
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "delta": -0.4
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "delta": 0.5
+    }
+  ],
+  "reason": "Full replacement relative to the original checkpoint, bowl only. B1 still descended onto the edge and lost contact before opening; its transient native score was not stable placement. This proposal strengthens inward \u2212Y travel and delays descent, leaving X and gripper parameters untouched. Summing the supplied scalar responses predicts rim first/last-half changes of \u0394Y\u2248\u22120.179/\u22120.134 and \u0394Z\u2248+0.215/+0.122. Predicted early-context changes remain below 0.035, clean-carry changes below 0.139, and clean-place changes below 0.096. These are local linear estimates, not measured mixed-patch responses; grasp preservation and sustained placement remain unverified."
+}

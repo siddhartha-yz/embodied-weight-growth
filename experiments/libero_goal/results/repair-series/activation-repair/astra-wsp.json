@@ -1,0 +1,85 @@
+{
+  "edits": [
+    {
+      "row": 1,
+      "column": 10,
+      "value": 0.5556941032409668
+    },
+    {
+      "row": 1,
+      "column": 328,
+      "value": -0.5130727887153625
+    },
+    {
+      "row": 1,
+      "column": 491,
+      "value": 0.02441820129752159
+    },
+    {
+      "row": 1,
+      "column": 575,
+      "value": -0.23066699504852295
+    },
+    {
+      "row": 1,
+      "column": 629,
+      "value": 0.2005469650030136
+    },
+    {
+      "row": 1,
+      "column": 638,
+      "value": -0.1679740697145462
+    },
+    {
+      "row": 1,
+      "column": 673,
+      "value": -0.17362920939922333
+    },
+    {
+      "row": 1,
+      "column": 701,
+      "value": -0.20035094022750854
+    },
+    {
+      "row": 2,
+      "column": 10,
+      "value": 0.24904097616672516
+    },
+    {
+      "row": 2,
+      "column": 328,
+      "value": 0.5912182331085205
+    },
+    {
+      "row": 2,
+      "column": 491,
+      "value": -0.4121471047401428
+    },
+    {
+      "row": 2,
+      "column": 575,
+      "value": 0.4495208263397217
+    },
+    {
+      "row": 2,
+      "column": 629,
+      "value": 0.006589301861822605
+    },
+    {
+      "row": 2,
+      "column": 638,
+      "value": 0.2716507613658905
+    },
+    {
+      "row": 2,
+      "column": 673,
+      "value": 0.25463417172431946
+    },
+    {
+      "row": 2,
+      "column": 701,
+      "value": 0.028161095455288887
+    }
+  ],
+  "diagnosis": "Conservative joint proposal accounting for quadratic cross-terms, equal repair-group weighting, 5x grasp protection, and normal-carry preservation—not independent pulse magnitudes. All offsets remain below 0.65; unlisted weights stay stock. Combined preservation and closed-loop repair remain unverified."
+}

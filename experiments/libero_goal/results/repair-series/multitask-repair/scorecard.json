@@ -1,0 +1,124 @@
+{
+  "paired_cases": 16,
+  "scored_rollouts": 64,
+  "totals": {
+    "history": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "bottle": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "bowl": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "merged": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      }
+    },
+    "dev_bowl": {
+      "stock": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "bottle": {
+        "n": 1,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "bowl": {
+        "n": 1,
+        "native": 1,
+        "stable_release_2s": 0
+      },
+      "merged": {
+        "n": 1,
+        "native": 1,
+        "stable_release_2s": 1
+      }
+    },
+    "heldout_bowl": {
+      "stock": {
+        "n": 3,
+        "native": 1,
+        "stable_release_2s": 0
+      },
+      "bottle": {
+        "n": 3,
+        "native": 2,
+        "stable_release_2s": 2
+      },
+      "bowl": {
+        "n": 3,
+        "native": 2,
+        "stable_release_2s": 1
+      },
+      "merged": {
+        "n": 3,
+        "native": 2,
+        "stable_release_2s": 2
+      }
+    },
+    "heldout_bottle": {
+      "stock": {
+        "n": 3,
+        "native": 1,
+        "stable_release_2s": 1
+      },
+      "bottle": {
+        "n": 3,
+        "native": 0,
+        "stable_release_2s": 0
+      },
+      "bowl": {
+        "n": 3,
+        "native": 1,
+        "stable_release_2s": 1
+      },
+      "merged": {
+        "n": 3,
+        "native": 0,
+        "stable_release_2s": 0
+      }
+    },
+    "preservation": {
+      "stock": {
+        "n": 8,
+        "native": 8
+      },
+      "bottle": {
+        "n": 8,
+        "native": 6
+      },
+      "bowl": {
+        "n": 8,
+        "native": 8
+      },
+      "merged": {
+        "n": 8,
+        "native": 5
+      }
+    }
+  },
+  "exact_prefix_extensions": [
+    {
+      "case": "bowl-rim-dev",
+      "arm": "merged",
+      "stable_release_at": 133
+    },
+    {
+      "case": "new-bowl-7",
+      "arm": "bottle",
+      "stable_release_at": 134
+    }
+  ]
+}

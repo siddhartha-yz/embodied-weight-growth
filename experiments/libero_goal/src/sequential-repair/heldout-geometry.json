@@ -1,0 +1,84 @@
+[
+  {
+    "id": "fresh-bowl-12",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-9.942e-08 m)"
+  },
+  {
+    "id": "fresh-bowl-13",
+    "valid": true
+  },
+  {
+    "id": "fresh-bowl-14",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-9.613e-08 m)"
+  },
+  {
+    "id": "fresh-bowl-15",
+    "valid": true
+  },
+  {
+    "id": "fresh-bowl-16",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-8.718e-08 m)"
+  },
+  {
+    "id": "fresh-bowl-17",
+    "valid": true
+  },
+  {
+    "id": "fresh-bowl-18",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-3.138e-07 m)"
+  },
+  {
+    "id": "fresh-bowl-19",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-1.021e-07 m)"
+  },
+  {
+    "id": "fresh-bowl-20",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-1.12e-07 m)"
+  },
+  {
+    "id": "fresh-bottle-crossed-21",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-crossed-22",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-crossed-23",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-crossed-24",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-crossed-25",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-native-26",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-native-27",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-native-28",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-native-29",
+    "valid": true
+  },
+  {
+    "id": "fresh-bottle-native-30",
+    "valid": true
+  }
+]

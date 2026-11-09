@@ -33,3 +33,10 @@ python src/screen.py --checkpoint src/models/smolvla_libero \
 ```
 
 干预入口为 [causal_probe.py](src/causal_probe.py)、[extended_donor.py](src/extended_donor.py)、[recipient_contrast.py](src/recipient_contrast.py) 及 [instruction-control](src/instruction-control/)。`runs/screen` 是它们对照的原始屏测目录；如直接运行嵌套的提示词脚本，需把 `src` 加到 `PYTHONPATH`。
+## 固定权重修复瓶和碗
+
+![新碗布局 14：两组 Astra 定位均放稳](media/activation-bowl-layout14.png)
+
+[查看新碗四组同步录像](media/activation-bowl-layout14.mp4) · [查看新酒瓶四组同步录像](media/activation-bottle-layout25.mp4) · [完整实验快照](results/repair-series/README.md)
+
+最新一轮先干预动作头的内部特征，再比较自动选位置＋BP、Astra 定位＋BP、同一组 Astra 位置直接写权重。三个编辑版本都从开局加载固定权重。三组都修复开发碗，仍未救回原酒瓶局；Astra 定位＋BP 在新碗布局为 4/4，自动定位＋BP 在新酒瓶布局为 3/4、旧任务为 7/8。[72 局逐局结果](results/repair-series/activation-repair/scorecard.json) · [重放已锁定的权重](results/repair-series/REPRODUCE.md)

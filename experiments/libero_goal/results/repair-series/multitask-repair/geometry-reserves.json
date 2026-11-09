@@ -1,0 +1,40 @@
+[
+  {
+    "id": "new-bowl-5",
+    "valid": true
+  },
+  {
+    "id": "new-bottle-4",
+    "valid": true
+  },
+  {
+    "id": "new-bottle-5",
+    "valid": true
+  },
+  {
+    "id": "new-bottle-native-6",
+    "valid": true
+  },
+  {
+    "id": "new-bowl-7",
+    "valid": true
+  },
+  {
+    "id": "new-bowl-8",
+    "valid": true
+  },
+  {
+    "id": "new-bowl-9",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-1.052e-07 m)"
+  },
+  {
+    "id": "new-bowl-10",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-2.259e-07 m)"
+  },
+  {
+    "id": "new-bowl-11",
+    "valid": true
+  }
+]

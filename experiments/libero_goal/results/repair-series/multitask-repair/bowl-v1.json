@@ -1,0 +1,46 @@
+{
+  "id": "bowl",
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "delta": -0.2325
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "delta": 0.546
+    },
+    {
+      "row": 1,
+      "column": 121,
+      "delta": -0.159
+    },
+    {
+      "row": 1,
+      "column": 89,
+      "delta": -0.168
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "delta": 0.24
+    },
+    {
+      "row": 2,
+      "column": 183,
+      "delta": 0.0375
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "delta": -0.1875
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "delta": 0.147
+    }
+  ],
+  "reason": "Bowl-only proposal relative to the original checkpoint. The failure is descent before sufficient inward travel: contact was lost at 118 while closure remained commanded, not from early opening. These measured-response combinations favor inward \u2212Y and reduced downward Z near the rim, leaving X and gripper parameters untouched. Linear estimates for rim first/last halves are \u0394Y\u2248\u22120.120/\u22120.091 and \u0394Z\u2248+0.099/+0.064; early-context changes stay below 0.024 and clean-carry changes below 0.085. These are local estimates, not mixed-patch forward measurements or verified closed-loop success."
+}

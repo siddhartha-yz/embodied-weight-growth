@@ -1,0 +1,68 @@
+[
+  {
+    "id": "historical-bottle",
+    "init_index": 2,
+    "goal": "bottle",
+    "layout": "swap_xy",
+    "seed": 1002,
+    "kind": "history",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "clean-bottle-0",
+    "init_index": 0,
+    "goal": "bottle",
+    "layout": "canonical",
+    "seed": 1000,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-bottle-2",
+    "init_index": 2,
+    "goal": "bottle",
+    "layout": "canonical",
+    "seed": 1002,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-bottle-3",
+    "init_index": 3,
+    "goal": "bottle",
+    "layout": "canonical",
+    "seed": 1003,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-bowl-0",
+    "init_index": 0,
+    "goal": "bowl",
+    "layout": "canonical",
+    "seed": 1000,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-bowl-1",
+    "init_index": 1,
+    "goal": "bowl",
+    "layout": "canonical",
+    "seed": 1001,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-bowl-3",
+    "init_index": 3,
+    "goal": "bowl",
+    "layout": "canonical",
+    "seed": 1003,
+    "kind": "clean"
+  },
+  {
+    "id": "clean-two-mugs-0",
+    "kind": "clean_other",
+    "suite": "libero_10",
+    "task": 4,
+    "init_index": 0,
+    "seed": 1000,
+    "max_steps": 520
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.2637340724468231
+    },
+    {
+      "row": 1,
+      "column": 21,
+      "value": 0.24684849381446838
+    },
+    {
+      "row": 1,
+      "column": 89,
+      "value": 0.27029579877853394
+    },
+    {
+      "row": 1,
+      "column": 244,
+      "value": 0.28228622674942017
+    },
+    {
+      "row": 1,
+      "column": 308,
+      "value": -0.260101854801178
+    },
+    {
+      "row": 1,
+      "column": 371,
+      "value": -0.1017933040857315
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "value": 0.2862147390842438
+    },
+    {
+      "row": 1,
+      "column": 554,
+      "value": -0.003001457080245018
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.48501676321029663
+    },
+    {
+      "row": 2,
+      "column": 21,
+      "value": -0.08149862289428711
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "value": 3.7188001442700624e-05
+    },
+    {
+      "row": 2,
+      "column": 244,
+      "value": -0.36850306391716003
+    },
+    {
+      "row": 2,
+      "column": 308,
+      "value": 0.2400733381509781
+    },
+    {
+      "row": 2,
+      "column": 371,
+      "value": -0.32690420746803284
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "value": -0.5619261264801025
+    },
+    {
+      "row": 2,
+      "column": 554,
+      "value": -0.32753878831863403
+    }
+  ],
+  "diagnosis": "Damped, regularized local-quadratic proposal balancing both rescue objectives with retention and cross-axis coupling. All edits satisfy bounds; closed-loop repair and preservation remain unverified."
+}

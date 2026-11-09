@@ -1,0 +1,36 @@
+{
+  "id": "assertive",
+  "edits": [
+    {
+      "row": 1,
+      "column": 89,
+      "delta": 0.65
+    },
+    {
+      "row": 1,
+      "column": 371,
+      "delta": -0.65
+    },
+    {
+      "row": 1,
+      "column": -1,
+      "delta": 0.65
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "delta": -0.65
+    },
+    {
+      "row": 2,
+      "column": 371,
+      "delta": 0.65
+    },
+    {
+      "row": 2,
+      "column": -1,
+      "delta": -0.35
+    }
+  ],
+  "reason": "More strongly addresses stalled transport and premature descent, rather than treating holding alone as sufficient. Approximate additive fault@100 changes are y \u22120.282/\u22120.274 and z +0.324/+0.380. Leaves x and gripper unchanged; biases increase acquisition and canonical-placement risk. Neither patch directly prevents opening; retention depends on changing the trajectory."
+}

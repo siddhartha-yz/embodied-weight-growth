@@ -1,0 +1,178 @@
+[
+  {
+    "id": "act-blind-bowl-12",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 12,
+    "init_source": "bottle",
+    "seed": 2012,
+    "layout": "bowl_xy:-0.011,+0.059"
+  },
+  {
+    "id": "act-blind-bowl-13",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 13,
+    "init_source": "bottle",
+    "seed": 2013,
+    "layout": "bowl_xy:+0.000,+0.065"
+  },
+  {
+    "id": "act-blind-bowl-14",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 14,
+    "init_source": "bottle",
+    "seed": 2014,
+    "layout": "bowl_xy:+0.011,+0.057"
+  },
+  {
+    "id": "act-blind-bowl-15",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 15,
+    "init_source": "bottle",
+    "seed": 2015,
+    "layout": "bowl_xy:+0.000,+0.054"
+  },
+  {
+    "id": "act-blind-bowl-16",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 16,
+    "init_source": "bottle",
+    "seed": 2016,
+    "layout": "bowl_xy:-0.011,+0.059"
+  },
+  {
+    "id": "act-blind-bowl-17",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 17,
+    "init_source": "bottle",
+    "seed": 2017,
+    "layout": "bowl_xy:+0.000,+0.065"
+  },
+  {
+    "id": "act-blind-bowl-18",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 18,
+    "init_source": "bottle",
+    "seed": 2018,
+    "layout": "bowl_xy:+0.011,+0.057"
+  },
+  {
+    "id": "act-blind-bowl-19",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 19,
+    "init_source": "bottle",
+    "seed": 2019,
+    "layout": "bowl_xy:+0.000,+0.054"
+  },
+  {
+    "id": "act-blind-bottle-crossed-25",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 25,
+    "init_source": "bottle",
+    "seed": 2025,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "act-blind-bottle-crossed-26",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 26,
+    "init_source": "bottle",
+    "seed": 2026,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "act-blind-bottle-crossed-27",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 27,
+    "init_source": "bottle",
+    "seed": 2027,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "act-blind-bottle-crossed-28",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 28,
+    "init_source": "bottle",
+    "seed": 2028,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "act-blind-bottle-crossed-29",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 29,
+    "init_source": "bottle",
+    "seed": 2029,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "act-blind-bottle-native-33",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 33,
+    "init_source": "bottle",
+    "seed": 2033,
+    "layout": "bottle_xy:-0.017,+0.024"
+  },
+  {
+    "id": "act-blind-bottle-native-34",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 34,
+    "init_source": "bottle",
+    "seed": 2034,
+    "layout": "bottle_xy:+0.013,-0.018"
+  },
+  {
+    "id": "act-blind-bottle-native-35",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 35,
+    "init_source": "bottle",
+    "seed": 2035,
+    "layout": "bottle_xy:-0.019,+0.014"
+  },
+  {
+    "id": "act-blind-bottle-native-36",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 36,
+    "init_source": "bottle",
+    "seed": 2036,
+    "layout": "bottle_xy:+0.015,+0.016"
+  },
+  {
+    "id": "act-blind-bottle-native-37",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 37,
+    "init_source": "bottle",
+    "seed": 2037,
+    "layout": "bottle_xy:-0.017,+0.024"
+  },
+  {
+    "id": "act-blind-bottle-native-38",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 38,
+    "init_source": "bottle",
+    "seed": 2038,
+    "layout": "bottle_xy:+0.013,-0.018"
+  }
+]

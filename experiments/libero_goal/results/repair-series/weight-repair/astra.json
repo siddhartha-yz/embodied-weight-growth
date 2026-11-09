@@ -1,0 +1,73 @@
+{
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "answer": {
+    "candidates": [
+      {
+        "id": "conservative",
+        "edits": [
+          {
+            "row": 1,
+            "column": 89,
+            "delta": 0.6
+          },
+          {
+            "row": 1,
+            "column": 371,
+            "delta": -0.48
+          },
+          {
+            "row": 2,
+            "column": 89,
+            "delta": -0.48
+          },
+          {
+            "row": 2,
+            "column": 371,
+            "delta": 0.36
+          }
+        ],
+        "reason": "Prioritizes preservation: feature-weight edits strengthen late negative-y transport and lift clearance, with smaller measured early effects. Leaves x, biases, and gripper unchanged. Approximate additive fault@100 changes are y −0.181/−0.182 and z +0.179/+0.214; combined rollout success is unverified."
+      },
+      {
+        "id": "assertive",
+        "edits": [
+          {
+            "row": 1,
+            "column": 89,
+            "delta": 0.65
+          },
+          {
+            "row": 1,
+            "column": 371,
+            "delta": -0.65
+          },
+          {
+            "row": 1,
+            "column": -1,
+            "delta": 0.65
+          },
+          {
+            "row": 2,
+            "column": 89,
+            "delta": -0.65
+          },
+          {
+            "row": 2,
+            "column": 371,
+            "delta": 0.65
+          },
+          {
+            "row": 2,
+            "column": -1,
+            "delta": -0.35
+          }
+        ],
+        "reason": "More strongly addresses stalled transport and premature descent, rather than treating holding alone as sufficient. Approximate additive fault@100 changes are y −0.282/−0.274 and z +0.324/+0.380. Leaves x and gripper unchanged; biases increase acquisition and canonical-placement risk. Neither patch directly prevents opening; retention depends on changing the trajectory."
+      }
+    ]
+  },
+  "status": "completed",
+  "duration_ms": 45850,
+  "wall_s": 46.071159617000376
+}

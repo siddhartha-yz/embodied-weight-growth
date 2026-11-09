@@ -1,0 +1,155 @@
+[
+  {
+    "experiment": "multitask-repair",
+    "proposal": "bowl-v1",
+    "model_requested": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "status": "completed",
+    "wall_s": 47.669459550998,
+    "duration_ms": 47326,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "multitask-repair",
+    "proposal": "bowl-v2",
+    "model_requested": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "status": "completed",
+    "wall_s": 43.91987655199773,
+    "duration_ms": 43557,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "sequential-repair",
+    "proposal": "v1",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "stage": 1,
+    "status": "completed",
+    "wall_s": 90.739243238997,
+    "duration_ms": 90414,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "sequential-repair",
+    "proposal": "v2",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "stage": 2,
+    "status": "completed",
+    "wall_s": 91.43676013100048,
+    "duration_ms": 91109,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "sequential-repair",
+    "proposal": "v3",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "stage": 3,
+    "status": "completed",
+    "wall_s": 109.23437684799865,
+    "duration_ms": 108976,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "bp-control",
+    "proposal": "wsp",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "status": "completed",
+    "wall_s": 179.94647986800555,
+    "duration_ms": 179709,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "activation-repair",
+    "proposal": "astra-selection",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "mode": "locate",
+    "status": "completed",
+    "wall_s": 106.06437734600331,
+    "duration_ms": 105805,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  },
+  {
+    "experiment": "activation-repair",
+    "proposal": "astra-wsp",
+    "model_requested": "gpt-6-astra",
+    "effort": "high",
+    "mode": "write",
+    "status": "completed",
+    "wall_s": 220.61064732200612,
+    "duration_ms": 220241,
+    "item_types": [
+      "userMessage",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "agentMessage"
+    ]
+  }
+]

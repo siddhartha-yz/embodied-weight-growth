@@ -1,0 +1,5483 @@
+[
+  {
+    "step": 1,
+    "action": [
+      0.17945635318756104,
+      0.13701382279396057,
+      -0.06307921558618546,
+      -0.002318595303222537,
+      -0.021190281957387924,
+      -0.0003252779133617878,
+      -0.98907470703125
+    ],
+    "eef_pos": [
+      -0.21135491030164655,
+      0.021601550064850844,
+      1.1768935200528254
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 1,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.007955626119033582,
+          0.8984070750980622
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203294
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.9025063385293991
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186073
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.700684770267997e-13,
+        "bottle": 3.5726976932437537e-13,
+        "plate": 3.526068964065787e-13,
+        "cream_cheese": 1.5765166949677223e-14
+      }
+    }
+  },
+  {
+    "step": 2,
+    "action": [
+      0.37211599946022034,
+      0.2399575412273407,
+      -0.07354611158370972,
+      -0.00862031988799572,
+      -0.015076539479196072,
+      -0.005732148420065641,
+      -0.9834148287773132
+    ],
+    "eef_pos": [
+      -0.2086371003326261,
+      0.023538274313312988,
+      1.1757226405054242
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 2,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980829
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203448
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.9025063385294145
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.908296461868578e-13,
+        "bottle": 3.7270186936666505e-13,
+        "plate": 3.6803899377429797e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 3,
+    "action": [
+      0.4685451090335846,
+      0.3230074644088745,
+      -0.06583502888679504,
+      -0.019768288359045982,
+      -0.01151170115917921,
+      -0.007887165062129498,
+      -0.981593668460846
+    ],
+    "eef_pos": [
+      -0.2046244821037409,
+      0.026580413702957103,
+      1.1739643240257753
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 3,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 4,
+    "action": [
+      0.6549278497695923,
+      0.32306063175201416,
+      -0.08002268522977829,
+      -0.0313711054623127,
+      -0.004911228083074093,
+      -0.010310590267181396,
+      -0.9874899983406067
+    ],
+    "eef_pos": [
+      -0.19912725579360963,
+      0.030226380715709465,
+      1.1717787902141894
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 4,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 5,
+    "action": [
+      0.7862594723701477,
+      0.33491864800453186,
+      -0.12591814994812012,
+      -0.038960766047239304,
+      0.0004283403977751732,
+      -0.0033328274730592966,
+      -0.9977496862411499
+    ],
+    "eef_pos": [
+      -0.19201228629107822,
+      0.03413381468583093,
+      1.168882040210034
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 5,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 6,
+    "action": [
+      0.865973711013794,
+      0.287558376789093,
+      -0.19232214987277985,
+      -0.03804892301559448,
+      0.008587517775595188,
+      -0.004699051845818758,
+      -0.9964830279350281
+    ],
+    "eef_pos": [
+      -0.18361591999263144,
+      0.03798440599898862,
+      1.1650859934981306
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 6,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 7,
+    "action": [
+      0.9146469831466675,
+      0.23764434456825256,
+      -0.2660413086414337,
+      -0.03399662673473358,
+      0.016819778829813004,
+      -0.007823672145605087,
+      -0.9942936301231384
+    ],
+    "eef_pos": [
+      -0.17425602409260904,
+      0.041420414924787145,
+      1.1603459250479835
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 7,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 8,
+    "action": [
+      0.9324823617935181,
+      0.2106693983078003,
+      -0.3148876428604126,
+      -0.027295446023344994,
+      0.01781882718205452,
+      -0.00837488193064928,
+      -0.9972388744354248
+    ],
+    "eef_pos": [
+      -0.16416907741464581,
+      0.044461249740850875,
+      1.1548900529545725
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 8,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 9,
+    "action": [
+      0.9376457333564758,
+      0.16167587041854858,
+      -0.38643473386764526,
+      -0.008279589004814625,
+      0.025855157524347305,
+      -0.011235838755965233,
+      -0.9990836977958679
+    ],
+    "eef_pos": [
+      -0.15364316534344277,
+      0.047170120602218424,
+      1.148749430843726
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 9,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 10,
+    "action": [
+      0.9269896149635315,
+      0.09077830612659454,
+      -0.4683479070663452,
+      -0.002054878044873476,
+      0.022250838577747345,
+      -0.013109598308801651,
+      -0.9947754144668579
+    ],
+    "eef_pos": [
+      -0.1427979984675997,
+      0.04919628510616731,
+      1.1418449188050497
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 10,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 11,
+    "action": [
+      0.9470906257629395,
+      0.08420412242412567,
+      -0.5401788353919983,
+      -0.011510216630995274,
+      0.020758140832185745,
+      -0.01894320175051689,
+      -0.9790387153625488
+    ],
+    "eef_pos": [
+      -0.1315954022657837,
+      0.05048060352255569,
+      1.1341476449924677
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 11,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 12,
+    "action": [
+      0.8991460800170898,
+      0.08096478134393692,
+      -0.6386857032775879,
+      -0.01034613698720932,
+      0.0174989253282547,
+      -0.024900678545236588,
+      -0.9889604449272156
+    ],
+    "eef_pos": [
+      -0.1203465499899119,
+      0.05145302949846101,
+      1.1254936932453417
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 12,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 13,
+    "action": [
+      0.8082442283630371,
+      0.04691619053483009,
+      -0.7467612028121948,
+      -0.0029590679332613945,
+      0.013742966577410698,
+      -0.030838707461953163,
+      -0.9897168278694153
+    ],
+    "eef_pos": [
+      -0.10955618011156947,
+      0.05227008106779442,
+      1.1157830825966006
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 13,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 14,
+    "action": [
+      0.7028243541717529,
+      0.030970826745033264,
+      -0.8228819966316223,
+      -0.001541301840916276,
+      0.014252565801143646,
+      -0.0370902493596077,
+      -0.9884577989578247
+    ],
+    "eef_pos": [
+      -0.09960267484229479,
+      0.0528680466032871,
+      1.10515687023793
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 14,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 15,
+    "action": [
+      0.6040878295898438,
+      -0.014341376721858978,
+      -0.8889883160591125,
+      -0.0003567576059140265,
+      0.00023270957171916962,
+      -0.03989037126302719,
+      -0.9910951852798462
+    ],
+    "eef_pos": [
+      -0.09049897930432334,
+      0.05310393839324864,
+      1.0939272565633014
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 15,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 16,
+    "action": [
+      0.37304699420928955,
+      -0.03255800902843475,
+      -0.9650343060493469,
+      0.003616975387558341,
+      -0.003123289905488491,
+      -0.024464426562190056,
+      -0.9929885268211365
+    ],
+    "eef_pos": [
+      -0.08299065308089411,
+      0.05313056772939916,
+      1.082141828269692
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 16,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 17,
+    "action": [
+      0.22219276428222656,
+      -0.017886139452457428,
+      -0.9892112016677856,
+      0.0030544446781277657,
+      -0.007724870927631855,
+      -0.007672120351344347,
+      -0.9985170364379883
+    ],
+    "eef_pos": [
+      -0.07730918194925365,
+      0.05320791942525581,
+      1.0701282143657778
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 17,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 18,
+    "action": [
+      0.15089771151542664,
+      0.0203559547662735,
+      -0.9802254438400269,
+      -0.001093879109248519,
+      0.0004189899191260338,
+      0.005685118958353996,
+      -0.9974684715270996
+    ],
+    "eef_pos": [
+      -0.073071561650221,
+      0.0534915782062321,
+      1.058074539100545
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 18,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 19,
+    "action": [
+      0.00645020604133606,
+      0.06890954077243805,
+      -0.9671423435211182,
+      -0.0015877976547926664,
+      0.004632929340004921,
+      0.026717936620116234,
+      -0.9997747540473938
+    ],
+    "eef_pos": [
+      -0.07038506351974648,
+      0.05423557493783382,
+      1.046090290724368
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 19,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 20,
+    "action": [
+      -0.14053896069526672,
+      0.06518101692199707,
+      -0.9548192024230957,
+      -0.0016931500285863876,
+      0.004121590871363878,
+      0.04596443474292755,
+      -1.0041613578796387
+    ],
+    "eef_pos": [
+      -0.06939162248289389,
+      0.05530102638270899,
+      1.0343800460723902
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 20,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 21,
+    "action": [
+      -0.2937781512737274,
+      0.029227837920188904,
+      -0.9976221323013306,
+      0.0011845848057419062,
+      0.005426914431154728,
+      0.051973164081573486,
+      -0.9976716041564941
+    ],
+    "eef_pos": [
+      -0.07014416284373584,
+      0.05631448896552779,
+      1.0226754989523679
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 21,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 22,
+    "action": [
+      -0.3574426472187042,
+      -7.080286741256714e-05,
+      -1.0099643468856812,
+      0.0031981798820197582,
+      0.00014181435108184814,
+      0.05868224799633026,
+      -1.0023692846298218
+    ],
+    "eef_pos": [
+      -0.07220014103379299,
+      0.05706187943421962,
+      1.010863118178817
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 22,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 23,
+    "action": [
+      -0.36681634187698364,
+      -0.038505226373672485,
+      -1.0130481719970703,
+      0.004524877294898033,
+      0.00205604056827724,
+      0.056948572397232056,
+      -1.0067604780197144
+    ],
+    "eef_pos": [
+      -0.07504420134546391,
+      0.05738463209780837,
+      0.9989104298864153
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 23,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 24,
+    "action": [
+      -0.389946848154068,
+      -0.06578950583934784,
+      -0.9996920824050903,
+      0.0035384192597121,
+      -0.0014770166017115116,
+      0.04745972901582718,
+      -1.0088878870010376
+    ],
+    "eef_pos": [
+      -0.07848545558907633,
+      0.057184216382226274,
+      0.9867692610505859
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 24,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 25,
+    "action": [
+      -0.4252641201019287,
+      -0.10083514451980591,
+      -0.988036036491394,
+      0.0020555988885462284,
+      -0.005444943904876709,
+      0.034528881311416626,
+      -1.00335693359375
+    ],
+    "eef_pos": [
+      -0.08251454445197012,
+      0.05643830978954846,
+      0.974568302020331
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 25,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 26,
+    "action": [
+      -0.4852760434150696,
+      -0.1225220263004303,
+      -0.9677839279174805,
+      -0.0006365340086631477,
+      -0.012076725251972675,
+      0.026168016716837883,
+      -1.0038154125213623
+    ],
+    "eef_pos": [
+      -0.08722026609991985,
+      0.0552213851017979,
+      0.9625064692901164
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 26,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 27,
+    "action": [
+      -0.5760936141014099,
+      -0.11905854940414429,
+      -0.9293566346168518,
+      -0.00043767475290223956,
+      -0.010394577868282795,
+      0.02489258348941803,
+      -0.99617600440979
+    ],
+    "eef_pos": [
+      -0.09290743578251627,
+      0.05383549104870436,
+      0.9507785708184622
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 27,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 28,
+    "action": [
+      -0.5731432437896729,
+      -0.11456386744976044,
+      -0.8910309672355652,
+      -0.0008212826796807349,
+      -0.0060835909098386765,
+      0.02047135680913925,
+      -0.995361328125
+    ],
+    "eef_pos": [
+      -0.09932558033921605,
+      0.05243500542758248,
+      0.9394634345409976
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 28,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 29,
+    "action": [
+      -0.5297778248786926,
+      -0.09187202155590057,
+      -0.8272895216941833,
+      -0.0001367995864711702,
+      -6.9928355515003204e-06,
+      0.026360368356108665,
+      -1.0119318962097168
+    ],
+    "eef_pos": [
+      -0.105981653192559,
+      0.05116075624820911,
+      0.9285882312986773
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 29,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09872194840200046,
+          0.00795562611903358,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 30,
+    "action": [
+      -0.5266023874282837,
+      -0.08413925766944885,
+      -0.7627359628677368,
+      0.0007106469129212201,
+      0.0021390998736023903,
+      0.028146738186478615,
+      0.966836154460907
+    ],
+    "eef_pos": [
+      -0.11268719904626419,
+      0.05012715900849747,
+      0.9183825764527753
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 30,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09892891639360746,
+          0.007432265939632935,
+          0.8984251957669194
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0005630896781056483,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 31,
+    "action": [
+      -0.3440472185611725,
+      -0.033699534833431244,
+      -0.5709983110427856,
+      -0.00803220085799694,
+      0.015194891020655632,
+      0.030437907204031944,
+      1.000288963317871
+    ],
+    "eef_pos": [
+      -0.11568167200397088,
+      0.05042732436787611,
+      0.9125059978052485
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 31,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09892760794834031,
+          0.007252987593679905,
+          0.8974009281953833
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0012443184219228056,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 32,
+    "action": [
+      -0.22802895307540894,
+      -0.007993467152118683,
+      -0.4645066559314728,
+      -0.016683237627148628,
+      0.028470657765865326,
+      0.020624559372663498,
+      1.008871078491211
+    ],
+    "eef_pos": [
+      -0.11488497014078745,
+      0.05039877291863256,
+      0.9111686805239954
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 32,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09896858861512971,
+          0.007271829479824784,
+          0.8971457385554733
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0014558087480881826,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 33,
+    "action": [
+      -0.16020843386650085,
+      0.03394196555018425,
+      -0.3258036673069,
+      -0.028134996071457863,
+      0.05237055569887161,
+      0.016237564384937286,
+      0.9948704838752747
+    ],
+    "eef_pos": [
+      -0.11395619837336356,
+      0.050601414605520284,
+      0.9112006851038968
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 33,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09900812344859233,
+          0.007275919649299878,
+          0.8971803665829253
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0014313318351262439,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 34,
+    "action": [
+      -0.09889931231737137,
+      0.013314276933670044,
+      -0.18551963567733765,
+      -0.022709989920258522,
+      0.04832334816455841,
+      0.009460349567234516,
+      0.9954692721366882
+    ],
+    "eef_pos": [
+      -0.11312059812692811,
+      0.051018760949030455,
+      0.9120000212125685
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 34,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09903100552891718,
+          0.007263242709983881,
+          0.8973567776116209
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.001295390250798143,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 35,
+    "action": [
+      -0.06437758356332779,
+      0.028075076639652252,
+      -0.012088611721992493,
+      -0.025077054277062416,
+      0.058991797268390656,
+      0.0017823944799602032,
+      0.9962981343269348
+    ],
+    "eef_pos": [
+      -0.11271146560897799,
+      0.05171096889328107,
+      0.9134579078234717
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 35,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09901688793943651,
+          0.007235286102585753,
+          0.8978814030276687
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0009392604511725029,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 36,
+    "action": [
+      -0.054414600133895874,
+      0.005132980644702911,
+      0.09530051797628403,
+      -0.02317754365503788,
+      0.05312870815396309,
+      -0.008115445263683796,
+      1.0014333724975586
+    ],
+    "eef_pos": [
+      -0.11265103766896055,
+      0.05232350070752655,
+      0.9155848991280926
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 36,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09900635106921901,
+          0.0072159779472285085,
+          0.8986390204603534
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0008256893765104877,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 37,
+    "action": [
+      -0.015691161155700684,
+      -0.03133324533700943,
+      0.19020891189575195,
+      -0.017238598316907883,
+      0.05155385658144951,
+      -0.012640133500099182,
+      0.994630753993988
+    ],
+    "eef_pos": [
+      -0.11276362482328478,
+      0.0526139649471354,
+      0.9181009081639222
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 37,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.0991143738211722,
+          0.007391987823668211,
+          0.8993444042933603
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0011620119873968656,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 38,
+    "action": [
+      -0.015222623944282532,
+      -0.03635770082473755,
+      0.22044694423675537,
+      -0.011696557514369488,
+      0.04539195075631142,
+      -0.014919224195182323,
+      0.9984355568885803
+    ],
+    "eef_pos": [
+      -0.1129643382351598,
+      0.0525815531693571,
+      0.9208534799401186
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 38,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09935838095698683,
+          0.008884467812004962,
+          0.8987201074627309
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0011686669967412985,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 39,
+    "action": [
+      0.010157223790884018,
+      -0.021308057010173798,
+      0.262848824262619,
+      -0.009418790228664875,
+      0.03512531518936157,
+      -0.01822110451757908,
+      0.9969047904014587
+    ],
+    "eef_pos": [
+      -0.11296950882500559,
+      0.0525380186467166,
+      0.9240272419417098
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 39,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10004045152693385,
+          0.009850600612612866,
+          0.9001971674686797
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0029212684776994207,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 40,
+    "action": [
+      0.019005458801984787,
+      0.005448460578918457,
+      0.3952217996120453,
+      -0.011155305430293083,
+      0.02891656383872032,
+      -0.01866922900080681,
+      0.9943737387657166
+    ],
+    "eef_pos": [
+      -0.11275850742758925,
+      0.05252787287430666,
+      0.9282540442267863
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 40,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10420784092029411,
+          0.010106611527828737,
+          0.8997027158249339
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.0060332777033271605,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 41,
+    "action": [
+      0.025408655405044556,
+      0.0693202018737793,
+      0.48152831196784973,
+      -0.01210043579339981,
+      0.02490263059735298,
+      -0.019124988466501236,
+      0.9960423111915588
+    ],
+    "eef_pos": [
+      -0.11242403578788009,
+      0.05288638640249376,
+      0.9338352001386011
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 41,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10791749274743484,
+          0.012222372228154779,
+          0.9017408376907475
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.010671322841900616,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 42,
+    "action": [
+      0.07302156835794449,
+      0.06251098215579987,
+      0.6333884000778198,
+      -0.02089076116681099,
+      0.029628936201334,
+      -0.017381593585014343,
+      0.9907974600791931
+    ],
+    "eef_pos": [
+      -0.1119258497311895,
+      0.05338425068086379,
+      0.9409040766158667
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 42,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10893038353202579,
+          0.01439055302175139,
+          0.9063250222548245
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.01443309804691897,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 43,
+    "action": [
+      0.10472523421049118,
+      0.06784068048000336,
+      0.6798125505447388,
+      -0.020984377712011337,
+      0.01410930510610342,
+      -0.017568428069353104,
+      0.99038165807724
+    ],
+    "eef_pos": [
+      -0.11101284853378952,
+      0.05393762078452092,
+      0.9492691322693079
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 43,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10821628028507432,
+          0.01473155218036158,
+          0.9149365988070454
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.020230686245303442,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 44,
+    "action": [
+      0.16846852004528046,
+      0.08595437556505203,
+      0.7772013545036316,
+      -0.023821761831641197,
+      -0.00020804954692721367,
+      -0.027353934943675995,
+      0.9835451245307922
+    ],
+    "eef_pos": [
+      -0.10948254543439373,
+      0.05461471566574969,
+      0.958707053591568
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 44,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10678650731017202,
+          0.015316908819982853,
+          0.9245266555601753
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.028310034915697634,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 45,
+    "action": [
+      0.22623786330223083,
+      0.10532820969820023,
+      0.9029529094696045,
+      -0.031471896916627884,
+      -0.01286678109318018,
+      -0.02935902774333954,
+      0.9864646792411804
+    ],
+    "eef_pos": [
+      -0.10730542290927783,
+      0.05538632983179644,
+      0.9695159147988945
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 45,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.10464672895316139,
+          0.01597919538873004,
+          0.9355217070926455
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.038431453219118165,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 46,
+    "action": [
+      0.27348870038986206,
+      0.12649142742156982,
+      0.9441934823989868,
+      -0.02072746492922306,
+      -0.0012073935940861702,
+      -0.024762483313679695,
+      0.9994428753852844
+    ],
+    "eef_pos": [
+      -0.10485531609860677,
+      0.05661478496760145,
+      0.9812333785070594
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 46,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.1022195441365633,
+          0.01712799219827209,
+          0.9473731507429844
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.04994038485558836,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 47,
+    "action": [
+      0.297311395406723,
+      0.10527577251195908,
+      0.9552491903305054,
+      -0.02198081463575363,
+      0.010231398977339268,
+      -0.024778978899121284,
+      0.9977986216545105
+    ],
+    "eef_pos": [
+      -0.10233589978094411,
+      0.057969471586814994,
+      0.993204133945134
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 47,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09973577349673261,
+          0.018384694061192742,
+          0.9594496937068784
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.06193540656315788,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 48,
+    "action": [
+      0.3195140063762665,
+      0.07920598983764648,
+      0.9521291255950928,
+      -0.014454785734415054,
+      0.01494881883263588,
+      -0.022600101307034492,
+      0.9990273118019104
+    ],
+    "eef_pos": [
+      -0.09966104397058542,
+      0.05919476809650688,
+      1.0051982781673123
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 48,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09710529693495408,
+          0.019525413168111468,
+          0.971529766496712
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.07404999346237533,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 49,
+    "action": [
+      0.3332315981388092,
+      -0.009068608283996582,
+      0.9506548643112183,
+      -0.005020213313400745,
+      0.015256020240485668,
+      -0.012170003727078438,
+      0.9979574084281921
+    ],
+    "eef_pos": [
+      -0.096745245782793,
+      0.05997718424685121,
+      1.0171810349038137
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 49,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09422696101589748,
+          0.020223663262049097,
+          0.9835746525515198
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.08616394777582094,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 50,
+    "action": [
+      0.3453640639781952,
+      -0.09232603013515472,
+      0.9335048198699951,
+      -0.0030652456916868687,
+      0.02142680436372757,
+      -0.0023758679162710905,
+      0.9872856736183167
+    ],
+    "eef_pos": [
+      -0.09363559343548312,
+      0.05987326669986756,
+      1.0290547337383429
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 50,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.09115082452202924,
+          0.020038195478937874,
+          0.9954869065693649
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.09812137421444204,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 51,
+    "action": [
+      0.38571250438690186,
+      -0.19582456350326538,
+      0.95993971824646,
+      -0.0047122519463300705,
+      0.017519351094961166,
+      0.002878221683204174,
+      0.997433602809906
+    ],
+    "eef_pos": [
+      -0.09012288241704157,
+      0.0585734916272546,
+      1.041020335607055
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 51,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.08762622107308538,
+          0.018646667550341448,
+          1.007510406319356
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.11018598102993642,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 52,
+    "action": [
+      0.39509859681129456,
+      -0.23159989714622498,
+      0.9494123458862305,
+      -0.0008040271350182593,
+      0.018504688516259193,
+      0.005486205220222473,
+      1.0019572973251343
+    ],
+    "eef_pos": [
+      -0.08627601647325141,
+      0.05634831307785114,
+      1.0530747937145044
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 52,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.08375262247001376,
+          0.016367051751917452,
+          1.0195953627022334
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.12239866769120013,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 53,
+    "action": [
+      0.38162630796432495,
+      -0.3303566575050354,
+      0.9509807825088501,
+      0.001656416105106473,
+      0.01999111846089363,
+      0.00992019847035408,
+      0.9991877675056458
+    ],
+    "eef_pos": [
+      -0.08235093728553838,
+      0.0531767120314324,
+      1.0651298007900531
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 53,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07980854992985248,
+          0.013134960251225321,
+          1.0316715002402375
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.1346994771794563,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 54,
+    "action": [
+      0.38608384132385254,
+      -0.375763475894928,
+      0.9395164251327515,
+      0.0012805054429918528,
+      0.024807393550872803,
+      0.010037933476269245,
+      0.9980366826057434
+    ],
+    "eef_pos": [
+      -0.07840730873399859,
+      0.04903781347662735,
+      1.0771501778894703
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 54,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07584900843145095,
+          0.008955956772063407,
+          1.043696385355397
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.14708213936267203,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 55,
+    "action": [
+      0.3935440182685852,
+      -0.43253207206726074,
+      0.9322351217269897,
+      0.0004686544125434011,
+      0.016791071742773056,
+      0.00720689631998539,
+      1.0015547275543213
+    ],
+    "eef_pos": [
+      -0.07428755053638453,
+      0.044049921565612396,
+      1.089136482823758
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 55,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07169709019798749,
+          0.00393184335411766,
+          1.0556870228132647
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.15963557166913314,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 56,
+    "action": [
+      0.3897627294063568,
+      -0.48230648040771484,
+      0.9339977502822876,
+      0.0008543977746739984,
+      0.0007962002418935299,
+      0.002187069971114397,
+      0.9998350739479065
+    ],
+    "eef_pos": [
+      -0.06991646085445465,
+      0.03827744920347118,
+      1.1012272420398745
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 56,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.0672760127743789,
+          -0.0018712883638338103,
+          1.0677891508297628
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.17255637541130991,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 57,
+    "action": [
+      0.3709217309951782,
+      -0.5534570813179016,
+      0.9312423467636108,
+      0.00018076153355650604,
+      -0.006830946542322636,
+      0.0007573175244033337,
+      1.006788730621338
+    ],
+    "eef_pos": [
+      -0.06550513372658774,
+      0.031695038424359376,
+      1.1134112239270977
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 57,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.06281949509587026,
+          -0.008495051225003871,
+          1.079987836655042
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.1858256815035531,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 58,
+    "action": [
+      0.3573743402957916,
+      -0.6164839863777161,
+      0.932612419128418,
+      0.0009797821985557675,
+      -0.007335452362895012,
+      0.00045874854549765587,
+      0.9984762072563171
+    ],
+    "eef_pos": [
+      -0.061246007374364746,
+      0.02429575936785422,
+      1.1256110755946864
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 58,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.05851955589679762,
+          -0.01593649049724176,
+          1.0922053538369334
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.19936107554354618,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 59,
+    "action": [
+      0.3268525302410126,
+      -0.6845735907554626,
+      0.9388307332992554,
+      0.0031050946563482285,
+      -0.00972262118011713,
+      -0.0009178100153803825,
+      0.9953019022941589
+    ],
+    "eef_pos": [
+      -0.05724974033842236,
+      0.016090306695089797,
+      1.1378594032352063
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 59,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.054492493477504005,
+          -0.02418322037826819,
+          1.1044729722278015
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.21319545984183916,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 60,
+    "action": [
+      0.2944657802581787,
+      -0.7185666561126709,
+      0.9482821226119995,
+      0.0027179832104593515,
+      -0.009274624288082123,
+      -0.003951868508011103,
+      0.9986023306846619
+    ],
+    "eef_pos": [
+      -0.05362409958064193,
+      0.007195365446982954,
+      1.1502127582220039
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 60,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.05085074144424484,
+          -0.03310548456588739,
+          1.1168406938361888
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.22735635698504286,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 61,
+    "action": [
+      0.30617931485176086,
+      -0.7181084752082825,
+      0.900974690914154,
+      0.00046638029743917286,
+      -0.01747315749526024,
+      0.00033015431836247444,
+      0.9829594492912292
+    ],
+    "eef_pos": [
+      -0.050108595677948425,
+      -0.002060232383624701,
+      1.1623958609478857
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 61,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.04726403693103138,
+          -0.0423704220959795,
+          1.1290154167532367
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.2415798729676387,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 62,
+    "action": [
+      0.273921936750412,
+      -0.7281964421272278,
+      0.9214972257614136,
+      0.0034915164578706026,
+      -0.01533640455454588,
+      -0.0020150982309132814,
+      0.9799967408180237
+    ],
+    "eef_pos": [
+      -0.046808826956333476,
+      -0.011474740776128135,
+      1.1743742753532955
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 62,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.04389035455304707,
+          -0.05178311289978747,
+          1.1409958538219802
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.25578220459321555,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 63,
+    "action": [
+      0.26366591453552246,
+      -0.7563627362251282,
+      0.9112299680709839,
+      0.005714922212064266,
+      -0.015588496811687946,
+      -0.0038507278077304363,
+      0.9818716645240784
+    ],
+    "eef_pos": [
+      -0.04380420705474738,
+      -0.02111424593267172,
+      1.1863089330447372
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 63,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.04080957190681232,
+          -0.06142177549153132,
+          1.1529201661248096
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.27008143347846547,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 64,
+    "action": [
+      0.2501540184020996,
+      -0.7760421633720398,
+      0.8673508167266846,
+      0.016732413321733475,
+      -0.011759922839701176,
+      -0.005491189658641815,
+      0.9812750220298767
+    ],
+    "eef_pos": [
+      -0.04104903457780687,
+      -0.030933121548737175,
+      1.1978606686532813
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 64,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.0379901042685963,
+          -0.07121070124861661,
+          1.1644166058805985
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.2841069072516917,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 65,
+    "action": [
+      0.2467494010925293,
+      -0.7985237240791321,
+      0.8316776752471924,
+      0.02240423671901226,
+      -0.008298183791339397,
+      -0.0073899151757359505,
+      0.9862203001976013
+    ],
+    "eef_pos": [
+      -0.03848167050086636,
+      -0.04097025590094357,
+      1.2088507819551777
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 65,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.035365045925089794,
+          -0.08119449867810248,
+          1.1753171912578664
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.29772647560254084,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 66,
+    "action": [
+      0.2392406463623047,
+      -0.8473347425460815,
+      0.7299528121948242,
+      0.03319196403026581,
+      -0.007754858583211899,
+      -0.006367374211549759,
+      0.9894179701805115
+    ],
+    "eef_pos": [
+      -0.036022202927147626,
+      -0.05136576092836691,
+      1.2189323875861757
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 66,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.03285553655354692,
+          -0.0915142406780785,
+          1.1852518169879585
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.31066468186869306,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 67,
+    "action": [
+      0.23506629467010498,
+      -0.8893964886665344,
+      0.6212584972381592,
+      0.04584399238228798,
+      -0.011387412436306477,
+      -0.006054641213268042,
+      0.9859774708747864
+    ],
+    "eef_pos": [
+      -0.033572781019174464,
+      -0.06219285157356015,
+      1.2277583344242446
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 67,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.03035093189819664,
+          -0.10222375174942483,
+          1.1938768330684078
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.3226708370469454,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 68,
+    "action": [
+      0.25425824522972107,
+      -0.9055737257003784,
+      0.45595940947532654,
+      0.05849890783429146,
+      -0.015278871171176434,
+      -0.0027748234570026398,
+      0.9967028498649597
+    ],
+    "eef_pos": [
+      -0.030954889954026333,
+      -0.07333579858114113,
+      1.2348866850717866
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 68,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.027647521734043855,
+          -0.11318971400132245,
+          1.2007225658739522
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.33335030151839823,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 69,
+    "action": [
+      0.26885202527046204,
+      -0.9048556685447693,
+      0.2867577373981476,
+      0.06355366110801697,
+      -0.01857408881187439,
+      -0.00022688228636980057,
+      0.9947442412376404
+    ],
+    "eef_pos": [
+      -0.02806591011182416,
+      -0.08468795763996462,
+      1.2399209704407523
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 69,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.024643778341827495,
+          -0.12431776128430568,
+          1.2054228276343755
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.34240691669466206,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 70,
+    "action": [
+      0.2813361883163452,
+      -0.9098883867263794,
+      0.13702037930488586,
+      0.06630963087081909,
+      -0.023714952170848846,
+      -0.0019891285337507725,
+      1.0046424865722656
+    ],
+    "eef_pos": [
+      -0.024904455049367835,
+      -0.09622843851014297,
+      1.2428974197841194
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 70,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.021348982845253738,
+          -0.1356090208211432,
+          1.2080495997743712
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.34996553650082884,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 71,
+    "action": [
+      0.2890687882900238,
+      -0.8795899152755737,
+      0.01977504789829254,
+      0.058960169553756714,
+      -0.020950473845005035,
+      -0.00010710163041949272,
+      0.981902539730072
+    ],
+    "eef_pos": [
+      -0.02158099270357288,
+      -0.10782345178436356,
+      1.2440526020105542
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 71,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.017888033696591164,
+          -0.14694170895262937,
+          1.208868963684432
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.3562497585175489,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 72,
+    "action": [
+      0.22347009181976318,
+      -0.9056331515312195,
+      -0.253862202167511,
+      0.07562778145074844,
+      -0.016092374920845032,
+      -0.005949726793915033,
+      0.9918952584266663
+    ],
+    "eef_pos": [
+      -0.01850295753701757,
+      -0.11935897722305669,
+      1.2427155389286655
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 72,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.01477118339253688,
+          -0.15819317998178015,
+          1.2071105641004547
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.36048717152894716,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 73,
+    "action": [
+      0.23665067553520203,
+      -0.8187053203582764,
+      -0.44961413741111755,
+      0.06487572938203812,
+      -0.010507314465939999,
+      -0.006380973383784294,
+      0.983181893825531
+    ],
+    "eef_pos": [
+      -0.015541524025874675,
+      -0.13064776470472034,
+      1.2386041128800964
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 73,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.011804661811923557,
+          -0.16915430425985967,
+          1.20257084674172
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.3625439864730613,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 74,
+    "action": [
+      0.18940135836601257,
+      -0.7080965042114258,
+      -0.5425748825073242,
+      0.039224982261657715,
+      -0.007928275503218174,
+      -0.00047723762691020966,
+      0.9789149165153503
+    ],
+    "eef_pos": [
+      -0.01272933291946242,
+      -0.1412803333368593,
+      1.232597302404929
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 74,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.009014911609143784,
+          -0.17947804012020996,
+          1.1962208041387692
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.36314149982541355,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 75,
+    "action": [
+      0.19843986630439758,
+      -0.5164088606834412,
+      -0.6442399621009827,
+      0.018007859587669373,
+      -0.0019220137037336826,
+      0.007805704139173031,
+      0.9880755543708801
+    ],
+    "eef_pos": [
+      -0.010013948236973304,
+      -0.15048701937894343,
+      1.2253087543890622
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 75,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.006294667950210862,
+          -0.18838895191817742,
+          1.188649889785757
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.3624015548730892,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 76,
+    "action": [
+      0.13183817267417908,
+      -0.3293067216873169,
+      -0.7310794591903687,
+      0.002092283219099045,
+      0.003636992070823908,
+      0.011508934199810028,
+      0.9903298020362854
+    ],
+    "eef_pos": [
+      -0.007545767646659468,
+      -0.1576646408730774,
+      1.2168988606543811
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 76,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.0038679628531885315,
+          -0.1953004816275447,
+          1.1800084898766408
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.360013445188294,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 77,
+    "action": [
+      0.07532091438770294,
+      -0.1934177577495575,
+      -0.778055727481842,
+      -0.0026390403509140015,
+      0.0025648868177086115,
+      0.017958195880055428,
+      0.9941194653511047
+    ],
+    "eef_pos": [
+      -0.005459109190831936,
+      -0.16279945242283514,
+      1.207846542108183
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 77,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.001858367106084039,
+          -0.20020519530929184,
+          1.1707703100306048
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.35622354316125904,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 78,
+    "action": [
+      0.0462341383099556,
+      -0.0917915403842926,
+      -0.7772592306137085,
+      -0.0040498278103768826,
+      0.005882532801479101,
+      0.02267315797507763,
+      0.996918261051178
+    ],
+    "eef_pos": [
+      -0.0036934992724848353,
+      -0.1661922107447441,
+      1.1985872290985222
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 78,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.00018157269011125876,
+          -0.20340270990692008,
+          1.1613605248122767
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.35146417821728787,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 79,
+    "action": [
+      0.03216954693198204,
+      -0.025889962911605835,
+      -0.7854220271110535,
+      -0.005122941453009844,
+      -0.0029575852677226067,
+      0.024301325902342796,
+      0.9964192509651184
+    ],
+    "eef_pos": [
+      -0.0020822027858312282,
+      -0.16827008552269498,
+      1.1893296076973052
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 79,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          0.0013624667625958744,
+          -0.20532660460844118,
+          1.1519799883354311
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.3461291990440157,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 80,
+    "action": [
+      0.0024576522409915924,
+      0.0028504878282546997,
+      -0.7749816179275513,
+      -0.00955608207732439,
+      -0.00020603789016604424,
+      0.021551162004470825,
+      0.9983146786689758
+    ],
+    "eef_pos": [
+      -0.0007463054467282135,
+      -0.16953782279902188,
+      1.1800722872249332
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 80,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          0.002612384970014705,
+          -0.20649047049891922,
+          1.1426318209619333
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.34044309651853594,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 81,
+    "action": [
+      -0.004535511136054993,
+      0.04967714101076126,
+      -0.7695572972297668,
+      -0.009230924770236015,
+      -0.020972058176994324,
+      0.016993775963783264,
+      1.0079785585403442
+    ],
+    "eef_pos": [
+      0.000500926880211609,
+      -0.17011411792879125,
+      1.170990045621862
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 81,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          0.003814800539937062,
+          -0.20698023942587085,
+          1.1334906571579186
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.33462740732855933,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 82,
+    "action": [
+      -0.046015188097953796,
+      0.07283880561590195,
+      -0.7277402877807617,
+      -0.012818172574043274,
+      -0.021216928958892822,
+      0.012813311070203781,
+      0.995818555355072
+    ],
+    "eef_pos": [
+      0.0016792861208465796,
+      -0.16981702537248333,
+      1.162551192695607
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 82,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bowl",
+      "grasped_objects": [
+        "bowl"
+      ],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          0.003976838804319825,
+          -0.21028438334797867,
+          1.1300501926372681
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.33441632216342393,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 83,
+    "action": [
+      -0.03871685266494751,
+      0.05722466856241226,
+      -0.6516783237457275,
+      -0.014987459406256676,
+      -0.013806807808578014,
+      -0.00011302018538117409,
+      0.9974176287651062
+    ],
+    "eef_pos": [
+      0.00282690858565917,
+      -0.1689008140379155,
+      1.1553981926373906
+    ],
+    "reward": 1.0,
+    "status": {
+      "goal": "bowl",
+      "language": "put the bowl on top of the cabinet",
+      "step": 83,
+      "init_index": 1,
+      "init_source": "bowl",
+      "seed": 1001,
+      "layout": "canonical",
+      "bowl_goal": true,
+      "bottle_goal": false,
+      "goal_achieved": true,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": "bowl",
+      "first_grasp_step": 40,
+      "first_goal_commit": "bowl",
+      "first_goal_commit_step": 83,
+      "object_xyz_m": {
+        "bowl": [
+          0.004672109097842918,
+          -0.21233729612431965,
+          1.1280731077515298
+        ],
+        "bottle": [
+          -0.18777961426813156,
+          -0.05403400918320595,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.03738998154707558,
+          -0.029451483670463654,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.034769108470348066,
+          0.1112018348871775,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 0.33461289465858407,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308291049806e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "goal": "bowl",
+      "init_index": 2,
+      "seed": 1002,
+      "init_source": "bowl",
+      "layout": "bowl_xy:+0.060,+0.040"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 3,
+      "seed": 1003,
+      "init_source": "bowl",
+      "layout": "bowl_xy:+0.060,+0.040"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 2,
+      "seed": 1002,
+      "init_source": "bowl",
+      "layout": "bowl_xy:+0.000,+0.070"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 3,
+      "seed": 1003,
+      "init_source": "bowl",
+      "layout": "bowl_xy:+0.000,+0.070"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 2,
+      "seed": 1002,
+      "init_source": "bowl",
+      "layout": "bowl_xy:-0.060,+0.060"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 3,
+      "seed": 1003,
+      "init_source": "bowl",
+      "layout": "bowl_xy:-0.060,+0.060"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 2,
+      "seed": 1002,
+      "init_source": "bowl",
+      "layout": "bowl_xy:-0.040,-0.065"
+    },
+    {
+      "goal": "bowl",
+      "init_index": 3,
+      "seed": 1003,
+      "init_source": "bowl",
+      "layout": "bowl_xy:-0.040,-0.065"
+    }
+  ],
+  "criterion": "Native bowl goal fails after a correct sustained lift; while held or within eight controls after last grip, bowl touches cabinet near top plane within 3.5 cm, root near top-site footprint boundary and height. No predicate or contact used by actor."
+}

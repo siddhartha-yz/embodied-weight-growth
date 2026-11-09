@@ -6,9 +6,9 @@
 
 ## 先看两组画面
 
-[![LIBERO 三组实录：原策略抬错碗，激活干预没有抬起物体，只改提示抬对酒瓶](experiments/libero_goal/media/libero-goal-activation-vs-prompt.png)](https://siddhartha-yz.github.io/embodied-weight-growth/#libero)
+[![SmolVLA 三组实录：从同一个抓稳状态接手，BP 和 WSP 都把酒瓶放稳](experiments/libero_goal/media/bp-bottle-postgrasp.png)](https://siddhartha-yz.github.io/embodied-weight-growth/#libero)
 
-**LIBERO 抓放。** 同一个起姿、同一个酒瓶目标。原策略抬错了碗；第 13 层激活干预没抬起东西；只改措辞抬对了酒瓶，但三组都没上柜。[播放](https://siddhartha-yz.github.io/embodied-weight-growth/#libero) · [实验记录](experiments/libero_goal/README.md)
+**SmolVLA 抓放。** 从同一个抓稳状态接手，BP 和直接写权重都能放稳酒瓶；从开局启用时，两种改法却都没能稳稳抬起酒瓶。后续激活定位让新碗布局做得更好，但没解决原酒瓶局的抓取。[播放](https://siddhartha-yz.github.io/embodied-weight-growth/#libero) · [最新四组录像](https://siddhartha-yz.github.io/embodied-weight-growth/#libero-repair) · [实验与逐局结果](experiments/libero_goal/README.md)
 
 [![H1 同一局两次侧推，固定权重与在线更新并排](experiments/humanoidbench/two-push/poster.png)](https://siddhartha-yz.github.io/embodied-weight-growth/#h1)
 
@@ -26,6 +26,6 @@
 | [PhysEvo 同题试跑](experiments/physevo_wsp/README.md) · [PyRUA-RSI](experiments/pyrua_rsi/README.md) | 数字搬运的权重、代码重建与原生环境校验 |
 | [EmbodiedEvo 排 7310](experiments/embodied_evo_digits/README.md) | 作者框架；同布局、同 1,050 步，有无继承技能各一局 |
 | [HumanoidBench H1](experiments/humanoidbench/README.md) | 从零、预训练补丁、同触发同限幅、异步和连续侧推 |
-| [LIBERO-Goal / SmolVLA](experiments/libero_goal/README.md) | 换物体位置、干预内部激活、改提示和分阶段对照 |
+| [LIBERO-Goal / SmolVLA](experiments/libero_goal/README.md) | 从抓取诊断、权重叠加和连续修订，到同动作示范下的 BP 与激活定位对照 |
 
 视频里的“回放”包括原生相机录像，以及按实测轨迹或逐轮图像重绘的对照；各实验页分别标注。第三方框架和大型权重由原项目分发。

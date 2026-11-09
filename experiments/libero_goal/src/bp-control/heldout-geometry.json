@@ -1,0 +1,119 @@
+[
+  {
+    "id": "bp-blind-bowl-31",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-32",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-33",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-34",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-35",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-36",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-37",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-38",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-39",
+    "valid": false,
+    "reason": "Unsafe crossed-layout contact: bowl against cream_cheese_1_g1 (-9.99e-08 m)"
+  },
+  {
+    "id": "bp-blind-bowl-40",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-31-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-32-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-33-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-34-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-35-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-36-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-37-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-38-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-39-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bowl-40-reserve",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-crossed-41",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-crossed-42",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-crossed-43",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-crossed-44",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-native-45",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-native-46",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-native-47",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-native-48",
+    "valid": true
+  },
+  {
+    "id": "bp-blind-bottle-native-49",
+    "valid": true
+  }
+]

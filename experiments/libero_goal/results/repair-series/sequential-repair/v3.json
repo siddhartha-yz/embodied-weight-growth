@@ -1,0 +1,128 @@
+{
+  "stage": 3,
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.2527340054512024
+    },
+    {
+      "row": 1,
+      "column": 21,
+      "value": 0.48184850811958313
+    },
+    {
+      "row": 1,
+      "column": 89,
+      "value": 0.3682959973812103
+    },
+    {
+      "row": 1,
+      "column": 244,
+      "value": 0.36728599667549133
+    },
+    {
+      "row": 1,
+      "column": 308,
+      "value": -0.6481018662452698
+    },
+    {
+      "row": 1,
+      "column": 371,
+      "value": 0.6432070136070251
+    },
+    {
+      "row": 1,
+      "column": 483,
+      "value": 0.6442147493362427
+    },
+    {
+      "row": 1,
+      "column": 554,
+      "value": -0.5880014300346375
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.20901699364185333
+    },
+    {
+      "row": 2,
+      "column": 21,
+      "value": -0.2794986367225647
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "value": -0.24896299839019775
+    },
+    {
+      "row": 2,
+      "column": 244,
+      "value": -0.4055030047893524
+    },
+    {
+      "row": 2,
+      "column": 308,
+      "value": 0.2830733358860016
+    },
+    {
+      "row": 2,
+      "column": 371,
+      "value": -0.41890400648117065
+    },
+    {
+      "row": 2,
+      "column": 483,
+      "value": -0.5769261717796326
+    },
+    {
+      "row": 2,
+      "column": 554,
+      "value": 0.6574612259864807
+    }
+  ],
+  "round_assignments": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.252734
+    },
+    {
+      "row": 1,
+      "column": 89,
+      "value": 0.368296
+    },
+    {
+      "row": 1,
+      "column": 244,
+      "value": 0.367286
+    },
+    {
+      "row": 1,
+      "column": 371,
+      "value": 0.643207
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.209017
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "value": -0.248963
+    },
+    {
+      "row": 2,
+      "column": 244,
+      "value": -0.405503
+    },
+    {
+      "row": 2,
+      "column": 371,
+      "value": -0.418904
+    }
+  ],
+  "diagnosis": "Both bottle layouts now fail acquisition. These shared edits target the measured stockward +Y/−Z acquisition corrections, with column 244 counterbalancing late-placement effects to protect successful bowl releases. Gripper weights remain unchanged. Combined closed-loop success is unverified."
+}

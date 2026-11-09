@@ -1,0 +1,33 @@
+{
+  "goal": "bowl",
+  "init_index": 2,
+  "seed": 1002,
+  "init_source": "bowl",
+  "id": "bowl-rim-dev",
+  "kind": "dev_bowl",
+  "layout": "bowl_xy:+0.000,+0.070",
+  "instruction": "put the bowl on top of the cabinet",
+  "first_prompt": "put the bowl on top of the cabinet",
+  "first_lift": "bowl",
+  "first_lift_step": 87,
+  "first_open_after_lift": 121,
+  "first_native_goal": null,
+  "first_other_goal": null,
+  "stable_released_at": null,
+  "native_success": false,
+  "stable_released_40": false,
+  "first_cabinet_contact_after_lift": 118,
+  "last_contact": 117,
+  "last_contact_xyz": [
+    -0.014334592546818088,
+    -0.1554001353552283,
+    1.1265248634937695
+  ],
+  "final_xyz": [
+    -0.03870225615260055,
+    -0.1453502371602357,
+    0.9253108415691761
+  ],
+  "final_native": false,
+  "steps": 300
+}

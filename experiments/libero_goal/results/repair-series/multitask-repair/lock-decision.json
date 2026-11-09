@@ -1,0 +1,26 @@
+{
+  "chosen": 1,
+  "criteria": [
+    "dev stable40",
+    "dev native hit",
+    "known clean native hit",
+    "known clean stable40",
+    "tie: v1"
+  ],
+  "dev_only_scores": {
+    "1": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "2": [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  }
+}

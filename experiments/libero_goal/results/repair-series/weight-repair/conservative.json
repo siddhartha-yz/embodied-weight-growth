@@ -1,0 +1,26 @@
+{
+  "id": "conservative",
+  "edits": [
+    {
+      "row": 1,
+      "column": 89,
+      "delta": 0.6
+    },
+    {
+      "row": 1,
+      "column": 371,
+      "delta": -0.48
+    },
+    {
+      "row": 2,
+      "column": 89,
+      "delta": -0.48
+    },
+    {
+      "row": 2,
+      "column": 371,
+      "delta": 0.36
+    }
+  ],
+  "reason": "Prioritizes preservation: feature-weight edits strengthen late negative-y transport and lift clearance, with smaller measured early effects. Leaves x, biases, and gripper unchanged. Approximate additive fault@100 changes are y \u22120.181/\u22120.182 and z +0.179/+0.214; combined rollout success is unverified."
+}

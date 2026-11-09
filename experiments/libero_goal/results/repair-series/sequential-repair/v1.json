@@ -1,0 +1,48 @@
+{
+  "stage": 1,
+  "edits": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.6017340421676636
+    },
+    {
+      "row": 1,
+      "column": 21,
+      "value": 0.48184850811958313
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.5580167770385742
+    },
+    {
+      "row": 2,
+      "column": 21,
+      "value": -0.2794986367225647
+    }
+  ],
+  "round_assignments": [
+    {
+      "row": 1,
+      "column": 8,
+      "value": -0.6017340421676636
+    },
+    {
+      "row": 1,
+      "column": 21,
+      "value": 0.48184850811958313
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "value": 0.5580167770385742
+    },
+    {
+      "row": 2,
+      "column": 21,
+      "value": -0.2794986367225647
+    }
+  ],
+  "diagnosis": "The difficult rollout releases near the cabinet edge before sufficient rearward transport. These measured-effect edits favor more negative Y and slower descent during carry, with relatively small pregrasp changes. Gripper weights remain unchanged. Acquisition and ordinary-layout preservation still require closed-loop validation."
+}

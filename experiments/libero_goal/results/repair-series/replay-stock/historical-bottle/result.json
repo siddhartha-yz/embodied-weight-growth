@@ -1,0 +1,33 @@
+{
+  "id": "historical-bottle",
+  "init_index": 2,
+  "goal": "bottle",
+  "layout": "swap_xy",
+  "seed": 1002,
+  "kind": "history",
+  "prompt_mode": "historical_bottle",
+  "instruction": "put the wine bottle on top of the cabinet",
+  "first_prompt": "pick up the wine bottle, then put it on top of the cabinet",
+  "first_lift": "bottle",
+  "first_lift_step": 70,
+  "first_open_after_lift": 106,
+  "first_native_goal": null,
+  "first_other_goal": null,
+  "stable_released_at": null,
+  "native_success": false,
+  "stable_released_40": false,
+  "first_cabinet_contact_after_lift": 99,
+  "last_contact": 106,
+  "last_contact_xyz": [
+    0.020880472324587927,
+    -0.15536586917769935,
+    1.1316271465351242
+  ],
+  "final_xyz": [
+    -0.11280462254556016,
+    0.10072470352488473,
+    0.9214501441413178
+  ],
+  "final_native": false,
+  "steps": 300
+}

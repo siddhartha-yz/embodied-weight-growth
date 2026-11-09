@@ -1,0 +1,32 @@
+{
+  "id": "clean-bottle-2",
+  "init_index": 2,
+  "goal": "bottle",
+  "layout": "canonical",
+  "seed": 1002,
+  "kind": "clean",
+  "instruction": "put the wine bottle on top of the cabinet",
+  "first_prompt": "put the wine bottle on top of the cabinet",
+  "first_lift": "bottle",
+  "first_lift_step": 50,
+  "first_open_after_lift": 93,
+  "first_native_goal": 90,
+  "first_other_goal": null,
+  "stable_released_at": 133,
+  "native_success": true,
+  "stable_released_40": true,
+  "first_cabinet_contact_after_lift": 90,
+  "last_contact": 93,
+  "last_contact_xyz": [
+    -0.01640977379601607,
+    -0.22050314048483094,
+    1.1307226926157392
+  ],
+  "final_xyz": [
+    -0.016368997018828085,
+    -0.219896235493001,
+    1.1268799215199998
+  ],
+  "final_native": true,
+  "steps": 170
+}

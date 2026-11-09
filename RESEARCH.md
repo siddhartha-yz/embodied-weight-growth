@@ -29,4 +29,4 @@
 
 - [Walker2d 权重手术](experiments/walker2d_adaptation/README.md)先干预特征，找到了能改变落脚的方向；对应权重补丁救回指定起姿，但未保住原来的起姿分布。
 - [H1 连续侧推](experiments/humanoidbench/README.md)在同一局、不停仿真的情况下装入了新权重；这次补丁没救回第二推。
-- [LIBERO 抓放](experiments/libero_goal/README.md)区分了抓错物体和放置失败。只改措辞可修复一次目标选择，内部激活干预没有；此诊断不作为权重与代码的主对照。
+- [SmolVLA 抓放](experiments/libero_goal/README.md)区分了抓取和搬运。BP 与直接写权重从同一个抓稳状态接手，都把酒瓶放稳；从开局用固定权重却都没能稳稳抬起酒瓶。随后在相同预算下比较自动定位＋BP、Astra 定位＋BP 和 Astra 定位＋直接写：Astra 定位＋BP 在新碗布局拿到 4/4，自动定位＋BP 在新酒瓶拿到 3/4、旧任务 7/8，三组均未救回原酒瓶局。这个检查点留下的问题是：**怎样约束整组权重的改动，使它能修搬运却不干扰抓取？**

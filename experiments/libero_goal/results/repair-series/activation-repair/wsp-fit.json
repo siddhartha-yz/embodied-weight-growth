@@ -1,0 +1,74 @@
+{
+  "stock": {
+    "mse": {
+      "repair-bottle": 0.05204553343355656,
+      "grasp-protect": 0.0,
+      "normal-carry": 0.0,
+      "repair-bowl": 0.16249999403953552
+    },
+    "rmse": {
+      "repair-bottle": 0.22813490183125543,
+      "grasp-protect": 0.0,
+      "normal-carry": 0.0,
+      "repair-bowl": 0.4031128800218811
+    },
+    "objective": 0.10727276373654604,
+    "context_mse": {
+      "historical-bottle/repair/90": 0.06340000033378601,
+      "historical-bottle/repair/100": 0.0406910665333271,
+      "historical-bottle/preserve/10": 0.0,
+      "historical-bottle/preserve/50": 0.0,
+      "historical-bottle/preserve/60": 0.0,
+      "clean-bottle-2/preserve/10": 0.0,
+      "clean-bottle-2/preserve/30": 0.0,
+      "clean-bottle-2/preserve/40": 0.0,
+      "clean-bottle-2/preserve/70": 0.0,
+      "clean-bottle-2/preserve/80": 0.0,
+      "bowl-rim-dev/repair/110": 0.16249999403953552,
+      "bowl-rim-dev/preserve/10": 0.0,
+      "bowl-rim-dev/preserve/70": 0.0,
+      "bowl-rim-dev/preserve/80": 0.0,
+      "clean-bowl-2/preserve/10": 0.0,
+      "clean-bowl-2/preserve/30": 0.0,
+      "clean-bowl-2/preserve/40": 0.0,
+      "clean-bowl-2/preserve/70": 0.0,
+      "clean-bowl-2/preserve/80": 0.0
+    }
+  },
+  "candidate": {
+    "mse": {
+      "repair-bottle": 0.01179113332182169,
+      "grasp-protect": 0.000889023935693937,
+      "normal-carry": 0.00659441776224412,
+      "repair-bowl": 0.015726363286376
+    },
+    "rmse": {
+      "repair-bottle": 0.10858698504803276,
+      "grasp-protect": 0.029816504417753888,
+      "normal-carry": 0.08120602048028286,
+      "repair-bowl": 0.12540479770078974
+    },
+    "objective": 0.02479828574481265,
+    "context_mse": {
+      "historical-bottle/repair/90": 0.008266564458608627,
+      "historical-bottle/repair/100": 0.015315702185034752,
+      "historical-bottle/preserve/10": 0.0011963663855567575,
+      "historical-bottle/preserve/50": 0.0018792122136801481,
+      "historical-bottle/preserve/60": 0.0004769978695549071,
+      "clean-bottle-2/preserve/10": 0.001313079847022891,
+      "clean-bottle-2/preserve/30": 0.0007703658775426447,
+      "clean-bottle-2/preserve/40": 0.0005571522633545101,
+      "clean-bottle-2/preserve/70": 0.0010817787842825055,
+      "clean-bottle-2/preserve/80": 0.00394287146627903,
+      "bowl-rim-dev/repair/110": 0.015726363286376,
+      "bowl-rim-dev/preserve/10": 0.0007197995437309146,
+      "bowl-rim-dev/preserve/70": 0.0012139704776927829,
+      "bowl-rim-dev/preserve/80": 0.0005742321372963488,
+      "clean-bowl-2/preserve/10": 0.00036831857869401574,
+      "clean-bowl-2/preserve/30": 0.0007471151766367257,
+      "clean-bowl-2/preserve/40": 0.0008516768575645983,
+      "clean-bowl-2/preserve/70": 0.014257938601076603,
+      "clean-bowl-2/preserve/80": 0.007095082197338343
+    }
+  }
+}

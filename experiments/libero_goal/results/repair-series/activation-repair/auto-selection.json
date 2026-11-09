@@ -1,0 +1,54 @@
+{
+  "columns": [
+    491,
+    328,
+    171,
+    575,
+    458,
+    183,
+    10,
+    204
+  ],
+  "selection_history": [
+    {
+      "column": 491,
+      "linearized_objective": 0.05261258624997658
+    },
+    {
+      "column": 328,
+      "linearized_objective": 0.03589106946110646
+    },
+    {
+      "column": 171,
+      "linearized_objective": 0.03185589620664348
+    },
+    {
+      "column": 575,
+      "linearized_objective": 0.0280481056984399
+    },
+    {
+      "column": 458,
+      "linearized_objective": 0.02574956527902881
+    },
+    {
+      "column": 183,
+      "linearized_objective": 0.02215101289066381
+    },
+    {
+      "column": 10,
+      "linearized_objective": 0.021324158202945708
+    },
+    {
+      "column": 204,
+      "linearized_objective": 0.020723398798153284
+    }
+  ],
+  "objective_weights": {
+    "repair-bottle": 0.5,
+    "repair-bowl": 0.5,
+    "grasp-protect": 5.0,
+    "normal-carry": 1.0
+  },
+  "stock_linearized_objective": 0.10727276531434166,
+  "rule": "bounded paired forward selection"
+}

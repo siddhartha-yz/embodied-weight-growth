@@ -21,6 +21,7 @@ h1 { font-size: clamp(2.45rem,6vw,5.3rem); font-weight: 800; letter-spacing: -.0
 video, .preview { display: block; width: 100%; max-width: 100%; background: #0a0f15; object-fit: contain; }
 .feature video { aspect-ratio: 1152 / 620; }
 .preview, .card video { aspect-ratio: 16 / 9; }
+.card video.portrait { aspect-ratio: 768 / 1098; }
 .card .preview.figure { background: #ecefed; padding: 7px; }
 .section { margin: clamp(40px,5vw,70px) 0 0; }
 .section > h2 { font-size: clamp(1.45rem,3.5vw,2.35rem); letter-spacing: -.045em; margin-bottom: .5rem; }

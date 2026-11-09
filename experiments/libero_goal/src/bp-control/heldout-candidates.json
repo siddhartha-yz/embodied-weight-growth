@@ -1,0 +1,267 @@
+[
+  {
+    "id": "bp-blind-bowl-31",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 31,
+    "init_source": "bowl",
+    "seed": 1031,
+    "layout": "bowl_xy:-0.012,+0.061"
+  },
+  {
+    "id": "bp-blind-bowl-32",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 32,
+    "init_source": "bowl",
+    "seed": 1032,
+    "layout": "bowl_xy:+0.000,+0.067"
+  },
+  {
+    "id": "bp-blind-bowl-33",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 33,
+    "init_source": "bowl",
+    "seed": 1033,
+    "layout": "bowl_xy:+0.010,+0.058"
+  },
+  {
+    "id": "bp-blind-bowl-34",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 34,
+    "init_source": "bowl",
+    "seed": 1034,
+    "layout": "bowl_xy:+0.000,+0.055"
+  },
+  {
+    "id": "bp-blind-bowl-35",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 35,
+    "init_source": "bowl",
+    "seed": 1035,
+    "layout": "bowl_xy:-0.012,+0.061"
+  },
+  {
+    "id": "bp-blind-bowl-36",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 36,
+    "init_source": "bowl",
+    "seed": 1036,
+    "layout": "bowl_xy:+0.000,+0.067"
+  },
+  {
+    "id": "bp-blind-bowl-37",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 37,
+    "init_source": "bowl",
+    "seed": 1037,
+    "layout": "bowl_xy:+0.010,+0.058"
+  },
+  {
+    "id": "bp-blind-bowl-38",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 38,
+    "init_source": "bowl",
+    "seed": 1038,
+    "layout": "bowl_xy:+0.000,+0.055"
+  },
+  {
+    "id": "bp-blind-bowl-39",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 39,
+    "init_source": "bowl",
+    "seed": 1039,
+    "layout": "bowl_xy:-0.012,+0.061"
+  },
+  {
+    "id": "bp-blind-bowl-40",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 40,
+    "init_source": "bowl",
+    "seed": 1040,
+    "layout": "bowl_xy:+0.000,+0.067"
+  },
+  {
+    "id": "bp-blind-bowl-31-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 31,
+    "init_source": "bowl",
+    "seed": 1031,
+    "layout": "bowl_xy:-0.015,+0.045"
+  },
+  {
+    "id": "bp-blind-bowl-32-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 32,
+    "init_source": "bowl",
+    "seed": 1032,
+    "layout": "bowl_xy:+0.010,+0.040"
+  },
+  {
+    "id": "bp-blind-bowl-33-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 33,
+    "init_source": "bowl",
+    "seed": 1033,
+    "layout": "bowl_xy:+0.000,+0.038"
+  },
+  {
+    "id": "bp-blind-bowl-34-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 34,
+    "init_source": "bowl",
+    "seed": 1034,
+    "layout": "bowl_xy:-0.015,+0.045"
+  },
+  {
+    "id": "bp-blind-bowl-35-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 35,
+    "init_source": "bowl",
+    "seed": 1035,
+    "layout": "bowl_xy:+0.010,+0.040"
+  },
+  {
+    "id": "bp-blind-bowl-36-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 36,
+    "init_source": "bowl",
+    "seed": 1036,
+    "layout": "bowl_xy:+0.000,+0.038"
+  },
+  {
+    "id": "bp-blind-bowl-37-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 37,
+    "init_source": "bowl",
+    "seed": 1037,
+    "layout": "bowl_xy:-0.015,+0.045"
+  },
+  {
+    "id": "bp-blind-bowl-38-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 38,
+    "init_source": "bowl",
+    "seed": 1038,
+    "layout": "bowl_xy:+0.010,+0.040"
+  },
+  {
+    "id": "bp-blind-bowl-39-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 39,
+    "init_source": "bowl",
+    "seed": 1039,
+    "layout": "bowl_xy:+0.000,+0.038"
+  },
+  {
+    "id": "bp-blind-bowl-40-reserve",
+    "kind": "heldout",
+    "goal": "bowl",
+    "init_index": 40,
+    "init_source": "bowl",
+    "seed": 1040,
+    "layout": "bowl_xy:-0.015,+0.045"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-41",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 41,
+    "init_source": "bowl",
+    "seed": 1041,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-42",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 42,
+    "init_source": "bowl",
+    "seed": 1042,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-43",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 43,
+    "init_source": "bowl",
+    "seed": 1043,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-crossed-44",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 44,
+    "init_source": "bowl",
+    "seed": 1044,
+    "layout": "swap_xy",
+    "prompt_mode": "historical_bottle"
+  },
+  {
+    "id": "bp-blind-bottle-native-45",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 45,
+    "init_source": "bowl",
+    "seed": 1045,
+    "layout": "bottle_xy:-0.018,+0.026"
+  },
+  {
+    "id": "bp-blind-bottle-native-46",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 46,
+    "init_source": "bowl",
+    "seed": 1046,
+    "layout": "bottle_xy:+0.012,-0.020"
+  },
+  {
+    "id": "bp-blind-bottle-native-47",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 47,
+    "init_source": "bowl",
+    "seed": 1047,
+    "layout": "bottle_xy:-0.020,+0.015"
+  },
+  {
+    "id": "bp-blind-bottle-native-48",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 48,
+    "init_source": "bowl",
+    "seed": 1048,
+    "layout": "bottle_xy:-0.018,+0.026"
+  },
+  {
+    "id": "bp-blind-bottle-native-49",
+    "kind": "heldout",
+    "goal": "bottle",
+    "init_index": 49,
+    "init_source": "bowl",
+    "seed": 1049,
+    "layout": "bottle_xy:+0.012,-0.020"
+  }
+]

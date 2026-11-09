@@ -1,0 +1,5946 @@
+[
+  {
+    "step": 1,
+    "action": [
+      -0.0026907548308372498,
+      0.03796515613794327,
+      0.021582938730716705,
+      -0.0025784336030483246,
+      0.019340699538588524,
+      -0.019108138978481293,
+      -0.9997444748878479
+    ],
+    "eef_pos": [
+      -0.20563221279988672,
+      0.010135539920468048,
+      1.184688817973554
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 1,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.013579793281366449,
+          0.8984070750980622
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182488,
+          0.8988754774203294
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.9025063385293991
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186073
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.700684770267997e-13,
+        "bottle": 3.5726976932437537e-13,
+        "plate": 3.5260689843775054e-13,
+        "cream_cheese": 1.5765166949677223e-14
+      }
+    }
+  },
+  {
+    "step": 2,
+    "action": [
+      0.01084868237376213,
+      -0.022929854691028595,
+      -0.03345699980854988,
+      0.0020163890440016985,
+      0.06518836319446564,
+      -0.017800409346818924,
+      -1.0136239528656006
+    ],
+    "eef_pos": [
+      -0.20603094139538675,
+      0.0101492205582411,
+      1.1842755044005495
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 2,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980829
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182488,
+          0.8988754774203448
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.9025063385294145
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.908296461868578e-13,
+        "bottle": 3.7270186936666505e-13,
+        "plate": 3.680389957203015e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 3,
+    "action": [
+      0.12486347556114197,
+      0.025186706334352493,
+      -0.020364053547382355,
+      0.0009445153991691768,
+      0.12874649465084076,
+      -0.013193917460739613,
+      -1.0093449354171753
+    ],
+    "eef_pos": [
+      -0.20656982459262793,
+      0.010186491520913213,
+      1.1829733333734989
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 3,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182488,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459585765151e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 4,
+    "action": [
+      0.1498478204011917,
+      -0.03531616926193237,
+      -0.032674554735422134,
+      0.0035270473454147577,
+      0.1623688042163849,
+      -0.01742444559931755,
+      -1.0132527351379395
+    ],
+    "eef_pos": [
+      -0.20692902714686184,
+      0.010088953779760058,
+      1.181131749627927
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 4,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 5,
+    "action": [
+      0.2742665112018585,
+      -0.1123509407043457,
+      -0.025538206100463867,
+      0.004307315684854984,
+      0.23997862637043,
+      -0.013869051821529865,
+      -1.0037797689437866
+    ],
+    "eef_pos": [
+      -0.20702853234476046,
+      0.009299258169253853,
+      1.178738541412268
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 5,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 6,
+    "action": [
+      0.2827863097190857,
+      -0.15837295353412628,
+      -0.014454983174800873,
+      0.0062048048712313175,
+      0.27479854226112366,
+      -0.00968532357364893,
+      -1.0188051462173462
+    ],
+    "eef_pos": [
+      -0.20674920403952438,
+      0.007808604032085489,
+      1.1761483340224435
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 6,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 7,
+    "action": [
+      0.3715263903141022,
+      -0.24571600556373596,
+      0.010031022131443024,
+      0.010648109950125217,
+      0.3057441711425781,
+      -0.0005723112262785435,
+      -0.996791660785675
+    ],
+    "eef_pos": [
+      -0.20576789050146707,
+      0.005509763090169215,
+      1.1738285389437726
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 7,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 8,
+    "action": [
+      0.4370831549167633,
+      -0.27171558141708374,
+      -0.006037622690200806,
+      0.012356162071228027,
+      0.3240605294704437,
+      0.0005946364253759384,
+      -1.0189861059188843
+    ],
+    "eef_pos": [
+      -0.20382667705378663,
+      0.002469741598853224,
+      1.1716559968316722
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 8,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 9,
+    "action": [
+      0.4688960909843445,
+      -0.3470423221588135,
+      -0.040496572852134705,
+      0.014782363548874855,
+      0.2996496856212616,
+      0.0028196219354867935,
+      -1.0327038764953613
+    ],
+    "eef_pos": [
+      -0.20070713771060916,
+      -0.001321183979089506,
+      1.1695982031859287
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 9,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 10,
+    "action": [
+      0.4750787019729614,
+      -0.382034033536911,
+      -0.07752136141061783,
+      0.010829418897628784,
+      0.28527456521987915,
+      0.009500224143266678,
+      -1.0297505855560303
+    ],
+    "eef_pos": [
+      -0.19667053582893057,
+      -0.005870830113193391,
+      1.1675205089091616
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 10,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 11,
+    "action": [
+      0.44662001729011536,
+      -0.3916487693786621,
+      -0.01782923936843872,
+      0.011448828503489494,
+      0.28675323724746704,
+      0.0014230739325284958,
+      -1.0090750455856323
+    ],
+    "eef_pos": [
+      -0.19232612106697095,
+      -0.010853068320299543,
+      1.1657921628709802
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 11,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 12,
+    "action": [
+      0.41139721870422363,
+      -0.3722760081291199,
+      -0.08448151499032974,
+      0.007170132361352444,
+      0.24351175129413605,
+      0.011914869770407677,
+      -1.004372477531433
+    ],
+    "eef_pos": [
+      -0.18759905457003864,
+      -0.015905525776171964,
+      1.1644475240522232
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 12,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 13,
+    "action": [
+      0.3878017067909241,
+      -0.3650694489479065,
+      -0.17503735423088074,
+      0.006283228285610676,
+      0.2098933756351471,
+      0.012265676632523537,
+      -1.0071699619293213
+    ],
+    "eef_pos": [
+      -0.18248547925510017,
+      -0.020871838517536507,
+      1.1626746108607096
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 13,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 14,
+    "action": [
+      0.32057568430900574,
+      -0.33272597193717957,
+      -0.26089853048324585,
+      0.0057856496423482895,
+      0.16934557259082794,
+      0.013590309768915176,
+      -1.0083624124526978
+    ],
+    "eef_pos": [
+      -0.17726930280672784,
+      -0.025611503978464362,
+      1.160138269512891
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 14,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 15,
+    "action": [
+      0.27191415429115295,
+      -0.27645063400268555,
+      -0.3460373878479004,
+      0.00672215735539794,
+      0.11725032329559326,
+      0.013260342180728912,
+      -1.0043359994888306
+    ],
+    "eef_pos": [
+      -0.17198580105733183,
+      -0.02984875322440436,
+      1.1568431231509944
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 15,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 16,
+    "action": [
+      0.22326233983039856,
+      -0.25359538197517395,
+      -0.41148024797439575,
+      0.007007325533777475,
+      0.08788399398326874,
+      0.009261492639780045,
+      -1.0013973712921143
+    ],
+    "eef_pos": [
+      -0.16688696971437517,
+      -0.03361253384097285,
+      1.152729419127537
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 16,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 17,
+    "action": [
+      0.17410919070243835,
+      -0.18226057291030884,
+      -0.44601115584373474,
+      0.00639139162376523,
+      0.0635511726140976,
+      0.009338472038507462,
+      -1.0007725954055786
+    ],
+    "eef_pos": [
+      -0.16220970397386011,
+      -0.03679725718470402,
+      1.1479755282021646
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 17,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 18,
+    "action": [
+      0.16565847396850586,
+      -0.09781266748905182,
+      -0.4756239354610443,
+      -0.0009348802850581706,
+      0.03742170333862305,
+      0.007706287316977978,
+      -0.9997057914733887
+    ],
+    "eef_pos": [
+      -0.1577947156762633,
+      -0.039130483105553754,
+      1.142786764523355
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 18,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 19,
+    "action": [
+      0.1402195394039154,
+      -0.013339772820472717,
+      -0.5025109648704529,
+      -0.002444493118673563,
+      0.018008491024374962,
+      0.004664691165089607,
+      -0.9924709796905518
+    ],
+    "eef_pos": [
+      -0.1536465136696481,
+      -0.04042769690754256,
+      1.137184566102435
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 19,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182489,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314595864103177e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 20,
+    "action": [
+      0.09730910509824753,
+      0.012101776897907257,
+      -0.5424283146858215,
+      -0.002816935768350959,
+      0.009553177282214165,
+      -0.0020039419177919626,
+      -1.0064903497695923
+    ],
+    "eef_pos": [
+      -0.15002018589842095,
+      -0.040938029299550385,
+      1.1310875243733298
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 20,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.043379068921824866,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459588345817e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 21,
+    "action": [
+      -0.061071135103702545,
+      0.04834509268403053,
+      -0.6701270937919617,
+      -0.0010185823775827885,
+      0.003911581821739674,
+      -0.0046634371392428875,
+      -1.0117757320404053
+    ],
+    "eef_pos": [
+      -0.14758721641023537,
+      -0.04091661325005037,
+      1.1239904527597515
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 21,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 22,
+    "action": [
+      -0.16459953784942627,
+      0.02260473370552063,
+      -0.652899980545044,
+      0.0019242262933403254,
+      0.0011992515064775944,
+      -0.014209351502358913,
+      -1.0133824348449707
+    ],
+    "eef_pos": [
+      -0.14651962776870062,
+      -0.040733479445993884,
+      1.1162978559200487
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 22,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 23,
+    "action": [
+      -0.2667275071144104,
+      0.0018929094076156616,
+      -0.6913107633590698,
+      0.005292274057865143,
+      -0.007684602402150631,
+      -0.02162006124854088,
+      -1.005549430847168
+    ],
+    "eef_pos": [
+      -0.14666121127382506,
+      -0.040705943362823765,
+      1.1084056664243387
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 23,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 24,
+    "action": [
+      -0.3583582937717438,
+      -0.011490710079669952,
+      -0.7444648146629333,
+      0.006465327460318804,
+      -0.013741242699325085,
+      -0.02289596013724804,
+      -1.0010223388671875
+    ],
+    "eef_pos": [
+      -0.1479560661320188,
+      -0.04084976001425468,
+      1.1000296570906718
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 24,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 25,
+    "action": [
+      -0.4145054817199707,
+      -0.00490415096282959,
+      -0.7599976658821106,
+      0.00710524246096611,
+      -0.018772147595882416,
+      -0.018059104681015015,
+      -0.9983348846435547
+    ],
+    "eef_pos": [
+      -0.15026254544627599,
+      -0.04105977030730038,
+      1.091207090029769
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 25,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 26,
+    "action": [
+      -0.48248571157455444,
+      0.023900218307971954,
+      -0.7579387426376343,
+      0.005411084275692701,
+      -0.02414078637957573,
+      -0.01290193758904934,
+      -1.0067095756530762
+    ],
+    "eef_pos": [
+      -0.15352451697693784,
+      -0.04110728764576606,
+      1.0821958019764377
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 26,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182486,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.731459591571649e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 27,
+    "action": [
+      -0.533873438835144,
+      0.00037125498056411743,
+      -0.7686759233474731,
+      0.0077723111025989056,
+      -0.034657761454582214,
+      -0.012309098616242409,
+      -1.0035358667373657
+    ],
+    "eef_pos": [
+      -0.15762892647361565,
+      -0.04110953026297385,
+      1.0730814857543922
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 27,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 28,
+    "action": [
+      -0.5799984931945801,
+      -0.007181473076343536,
+      -0.7699657678604126,
+      0.0044478196650743484,
+      -0.03473411500453949,
+      -0.0053674099035561085,
+      -1.0067142248153687
+    ],
+    "eef_pos": [
+      -0.16258764534232187,
+      -0.04123838767224214,
+      1.063828192132343
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 28,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 29,
+    "action": [
+      -0.6150972843170166,
+      -0.03844796121120453,
+      -0.7555738091468811,
+      0.00248278072103858,
+      -0.035808026790618896,
+      -0.0021483232267200947,
+      -1.0035102367401123
+    ],
+    "eef_pos": [
+      -0.1683597894001561,
+      -0.04160150257907339,
+      1.0545542240408725
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 29,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 30,
+    "action": [
+      -0.6585234999656677,
+      -0.05053073167800903,
+      -0.7411872744560242,
+      -0.0005438911612145603,
+      -0.03953998163342476,
+      0.0025541046634316444,
+      -1.0072376728057861
+    ],
+    "eef_pos": [
+      -0.17487582451388745,
+      -0.04220372880500895,
+      1.0453775468129052
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 30,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 31,
+    "action": [
+      -0.6259511113166809,
+      -0.0814712643623352,
+      -0.6703120470046997,
+      -0.0012879057321697474,
+      -0.0323914960026741,
+      0.0316162034869194,
+      -0.9925079941749573
+    ],
+    "eef_pos": [
+      -0.1818665820287292,
+      -0.043048552830893864,
+      1.036600035718825
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 31,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 32,
+    "action": [
+      -0.6420930624008179,
+      -0.09135743975639343,
+      -0.6658779382705688,
+      -0.0014862313400954008,
+      -0.029300514608621597,
+      0.03183259814977646,
+      -1.0015884637832642
+    ],
+    "eef_pos": [
+      -0.1892606713547251,
+      -0.04410601345989234,
+      1.028135082065728
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 32,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921686461786211,
+          -0.04337906892182484,
+          0.8988754774203452
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 3.7314596089911423e-13,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 33,
+    "action": [
+      -0.6282076239585876,
+      -0.07923734188079834,
+      -0.6451858878135681,
+      -0.0023184618912637234,
+      -0.021435167640447617,
+      0.03287368267774582,
+      -0.9991941452026367
+    ],
+    "eef_pos": [
+      -0.19635358839580827,
+      -0.04526951461846929,
+      1.0207895704163792
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 33,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1921498840228951,
+          -0.04336955371365871,
+          0.8964672692742318
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.002408300029249626,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 34,
+    "action": [
+      -0.553185760974884,
+      -0.04361864924430847,
+      -0.5632716417312622,
+      -0.0022571529261767864,
+      -0.002764168195426464,
+      0.031773895025253296,
+      -1.003034234046936
+    ],
+    "eef_pos": [
+      -0.19999053428500363,
+      -0.046596817740447716,
+      1.0195147871365546
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 34,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1920863036972687,
+          -0.04334193073726512,
+          0.8964484225043075
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0024287352866542602,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 35,
+    "action": [
+      -0.4278992712497711,
+      -0.00879739224910736,
+      -0.5091424584388733,
+      -0.003945427481085062,
+      0.00911117997020483,
+      0.036698974668979645,
+      1.0134260654449463
+    ],
+    "eef_pos": [
+      -0.20240175438497232,
+      -0.04758539181408345,
+      1.0201668548068736
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 35,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19203937640862973,
+          -0.043323101801228246,
+          0.8968930181423984
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0019874576169718557,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 36,
+    "action": [
+      -0.3175073564052582,
+      -0.0012321621179580688,
+      -0.4134232699871063,
+      -0.003931789193302393,
+      0.031043842434883118,
+      0.038027070462703705,
+      1.0075894594192505
+    ],
+    "eef_pos": [
+      -0.20407406819168833,
+      -0.04819888708661223,
+      1.021045267877171
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 36,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19200900522924716,
+          -0.04331267308063846,
+          0.8971348570744753
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0017491863330135371,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 37,
+    "action": [
+      -0.237542062997818,
+      0.019283689558506012,
+      -0.33453431725502014,
+      -0.0038427934050559998,
+      0.04296344891190529,
+      0.03730561584234238,
+      0.9951550364494324
+    ],
+    "eef_pos": [
+      -0.2056730129271062,
+      -0.04831802928493617,
+      1.0213644707247045
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 37,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19199287600749868,
+          -0.0433109522853335,
+          0.8976283307083961
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0012613127880974349,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 38,
+    "action": [
+      -0.13505405187606812,
+      0.034612998366355896,
+      -0.20371799170970917,
+      -0.006422789301723242,
+      0.05070781707763672,
+      0.03453093022108078,
+      0.9985325932502747
+    ],
+    "eef_pos": [
+      -0.20678306663437812,
+      -0.04814372983971253,
+      1.0217300195904082
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 38,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1919840172108107,
+          -0.04331247393689747,
+          0.8979033094692667
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0009917828755080405,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 39,
+    "action": [
+      -0.06383449584245682,
+      0.0219719335436821,
+      -0.1027904525399208,
+      -0.009070495143532753,
+      0.05710331350564957,
+      0.03179824352264404,
+      0.9957817196846008
+    ],
+    "eef_pos": [
+      -0.20741459888617225,
+      -0.04790388623329655,
+      1.0224857641549738
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 39,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.191980397954581,
+          -0.043316211994815515,
+          0.8983047648132256
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0006042361017240274,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 40,
+    "action": [
+      0.01494310051202774,
+      0.03197900950908661,
+      0.006285272538661957,
+      -0.008014572784304619,
+      0.06991871446371078,
+      0.02916465513408184,
+      0.9960430264472961
+    ],
+    "eef_pos": [
+      -0.20782775322392288,
+      -0.04759173639195853,
+      1.023483806337681
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 40,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1919818361113764,
+          -0.04331870074698324,
+          0.8989377049015342
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.00020594799639531464,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 41,
+    "action": [
+      0.06626478582620621,
+      -0.021006718277931213,
+      0.07654882222414017,
+      -0.01071090716868639,
+      0.083586186170578,
+      0.029047461226582527,
+      1.0069868564605713
+    ],
+    "eef_pos": [
+      -0.20810433885852986,
+      -0.04749978674382006,
+      1.0246749970122484
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 41,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19198414435712707,
+          -0.04332177502432859,
+          0.8997966798018856
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0009412424455304014,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 42,
+    "action": [
+      0.12526628375053406,
+      -0.02532944083213806,
+      0.12635284662246704,
+      -0.005842412821948528,
+      0.09148681163787842,
+      0.02265694923698902,
+      1.007943034172058
+    ],
+    "eef_pos": [
+      -0.20816253538496537,
+      -0.04762737931732928,
+      1.0259295701863695
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 42,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": null,
+      "first_grasp_step": null,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19202281845110047,
+          -0.04328646417635432,
+          0.9005499795143691
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0016833890308355567,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 43,
+    "action": [
+      0.19930100440979004,
+      -0.011802248656749725,
+      0.18439218401908875,
+      -0.009844178333878517,
+      0.09206593781709671,
+      0.01777580939233303,
+      1.0101639032363892
+    ],
+    "eef_pos": [
+      -0.20759023314690206,
+      -0.047774042430570395,
+      1.0275390909013897
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 43,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19229435442901496,
+          -0.043779157555533785,
+          0.9013310822137006
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0024911580403544596,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 44,
+    "action": [
+      0.25385475158691406,
+      -0.019813425838947296,
+      0.21819722652435303,
+      -0.004974282346665859,
+      0.09934631735086441,
+      0.010910894721746445,
+      1.0131382942199707
+    ],
+    "eef_pos": [
+      -0.20633074752256703,
+      -0.0479068325440137,
+      1.0296549375923
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 44,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19185506184635814,
+          -0.045318661677575825,
+          0.9033342867955908
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.0048725082082750415,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 45,
+    "action": [
+      0.33209797739982605,
+      -0.025646857917308807,
+      0.3697393536567688,
+      -0.011561810038983822,
+      0.1127697229385376,
+      0.006202260032296181,
+      1.0048657655715942
+    ],
+    "eef_pos": [
+      -0.20439544506148072,
+      -0.04815123850968693,
+      1.0328762844131447
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 45,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.19088029529740907,
+          -0.046145137740570344,
+          0.9064970264180064
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.008209689021673974,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 46,
+    "action": [
+      0.35996177792549133,
+      -0.023088939487934113,
+      0.4538198411464691,
+      -0.015686029568314552,
+      0.11249861866235733,
+      0.006556432694196701,
+      1.0000373125076294
+    ],
+    "eef_pos": [
+      -0.2017697944749399,
+      -0.048473891945875654,
+      1.0375662091594784
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 46,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18931975154308245,
+          -0.046904619269742924,
+          0.9111174181656841
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.013054149498210555,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 47,
+    "action": [
+      0.412731409072876,
+      -0.010589346289634705,
+      0.5527662634849548,
+      -0.01438109390437603,
+      0.12226960062980652,
+      0.006007308140397072,
+      1.0004351139068604
+    ],
+    "eef_pos": [
+      -0.19855426516066987,
+      -0.04869938036668599,
+      1.0435588338075317
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 47,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1872704386645138,
+          -0.04748371030806485,
+          0.9170417876198159
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.01925760483647541,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 48,
+    "action": [
+      0.5064528584480286,
+      -0.05489003658294678,
+      0.6888471245765686,
+      -0.00708032539114356,
+      0.1302998661994934,
+      0.008640808053314686,
+      1.0074503421783447
+    ],
+    "eef_pos": [
+      -0.19457048574577557,
+      -0.049010643210431803,
+      1.0510625772218944
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 48,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.18447140297520606,
+          -0.048093914334742555,
+          0.9244999454156941
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.027167824356470156,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 49,
+    "action": [
+      0.5545527338981628,
+      -0.07716263830661774,
+      0.7806482911109924,
+      -0.003955933731049299,
+      0.12606647610664368,
+      0.00662190280854702,
+      1.0080524682998657
+    ],
+    "eef_pos": [
+      -0.1897748339414646,
+      -0.04960945818737065,
+      1.0600661736618375
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 49,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1808493089596469,
+          -0.048930755631254326,
+          0.9334582477101763
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.03680919207672913,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 50,
+    "action": [
+      0.5901193618774414,
+      -0.09467869997024536,
+      0.8261663317680359,
+      0.00034609215799719095,
+      0.11614004522562027,
+      0.005397135391831398,
+      1.0121220350265503
+    ],
+    "eef_pos": [
+      -0.1842738974107615,
+      -0.05042072620353407,
+      1.0701290262701062
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 50,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.17645814018689807,
+          -0.04991112269953822,
+          0.9434696914012856
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.04772977734792064,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 51,
+    "action": [
+      0.6752983331680298,
+      -0.11584018170833588,
+      0.8272112011909485,
+      -0.003303218400105834,
+      0.08180971443653107,
+      0.002457286696881056,
+      0.9902488589286804
+    ],
+    "eef_pos": [
+      -0.1776786707580937,
+      -0.0515119631394817,
+      1.0807223108174164
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 51,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1706049548996075,
+          -0.05116517648564814,
+          0.9540182165957125
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.05971882397013332,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 52,
+    "action": [
+      0.6723741292953491,
+      -0.15067695081233978,
+      0.8606753945350647,
+      0.0003464805777184665,
+      0.06941311806440353,
+      0.0031815776601433754,
+      1.002520203590393
+    ],
+    "eef_pos": [
+      -0.17042691660959328,
+      -0.052949267667966635,
+      1.0916272210307532
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 52,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1639240951530663,
+          -0.052757177175402736,
+          0.9648988745584249
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.07242093997424265,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 53,
+    "action": [
+      0.6690215468406677,
+      -0.18475490808486938,
+      0.8738493919372559,
+      0.0033456915989518166,
+      0.05117281898856163,
+      0.003115188330411911,
+      0.9909128546714783
+    ],
+    "eef_pos": [
+      -0.16290095350000838,
+      -0.05479247127180883,
+      1.102873226492971
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 53,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.15682941956566188,
+          -0.054714125482688405,
+          0.976125633644495
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.08570257336599209,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 54,
+    "action": [
+      0.6671522855758667,
+      -0.20903781056404114,
+      0.8850685954093933,
+      0.004227850120514631,
+      0.03828863799571991,
+      0.002953651361167431,
+      0.995433509349823
+    ],
+    "eef_pos": [
+      -0.15519835631709777,
+      -0.05703583865905312,
+      1.1143508184403694
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 54,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.14940494455946357,
+          -0.05702962586376636,
+          0.9875891941393881
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.09942432003876267,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 55,
+    "action": [
+      0.6508501172065735,
+      -0.23154392838478088,
+      0.8904989957809448,
+      0.00672465143725276,
+      0.03769395127892494,
+      0.003976656123995781,
+      0.9943339228630066
+    ],
+    "eef_pos": [
+      -0.14758682939176473,
+      -0.05961550110904107,
+      1.1259406694658403
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 55,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.14202128123430413,
+          -0.059638545668564996,
+          0.9991638617430234
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.11329999481493518,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 56,
+    "action": [
+      0.6700009703636169,
+      -0.23243138194084167,
+      0.8966901898384094,
+      0.006472088396549225,
+      0.03458147123456001,
+      0.004813080653548241,
+      0.9899749159812927
+    ],
+    "eef_pos": [
+      -0.14000408900947062,
+      -0.06239927383032492,
+      1.1375879853495
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 56,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.1345621961461006,
+          -0.06241066517990253,
+          1.0107999068705766
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.1273097900765024,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 57,
+    "action": [
+      0.6631912589073181,
+      -0.2807018458843231,
+      0.8984290957450867,
+      0.01169250626116991,
+      0.030948136001825333,
+      0.006489526480436325,
+      0.9934592843055725
+    ],
+    "eef_pos": [
+      -0.13244430989510628,
+      -0.06547965944189085,
+      1.149245772250806
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 57,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.12704157166049632,
+          -0.06546862937966674,
+          1.0224489414025775
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.14142095147880424,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 58,
+    "action": [
+      0.6361003518104553,
+      -0.3255364000797272,
+      0.8896340727806091,
+      0.01975242607295513,
+      0.029712215065956116,
+      0.007729003205895424,
+      0.9939759373664856
+    ],
+    "eef_pos": [
+      -0.12510466744684057,
+      -0.06902797861277274,
+      1.1608303675507687
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 58,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.11972324796697324,
+          -0.06892580579309908,
+          1.0340225586729694
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.15545322466265735,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 59,
+    "action": [
+      0.6180440783500671,
+      -0.37610864639282227,
+      0.8847265243530273,
+      0.030776605010032654,
+      0.033572472631931305,
+      0.006408023647964001,
+      0.9855969548225403
+    ],
+    "eef_pos": [
+      -0.11809056740590423,
+      -0.07311216839245753,
+      1.1722898042489547
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 59,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.11273629367617427,
+          -0.07280501726496771,
+          1.045471689729141
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.16930987721737084,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 60,
+    "action": [
+      0.6133766770362854,
+      -0.4110592305660248,
+      0.8850935101509094,
+      0.03505115211009979,
+      0.03355337306857109,
+      0.0026059141382575035,
+      0.9931228756904602
+    ],
+    "eef_pos": [
+      -0.111320812729679,
+      -0.0777578845033317,
+      1.1836638780950914
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 60,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.10594720042684827,
+          -0.07714600745972856,
+          1.05684138507398
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.18310535717641635,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 61,
+    "action": [
+      0.5761688351631165,
+      -0.45185309648513794,
+      0.8544005155563354,
+      0.04343990609049797,
+      0.045683104544878006,
+      -0.00168694369494915,
+      0.9862033724784851
+    ],
+    "eef_pos": [
+      -0.1049972857585304,
+      -0.08289925835343927,
+      1.1947674981262097
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 61,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.09969132380983535,
+          -0.08188011066133605,
+          1.067926830101103
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.1965012600744534,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 62,
+    "action": [
+      0.5527723431587219,
+      -0.48055148124694824,
+      0.8680922985076904,
+      0.052540358155965805,
+      0.05108703672885895,
+      -0.0030433181673288345,
+      0.9919386506080627
+    ],
+    "eef_pos": [
+      -0.09914287850572057,
+      -0.08845773750070131,
+      1.205699891190204
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 62,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.09396145711101073,
+          -0.08690089986235444,
+          1.0788591836538872
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.20960185176346527,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 63,
+    "action": [
+      0.5381454825401306,
+      -0.4818127751350403,
+      0.8733338713645935,
+      0.0575258731842041,
+      0.05950815603137016,
+      -0.006405194289982319,
+      1.0031931400299072
+    ],
+    "eef_pos": [
+      -0.09369165692807518,
+      -0.09424546955281354,
+      1.2166356193203234
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 63,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.0886609452533963,
+          -0.09202360627038135,
+          1.0897984079391225
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.22255718492715806,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 64,
+    "action": [
+      0.5300657749176025,
+      -0.5089756846427917,
+      0.866416335105896,
+      0.057205844670534134,
+      0.06675397604703903,
+      -0.006813966203480959,
+      0.989067018032074
+    ],
+    "eef_pos": [
+      -0.08858566485784317,
+      -0.10027203676371625,
+      1.227487354064164
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 64,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.08371008776481928,
+          -0.09736477762567312,
+          1.100653428220089
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.23535517216868473,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 65,
+    "action": [
+      0.5284234285354614,
+      -0.5078603029251099,
+      0.8688746094703674,
+      0.05643638223409653,
+      0.06851714849472046,
+      -0.0074202497489750385,
+      0.9925008416175842
+    ],
+    "eef_pos": [
+      -0.08371582610347714,
+      -0.10645928263105456,
+      1.2382375860556243
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 65,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.07894155350584338,
+          -0.10287038012620436,
+          1.1114164347909439
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.24805896311989084,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 66,
+    "action": [
+      0.5034846067428589,
+      -0.5336223244667053,
+      0.864319920539856,
+      0.06364672631025314,
+      0.07236187905073166,
+      -0.009283756837248802,
+      0.9928964972496033
+    ],
+    "eef_pos": [
+      -0.0791758283010762,
+      -0.11273687456430122,
+      1.2488715791627483
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 66,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.07448253866518391,
+          -0.10845591790460189,
+          1.1220670406622826
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.2605753059630512,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 67,
+    "action": [
+      0.4847274422645569,
+      -0.5470003485679626,
+      0.8710824847221375,
+      0.0693233460187912,
+      0.07426603883504868,
+      -0.010272365994751453,
+      0.9908435940742493
+    ],
+    "eef_pos": [
+      -0.07503321761647908,
+      -0.11913401386889749,
+      1.2594246963602693
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 67,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.0703664923379422,
+          -0.11411649652789271,
+          1.1326498949095496
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.2729286108438311,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 68,
+    "action": [
+      0.48495227098464966,
+      -0.5678000450134277,
+      0.8455206155776978,
+      0.07494784891605377,
+      0.07904454320669174,
+      -0.013412789441645145,
+      0.9959056973457336
+    ],
+    "eef_pos": [
+      -0.07123677218937116,
+      -0.12565965922924074,
+      1.2697400731507853
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 68,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.06649211007171131,
+          -0.119876961577623,
+          1.1429918870209974
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.2850251580915358,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 69,
+    "action": [
+      0.4872954487800598,
+      -0.6057599186897278,
+      0.8206987977027893,
+      0.0817740187048912,
+      0.07844239473342896,
+      -0.017143435776233673,
+      0.9889271855354309
+    ],
+    "eef_pos": [
+      -0.0677036211439322,
+      -0.13242075381561486,
+      1.2796114966554577
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 69,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.06270473367226707,
+          -0.12586915704117868,
+          1.1529006005402396
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.2968068099886839,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 70,
+    "action": [
+      0.49807414412498474,
+      -0.6307152509689331,
+      0.7846529483795166,
+      0.0858115702867508,
+      0.0733349546790123,
+      -0.020778384059667587,
+      0.9841439127922058
+    ],
+    "eef_pos": [
+      -0.06435712868543783,
+      -0.1394459867743486,
+      1.2889283319572589
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 70,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.05884014459519137,
+          -0.1321284664066097,
+          1.1622671123642887
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3082662781541878,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 71,
+    "action": [
+      0.4987342953681946,
+      -0.5698502063751221,
+      0.7975949645042419,
+      0.08745855838060379,
+      0.06333208829164505,
+      -0.01605018973350525,
+      0.9648664593696594
+    ],
+    "eef_pos": [
+      -0.06118979111280882,
+      -0.1462357045473975,
+      1.297897340487895
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 71,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.05483978450069626,
+          -0.13809246144335066,
+          1.1713308622791663
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3194710937024864,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 72,
+    "action": [
+      0.5267796516418457,
+      -0.5974782109260559,
+      0.7416342496871948,
+      0.09055908769369125,
+      0.05256547033786774,
+      -0.021855225786566734,
+      0.9620561003684998
+    ],
+    "eef_pos": [
+      -0.058144358575400595,
+      -0.15279572522232493,
+      1.3063689656523716
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 72,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.05055267910498368,
+          -0.1439081881218743,
+          1.179902391106167
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3303593681936799,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 73,
+    "action": [
+      0.5586056113243103,
+      -0.5852159857749939,
+      0.6477605104446411,
+      0.08855684101581573,
+      0.04182865470647812,
+      -0.02433015964925289,
+      0.9710833430290222
+    ],
+    "eef_pos": [
+      -0.05511819603733423,
+      -0.15927711309323447,
+      1.3137115920811502
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 73,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.04585839878800925,
+          -0.1497376354455139,
+          1.1873634703735578
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.34050573452273036,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 74,
+    "action": [
+      0.5648828148841858,
+      -0.5712380409240723,
+      0.567582368850708,
+      0.08559070527553558,
+      0.03595089167356491,
+      -0.02515554241836071,
+      0.9605723023414612
+    ],
+    "eef_pos": [
+      -0.05221319829789199,
+      -0.16556081488780738,
+      1.319682649735054
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 74,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.04094367933119389,
+          -0.15548274787210148,
+          1.193500650157522
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.34962868566927296,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 75,
+    "action": [
+      0.5728116035461426,
+      -0.5771540999412537,
+      0.4581710994243622,
+      0.08331520855426788,
+      0.038020938634872437,
+      -0.023712577298283577,
+      0.9623479247093201
+    ],
+    "eef_pos": [
+      -0.04957637774517168,
+      -0.17172708835573633,
+      1.3241056977542023
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 75,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.03603018394229767,
+          -0.16125841325684376,
+          1.198127920583101
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.35752871765702887,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 76,
+    "action": [
+      0.5680811405181885,
+      -0.5615955591201782,
+      0.37962716817855835,
+      0.0801459476351738,
+      0.0360676646232605,
+      -0.02250632829964161,
+      0.9757201075553894
+    ],
+    "eef_pos": [
+      -0.047264510737449875,
+      -0.17778353741372765,
+      1.3269945813481503
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 76,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.031182439879273192,
+          -0.16704874718229107,
+          1.201295456352891
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.36423699921547037,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 77,
+    "action": [
+      0.5636460781097412,
+      -0.5540136098861694,
+      0.29419219493865967,
+      0.08094269037246704,
+      0.04367099329829216,
+      -0.02086848020553589,
+      0.9773284792900085
+    ],
+    "eef_pos": [
+      -0.045373815911420715,
+      -0.18371618226969716,
+      1.3284429976726606
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 77,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.02655939510483219,
+          -0.17280772737862202,
+          1.203091542513042
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3697642707616008,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 78,
+    "action": [
+      0.5580285787582397,
+      -0.5322068929672241,
+      0.23077836632728577,
+      0.07675708085298538,
+      0.04177398607134819,
+      -0.018787194043397903,
+      0.9879069924354553
+    ],
+    "eef_pos": [
+      -0.04381905961708902,
+      -0.18947466156834405,
+      1.3286041334647123
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 78,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.022076523538434995,
+          -0.17848849259030516,
+          1.2036944270971484
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3742999848124094,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 79,
+    "action": [
+      0.5387877225875854,
+      -0.5151866674423218,
+      0.1698518991470337,
+      0.07229109108448029,
+      0.04231017455458641,
+      -0.017142493277788162,
+      0.9844616055488586
+    ],
+    "eef_pos": [
+      -0.042603644421265616,
+      -0.1950533427197827,
+      1.3276635347820904
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 79,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.017810604043036613,
+          -0.18409637710537188,
+          1.2032826973981383
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3779759823779988,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 80,
+    "action": [
+      0.5175232887268066,
+      -0.4913889765739441,
+      0.11226219683885574,
+      0.07175401598215103,
+      0.04353142902255058,
+      -0.01387434545904398,
+      0.9872958064079285
+    ],
+    "eef_pos": [
+      -0.04170067948741152,
+      -0.2004411754983538,
+      1.325738582060119
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 80,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.013823126106702513,
+          -0.18955951865495416,
+          1.2019679526082003
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.38084235180666265,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 81,
+    "action": [
+      0.4294873774051666,
+      -0.4827592968940735,
+      -0.04617562144994736,
+      0.07708463072776794,
+      0.10549619048833847,
+      -0.008642936125397682,
+      0.9967754483222961
+    ],
+    "eef_pos": [
+      -0.04163571061652871,
+      -0.20571810482170563,
+      1.3221853647255377
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 81,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.011334972286971166,
+          -0.1948332701679445,
+          1.198912819919928
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3816563894168254,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 82,
+    "action": [
+      0.38619980216026306,
+      -0.46901869773864746,
+      -0.09461802989244461,
+      0.0755101665854454,
+      0.11767218261957169,
+      -0.011702856048941612,
+      0.9892569184303284
+    ],
+    "eef_pos": [
+      -0.041178647753265796,
+      -0.21203476241402944,
+      1.314343900753889
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 82,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.010028856222379453,
+          -0.20059559365002747,
+          1.1910973201564226
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.37853077035454347,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 83,
+    "action": [
+      0.35300979018211365,
+      -0.43114882707595825,
+      -0.20197027921676636,
+      0.076118603348732,
+      0.14694340527057648,
+      -0.006045743823051453,
+      0.9924148917198181
+    ],
+    "eef_pos": [
+      -0.03944165258621666,
+      -0.21859375820975158,
+      1.3066278359998873
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 83,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.00817245332974288,
+          -0.20624692444813858,
+          1.1836515645263528
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3761355568598145,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 84,
+    "action": [
+      0.3332803547382355,
+      -0.3570089042186737,
+      -0.3311055302619934,
+      0.07286988198757172,
+      0.17817653715610504,
+      0.0010088784620165825,
+      0.9891489148139954
+    ],
+    "eef_pos": [
+      -0.038345260475056576,
+      -0.22372865744469084,
+      1.3001817630088186
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 84,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.007374868220564544,
+          -0.21059327798942135,
+          1.1771886064362127
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.37358737916172163,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 85,
+    "action": [
+      0.29210734367370605,
+      -0.2926294803619385,
+      -0.4244656562805176,
+      0.06753029674291611,
+      0.21691836416721344,
+      0.006669050082564354,
+      0.9898765683174133
+    ],
+    "eef_pos": [
+      -0.037644354607828494,
+      -0.22781128701200626,
+      1.292896359946143
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 85,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.007728424093688168,
+          -0.21392084054702945,
+          1.1696860589934337
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.36937929352355325,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 86,
+    "action": [
+      0.2681208550930023,
+      -0.2425919473171234,
+      -0.4270700514316559,
+      0.06373723596334457,
+      0.24220049381256104,
+      0.010737637057900429,
+      0.9795191884040833
+    ],
+    "eef_pos": [
+      -0.03719795946517084,
+      -0.23102980397573541,
+      1.2851186705695141
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 86,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.008861426917464837,
+          -0.21648973903042304,
+          1.1616012514335516
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.36413414158760227,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 87,
+    "action": [
+      0.2751796245574951,
+      -0.2025185525417328,
+      -0.4380374848842621,
+      0.055851664394140244,
+      0.2541331350803375,
+      0.01572474092245102,
+      0.98689204454422
+    ],
+    "eef_pos": [
+      -0.03678481182786964,
+      -0.2335282068779628,
+      1.2772610710061927
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 87,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.010286175838568983,
+          -0.21849343463091286,
+          1.1533865385995143
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.35849986660727345,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 88,
+    "action": [
+      0.2785683572292328,
+      -0.15222695469856262,
+      -0.4479271173477173,
+      0.04995468631386757,
+      0.26061591506004333,
+      0.018072595819830894,
+      0.9898484349250793
+    ],
+    "eef_pos": [
+      -0.036291345612392785,
+      -0.23534383098234224,
+      1.2693396662066156
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 88,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.011799087529424471,
+          -0.2199398430949993,
+          1.1450886215434941
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.35260147050618906,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 89,
+    "action": [
+      0.22523513436317444,
+      -0.1110369861125946,
+      -0.44417986273765564,
+      0.04249114543199539,
+      0.25393572449684143,
+      0.019840402528643608,
+      0.993068277835846
+    ],
+    "eef_pos": [
+      -0.035903756685108375,
+      -0.2365192854272171,
+      1.261515088899444
+    ],
+    "reward": 0.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 89,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": false,
+      "goal_achieved": false,
+      "other_goal": false,
+      "grasped": "bottle",
+      "grasped_objects": [
+        "bottle"
+      ],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": null,
+      "first_goal_commit_step": null,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.01360449072711108,
+          -0.22084940096485356,
+          1.1368901575406691
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.34645615064612667,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  },
+  {
+    "step": 90,
+    "action": [
+      0.1942407786846161,
+      -0.08554336428642273,
+      -0.44517260789871216,
+      0.027441082522273064,
+      0.24768197536468506,
+      0.021224835887551308,
+      0.9987407326698303
+    ],
+    "eef_pos": [
+      -0.03575450303869667,
+      -0.23727564235915047,
+      1.2544088051605182
+    ],
+    "reward": 1.0,
+    "status": {
+      "goal": "bottle",
+      "language": "put the wine bottle on top of the cabinet",
+      "step": 90,
+      "init_index": 2,
+      "init_source": "bowl",
+      "seed": 1002,
+      "layout": "canonical",
+      "bowl_goal": false,
+      "bottle_goal": true,
+      "goal_achieved": true,
+      "other_goal": false,
+      "grasped": null,
+      "grasped_objects": [],
+      "first_grasp": "bottle",
+      "first_grasp_step": 43,
+      "first_goal_commit": "bottle",
+      "first_goal_commit_step": 90,
+      "object_xyz_m": {
+        "bowl": [
+          -0.07985543987217981,
+          -0.01357979328136645,
+          0.8984070750980836
+        ],
+        "bottle": [
+          -0.015331033110620059,
+          -0.22135464182424322,
+          1.13051925783054
+        ],
+        "plate": [
+          0.05067637144502963,
+          -0.03149687312973601,
+          0.902506338529415
+        ],
+        "cream_cheese": [
+          -0.056434957509876135,
+          0.13261584062995133,
+          0.9089214774186077
+        ]
+      },
+      "object_motion_m": {
+        "bowl": 4.914957799379328e-13,
+        "bottle": 0.3414757486973731,
+        "plate": 3.6848308485415636e-13,
+        "cream_cheese": 1.6209256159527285e-14
+      }
+    }
+  }
+]
