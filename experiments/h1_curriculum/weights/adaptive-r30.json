@@ -1,0 +1,181 @@
+{
+  "format": "h1-curriculum-v1",
+  "hidden": {
+    "h0": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 4.0,
+        "root_roll": 6.0,
+        "left_foot_x": -4.0,
+        "right_foot_x": 4.0,
+        "qvel_3": 0.06
+      }
+    },
+    "h1": {
+      "bias": -2.0,
+      "weights": {
+        "root_roll": 6.0,
+        "left_foot_x": -4.0,
+        "right_foot_x": 4.0,
+        "qvel_3": 0.06
+      }
+    },
+    "h2": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 4.0,
+        "root_roll": -6.0,
+        "left_foot_x": 4.0,
+        "right_foot_x": -4.0,
+        "qvel_3": -0.06
+      }
+    },
+    "h3": {
+      "bias": -2.0,
+      "weights": {
+        "root_roll": -6.0,
+        "left_foot_x": 4.0,
+        "right_foot_x": -4.0,
+        "qvel_3": -0.06
+      }
+    }
+  },
+  "outputs": {
+    "left_ankle": {
+      "bias": 0.30446,
+      "weights": {
+        "left_foot_x": -9.0,
+        "qpos_11": 1.0,
+        "qvel_0": 3.5,
+        "qvel_4": 0.25,
+        "root_pitch": 0.6,
+        "target_vx": -1.3,
+        "h0": -0.3,
+        "h1": 0.3,
+        "h2": 0.3,
+        "h3": -0.3,
+        "right_foot_x": -3.0
+      }
+    },
+    "left_elbow": {
+      "bias": -0.352332
+    },
+    "left_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "qvel_4": 0.12,
+        "root_pitch": 0.55,
+        "h0": -0.0914,
+        "h1": 0.0914,
+        "h2": 0.0586,
+        "h3": -0.0586,
+        "qvel_0": -0.18
+      }
+    },
+    "left_hip_roll": {
+      "bias": 0.2,
+      "weights": {
+        "left_foot_y": -0.9,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": 0.1,
+        "root_roll": -0.8,
+        "h0": 0.26,
+        "h1": -0.26,
+        "h2": -0.26,
+        "h3": 0.26
+      }
+    },
+    "left_knee": {
+      "bias": -1.682,
+      "weights": {
+        "qvel_9": -0.02,
+        "h0": 0.284,
+        "h1": -0.284,
+        "h2": -0.12,
+        "h3": 0.12,
+        "qpos_2": 1.5
+      }
+    },
+    "left_shoulder_roll": {
+      "bias": -0.802899
+    },
+    "left_shoulder_yaw": {
+      "bias": -0.547826
+    },
+    "right_ankle": {
+      "bias": 0.30446,
+      "weights": {
+        "qpos_16": 1.0,
+        "qvel_0": 3.5,
+        "qvel_4": 0.25,
+        "right_foot_x": -9.0,
+        "root_pitch": 0.6,
+        "target_vx": -1.3,
+        "h2": -0.3,
+        "h3": 0.3,
+        "h0": 0.3,
+        "h1": -0.3,
+        "left_foot_x": -3.0
+      }
+    },
+    "right_elbow": {
+      "bias": -0.352332
+    },
+    "right_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "qvel_4": 0.12,
+        "root_pitch": 0.55,
+        "h2": -0.0914,
+        "h3": 0.0914,
+        "h0": 0.0586,
+        "h1": -0.0586,
+        "qvel_0": -0.18
+      }
+    },
+    "right_hip_roll": {
+      "bias": -0.2,
+      "weights": {
+        "left_foot_y": 0.1,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": -0.9,
+        "root_roll": -0.8,
+        "h0": 0.26,
+        "h1": -0.26,
+        "h2": -0.26,
+        "h3": 0.26
+      }
+    },
+    "right_knee": {
+      "bias": -1.682,
+      "weights": {
+        "qvel_14": -0.02,
+        "h2": 0.284,
+        "h3": -0.284,
+        "h0": -0.12,
+        "h1": 0.12,
+        "qpos_2": 1.5
+      }
+    },
+    "right_shoulder_roll": {
+      "bias": 0.802899
+    },
+    "right_shoulder_yaw": {
+      "bias": 0.547826
+    },
+    "left_hip_yaw": {
+      "weights": {
+        "root_yaw": 1.0,
+        "qvel_5": 0.15
+      }
+    },
+    "right_hip_yaw": {
+      "weights": {
+        "root_yaw": 1.0,
+        "qvel_5": 0.15
+      }
+    }
+  }
+}

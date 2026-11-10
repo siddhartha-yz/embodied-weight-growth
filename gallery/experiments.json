@@ -9,6 +9,16 @@
   },
   "groups": [
     {
+      "id": "h1-curriculum",
+      "title": "最新 · H1：直接写权重到 r450",
+      "copy": "Astra 从站立检查点出发，每轮直接改数字权重并自选试法。最后冻结版本，在相同的三个留出起姿上盲测。",
+      "cards": [
+        {"label":"同一盲测起姿 · 三版同步回放","title":"续改后，摔倒反而更早","copy":"左起 r147、r270、r450。三局从开局收到相同的 0.50 m/s 指令；提前结束的画面保留最后一帧。","poster":"experiments/h1_curriculum/media/same-start-r147-r270-r450.png","video":"experiments/h1_curriculum/media/same-start-r147-r270-r450.mp4","links":[["完整实验、权重与评分","experiments/h1_curriculum/README.md"]]},
+        {"label":"三个留出起姿 · 四个冻结版本","title":"站立保住了，慢走退化了","copy":"r150 的慢走直立中位数为 20.00 秒，r450 只剩 2.98 秒。四个版本的站立均 3/3、慢走均 0/3。","poster":"experiments/h1_curriculum/media/learning-curves.png","links":[["查看原尺寸图","experiments/h1_curriculum/media/learning-curves.png"],["看判据与逐局成绩","experiments/h1_curriculum/README.md"]]},
+        {"label":"r30 · 开发试跑，不是盲测","title":"迈出两步，仍没走稳","copy":"这局由 Astra 自选速度时序：先站立，再加到 0.25 和 0.50 m/s。出现一次左右交替，最后仍摔倒。","poster":"experiments/h1_curriculum/media/probe-r30-trial-1.png","video":"experiments/h1_curriculum/media/probe-r30-trial-1.mp4","links":[["开发试法与盲测的差别","experiments/h1_curriculum/README.md"]]}
+      ]
+    },
+    {
       "id": "libero-repair",
       "title": "01 · SmolVLA：改哪里，怎么改",
       "copy": "先做激活干预再选位置。正式评测从第一步加载固定权重，不按动作阶段切换。",

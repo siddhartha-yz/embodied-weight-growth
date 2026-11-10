@@ -1,0 +1,342 @@
+{
+  "old_runner": {
+    "last_accepted": "adaptive/r147",
+    "attempted_revision": "adaptive/r148",
+    "attempts": [
+      {
+        "error": "ValueError: Segment time caps must sum to at most 20 seconds per trial",
+        "plan": {
+          "hypothesis": "Reduce opposite-foot contact-gated knee extension from magnitude 0.025 to 0.0225 while retaining own-foot flexion 0.0625. Slightly more compliant support may improve landing acceptance and avoid disrupting transfer as swing shortening increases. Reduced support height or unloading could instead worsen stepping. Zero-command cancellation remains intact.",
+          "readout": "Compare with r147 for stance-knee motion, landing loads, pelvis height and post-landing velocity before heading drift develops. Measure bilateral clearance, flight duration, slip and accepted alternation separately within each walking segment. Inspect restart and extend the final stop to expose delayed collapse. Report segment speeds versus 0.50 m/s, pitch, heading and ankle clipping; require settled stopping rather than horizon survival. Exclude cross-stop and collapse-associated alternations.",
+          "trials": [
+            {
+              "seed": 271,
+              "segments": [
+                {
+                  "seconds": 20,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            },
+            {
+              "seed": 272,
+              "segments": [
+                {
+                  "seconds": 3,
+                  "target_vx": 0,
+                  "until": "time"
+                },
+                {
+                  "seconds": 12,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 5,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            },
+            {
+              "seed": 273,
+              "segments": [
+                {
+                  "seconds": 7,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 4,
+                  "target_vx": 0,
+                  "until": "time"
+                },
+                {
+                  "seconds": 6,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 6,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "error": "ValueError: Plan requires 1..3 trials",
+        "plan": {
+          "hypothesis": "Reduce opposite-foot contact-gated knee extension from magnitude 0.025 to 0.0225 while retaining own-foot flexion 0.0625. More compliant support may improve landing acceptance and transfer, but could reduce support height or unloading. Zero-command cancellation is preserved.",
+          "readout": "Compare with r147 for stance-knee motion, landing loads, pelvis height and post-landing velocity before heading drift. Measure clearance, flight duration, slip and accepted alternation separately within each walking segment. Retain matched trials and add a shorter restart sequence allowing a six-second final stop within the 20-second cap. Report speeds versus 0.50 m/s, pitch, heading and ankle clipping. Require settled stopping and recurring upright alternation; exclude cross-stop and collapse-associated events.",
+          "trials": [
+            {
+              "seed": 271,
+              "segments": [
+                {
+                  "seconds": 20,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            },
+            {
+              "seed": 272,
+              "segments": [
+                {
+                  "seconds": 3,
+                  "target_vx": 0,
+                  "until": "time"
+                },
+                {
+                  "seconds": 12,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 5,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            },
+            {
+              "seed": 273,
+              "segments": [
+                {
+                  "seconds": 7,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 4,
+                  "target_vx": 0,
+                  "until": "time"
+                },
+                {
+                  "seconds": 6,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 3,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            },
+            {
+              "seed": 273,
+              "segments": [
+                {
+                  "seconds": 7,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 4,
+                  "target_vx": 0,
+                  "until": "time"
+                },
+                {
+                  "seconds": 3,
+                  "target_vx": 0.5,
+                  "until": "time"
+                },
+                {
+                  "seconds": 6,
+                  "target_vx": 0,
+                  "until": "time"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "outcome": "No new weight checkpoint accepted; frozen tests ran up to r147."
+  },
+  "revised_runner": {
+    "accepted_revision": "adaptive/r345",
+    "parent": "adaptive/r344",
+    "initial_plan": {
+      "hypothesis": "Increase bilateral hip-yaw angular-velocity feedback from 0.24 to 0.26, retaining every other r344 coefficient. Test whether stronger rotational damping limits heading excursions and residual stance asymmetry, improving support exchange and restart. Excessive feedback could instead amplify oscillation or disrupt foot placement. This raw-state edit also changes zero-command behavior, so test standing explicitly.",
+      "readout": "Compare matched profiles with r344. Align yaw rate, hip-yaw targets and actual motion, foot orientation, stance asymmetry, lateral drift and landing loads. Check whether reduced heading excursions precede improved advancing landings and opposite-foot release. Inspect seed272 before forward divergence and seed273 before and immediately after restart. Record all flights, clearance, advancement, within-segment alternating runs, landing gaps, upright speed error versus 0.50 m/s, clipping, slip, height, pitch and roll. Assess standing, stopping and restart separately. Treat physical collapse as failure regardless of termination label; exclude collapse contacts, falling acceleration, post-stop qualifications and cross-stop alternation.",
+      "trials": [
+        {
+          "seed": 271,
+          "segments": [
+            {
+              "seconds": 3,
+              "target_vx": 0,
+              "until": "time"
+            },
+            {
+              "seconds": 12,
+              "target_vx": 0.5,
+              "until": "time"
+            },
+            {
+              "seconds": 5,
+              "target_vx": 0,
+              "until": "time"
+            }
+          ]
+        },
+        {
+          "seed": 272,
+          "segments": [
+            {
+              "seconds": 3,
+              "target_vx": 0,
+              "until": "time"
+            },
+            {
+              "seconds": 12,
+              "target_vx": 0.5,
+              "until": "time"
+            },
+            {
+              "seconds": 5,
+              "target_vx": 0,
+              "until": "time"
+            }
+          ]
+        },
+        {
+          "seed": 273,
+          "segments": [
+            {
+              "seconds": 7,
+              "target_vx": 0.5,
+              "until": "time"
+            },
+            {
+              "seconds": 4,
+              "target_vx": 0,
+              "until": "time"
+            },
+            {
+              "seconds": 6,
+              "target_vx": 0.5,
+              "until": "time"
+            },
+            {
+              "seconds": 3,
+              "target_vx": 0,
+              "until": "time"
+            }
+          ]
+        },
+        {
+          "seed": 272,
+          "segments": [
+            {
+              "seconds": 20,
+              "target_vx": 0,
+              "until": "time"
+            }
+          ]
+        }
+      ]
+    },
+    "repair_response": {
+      "plan": {
+        "hypothesis": "The locked r345 revision may reduce heading excursions and residual stance asymmetry, improving support exchange and restart. Excessive rotational feedback could instead amplify oscillation or disrupt foot placement. Zero-command behavior must also be checked.",
+        "readout": "Compare matched profiles with r344. Align yaw rate, hip-yaw targets and actual motion, foot orientation, stance asymmetry, lateral drift and landing loads. Check whether reduced heading excursions precede advancing landings and opposite-foot release. Inspect seed272 before forward divergence and seed273 around restart. Record all flights, clearance, advancement, within-segment alternating runs, landing gaps, upright speed error versus 0.50 m/s, clipping, slip, height, pitch and roll. Evaluate standing during initial and post-walk zero-command segments, including residual motion and stance widening. Assess stopping and restart separately. Treat physical collapse as failure regardless of termination label; exclude collapse contacts, falling acceleration, post-stop qualifications and cross-stop alternation.",
+        "trials": [
+          {
+            "seed": 271,
+            "segments": [
+              {
+                "seconds": 3,
+                "target_vx": 0,
+                "until": "time"
+              },
+              {
+                "seconds": 12,
+                "target_vx": 0.5,
+                "until": "time"
+              },
+              {
+                "seconds": 5,
+                "target_vx": 0,
+                "until": "time"
+              }
+            ]
+          },
+          {
+            "seed": 272,
+            "segments": [
+              {
+                "seconds": 3,
+                "target_vx": 0,
+                "until": "time"
+              },
+              {
+                "seconds": 12,
+                "target_vx": 0.5,
+                "until": "time"
+              },
+              {
+                "seconds": 5,
+                "target_vx": 0,
+                "until": "time"
+              }
+            ]
+          },
+          {
+            "seed": 273,
+            "segments": [
+              {
+                "seconds": 7,
+                "target_vx": 0.5,
+                "until": "time"
+              },
+              {
+                "seconds": 4,
+                "target_vx": 0,
+                "until": "time"
+              },
+              {
+                "seconds": 6,
+                "target_vx": 0.5,
+                "until": "time"
+              },
+              {
+                "seconds": 3,
+                "target_vx": 0,
+                "until": "time"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "locked_weight_rows": [
+      {
+        "to": "left_hip_yaw",
+        "sources": [
+          "qvel_5"
+        ],
+        "values": [
+          0.26
+        ]
+      },
+      {
+        "to": "right_hip_yaw",
+        "sources": [
+          "qvel_5"
+        ],
+        "values": [
+          0.26
+        ]
+      }
+    ],
+    "changed_coefficients": 2,
+    "outcome": "Only the plan was resubmitted; the original numeric rows were applied."
+  }
+}

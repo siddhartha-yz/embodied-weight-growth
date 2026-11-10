@@ -1,0 +1,21 @@
+{
+  "environment": "h1-walk-v0",
+  "tick_s": 0.02,
+  "duration_s": 20.0,
+  "suites": {
+    "stand-dev": [{"seed":271,"kind":"stand"},{"seed":272,"kind":"stand"},{"seed":273,"kind":"stand"}],
+    "walk-dev": [{"seed":271,"kind":"walk"},{"seed":272,"kind":"walk"},{"seed":273,"kind":"walk"}],
+    "joint-dev": [
+      {"seed":271,"kind":"stand"},{"seed":272,"kind":"stand"},{"seed":273,"kind":"stand"},
+      {"seed":271,"kind":"walk"},{"seed":272,"kind":"walk"},{"seed":273,"kind":"walk"},
+      {"seed":274,"kind":"transition","segments":[[3.0,0.0],[6.0,0.5],[5.0,0.0],[6.0,0.5]]}
+    ],
+    "stand-test": [{"seed":2801,"kind":"stand"},{"seed":2802,"kind":"stand"},{"seed":2803,"kind":"stand"}],
+    "walk-test": [{"seed":2801,"kind":"walk"},{"seed":2802,"kind":"walk"},{"seed":2803,"kind":"walk"}],
+    "transition-test": [
+      {"seed":2811,"kind":"transition","segments":[[2.6,0.0],[4.6,0.5],[3.8,0.3],[4.8,0.0],[4.2,0.42]]},
+      {"seed":2812,"kind":"transition","segments":[[3.2,0.0],[4.4,0.5],[4.4,0.0],[4.0,0.2],[4.0,0.5]]},
+      {"seed":2813,"kind":"transition","segments":[[2.4,0.0],[4.4,0.38],[4.4,0.5],[4.4,0.0],[4.4,0.26]],"ramp_s":0.6}
+    ]
+  }
+}

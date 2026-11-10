@@ -1,0 +1,177 @@
+{
+  "format": "h1-curriculum-v1",
+  "hidden": {
+    "h0": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 4.3,
+        "root_roll": 6.0,
+        "qvel_3": 0.25,
+        "qvel_1": 1.5,
+        "left_contact": -0.12,
+        "right_contact": 0.12,
+        "left_foot_x": -2.0,
+        "right_foot_x": 2.0
+      }
+    },
+    "h1": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 3.7,
+        "root_roll": -6.0,
+        "qvel_3": -0.25,
+        "qvel_1": -1.5,
+        "left_contact": 0.12,
+        "right_contact": -0.12,
+        "left_foot_x": 2.0,
+        "right_foot_x": -2.0
+      }
+    },
+    "h2": {
+      "weights": {
+        "qvel_0": 6.923077,
+        "left_foot_x": -2.307692,
+        "right_foot_x": -2.307692,
+        "target_vx": -1.5,
+        "root_pitch": 0.923077,
+        "qvel_4": 0.384615
+      }
+    },
+    "h3": {
+      "weights": {
+        "qvel_8": 0.4
+      }
+    },
+    "h4": {
+      "weights": {
+        "qvel_13": 0.4
+      }
+    },
+    "h5": {
+      "bias": -3.0,
+      "weights": {
+        "target_vx": 4.6,
+        "root_roll": 10.0,
+        "qvel_3": 0.25,
+        "qvel_1": 2.5,
+        "left_contact": -0.12,
+        "right_contact": 0.12,
+        "left_foot_x": -3.0,
+        "right_foot_x": 3.0
+      }
+    },
+    "h6": {
+      "bias": -3.0,
+      "weights": {
+        "target_vx": 3.4,
+        "root_roll": -10.0,
+        "qvel_3": -0.25,
+        "qvel_1": -2.5,
+        "left_contact": 0.12,
+        "right_contact": -0.12,
+        "left_foot_x": 3.0,
+        "right_foot_x": -3.0
+      }
+    }
+  },
+  "outputs": {
+    "left_ankle": {
+      "bias": -0.761276,
+      "weights": {
+        "qpos_11": -0.4,
+        "h0": 0.265144,
+        "h1": -0.265144,
+        "h2": 0.9,
+        "h5": -0.664748
+      }
+    },
+    "left_elbow": {
+      "bias": -0.352332
+    },
+    "left_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "left_foot_x": 0.35,
+        "qvel_4": 0.12,
+        "root_pitch": 0.8,
+        "h0": -0.065,
+        "h1": 0.065,
+        "target_vx": -0.16,
+        "h3": -0.025
+      }
+    },
+    "left_hip_roll": {
+      "weights": {
+        "left_foot_y": -0.4,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": -0.4,
+        "root_roll": -0.8,
+        "h0": 0.18,
+        "h1": -0.18
+      }
+    },
+    "left_knee": {
+      "bias": 0.092638,
+      "weights": {
+        "qvel_9": -0.02,
+        "h5": 0.4
+      }
+    },
+    "left_shoulder_roll": {
+      "bias": -0.802899
+    },
+    "left_shoulder_yaw": {
+      "bias": -0.547826
+    },
+    "right_ankle": {
+      "bias": -0.761276,
+      "weights": {
+        "qpos_16": -0.4,
+        "h0": -0.265144,
+        "h1": 0.265144,
+        "h2": 0.9,
+        "h6": -0.664748
+      }
+    },
+    "right_elbow": {
+      "bias": -0.352332
+    },
+    "right_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "qvel_4": 0.12,
+        "right_foot_x": 0.35,
+        "root_pitch": 0.8,
+        "h0": 0.065,
+        "h1": -0.065,
+        "target_vx": -0.16,
+        "h4": -0.025
+      }
+    },
+    "right_hip_roll": {
+      "weights": {
+        "left_foot_y": -0.4,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": -0.4,
+        "root_roll": -0.8,
+        "h0": 0.18,
+        "h1": -0.18
+      }
+    },
+    "right_knee": {
+      "bias": 0.092638,
+      "weights": {
+        "qvel_14": -0.02,
+        "h6": 0.4
+      }
+    },
+    "right_shoulder_roll": {
+      "bias": 0.802899
+    },
+    "right_shoulder_yaw": {
+      "bias": 0.547826
+    }
+  }
+}

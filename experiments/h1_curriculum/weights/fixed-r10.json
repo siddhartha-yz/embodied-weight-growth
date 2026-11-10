@@ -1,0 +1,127 @@
+{
+  "format": "h1-curriculum-v1",
+  "hidden": {
+    "h0": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 4.0,
+        "root_roll": 6.0,
+        "qvel_3": 0.25,
+        "qvel_1": 1.5
+      }
+    },
+    "h1": {
+      "bias": -2.0,
+      "weights": {
+        "target_vx": 4.0,
+        "root_roll": -6.0,
+        "qvel_3": -0.25,
+        "qvel_1": -1.5
+      }
+    },
+    "h2": {
+      "weights": {
+        "qvel_0": 6.923077,
+        "left_foot_x": -2.307692,
+        "right_foot_x": -2.307692,
+        "target_vx": -0.923077,
+        "root_pitch": 0.923077,
+        "qvel_4": 0.384615
+      }
+    }
+  },
+  "outputs": {
+    "left_ankle": {
+      "bias": 0.185,
+      "weights": {
+        "qpos_11": 0.7,
+        "h0": -0.067,
+        "h1": 0.067,
+        "h2": 0.9
+      }
+    },
+    "left_elbow": {
+      "bias": -0.352332
+    },
+    "left_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "left_foot_x": 0.35,
+        "qvel_4": 0.12,
+        "root_pitch": 0.55,
+        "h0": -0.065,
+        "h1": 0.065,
+        "target_vx": -0.04
+      }
+    },
+    "left_hip_roll": {
+      "weights": {
+        "left_foot_y": -0.4,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": -0.4,
+        "root_roll": -0.8
+      }
+    },
+    "left_knee": {
+      "bias": -0.212,
+      "weights": {
+        "qvel_9": -0.02,
+        "h0": 0.2,
+        "h1": -0.2
+      }
+    },
+    "left_shoulder_roll": {
+      "bias": -0.802899
+    },
+    "left_shoulder_yaw": {
+      "bias": -0.547826
+    },
+    "right_ankle": {
+      "bias": 0.185,
+      "weights": {
+        "qpos_16": 0.7,
+        "h0": 0.067,
+        "h1": -0.067,
+        "h2": 0.9
+      }
+    },
+    "right_elbow": {
+      "bias": -0.352332
+    },
+    "right_hip_pitch": {
+      "bias": -0.0513,
+      "weights": {
+        "qvel_4": 0.12,
+        "right_foot_x": 0.35,
+        "root_pitch": 0.55,
+        "h0": 0.065,
+        "h1": -0.065,
+        "target_vx": -0.04
+      }
+    },
+    "right_hip_roll": {
+      "weights": {
+        "left_foot_y": -0.4,
+        "qvel_1": 0.65,
+        "qvel_3": -0.15,
+        "right_foot_y": -0.4,
+        "root_roll": -0.8
+      }
+    },
+    "right_knee": {
+      "bias": -0.212,
+      "weights": {
+        "qvel_14": -0.02,
+        "h0": -0.2,
+        "h1": 0.2
+      }
+    },
+    "right_shoulder_roll": {
+      "bias": 0.802899
+    },
+    "right_shoulder_yaw": {
+      "bias": 0.547826
+    }
+  }
+}

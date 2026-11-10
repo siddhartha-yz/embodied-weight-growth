@@ -1,0 +1,17 @@
+{
+  "zero": "weights/zero.json",
+  "standing/r05": "weights/standing-r05.json",
+  "scratch-walk/r01": "weights/scratch-walk-r01.json",
+  "fixed/r10": "weights/fixed-r10.json",
+  "fixed/r20": "weights/fixed-r20.json",
+  "fixed/r30": "weights/fixed-r30.json",
+  "adaptive/r10": "weights/adaptive-r10.json",
+  "adaptive/r20": "weights/adaptive-r20.json",
+  "adaptive/r30": "weights/adaptive-r30.json",
+  "adaptive/r60": "weights/adaptive-r60.json",
+  "adaptive/r90": "weights/adaptive-r90.json",
+  "adaptive/r147": "weights/adaptive-r147.json",
+  "adaptive/r150": "weights/adaptive-r150.json",
+  "adaptive/r270": "weights/adaptive-r270.json",
+  "adaptive/r450": "weights/adaptive-r450.json"
+}
